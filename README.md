@@ -1,12 +1,14 @@
-# EMOCD-lab — Phase II
+# VOLLEY, Phase II
+
+The research track of the VOLLEY programme.
 
 <!-- PROGRAMME-HEADER-START -->
 | Repository | Role | You are here |
 |---|---|---|
-| [EMOCD](https://github.com/aaaaaaaaaaaavm/EMOCD) | Flagship — authoritative engineering record, portfolio | |
-| [EMOCD-paper](https://github.com/aaaaaaaaaaaavm/EMOCD-paper) | IEEE companion — manuscript and reproducibility package *(generated)* | |
-| [EMOCD-thesis](https://github.com/aaaaaaaaaaaavm/EMOCD-thesis) | Thesis companion — university submission *(generated)* | |
-| **[EMOCD-lab](https://github.com/aaaaaaaaaaaavm/EMOCD-lab)** | Phase II — research, redesign, deliberately unstable | ← |
+| [VOLLEY](https://github.com/aaaaaaaaaaaavm/EMOCD) | Flagship, authoritative engineering record, portfolio | |
+| [EMOCD-paper](https://github.com/aaaaaaaaaaaavm/EMOCD-paper) | IEEE companion, manuscript and reproducibility package *(generated)* | |
+| [EMOCD-thesis](https://github.com/aaaaaaaaaaaavm/EMOCD-thesis) | Thesis companion, university submission *(generated)* | |
+| **[EMOCD-lab](https://github.com/aaaaaaaaaaaavm/EMOCD-lab)** | Phase II, research, redesign, deliberately unstable | |
 <!-- PROGRAMME-HEADER-END -->
 
 > ## This repository makes no promises
@@ -24,9 +26,9 @@ stability is a design requirement. This repository is the pressure valve that le
 frozen.
 
 The reasoning is in the flagship's
-[`WHY.md`](https://github.com/aaaaaaaaaaaavm/EMOCD/blob/main/WHY.md): the author's stated
+[`WHY.md`](https://github.com/aaaaaaaaaaaavm/EMOCD/blob/main/docs/WHY.md): the stated
 failure mode is spiralling into redesign. A Phase II track kept *inside* the flagship is a soft
-boundary — one `git checkout` from becoming an edit to the frozen baseline. This is a hard wall
+boundary, one `git checkout` from becoming an edit to the frozen baseline. This is a hard wall
 instead of a line on the floor.
 
 **Redesign freely here. Do not touch the baseline there.**
@@ -39,11 +41,18 @@ each item's entry criterion live in the flagship's
 
 | | |
 |---|---|
-| PII-1 | Momentum-transfer release — recovers the full velocity shortfall for 1.6 % of shot energy |
-| PII-2 | Rib-stiffened chassis — A4 leaves a 17× stress margin unspent |
-| PII-3 | Two-layer stator (G3-D4) — sits upstream of K<sub>t</sub> |
-| PII-4 | Envelope repackaging (P9) — currently 44 % over ESPA Grande |
-| PII-5 | Variable-shape atmosphere — the root cause behind P16 |
+| PII-1 | Momentum-transfer release, recovers the full velocity shortfall for 1.6 % of shot energy |
+| PII-2 | Rib-stiffened chassis, A4 leaves a 17x stress margin unspent |
+| PII-3 | Two-layer stator (G3-D4), sits upstream of K<sub>t</sub> |
+| PII-4 | Envelope repackaging (P9), currently 44 % over ESPA Grande |
+| PII-5 | Variable-shape atmosphere, the root cause behind P16 |
+
+Two more arrived on 2026-07-30, from reading the nearest published work:
+
+| | |
+|---|---|
+| PII-6 | **Reachable-domain analysis.** Feng et al. compute a 3-D envelope of the orbits one shot makes available. The flagship reports a scalar lifetime multiplier instead, which answers a smaller question. Their method is better and this is where adopting it belongs |
+| PII-7 | **Magazine indexing disturbance** (E24). Xu et al. treat the attitude disturbance from moving satellites inside a deployer as a cost worth optimising against. The flagship budgets recoil from the shot and nothing from the indexing between shots. The bookkeeping half is an error correction and belongs upstream; designing an indexing sequence that minimises it belongs here |
 
 Also: anything from dossier §8's cross-industry list that turns into real work, and any idea
 that does not yet have a home.
@@ -52,13 +61,13 @@ that does not yet have a home.
 
 **Error corrections.** If something in the flagship is *wrong*, fix it in the flagship. The
 distinction is the whole of the change-control rule in
-[`BASELINE.md`](https://github.com/aaaaaaaaaaaavm/EMOCD/blob/main/BASELINE.md) — and it is by
+[`BASELINE.md`](https://github.com/aaaaaaaaaaaavm/EMOCD/blob/main/docs/BASELINE.md), and it is by
 type, not by convenience. P17 is tedious and belongs upstream; the momentum-transfer release
 is fascinating and belongs here.
 
 ## How work gets out
 
-Only at a **baseline boundary** — the next opens after thesis submission — and only by meeting
+Only at a **baseline boundary**: the next opens after thesis submission, and only by meeting
 the entry criterion written when the item was deferred. Not by seeming promising.
 
 That rule exists for the same reason acceptance bands are declared before runs: a criterion
