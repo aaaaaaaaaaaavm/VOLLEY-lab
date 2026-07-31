@@ -72,6 +72,28 @@ from "electromagnetic launch reaches Mars".
 
 The make-or-break item, and it should be studied before anything else.
 
+> **Corrected 2026-07-31. The numbers below were computed against the wrong tolerance and this
+> section overstated its own problem by roughly five times.** They held 0.2 mm over the length,
+> taken from the flagship's `gap_shim_tolerance` of 0.05 mm. That figure is an **assembly spec for
+> thrust uniformity** at 13.1 %/mm, and thrust error is what the closed loop exists to reject. The
+> figure that cannot be violated is `cad/parameters.json` `groups.sled.airgap_per_side = 1.0 mm`,
+> the **contact clearance**. Working to that:
+>
+> | | Straightness for contact clearance |
+> |---|---|
+> | Flagship today, 1 mm over 1.8 m | 555 ppm |
+> | 100 m track, 1 mm | **10 ppm** |
+> | 300 m track, 1 mm | **3.3 ppm** |
+>
+> Still hard, and still the make-or-break item. But an order of magnitude less hard than stated,
+> and the distinction matters because it is what makes the much shorter deployed track of
+> [PII-11](PII-11_deployable_track.md) *easier* than the machine already built rather than harder.
+> **Being ironless is why this works at all**: an iron-cored machine develops a destabilising
+> normal force as the gap closes, and an ironless winding in a symmetric Halbach field does not,
+> so gap error costs thrust rather than running away.
+
+The original figures, kept for the record:
+
 | | Straightness required |
 |---|---|
 | Flagship today | 0.2 mm over 1.8 m = **111 ppm** |
@@ -133,6 +155,12 @@ would lose to every name above.
 ---
 
 ## The deliverable
+
+**Start with [PII-11](PII-11_deployable_track.md), not here.** It asks the same question at 3 to
+5 m instead of 30 to 300, on the existing hosted architecture rather than a mothership, and it
+reaches 48 % efficiency and an envelope that fits ESPA Grande. If a deployed track cannot be made
+to work at 3 m it will not work at 300, and PII-11 is where the joint problem gets solved or does
+not.
 
 **A scaling law, not a design.** Using the flagship model as the datum: how thrust, sled mass,
 track mass, segment count, bank energy and recharge time scale with track length and payload

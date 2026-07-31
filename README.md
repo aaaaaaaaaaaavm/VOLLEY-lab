@@ -54,6 +54,12 @@ More arrived on 2026-07-30, from reading the nearest published work and from the
 | **PII-9** | **[The lunar case](PII-9_lunar.md).** Where this technology actually belongs, and the mass driver it descends from. 1.33 MJ/kg to lunar orbit, so 15 kW launches a tonne a day |
 | PII-10 | **Magazine indexing disturbance** (E24). Xu et al. treat the attitude disturbance from moving satellites inside a deployer as a cost worth optimising against. The flagship budgets recoil from the shot and nothing from the indexing between shots. The bookkeeping half is an error correction and belongs upstream; designing an indexing sequence that minimises it belongs here |
 
+Added 2026-07-31:
+
+| | |
+|---|---|
+| **PII-11** | **[A deployable track, and the side-rail layout](PII-11_deployable_track.md).** A telescoping track long enough to accelerate *and* regeneratively arrest the sled reaches **48 % efficiency against 21.2 %**, deletes the eddy brake, closes P28, and stows **inside** the ESPA Grande envelope the flagship misses by 44 %. The only option that improves velocity and envelope together. The side-rail layout loses on thrust in every variant and is here because it drives the **tip-off** term to zero and is the only topology a deployed track can be pretensioned in |
+
 Also: anything from dossier §8's cross-industry list that turns into real work, and any idea
 that does not yet have a home.
 
