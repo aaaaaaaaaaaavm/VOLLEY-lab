@@ -1,5 +1,13 @@
 # PII-8: VOLLEY as a free-flyer, and how it would reach translunar and Mars
 
+> **Baseline note, 2026-08-05.** The Phase I numbers this file compares against have moved.
+> The 2026-08-03 quadrature correction gives Kt = 11.03 N per kA/m, 16.388 m/s at 10.53 g,
+> 2.85 kJ gross and 2.56 kJ net, 20.99 % net efficiency and a 68 mohm bank ESR ceiling. Figures
+> below written at 11.22, 16.53 m/s, 10.7 g, 2.88 kJ or 19.0 % predate it. The **ratios and
+> conclusions** here are not sensitive to a 0.9 % shift in the comparator and are left as
+> written; the absolute Phase I values are not current. `docs/BASELINE.md` in the flagship is
+> authoritative.
+
 **Phase II. A programme direction, not a deferred fix.** Nothing here is in the flagship
 baseline and the thesis does not depend on it.
 
