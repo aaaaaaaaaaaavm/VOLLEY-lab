@@ -43,12 +43,34 @@ long track is possible at all:
 Un-segmented, copper grows as `L^1.5` and the idea dies before 7.5 m. Segmented, copper is nearly
 flat and efficiency stops falling. **Everything below assumes segmentation.**
 
-> **This has a Phase I consequence and it is logged upstream as P29.** `paper/paper.tex` §VII
-> already states that the winding is segmented, for redundancy. If that is true, the flagship's
-> own 828 J copper figure is overstated by roughly 3.8x and today's efficiency is nearer 24 %
-> than 21.2 %, with no design change at all. Whether the model is deliberately conservative or
-> simply inconsistent with the paper is not recorded anywhere, which is why it is a defect rather
-> than a finding.
+> **This had a Phase I consequence, logged upstream as P29, and it has now been decided.**
+> `paper/paper.tex` §VII states the winding is segmented for redundancy, while `motor_model`
+> charges copper for the whole 1.30 m. Whether that was deliberate conservatism or an
+> inconsistency was recorded nowhere, which is why it was a defect rather than a finding.
+>
+> **ADR-022, 2026-08-10: the winding is segmented for *fault isolation* and driven as a single
+> energised section.** `vol_cu = ACCEL_ZONE` stands and no baseline value moves. Both branches
+> were priced first, by re-running the real pipeline with the energised length as a parameter:
+>
+> | | Whole winding, adopted | ~One sled length | 4 segments |
+> |---|---:|---:|---:|
+> | Copper per shot | **834.7 J** | 218.3 J | 208.7 J |
+> | Net efficiency | **20.99 %** | **28.07 %** | 28.22 % |
+> | Phase inductance | 19.70 µH | 5.15 µH | 4.92 µH |
+> | **Exit velocity** | **16.388** | **16.388** | **16.388 m/s** |
+>
+> **The last row is why.** Force is commanded, so copper loss is a power draw and not a thrust
+> reduction — segmentation changes what the shot *costs*, never what it *delivers*. The earlier
+> "nearer 24 %" estimate in this file is superseded; the real figure is **28.07 %**.
+>
+> **It was declined for Phase I on mass, not on physics.** Efficiency appears in no kill
+> criterion; mass appears in the one crossed by a factor of three, and block commutation costs an
+> inverter per segment or a switching assembly, none of it in the rollup (**P10**).
+>
+> **So everything below still assumes something Phase I does not do.** Block commutation is now
+> **PII-12** upstream, with a stated entry criterion: P10 closing with margin, or some claim
+> becoming efficiency-limited. **PII-11's efficiency case is contingent on PII-12 being taken
+> first**, and that dependency was not visible before this note.
 
 ## 1. Track length, at constant force
 
