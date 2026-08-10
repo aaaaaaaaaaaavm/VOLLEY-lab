@@ -60,6 +60,12 @@ Added 2026-07-31:
 |---|---|
 | **PII-11** | **[A deployable track, and the side-rail layout](PII-11_deployable_track.md).** A telescoping track long enough to accelerate *and* regeneratively arrest the sled reaches **48 % efficiency against 21.2 %**, deletes the eddy brake, closes P28, and stows **inside** the ESPA Grande envelope the flagship misses by 44 %. The only option that improves velocity and envelope together. The side-rail layout loses on thrust in every variant and is here because it drives the **tip-off** term to zero and is the only topology a deployed track can be pretensioned in |
 
+Added 2026-08-10:
+
+| | |
+|---|---|
+| **PII-14** | **[A cable-driven gondola on a deployed truss](PII-14_cable_driven_gondola.md).** Propulsion off the vehicle, energy from a flywheel, a permanently-locked deployed truss, and a tensioned wire as the running surface. **Declined for Phase I on margin**: the +49.7 % headline assumed zero drivetrain inertia, and a realistic drivetrain gives +15 to +30 % — possibly zero — in exchange for deleting the linear synchronous motor and 24 validations. Recorded with its two dead ends, because a wire fails as a structure by four orders of magnitude and maglev is unnecessary in zero-g, and both will otherwise be re-proposed. **Band 1, drivetrain inertia ≤ 2 kg, is the gate on everything else** |
+
 Also: anything from dossier §8's cross-industry list that turns into real work, and any idea
 that does not yet have a home.
 
