@@ -1,0 +1,18 @@
+VOLLEY-lab
+Copyright (c) 2026 Adityavardhan Mishra
+
+Licensed under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0). Full licence text in LICENSE.
+
+Attribute as:
+  Adityavardhan Mishra, "VOLLEY-lab", 2026.
+  https://github.com/aaaaaaaaaaaavm/VOLLEY-lab - licensed under CC BY 4.0.
+
+NOT RETROACTIVE. Snapshots taken before this change remain available under the
+MIT licence they carried at the time; that text is retained at
+LICENSE-MIT-superseded. Nothing here revokes rights already granted.
+
+This repository carries copies of VOLLEY analysis code under reference/volley/,
+including the motor model. CC BY 4.0 does not license patent rights (section
+2(b)(2)), and that is deliberate: a patent-granting licence was considered for
+this repository and rejected on those grounds.

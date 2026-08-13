@@ -84,3 +84,15 @@ the entry criterion written when the item was deferred. Not by seeming promising
 
 That rule exists for the same reason acceptance bands are declared before runs: a criterion
 written afterwards is written by someone who already knows what they want the answer to be.
+
+## Licence
+
+**CC BY 4.0** — full text in [`LICENSE`](LICENSE), attribution form in [`NOTICE`](NOTICE).
+Attribution requires credit, a link to the licence, and **an indication of whether changes were
+made**.
+
+**Not retroactive:** snapshots taken before this change remain available under the MIT licence
+they carried at the time, retained at [`LICENSE-MIT-superseded`](LICENSE-MIT-superseded).
+
+This repository carries copies of VOLLEY analysis code under `reference/volley/`. CC BY 4.0 does
+not license patent rights, which is why a patent-granting licence was not used here.
