@@ -99,6 +99,26 @@ upstream. **Four outcomes:**
 > **The entry did not come back. Reading it found a defect in what replaced it.** *That is an
 > argument for keeping a vault, and it is not the argument the vault was built on.*
 
+## Can any of these come back? — reviewed 2026-08-20
+
+**One can, in a restricted form. The rest cannot, and three are stronger for having been asked.**
+
+| | Verdict |
+|---|---|
+| **PII-8** | **The only live route back.** Two of its three stated blockers no longer exist — [ADR-032](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/adr/032-gen6-stage-integrated-gas-store.md) deleted the airgap, and the bank its 294 kJ was measured against. **What remains is one standards question it already cites against itself** — the CubeSat quasi-static case at about 14 g, where every table in the file is computed at 25 — **and one number nobody in this programme has computed: the thermodynamic velocity ceiling of a gas expansion.** That single figure decides the entry |
+| **PII-19** | **Its idea has a route back; the entry does not.** A passive secondary is aimed at Gen6's trim stage, not its drive. **A30's own 0.0253 edge factor may kill it** — 24 mm pole pitch against a 15.805 mm bore |
+| **PII-21** | **Reopens on a catalogue lookup, not a study.** A59 left the tube choice on two numbers, density and service temperature. If any alloy class clears T_sat(p₀) at aluminium's density, **every steam number here comes back unchanged** |
+| **PII-11**, **PII-14**, **PII-9**, and the nine ADR-032 deletions | **No.** Motor-dependent, cable-dependent, or a different programme. *PII-14's flywheel is now formally closed rather than left ajar, and PII-11's straightness argument transfers with its sign reversed* |
+
+> **The bank objection was doing more work in this vault than anyone noticed.** **PII-8**,
+> **PII-9** and **PII-14** each stopped partly on *"the capacitor bank cannot source this"*.
+> ADR-032 deleted the bank and A64 re-priced what replaced it — **so one retirement quietly
+> retired a blocker in three separate entries**, and none of them had been re-read since.
+>
+> **That is the argument for re-reading a vault on a schedule rather than on demand.** *A stop is
+> not scripture either.* An entry can be wrong about why it stopped, and the most common way is
+> that the thing it was blocked by stopped existing.
+
 ## How something leaves
 
 | From → to | Condition |

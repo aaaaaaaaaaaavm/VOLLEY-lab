@@ -107,8 +107,16 @@ first.*
 
 - **A working fluid that stays dry below 473 K.** The constraint is thermodynamic, not about water:
   *any* condensable fluid faces the same floor at its own saturation curve.
-- **A tube material with aluminium's density and a higher ceiling**, which is a materials question
-  this project has not asked.
+- **A tube material with aluminium's density and a higher ceiling.** *Re-scoped 2026-08-20: this
+  is a catalogue lookup, not a study.* [A59](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/validation/A59_tube_structure.md)
+  found **strength, stiffness and buckling all indifferent between the metals**, so the tube is
+  chosen on **exactly two numbers — density and service temperature** — and a two-variable screen
+  against published alloy data is a cheap run rather than an open question. **The classes worth
+  screening are named and none has been**: higher-temperature aluminium alloys, magnesium alloys,
+  and particle-reinforced aluminium metal-matrix composite, which trades some density for a
+  markedly higher service temperature. **If any of them clears T_sat(p₀) at aluminium's density,
+  the 2.154 kg steel penalty that closed this entry disappears and every steam number here comes
+  back unchanged.**
 - **A requirement that values deleting the COPV above 2.154 kg** — a launch-provider constraint, a
   range-safety objection, or a customer who will not fly beside a 200 bar vessel. **That is the most
   likely of the three, and it is an external decision rather than an engineering one.**

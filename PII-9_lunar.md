@@ -85,6 +85,32 @@ deorbiting itself.
 
 ---
 
+> ## Re-examined 2026-08-20: not revivable, and it got there first
+>
+> **The stop holds and is structural.** This entry has no host, its payload is ore, and the
+> g-limit that governs the whole flagship disappears — *it describes a different programme, and no
+> analysis or source changes that.* **Do not open it.**
+>
+> **But its bank objection died anyway.** The *"460× the flagship bank, which already fails"* row
+> above was aimed at a capacitor bank that
+> [ADR-032](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/adr/032-gen6-stage-integrated-gas-store.md)
+> deleted and [A64](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/validation/A64_pulse_store_technology.md)
+> re-priced. **Three vault entries were resting on that same objection. It is worth knowing it is
+> gone even where the entry stays shut.**
+>
+> ### The part worth keeping is the sentence in the middle
+>
+> > *"The division of labour is: centrifuge for bulk velocity, linear motor for precision."*
+>
+> **[ADR-033](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/adr/033-gen6-trim-stage.md)
+> adopted that exact principle on 2026-08-16, sixteen days after this file was written**, with a
+> different bulk store: *"Gas supplies the energy. The motor supplies the control."*
+>
+> **Two unrelated bulk stores — a centrifuge and a gas charge — and the same conclusion: a linear
+> machine is a mediocre energy store and an excellent servo.** *That is stronger evidence for the
+> principle than either document makes on its own*, and it is why this entry stays in the vault
+> rather than being deleted. **The idea outlived the architecture it was written for.**
+
 ## The three hard problems, named next to the numbers
 
 1. **Catching an unpowered projectile in orbit is harder than launching one.** Arrival

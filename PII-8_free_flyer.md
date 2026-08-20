@@ -74,6 +74,59 @@ from "electromagnetic launch reaches Mars".
 
 ---
 
+> ## Re-examined 2026-08-20, and two of the three blockers below no longer exist
+>
+> **This section was written against a linear motor and a capacitor bank. Gen6 has neither.**
+> [ADR-032](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/adr/032-gen6-stage-integrated-gas-store.md)
+> deleted both on 2026-08-14, and **the deletion reaches backwards into this file.**
+>
+> | Blocker below | Status after ADR-032 |
+> |---|---|
+> | **1. Airgap straightness**, called *"the make-or-break item"* | **Gone. There is no airgap.** The lab README already recorded this as a gain and the section below was never rewritten |
+> | **2. 294 kJ against a bank that fails at 2.88 kJ** | **The objection died with the bank.** It does not transfer: a capacitor bank fails on **power** — P26's ESR ceiling — and a gas store fails on **tankage mass**. *Different failure mode, different scaling, and nobody has re-asked it* |
+> | **3. Sustained 25 g may not survive qualification** | **Live, and now the only one.** See immediately below |
+>
+> ### And this file already contains the number that contradicts its own headline
+>
+> **Blocker 3 cites the CubeSat Design Specification quasi-static case at about 14 g.** Every
+> velocity in both tables above is computed at **25 g**. The entry names the standard, calls the
+> assumption *"the one most likely to be wrong"*, says it is *"load-bearing for the whole
+> document"* — **and never propagates it.**
+>
+> `v = √(2aL)` is this file's own relation, so the whole table scales by **√(14/25)**. The tables
+> have not been re-run here, deliberately: **that is a run, not an edit.** But the direction is
+> not in doubt, and the consequence lands on the headline —
+>
+> - the **Mars-class C3 claim** is the one at risk, because C3 goes as `2·v_p·Δv` and therefore
+>   falls in the same proportion;
+> - the **TLI claim** does not fail but its margin narrows, and *"TLI with margin"* is a phrase
+>   this file should stop using until the number is re-computed.
+>
+> **An applicable standard outranks an assumption** — it is the top of the evidence hierarchy —
+> and this entry has been sitting on one that undercuts it since it was written.
+>
+> ### The new gating question, which is not in this file at all
+>
+> **If the free-flyer is re-asked under Gen6's architecture, the drive is gas, and a gas gun has a
+> thermodynamic velocity ceiling that a linear motor does not.** A motor can be rewound for any
+> speed and pays in current;
+> [`VELOCITY_CEILING.md`](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/VELOCITY_CEILING.md)
+> treats the ceiling as **payload-limited**, `v = √(2aL)`, because for a motor that is the only
+> ceiling there is.
+>
+> **For a closed gas expansion it is not.** The limiting velocity of an unsteady expansion is set
+> by the working fluid's sound speed and γ, and **nothing in this programme computes it** — the
+> `exit_velocity_m_s_constant_pressure_bound` in `parameters.json` is a stroke-and-pressure bound,
+> not a fluid bound.
+>
+> **That single number decides whether this entry has a future.** It is a textbook result and
+> should be cited rather than derived. *If the ceiling sits above the several hundred m/s this
+> file needs, PII-8 is the only vault entry with a live route back. If it sits below, the entry is
+> finished under the current architecture and the honest thing is to say so.*
+>
+> **Revised status: one blocker retired, one transformed and unpriced, one live and answerable
+> from a standard — plus one new question that governs all of it.**
+
 ## The three things that decide whether any of this is real
 
 ### 1. Airgap straightness over a deployed track
