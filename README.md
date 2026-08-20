@@ -76,6 +76,29 @@ and its entry criterion — is kept in the main repository so the numbering cann
 machine actually being built rather than describing a different one. That is exactly why it
 needs a gate.
 
+## Checked against outside evidence, 2026-08-20
+
+**Every entry here was asked one question: did it stop on a number that came from inside the
+programme?** That is the only kind of stop an outside source can move. The full map is
+[`EXTERNAL_EVIDENCE.md`](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/EXTERNAL_EVIDENCE.md)
+upstream. **Four outcomes:**
+
+| | |
+|---|---|
+| **Most of the vault is unmoved, and that is not a failure of the check** | Nine entries stopped because [ADR-032](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/adr/032-gen6-stage-integrated-gas-store.md) deleted the subsystem they improve. **PII-8** and **PII-9** describe different vehicles. *No literature resurrects an optimisation of a part that stopped existing, and no source supplies a host* |
+| **PII-19 has a live route back** | Its stop — the mover is 11 % of dry mass — was about Gen5's whole drive. **Gen6 has a 144.01 mm motor at the muzzle with this entry's exact problem**: [ADR-033](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/adr/033-gen6-trim-stage.md) brought magnets back to the moving part and paid **P34**, **E35** and a cradle alignment duty for them. **A passive secondary pays none of it.** And **A30's 0.0253 edge factor** may kill it — 24 mm pole pitch against a 15.805 mm bore. **Unrun** |
+| **PII-14's flywheel is closed, in the losing direction** | It was split out as a candidate against **P26**. That question is now Gen6's pulse store, and **A64 answered it at ~70 g on published capacitor data.** *Bearings, containment and 7.15 N·m·s of stored angular momentum do not beat seventy grams* |
+| **PII-11 §5 transfers with its sign flipped** | Its straightness argument rests on a **1 mm airgap** that costs thrust when violated. **Gen6's 8.0 m bore has a sliding seal in it**, which must maintain contact. The tolerance that made a deployed track plausible is not there — and **P67**, **P88** and **P89** inherit it |
+
+> **The most valuable thing the check produced is not in this repository.** Reading PII-19 against
+> ADR-033 meant reading how the present stator reaches its magnets — **through the drive tube**,
+> which [ADR-035](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/adr/035-drive-tube-material.md)
+> made aluminium four days after the stator was placed outside it. **Nothing owned the interaction.
+> That is now P92 upstream.**
+>
+> **The entry did not come back. Reading it found a defect in what replaced it.** *That is an
+> argument for keeping a vault, and it is not the argument the vault was built on.*
+
 ## How something leaves
 
 | From → to | Condition |
