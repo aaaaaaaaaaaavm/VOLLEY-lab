@@ -6,6 +6,10 @@ Most projects delete the work that did not finish, and the reasoning goes with i
 the VOLLEY programme keeps it instead — an architecture priced and declined, a scaling study
 answering a question nobody has asked yet, a computed result that killed something.
 
+> **Nothing in this programme has been built, fired, measured, qualified or flown.** Every entry
+> here was stopped by a computation or an argument, never by a test. **Nothing in this repository
+> should be cited.**
+
 **It is a vault rather than a graveyard, and the difference is that a vault is organised for
 retrieval.**
 
