@@ -1,10 +1,10 @@
 # VOLLEY-lab
 
-**The vault: ideas that never became a complete thing, and the measurement that stopped each one.**
+**The vault: ideas that never became a complete thing, and the result that stopped each one.**
 
 Most projects delete the work that did not finish, and the reasoning goes with it. This is where
 the VOLLEY programme keeps it instead — an architecture priced and declined, a scaling study
-answering a question nobody has asked yet, a measurement that killed something.
+answering a question nobody has asked yet, a computed result that killed something.
 
 **It is a vault rather than a graveyard, and the difference is that a vault is organised for
 retrieval.**

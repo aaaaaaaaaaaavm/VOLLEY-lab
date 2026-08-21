@@ -26,7 +26,7 @@ alone.
 The flagship's stroke is 1.3 m because it must fit an ESPA-class port, and it fails that anyway
 by 44 % (P9). A free-flyer makes track length a design variable.
 
-At the same 25 g cap that governs the flagship, so **no payload qualification is being stretched
+At the same 25 g ceiling the flagship chose — *a self-imposed requirement, not a qualification limit; **P98*** — so **nothing established about payload qualification is being stretched
 anywhere in this table**:
 
 | Deployed track | Exit velocity |
@@ -36,7 +36,7 @@ anywhere in this table**:
 | 100 m | 222 m/s |
 | 300 m | **384 m/s** |
 
-**A 300 m track exceeds Feng et al.'s 321.56 m/s while staying inside CubeSat qualification.**
+**A 300 m track exceeds Feng et al.'s 321.56 m/s while staying inside this project's own 25 g ceiling** *(not inside any established CubeSat qualification level — **P98**)*.
 Feng buys velocity with 1352 g of acceleration; this buys it with distance. Same physics,
 opposite side of the trade.
 
@@ -84,7 +84,7 @@ from "electromagnetic launch reaches Mars".
 > |---|---|
 > | **1. Airgap straightness**, called *"the make-or-break item"* | **Gone. There is no airgap.** The lab README already recorded this as a gain and the section below was never rewritten |
 > | **2. 294 kJ against a bank that fails at 2.88 kJ** | **The objection died with the bank.** It does not transfer: a capacitor bank fails on **power** — P26's ESR ceiling — and a gas store fails on **tankage mass**. *Different failure mode, different scaling, and nobody has re-asked it* |
-> | **3. Sustained 25 g may not survive qualification** | **Live, and now the only one.** See immediately below |
+> | **3. Sustained 25 g may not survive qualification** | **Live, and now the only one — but not for the reason this entry gave.** See the 2026-08-22 amendment below |
 >
 > ### And this file already contains the number that contradicts its own headline
 >
@@ -92,6 +92,21 @@ from "electromagnetic launch reaches Mars".
 > velocity in both tables above is computed at **25 g**. The entry names the standard, calls the
 > assumption *"the one most likely to be wrong"*, says it is *"load-bearing for the whole
 > document"* — **and never propagates it.**
+>
+> ### ⚠ Amendment, 2026-08-22 — [P98](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/OPEN_PROBLEMS.md): the 14 g figure does not exist
+>
+> **The internal contradiction above is real and stands. The standard it appeals to does not.**
+> *"The CubeSat Design Specification quasi-static case is about 14 g"* is **withdrawn**: that
+> number was NASA GEVS random-vibration **14.1 g<sub>rms</sub>** with its units changed. The CDS
+> publishes a mechanical interface and **defers test levels to the launch provider**, so there is
+> no universal quasi-static level for CubeSats to compare 25 g against — in either direction.
+>
+> **What survives, and it is enough to keep this entry stopped.** 25 g is a ceiling VOLLEY chose,
+> not a capability anything demonstrated. **A sustained 1.57 s acceleration is a different load
+> case from a launch vibration environment**, that distinction was correct and is the substance of
+> blocker 3, and **nothing here or in the flagship establishes what any CubeSat tolerates for
+> 1.57 seconds.** The entry is not un-blocked by the correction; it loses a number it should never
+> have cited and keeps the question the number was standing in for.
 >
 > `v = √(2aL)` is this file's own relation, so the whole table scales by **√(14/25)**. The tables
 > have not been re-run here, deliberately: **that is a run, not an edit.** But the direction is
@@ -185,6 +200,13 @@ explored in PII-9.
 
 25 g for **1.57 seconds** over a 300 m track is a quasi-static load, not the transient a launch
 qualification covers. The CubeSat Design Specification quasi-static case is about 14 g.
+
+> **Amended 2026-08-22 — [P98](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/OPEN_PROBLEMS.md).**
+> **The 14 g figure is withdrawn** — it was GEVS random-vibration g<sub>rms</sub> with its units
+> changed, and the CDS publishes no universal quasi-static level. *The paragraph above is left as
+> written, because the argument it makes does not depend on the number:* a sustained 1.57 s
+> acceleration **is** a different load case from a launch vibration environment, and nothing
+> establishes what a CubeSat tolerates for 1.57 seconds. **25 g is a ceiling VOLLEY chose.**
 
 **The 25 g cap may not survive a real qualification review for a sustained application**, and if
 it drops, every number in both tables above drops with it. This is the assumption most likely to
