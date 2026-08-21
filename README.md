@@ -9,6 +9,19 @@ answering a question nobody has asked yet, a measurement that killed something.
 **It is a vault rather than a graveyard, and the difference is that a vault is organised for
 retrieval.**
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/aaaaaaaaaaaavm/VOLLEY/main/figures/A35_ledger.png" alt="Constraint ledger: what each requirement is worth, and the floor no corner reaches" width="100%">
+</p>
+
+<p align="center"><sub><b>Why most of what is in here stopped.</b> Every kilogram attributed to the requirement causing it, then every requirement deleted in all <b>64 corners</b>. <b>88.67 kg &mdash; 70.06 % &mdash; survives all of them.</b> Three of the six requirements carry no mass on their own. <i>Most vault entries are architecture changes, and this is the chart that says an architecture change cannot reach the criterion.</i></sub></p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/aaaaaaaaaaaavm/VOLLEY/main/cad/renders/gen5/exploded.png" alt="Gen5 drive stack, exploded" width="49%">
+  <img src="https://raw.githubusercontent.com/aaaaaaaaaaaavm/VOLLEY/main/figures/A02_field_map.png" alt="Halbach airgap field and depth profile" width="49%">
+</p>
+
+<p align="center"><sub><b>The machine several of these entries improve, and the field they act on.</b> <a href="https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/adr/032-gen6-stage-integrated-gas-store.md">ADR-032</a> deleted the mover, the stator, the bank and the brake on 2026-08-14 &mdash; and with them the subsystem <b>nine entries in this vault were optimising</b>.</sub></p>
+
 <!-- PROGRAMME-HEADER-START -->
 | Repository | Role | You are here |
 |---|---|---|
