@@ -13,6 +13,39 @@ answering a question nobody has asked yet, a computed result that killed somethi
 **It is a vault rather than a graveyard, and the difference is that a vault is organised for
 retrieval.**
 
+## What everything in here was rejected *against*
+
+**An abandoned idea is only legible next to the thing it was competing with**, so the baseline is
+stated once, here, and every entry is read against it.
+
+**VOLLEY is a last-mile orbital delivery programme.** A rideshare secondary inherits the orbit its
+primary was going to. After the primary spacecraft separates, the launch vehicle's final stage can
+— where host capability and mission rules permit — continue as a **temporary controlled orbital
+delivery platform**. **The host performs the coarse orbital repositioning; VOLLEY produces the
+fine, individually commanded release condition for each secondary satellite.** The stage then
+passivates and re-enters.
+
+**That mission has been constant since 2023.** What changed across the generations is how much of
+the deployment machinery VOLLEY builds for itself — a self-contained electromagnetic system in
+Gen5, a stage-integrated one in Gen6.
+
+**So every entry in this vault is an alternative to one layer of that, and it helps to know
+which:**
+
+| | |
+|---|---|
+| **A free-flyer** | an alternate **implementation of the whole mission** — VOLLEY as its own spacecraft. Rejected in 2023: it must carry attitude control, power and recoil mass, *"which is most of a spacecraft"* |
+| **A deployable track, a gondola, a cable drive** | alternate **deployment subsystems** inside the same mission |
+| **A flywheel, a pulse alternator, a different bank** | alternate **energy stores** for the same shot |
+| **A passive secondary, a different stator topology** | alternate **drive implementations** |
+
+**None of these entries was stopped because the mission was wrong.** Each was stopped by a number,
+and the number is with it.
+
+> **Read that as the reason the vault is worth keeping.** *An architecture rejected against a
+> stated mission can be revisited when the mission's constraints move. One rejected against
+> nothing in particular cannot.*
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/aaaaaaaaaaaavm/VOLLEY/main/figures/A35_ledger.png" alt="Constraint ledger: what each requirement is worth, and the floor no corner reaches" width="100%">
 </p>
