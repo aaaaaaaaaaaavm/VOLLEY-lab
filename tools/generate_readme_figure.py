@@ -1,4 +1,4 @@
-"""Generate the vault map shown in the README."""
+"""Generate the README visual set for the VOLLEY architecture vault."""
 
 from __future__ import annotations
 
@@ -75,11 +75,48 @@ def render() -> str:
     return "\n".join(out) + "\n"
 
 
+def reopening_ledger() -> str:
+    rows = [
+        ("PII-8", "LIVE QUESTION", "qualification ceiling + gas velocity ceiling", GREEN),
+        ("PII-19", "IDEA ONLY", "passive trim interface; original entry stays shut", AMBER),
+        ("PII-21", "CATALOGUE GATE", "reopens only if a light high-temperature alloy exists", AMBER),
+        ("PII-11", "CLOSED", "Gen6 reverses the straightness argument", RED),
+        ("PII-14", "CLOSED", "inertia and pulse-store comparison settled", RED),
+        ("PII-9", "DIFFERENT PROGRAMME", "no host; lunar mass driver is not VOLLEY", VIOLET),
+    ]
+    out = [
+        '<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820">',
+        f'<rect width="1600" height="820" fill="{BG}"/>',
+        txt(72, 78, "REOPENING LEDGER · REVIEWED 2026-08-20", 24, CYAN, 700),
+        txt(72, 124, "A stopped branch changes only when the constraint that stopped it changes.", 32, INK, 600),
+        txt(72, 162, "Verdicts are extracted from the six long-form vault entries and the current README review.", 19, MUTED),
+    ]
+    for index, (identifier, status, reason, colour) in enumerate(rows):
+        col, row = index % 2, index // 2
+        x, y = 72 + col * 744, 220 + row * 154
+        out += [
+            box(x, y, 704, 122, stroke=colour),
+            txt(x + 28, y + 40, identifier, 17, colour, 750),
+            txt(x + 128, y + 40, status, 15, colour, 700),
+            txt(x + 28, y + 82, reason, 17, INK, 550),
+        ]
+    out += [
+        box(72, 708, 1452, 58, fill="#091720", stroke="#21465b", radius=12),
+        txt(100, 744, "A route back is permission to ask the next question. It is not promotion and it is not test evidence.", 18, INK, 600),
+        "</svg>",
+    ]
+    return "\n".join(out) + "\n"
+
+
 def main() -> None:
-    output = ROOT / "figures" / "vault-map.svg"
-    output.parent.mkdir(parents=True, exist_ok=True)
-    output.write_text(render(), encoding="utf-8")
-    print(output.relative_to(ROOT))
+    outputs = {
+        ROOT / "figures" / "vault-map.svg": render(),
+        ROOT / "figures" / "reopening-ledger.svg": reopening_ledger(),
+    }
+    for output, body in outputs.items():
+        output.parent.mkdir(parents=True, exist_ok=True)
+        output.write_text(body, encoding="utf-8")
+        print(output.relative_to(ROOT))
 
 
 if __name__ == "__main__":

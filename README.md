@@ -19,6 +19,11 @@ retrieval.
 long-form vault register. The colours describe disposition, not evidence strength; every branch
 is computational or argumentative and none is a physical observation.</sub></p>
 
+<p align="center"><img src="figures/reopening-ledger.svg" alt="Current reopening verdict for each of the six long-form VOLLEY-lab branches" width="100%"></p>
+
+<p align="center"><sub>A route back only means that an upstream constraint moved enough to ask
+the next question. It does not promote a branch into the engineering record.</sub></p>
+
 ## What everything in here was rejected *against*
 
 An abandoned idea is only legible next to the thing it was competing with, so the baseline is
