@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#07111b"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#3f718c"/></marker></defs>
+<text x="72" y="78" fill="#38d6e8" font-family="Inter,Segoe UI,sans-serif" font-size="24" font-weight="700" text-anchor="start">VOLLEY-LAB · THE VAULT</text>
+<text x="72" y="124" fill="#e8f0f7" font-family="Inter,Segoe UI,sans-serif" font-size="34" font-weight="600" text-anchor="start">Rejected against a stated mission, kept with the number that stopped it.</text>
+<text x="72" y="162" fill="#8fa7ba" font-family="Inter,Segoe UI,sans-serif" font-size="19" font-weight="400" text-anchor="start">Nothing here was stopped by a test. Nothing here should be cited.</text>
+<rect x="72" y="220" width="420" height="520" rx="18" fill="#0c1d2a" stroke="#38d6e8"/>
+<text x="104" y="268" fill="#38d6e8" font-family="Inter,Segoe UI,sans-serif" font-size="15" font-weight="700" text-anchor="start">MISSION HELD CONSTANT</text>
+<text x="104" y="314" fill="#e8f0f7" font-family="Inter,Segoe UI,sans-serif" font-size="25" font-weight="650" text-anchor="start">Last-mile orbital delivery</text>
+<text x="104" y="352" fill="#8fa7ba" font-family="Inter,Segoe UI,sans-serif" font-size="20" font-weight="400" text-anchor="start">from a controlled final stage</text>
+<text x="104" y="424" fill="#ffb454" font-family="Inter,Segoe UI,sans-serif" font-size="15" font-weight="700" text-anchor="start">ARCHITECTURE MOVED</text>
+<text x="104" y="470" fill="#e8f0f7" font-family="Inter,Segoe UI,sans-serif" font-size="21" font-weight="700" text-anchor="start">Gen5</text>
+<text x="184" y="470" fill="#8fa7ba" font-family="Inter,Segoe UI,sans-serif" font-size="18" font-weight="400" text-anchor="start">self-contained motor</text>
+<text x="104" y="516" fill="#e8f0f7" font-family="Inter,Segoe UI,sans-serif" font-size="21" font-weight="700" text-anchor="start">Gen6</text>
+<text x="184" y="516" fill="#8fa7ba" font-family="Inter,Segoe UI,sans-serif" font-size="18" font-weight="400" text-anchor="start">stage-integrated gas</text>
+<text x="104" y="590" fill="#ff6b6b" font-family="Inter,Segoe UI,sans-serif" font-size="15" font-weight="700" text-anchor="start">THE RULE</text>
+<text x="104" y="634" fill="#e8f0f7" font-family="Inter,Segoe UI,sans-serif" font-size="23" font-weight="650" text-anchor="start">Every entry states why</text>
+<text x="104" y="670" fill="#e8f0f7" font-family="Inter,Segoe UI,sans-serif" font-size="23" font-weight="650" text-anchor="start">it stopped, with a number.</text>
+<line x1="492" y1="480" x2="548" y2="480" stroke="#3f718c" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="566" y="220" width="458" height="142" rx="18" fill="#0c1d2a" stroke="#61d6a3"/>
+<text x="592" y="260" fill="#61d6a3" font-family="Inter,Segoe UI,sans-serif" font-size="16" font-weight="700" text-anchor="start">PII-8</text>
+<text x="678" y="260" fill="#e8f0f7" font-family="Inter,Segoe UI,sans-serif" font-size="17" font-weight="700" text-anchor="start">FREE-FLYER</text>
+<text x="592" y="302" fill="#8fa7ba" font-family="Inter,Segoe UI,sans-serif" font-size="16" font-weight="400" text-anchor="start">route back: standards + gas ceiling</text>
+<text x="592" y="332" fill="#61d6a3" font-family="Inter,Segoe UI,sans-serif" font-size="12" font-weight="650" text-anchor="start">COMPUTED / ARGUED · NOT TESTED</text>
+<rect x="1066" y="220" width="458" height="142" rx="18" fill="#0c1d2a" stroke="#9b8cff"/>
+<text x="1092" y="260" fill="#9b8cff" font-family="Inter,Segoe UI,sans-serif" font-size="16" font-weight="700" text-anchor="start">PII-9</text>
+<text x="1178" y="260" fill="#e8f0f7" font-family="Inter,Segoe UI,sans-serif" font-size="17" font-weight="700" text-anchor="start">LUNAR MASS DRIVER</text>
+<text x="1092" y="302" fill="#8fa7ba" font-family="Inter,Segoe UI,sans-serif" font-size="16" font-weight="400" text-anchor="start">different programme; no host</text>
+<text x="1092" y="332" fill="#9b8cff" font-family="Inter,Segoe UI,sans-serif" font-size="12" font-weight="650" text-anchor="start">COMPUTED / ARGUED · NOT TESTED</text>
+<rect x="566" y="396" width="458" height="142" rx="18" fill="#0c1d2a" stroke="#ffb454"/>
+<text x="592" y="436" fill="#ffb454" font-family="Inter,Segoe UI,sans-serif" font-size="16" font-weight="700" text-anchor="start">PII-11</text>
+<text x="678" y="436" fill="#e8f0f7" font-family="Inter,Segoe UI,sans-serif" font-size="17" font-weight="700" text-anchor="start">DEPLOYABLE TRACK</text>
+<text x="592" y="478" fill="#8fa7ba" font-family="Inter,Segoe UI,sans-serif" font-size="16" font-weight="400" text-anchor="start">architecture change; straightness flips</text>
+<text x="592" y="508" fill="#ffb454" font-family="Inter,Segoe UI,sans-serif" font-size="12" font-weight="650" text-anchor="start">COMPUTED / ARGUED · NOT TESTED</text>
+<rect x="1066" y="396" width="458" height="142" rx="18" fill="#0c1d2a" stroke="#ff6b6b"/>
+<text x="1092" y="436" fill="#ff6b6b" font-family="Inter,Segoe UI,sans-serif" font-size="16" font-weight="700" text-anchor="start">PII-14</text>
+<text x="1178" y="436" fill="#e8f0f7" font-family="Inter,Segoe UI,sans-serif" font-size="17" font-weight="700" text-anchor="start">CABLE GONDOLA</text>
+<text x="1092" y="478" fill="#8fa7ba" font-family="Inter,Segoe UI,sans-serif" font-size="16" font-weight="400" text-anchor="start">inertia erased the headline gain</text>
+<text x="1092" y="508" fill="#ff6b6b" font-family="Inter,Segoe UI,sans-serif" font-size="12" font-weight="650" text-anchor="start">COMPUTED / ARGUED · NOT TESTED</text>
+<rect x="566" y="572" width="458" height="142" rx="18" fill="#0c1d2a" stroke="#ffb454"/>
+<text x="592" y="612" fill="#ffb454" font-family="Inter,Segoe UI,sans-serif" font-size="16" font-weight="700" text-anchor="start">PII-19</text>
+<text x="678" y="612" fill="#e8f0f7" font-family="Inter,Segoe UI,sans-serif" font-size="17" font-weight="700" text-anchor="start">INDUCTION DRIVE</text>
+<text x="592" y="654" fill="#8fa7ba" font-family="Inter,Segoe UI,sans-serif" font-size="16" font-weight="400" text-anchor="start">optimised the 11% term</text>
+<text x="592" y="684" fill="#ffb454" font-family="Inter,Segoe UI,sans-serif" font-size="12" font-weight="650" text-anchor="start">COMPUTED / ARGUED · NOT TESTED</text>
+<rect x="1066" y="572" width="458" height="142" rx="18" fill="#0c1d2a" stroke="#ff6b6b"/>
+<text x="1092" y="612" fill="#ff6b6b" font-family="Inter,Segoe UI,sans-serif" font-size="16" font-weight="700" text-anchor="start">PII-21</text>
+<text x="1178" y="612" fill="#e8f0f7" font-family="Inter,Segoe UI,sans-serif" font-size="17" font-weight="700" text-anchor="start">WATER / STEAM</text>
+<text x="1092" y="654" fill="#8fa7ba" font-family="Inter,Segoe UI,sans-serif" font-size="16" font-weight="400" text-anchor="start">tube heat costs more than fluid saves</text>
+<text x="1092" y="684" fill="#ff6b6b" font-family="Inter,Segoe UI,sans-serif" font-size="12" font-weight="650" text-anchor="start">COMPUTED / ARGUED · NOT TESTED</text>
+<rect x="566" y="762" width="958" height="70" rx="18" fill="#091720" stroke="#21465b"/>
+<text x="594" y="804" fill="#e8f0f7" font-family="Inter,Segoe UI,sans-serif" font-size="20" font-weight="550" text-anchor="start">A stop can be reopened when its constraint moves. It is not scripture either.</text>
+<text x="1494" y="870" fill="#8fa7ba" font-family="Inter,Segoe UI,sans-serif" font-size="15" font-weight="650" text-anchor="end">6 LONG-FORM ENTRIES · 0 PHYSICAL OBSERVATIONS</text>
+</svg>
