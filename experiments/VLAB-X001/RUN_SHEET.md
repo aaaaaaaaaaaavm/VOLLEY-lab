@@ -62,6 +62,12 @@ into tolerances.
 > declared ±0.5 mm *residual error from the CG*, the same residual screen I use for VOLLEY. The
 > ±20 mm BOLLEY CG envelope is unchanged.
 
+> **Execution correction, 2026-08-30, before any result:** the first run spent every pressure
+> evaluation in an iterative root solver even when the inlet was choked. I stopped it before it
+> wrote an artifact and replaced that branch with the exact algebraic root of the same frozen
+> inlet/outlet mass balance. The unchoked branch still uses the declared root tolerance. No
+> equation, step size, target input or band changed.
+
 The response map evaluates signed offsets at 10%, 20%, 30% and 40% of nominal clearance in both
 lateral axes. Dynamic cases cross both bow amplitudes, both bow phases, both signs of the maximum
 CG offset and both signs of the declared axial force-centroid error from that CG. The three

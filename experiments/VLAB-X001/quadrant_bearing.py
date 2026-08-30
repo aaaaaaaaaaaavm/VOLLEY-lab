@@ -125,6 +125,21 @@ def pocket_state(physics: dict, supply_pa: float, gap_m: float, temperature_k: f
         return ambient, 0.0, 0.0
     area_multiplier = 1.1 if fault == "inlet_area_plus_10pct" else 1.0
 
+    # Most of this screen is on the choked branch. There the inlet flow is constant and the
+    # parallel-plate outlet is C*(p^2-pa^2), so the pressure root is exact in closed form. The
+    # first implementation sent even this branch through Brent millions of times; it was stopped
+    # before producing an artifact. I retain Brent only where the closed-form candidate crosses
+    # the critical pressure ratio.
+    gamma = physics["heat_capacity_ratio"]
+    critical = (2.0 / (gamma + 1.0)) ** (gamma / (gamma - 1.0))
+    choked_inlet = orifice_mass_flow(physics, supply_pa, ambient, temperature_k, area_multiplier)
+    unit_outlet = film_mass_flow(physics, math.sqrt(ambient**2 + 1.0), gap_m, temperature_k)
+    candidate = math.sqrt(ambient**2 + choked_inlet / max(unit_outlet, 1e-300))
+    if candidate / supply_pa <= critical:
+        outlet = film_mass_flow(physics, candidate, gap_m, temperature_k)
+        relative = abs(choked_inlet - outlet) / max(choked_inlet, outlet, 1e-30)
+        return candidate, 0.5 * (choked_inlet + outlet), relative
+
     def residual(pressure: float) -> float:
         return orifice_mass_flow(physics, supply_pa, pressure, temperature_k, area_multiplier) - film_mass_flow(
             physics, pressure, gap_m, temperature_k
@@ -415,6 +430,7 @@ def run(parameters: dict) -> dict:
     target_names = ("volley_reference", "bolley_reference", "bolley_qualification")
     max_step = parameters["solver"]["maximum_axial_step_m"]
     for name in target_names:
+        print(f"running {name}", flush=True)
         target = inherited_target(parameters, name)
         all_response.extend(response_map(parameters, name, target))
         amplitudes = target["guide_centreline_amplitude_m"]
