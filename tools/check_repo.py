@@ -16,6 +16,8 @@ REQUIRED = (
     "VLAB-B001_bolley_unbound.md",
     "VLAB-X001_quadrant_gas_bearing.md",
     "VLAB-X002_passive_trim_secondary.md",
+    "experiments/VLAB-X001/RUN_SHEET.md",
+    "experiments/VLAB-X001/parameters.json",
     "figures/vault-map.svg",
     "figures/reopening-ledger.svg",
     "figures/transfer-map.svg",
@@ -82,6 +84,21 @@ def check_entries() -> None:
         fail(f"entry routing mismatch: {authoritative!r}")
 
 
+def check_x001_freeze() -> None:
+    import json
+
+    path = ROOT / "experiments" / "VLAB-X001" / "parameters.json"
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if data.get("schema") != "volley-lab.quadrant-bearing/1":
+        fail("VLAB-X001 controlled input has the wrong schema")
+    if data.get("state") not in {"FROZEN_NOT_RUN", "RUN"}:
+        fail("VLAB-X001 controlled input has no recognised state")
+    if set(data.get("targets", {})) != {"volley_reference", "bolley_reference", "bolley_qualification"}:
+        fail("VLAB-X001 target set changed")
+    if len(data.get("bands", {})) != 9:
+        fail("VLAB-X001 controlled limits changed shape")
+
+
 def check_links() -> None:
     failures = []
     pattern = re.compile(r"\[[^\]]*\]\(([^)]+)\)")
@@ -106,6 +123,7 @@ def main() -> None:
     check_required()
     check_figures()
     check_entries()
+    check_x001_freeze()
     check_links()
     print("OK: shared vault entries, generated figures, namespaces and local links are current")
 

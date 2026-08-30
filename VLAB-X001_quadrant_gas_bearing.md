@@ -1,6 +1,6 @@
 # VLAB-X001: quadrant leakage bearing
 
-**State:** DECLARED, NOT RUN.
+**State:** FROZEN, NOT RUN.
 
 ## Why I opened it
 
@@ -9,9 +9,16 @@ contamination open in P44. VOLLEY's eight-metre Gen6 bore has the complementary 
 uncertainty dominates the guided-exit result, while tube bow and support placement define the
 centreline.
 
-Both architectures already spend gas near a guided square body. I ask whether I can meter that
-flow through four independent face or corner plenums so offset creates a restoring pressure field.
-The leak becomes an aerostatic bearing and a control input rather than only a loss.
+Both architectures already spend gas beside a guided moving body. I ask whether I can meter that
+flow through four independent face or quadrant plenums so offset creates a restoring pressure
+field. The leak becomes an aerostatic bearing and a control input rather than only a loss.
+
+The two geometries are intentionally not made identical. VOLLEY gets two four-quadrant lands on
+its departing 15.805 mm piston/carriage. BOLLEY gets two four-face collars around its 100 mm
+spacecraft body. My exact pre-run geometry, source values, equations, solver tolerances and fault
+definitions are frozen in [`experiments/VLAB-X001/RUN_SHEET.md`](experiments/VLAB-X001/RUN_SHEET.md)
+and [`experiments/VLAB-X001/parameters.json`](experiments/VLAB-X001/parameters.json). No executable
+model or result existed when I froze those files.
 
 ## What may transfer
 

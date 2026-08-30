@@ -1,0 +1,112 @@
+{
+  "schema": "volley-lab.quadrant-bearing/1",
+  "state": "FROZEN_NOT_RUN",
+  "freeze_note": "No executable model or result existed when I froze this input.",
+  "physics": {
+    "fluid": "nitrogen",
+    "specific_gas_constant_j_kg_k": 296.8,
+    "heat_capacity_ratio": 1.4,
+    "dynamic_viscosity_pa_s_at_300k": 1.76e-05,
+    "molecular_collision_diameter_m": 3.7e-10,
+    "ambient_pressure_pa": 1.0,
+    "orifice_discharge_coefficient": 0.7,
+    "film_exit_count_per_pocket": 2,
+    "film_model": "isothermal compressible parallel-plate Poiseuille flow",
+    "pocket_model": "quasi-steady inlet/outlet mass balance"
+  },
+  "solver": {
+    "relative_pressure_root_tolerance": 1e-10,
+    "maximum_pressure_mass_residual_fraction": 1e-08,
+    "relative_ivp_tolerance": 1e-08,
+    "absolute_ivp_tolerance": 1e-10,
+    "maximum_axial_step_m": 0.002,
+    "convergence_step_multiplier": 0.5,
+    "maximum_convergence_change_fraction": 0.01,
+    "response_offset_fraction_of_clearance": [-0.4, -0.3, -0.2, -0.1, 0.1, 0.2, 0.3, 0.4]
+  },
+  "bands": {
+    "maximum_total_gas_fraction_of_baseline": 1.1,
+    "maximum_axial_exit_velocity_change_fraction": 0.005,
+    "maximum_volley_longitudinal_acceleration_g": 25.0,
+    "maximum_bolley_longitudinal_acceleration_g": 8.0,
+    "maximum_exit_rate_deg_s_per_axis": 2.0,
+    "required_restoring_sign_fraction": 1.0,
+    "required_nominal_corner_completion_fraction": 1.0,
+    "faults_requiring_disposition": ["stuck_open", "stuck_closed", "inlet_area_plus_10pct"],
+    "limitations_required_open": ["plume", "contamination", "electrostatic_charging"]
+  },
+  "targets": {
+    "volley_reference": {
+      "source_repository": "aaaaaaaaaaaavm/VOLLEY",
+      "source_stages": ["A49", "A61", "A69", "A71"],
+      "axial_model": "closed_adiabatic_chamber_with_bearing_bleed",
+      "moving_mass_kg": 4.0,
+      "transverse_inertia_kg_m2": 0.042,
+      "stroke_m": 8.0,
+      "piston_area_m2": 0.0001962,
+      "initial_chamber_volume_m3": 0.002,
+      "initial_supply_pressure_pa": 2272580.0,
+      "temperature_k": [238.0, 300.0],
+      "axial_friction_n": 83.40371375447981,
+      "baseline_exit_velocity_m_s": 29.01,
+      "baseline_gas_allowance_kg": 0.051046,
+      "guide_type": "round",
+      "bore_diameter_m": 0.015805,
+      "station_separation_m": 0.12,
+      "pocket_axial_length_m": 0.01,
+      "pocket_arc_fraction_of_quadrant": 0.7,
+      "nominal_clearance_m": 0.00005,
+      "film_exit_length_m": 0.005,
+      "restrictor_diameter_m": 0.00005,
+      "guide_centreline_amplitude_m": [0.0002425, 0.0009052],
+      "guide_spatial_period_m": 2.0,
+      "transverse_cg_offset_m": [-0.005, 0.005],
+      "axial_force_eccentricity_m": [-0.0005, 0.0005]
+    },
+    "bolley_reference": {
+      "source_repository": "aaaaaaaaaaaavm/BOLLEY",
+      "source_stages": ["A2", "A10", "A11"],
+      "axial_model": "constant_mean_pressure_with_bearing_flow_added",
+      "moving_mass_kg": 4.0,
+      "transverse_inertia_kg_m2": 0.042,
+      "stroke_m": 0.9,
+      "piston_area_m2": 0.01,
+      "mean_supply_pressure_pa": 29645.0,
+      "temperature_k": [250.0, 330.0],
+      "baseline_exit_velocity_m_s": 11.55,
+      "baseline_gas_allowance_kg": 0.005321516228906265,
+      "guide_type": "square",
+      "body_width_m": 0.1,
+      "station_separation_m": 0.22,
+      "pocket_axial_length_m": 0.08,
+      "pocket_width_m": 0.06,
+      "nominal_clearance_m": 0.0001,
+      "film_exit_length_m": 0.02,
+      "restrictor_diameter_m": 0.0005,
+      "guide_centreline_amplitude_m": [0.00005, 0.0005],
+      "guide_spatial_period_m": 0.9,
+      "transverse_cg_offset_m": [-0.02, 0.02],
+      "axial_force_eccentricity_m": [-0.02, 0.02]
+    },
+    "bolley_qualification": {
+      "inherits": "bolley_reference",
+      "moving_mass_kg": 6.0,
+      "transverse_inertia_kg_m2": 0.063,
+      "mean_supply_pressure_pa": 31687.5,
+      "baseline_exit_velocity_m_s": 9.75,
+      "baseline_gas_allowance_kg": 0.006009004560860847
+    }
+  },
+  "faults": {
+    "stuck_open": {"affected_pocket": "front_positive_y", "model": "pocket_pressure_equals_supply"},
+    "stuck_closed": {"affected_pocket": "front_positive_y", "model": "pocket_pressure_equals_ambient"},
+    "inlet_area_plus_10pct": {"affected_pocket": "front_positive_y", "inlet_area_multiplier": 1.1}
+  },
+  "declared_limitations": [
+    "no CFD or pocket pressure distribution",
+    "no restrictor manufacturing or clogging model",
+    "no compliant body or guide",
+    "no seal wear, wall heat transfer or regulator transient",
+    "no plume, contamination or electrostatic charging model"
+  ]
+}
