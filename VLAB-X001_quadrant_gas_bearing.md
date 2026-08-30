@@ -20,6 +20,12 @@ definitions are frozen in [`experiments/VLAB-X001/RUN_SHEET.md`](experiments/VLA
 and [`experiments/VLAB-X001/parameters.json`](experiments/VLAB-X001/parameters.json). No executable
 model or result existed when I froze those files.
 
+> **Pre-execution correction, 2026-08-30:** the first controlled file gave BOLLEY's axial-force
+> eccentricity the same ±20 mm range as its transverse CG envelope. That contradicted A2, which
+> allocates the four axial channels to the declared CG. Before creating the solver, I renamed the
+> quantity as force-centroid *error from the CG* and set a declared ±0.5 mm residual for both
+> targets. No bearing dimension, acceptance band or target CG envelope changed.
+
 ## What may transfer
 
 - BOLLEY's four-channel force-centroid allocation and declared CG envelope;

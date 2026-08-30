@@ -56,9 +56,16 @@ The VOLLEY bow values are the A69 solved orbital envelope. The BOLLEY bow values
 screen inputs because BOLLEY has no guide metrology result. Passing them would not convert them
 into tolerances.
 
+> **Pre-execution correction, 2026-08-30:** my first controlled file called BOLLEY's absolute
+> four-channel force-centroid location an independent ±20 mm eccentricity. A2 instead places that
+> centroid at the selected CG. Before an executable model existed I replaced that field with a
+> declared ±0.5 mm *residual error from the CG*, the same residual screen I use for VOLLEY. The
+> ±20 mm BOLLEY CG envelope is unchanged.
+
 The response map evaluates signed offsets at 10%, 20%, 30% and 40% of nominal clearance in both
 lateral axes. Dynamic cases cross both bow amplitudes, both bow phases, both signs of the maximum
-CG offset and both signs of the declared axial-force eccentricity. The three single-fault runs are:
+CG offset and both signs of the declared axial force-centroid error from that CG. The three
+single-fault runs are:
 
 - one inlet effectively stuck open, pocket pressure driven to its supply boundary;
 - one inlet stuck closed, with that pocket at the ambient boundary;

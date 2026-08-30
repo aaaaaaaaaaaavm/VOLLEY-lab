@@ -61,7 +61,7 @@
       "guide_centreline_amplitude_m": [0.0002425, 0.0009052],
       "guide_spatial_period_m": 2.0,
       "transverse_cg_offset_m": [-0.005, 0.005],
-      "axial_force_eccentricity_m": [-0.0005, 0.0005]
+      "axial_force_centroid_error_from_cg_m": [-0.0005, 0.0005]
     },
     "bolley_reference": {
       "source_repository": "aaaaaaaaaaaavm/BOLLEY",
@@ -86,7 +86,7 @@
       "guide_centreline_amplitude_m": [0.00005, 0.0005],
       "guide_spatial_period_m": 0.9,
       "transverse_cg_offset_m": [-0.02, 0.02],
-      "axial_force_eccentricity_m": [-0.02, 0.02]
+      "axial_force_centroid_error_from_cg_m": [-0.0005, 0.0005]
     },
     "bolley_qualification": {
       "inherits": "bolley_reference",
