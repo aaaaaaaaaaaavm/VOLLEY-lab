@@ -1,6 +1,9 @@
 # VOLLEY-lab
 
-The vault: ideas that never became a complete thing, and the result that stopped each one.
+[![Vault gates](https://github.com/aaaaaaaaaaaavm/VOLLEY-lab/actions/workflows/gates.yml/badge.svg)](https://github.com/aaaaaaaaaaaavm/VOLLEY-lab/actions/workflows/gates.yml)
+
+The shared architecture vault for VOLLEY and BOLLEY: ideas that never became a complete thing,
+the result that stopped each one, and the exact condition that may let one return.
 
 Most projects delete the work that did not finish, and the reasoning goes with it. This is where
 the VOLLEY programme keeps it instead, an architecture priced and declined, a scaling study
@@ -11,7 +14,9 @@ answering a question nobody has asked yet, a computed result that killed somethi
 > should be cited.
 
 It is a vault rather than a graveyard, and the difference is that a vault is organised for
-retrieval.
+retrieval. VOLLEY remains my compatibility-first record for an unmodified payload. BOLLEY is my
+constraint-breaking spacecraft/deployer co-design. This repository is the wall between an
+interesting branch and either authoritative record.
 
 <p align="center"><img src="figures/vault-map.svg" alt="Map of six VOLLEY-lab branches and the result that stopped each one" width="100%"></p>
 
@@ -23,6 +28,11 @@ is computational or argumentative and none is a physical observation.</sub></p>
 
 <p align="center"><sub>A route back only means that an upstream constraint moved enough to ask
 the next question. It does not promote a branch into the engineering record.</sub></p>
+
+<p align="center"><img src="figures/transfer-map.svg" alt="Transfer boundary between VOLLEY, BOLLEY and their shared lab entries" width="100%"></p>
+
+<p align="center"><sub>I keep results in the repository where they were produced. The lab may
+borrow a principle, but it must earn new evidence at the destination geometry and duty.</sub></p>
 
 ## What everything in here was rejected *against*
 
@@ -76,6 +86,7 @@ and the number is with it.
 | [VOLLEY](https://github.com/aaaaaaaaaaaavm/VOLLEY) | Main: the authoritative engineering record. Improved continuously |  |
 | [VOLLEY-paper](https://github.com/aaaaaaaaaaaavm/VOLLEY-paper) | The concept at its most reliable, as an IEEE-formatted manuscript. Frozen when published |  |
 | [VOLLEY-thesis](https://github.com/aaaaaaaaaaaavm/VOLLEY-thesis) | The same concept as a full submission. Frozen when presented |  |
+| [BOLLEY](https://github.com/aaaaaaaaaaaavm/BOLLEY) | The cooperative-interface branch: I let the spacecraft become part of the machine |  |
 | **[VOLLEY-lab](https://github.com/aaaaaaaaaaaavm/VOLLEY-lab)** | The vault: ideas that never became a complete thing, and why each stopped | ← |
 <!-- PROGRAMME-HEADER-END -->
 
@@ -89,6 +100,25 @@ and the number is with it.
 The main record stays clean because this exists. A research track kept *inside* it is one
 `git checkout` from becoming an edit to the record; a separate repository is a wall rather
 than a line on the floor.
+
+That rule now applies in both directions. I do not remove a failed field result from BOLLEY or a
+frozen baseline from VOLLEY when I create a lab branch. I leave the evidence where it happened and
+add a short, linked hypothesis here. The lab is a transfer gate, not a replacement history.
+
+## The identifiers I use from here
+
+I preserve every historical `PII-*` identifier. New work uses a source namespace so provenance
+does not depend on prose:
+
+| Namespace | Meaning |
+|---|---|
+| `VLAB-V###` | A new branch originating in VOLLEY |
+| `VLAB-B###` | A new branch originating in BOLLEY |
+| `VLAB-X###` | A synthesis that changes both programmes |
+
+[`TRANSFER_LEDGER.md`](TRANSFER_LEDGER.md) is the routing table. An entry records the source
+problem, what it is allowed to borrow, what it must not claim, its stopping condition and the
+repository it could enter if it passes.
 
 ## The one rule
 
@@ -131,6 +161,10 @@ and its entry criterion, is kept in the main repository so the numbering cannot 
 | [PII-14, a cable-driven gondola on a deployed truss](PII-14_cable_driven_gondola.md) | Propulsion off the vehicle onto a cable, energy from a flywheel. Stopped by the assumption inside its own headline: +49.7 % assumed a drivetrain with zero rotating inertia, and a real one gives +15 to +30 %, possibly zero, in exchange for deleting the linear synchronous motor and the 24 validations behind it. Its two dead ends are recorded too, because both will otherwise be re-proposed |
 | [PII-19, the induction-drive Gen6](PII-19_induction_drive_gen6.md) | A linear induction drive on a 0.25 kg passive plate instead of a 9.445 kg magnet sled. It was the main repository's design target for one day. Stopped by attribution, not refutation: A35 measured the mover it optimises at 11 % of dry mass, so the whole synthesis is a careful, banded, correct optimisation of the wrong term. Its nine measured bands stand |
 | [PII-21, water as the working fluid, in three forms](PII-21_water_working_fluids.md) | Pressurised water, solar steam, and electrolysis to H2/O2, replacing cold nitrogen. Stopped three different ways. Liquid water stores 2.35 J against 2350 needed, wrong physics for a gun. Electrolysis is a 3000 K chamber beside eleven stowed satellites and attacks the commanded-velocity claim. Steam works, the solar heating closes at 57.3 W with no concentrator, the fluid does more work on a third of the mass, and the shot is gentler, but staying dry needs a bore above 473 K, and the steel tube that forces costs 2.154 kg, more than everything water removes. ADR-035 then chose aluminium on mass alone |
+| [VLAB-B001, BOLLEY without inherited interface constraints](VLAB-B001_bolley_unbound.md) | A purpose-built bus whose frame is simultaneously structure, pressure piston, passive electromagnetic secondary, thermal spreader, ground plane and guide. Opened as a question, not promoted as Gen7 |
+| [VLAB-X001, quadrant leakage bearing](VLAB-X001_quadrant_gas_bearing.md) | Meter the gas BOLLEY counts as leakage into four restoring pressure films, then test whether the same mechanism closes VOLLEY's long-bore contact problem without spending the axial shot |
+| [VLAB-X002, deployer-owned passive trim secondary](VLAB-X002_passive_trim_secondary.md) | Carry BOLLEY's wide passive Fluxrelay logic into VOLLEY's short muzzle trim on a launcher-owned plate or twin-fin shuttle, preserving an unmodified spacecraft and avoiding permanent magnets |
+| [`BOLLEY_BRANCH_REGISTER.md`](BOLLEY_BRANCH_REGISTER.md) | The BOLLEY ideas I quarantine rather than quietly promote: null-flux trim, shunted magnets, Thomson repulsion, selected springs, Strainrail, a carousel, burn-and-drop and the unmodified four-finger fallback |
 | [`notes/`](notes/) | Unstructured, date-stamped, finished by nobody |
 
 PII-11 is the one that is hardest to leave shut, because unlike the others it improves the
@@ -215,3 +249,13 @@ they carried at the time, retained at [`LICENSE-MIT-superseded`](LICENSE-MIT-sup
 
 This repository carries copies of VOLLEY analysis code under `reference/volley/`. CC BY 4.0 does
 not license patent rights, which is why a patent-granting licence was not used here.
+
+## Reproduce the vault surfaces
+
+```bash
+python tools/generate_readme_figure.py
+python tools/check_repo.py
+```
+
+The checker rejects stale generated figures, missing routed entries, duplicate new identifiers and
+broken local Markdown links. It does not validate any engineering claim in the vault.

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#07111b"/>
+<defs><marker id="arrow-transfer" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#3f718c"/></marker></defs>
+<text x="72" y="78" fill="#38d6e8" font-family="Inter,Segoe UI,sans-serif" font-size="24" font-weight="700" text-anchor="start">ONE PROGRAMME · THREE EVIDENCE BOUNDARIES</text>
+<text x="72" y="124" fill="#e8f0f7" font-family="Inter,Segoe UI,sans-serif" font-size="34" font-weight="600" text-anchor="start">A principle may cross. A result stays where I produced it.</text>
+<text x="72" y="162" fill="#8fa7ba" font-family="Inter,Segoe UI,sans-serif" font-size="19" font-weight="400" text-anchor="start">Every destination geometry, duty and interface earns its own gate.</text>
+<rect x="72" y="220" width="420" height="168" rx="18" fill="#0c1d2a" stroke="#38d6e8"/>
+<text x="104" y="260" fill="#38d6e8" font-family="Inter,Segoe UI,sans-serif" font-size="18" font-weight="750" text-anchor="start">VOLLEY</text>
+<text x="104" y="306" fill="#e8f0f7" font-family="Inter,Segoe UI,sans-serif" font-size="25" font-weight="650" text-anchor="start">Compatibility-first</text>
+<text x="104" y="344" fill="#8fa7ba" font-family="Inter,Segoe UI,sans-serif" font-size="19" font-weight="400" text-anchor="start">unmodified spacecraft</text>
+<rect x="72" y="512" width="420" height="168" rx="18" fill="#0c1d2a" stroke="#9b8cff"/>
+<text x="104" y="552" fill="#9b8cff" font-family="Inter,Segoe UI,sans-serif" font-size="18" font-weight="750" text-anchor="start">BOLLEY</text>
+<text x="104" y="598" fill="#e8f0f7" font-family="Inter,Segoe UI,sans-serif" font-size="25" font-weight="650" text-anchor="start">Integration-first</text>
+<text x="104" y="636" fill="#8fa7ba" font-family="Inter,Segoe UI,sans-serif" font-size="19" font-weight="400" text-anchor="start">spacecraft joins the machine</text>
+<rect x="650" y="300" width="850" height="300" rx="18" fill="#0c1d2a" stroke="#ffb454"/>
+<text x="690" y="346" fill="#ffb454" font-family="Inter,Segoe UI,sans-serif" font-size="18" font-weight="750" text-anchor="start">VOLLEY-LAB</text>
+<text x="690" y="392" fill="#e8f0f7" font-family="Inter,Segoe UI,sans-serif" font-size="27" font-weight="650" text-anchor="start">No inherited evidence</text>
+<text x="690" y="430" fill="#8fa7ba" font-family="Inter,Segoe UI,sans-serif" font-size="19" font-weight="400" text-anchor="start">hypothesis · stop condition · revival gate</text>
+<text x="690" y="486" fill="#9b8cff" font-family="Inter,Segoe UI,sans-serif" font-size="16" font-weight="750" text-anchor="start">VLAB-B001</text>
+<text x="835" y="486" fill="#e8f0f7" font-family="Inter,Segoe UI,sans-serif" font-size="18" font-weight="650" text-anchor="start">BOLLEY unbound</text>
+<text x="690" y="526" fill="#61d6a3" font-family="Inter,Segoe UI,sans-serif" font-size="16" font-weight="750" text-anchor="start">VLAB-X001</text>
+<text x="835" y="526" fill="#e8f0f7" font-family="Inter,Segoe UI,sans-serif" font-size="18" font-weight="650" text-anchor="start">quadrant leakage bearing</text>
+<text x="690" y="566" fill="#61d6a3" font-family="Inter,Segoe UI,sans-serif" font-size="16" font-weight="750" text-anchor="start">VLAB-X002</text>
+<text x="835" y="566" fill="#e8f0f7" font-family="Inter,Segoe UI,sans-serif" font-size="18" font-weight="650" text-anchor="start">passive trim secondary</text>
+<line x1="492" y1="304" x2="642" y2="392" stroke="#3f718c" stroke-width="3" marker-end="url(#arrow-transfer)"/>
+<line x1="492" y1="596" x2="642" y2="508" stroke="#3f718c" stroke-width="3" marker-end="url(#arrow-transfer)"/>
+<line x1="1075" y1="600" x2="1075" y2="714" stroke="#3f718c" stroke-width="3" marker-end="url(#arrow-transfer)"/>
+<rect x="650" y="730" width="850" height="92" rx="18" fill="#091720" stroke="#61d6a3"/>
+<text x="690" y="770" fill="#61d6a3" font-family="Inter,Segoe UI,sans-serif" font-size="16" font-weight="750" text-anchor="start">PASSING, PREDECLARED GATE</text>
+<text x="690" y="802" fill="#e8f0f7" font-family="Inter,Segoe UI,sans-serif" font-size="18" font-weight="600" text-anchor="start">opens a new ADR; it never rewrites the source history</text>
+<text x="1494" y="866" fill="#8fa7ba" font-family="Inter,Segoe UI,sans-serif" font-size="15" font-weight="650" text-anchor="end">TRANSFER IS A NEW CLAIM · NOT A COPY</text>
+</svg>

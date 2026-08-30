@@ -1,4 +1,4 @@
-"""Generate the README visual set for the VOLLEY architecture vault."""
+"""Generate the README visual set for the shared VOLLEY/BOLLEY architecture vault."""
 
 from __future__ import annotations
 
@@ -108,10 +108,49 @@ def reopening_ledger() -> str:
     return "\n".join(out) + "\n"
 
 
+def transfer_map() -> str:
+    out = [
+        '<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">',
+        f'<rect width="1600" height="900" fill="{BG}"/>',
+        '<defs><marker id="arrow-transfer" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#3f718c"/></marker></defs>',
+        txt(72, 78, "ONE PROGRAMME · THREE EVIDENCE BOUNDARIES", 24, CYAN, 700),
+        txt(72, 124, "A principle may cross. A result stays where I produced it.", 34, INK, 600),
+        txt(72, 162, "Every destination geometry, duty and interface earns its own gate.", 19, MUTED),
+        box(72, 220, 420, 168, stroke=CYAN),
+        txt(104, 260, "VOLLEY", 18, CYAN, 750),
+        txt(104, 306, "Compatibility-first", 25, INK, 650),
+        txt(104, 344, "unmodified spacecraft", 19, MUTED),
+        box(72, 512, 420, 168, stroke=VIOLET),
+        txt(104, 552, "BOLLEY", 18, VIOLET, 750),
+        txt(104, 598, "Integration-first", 25, INK, 650),
+        txt(104, 636, "spacecraft joins the machine", 19, MUTED),
+        box(650, 300, 850, 300, stroke=AMBER),
+        txt(690, 346, "VOLLEY-LAB", 18, AMBER, 750),
+        txt(690, 392, "No inherited evidence", 27, INK, 650),
+        txt(690, 430, "hypothesis · stop condition · revival gate", 19, MUTED),
+        txt(690, 486, "VLAB-B001", 16, VIOLET, 750),
+        txt(835, 486, "BOLLEY unbound", 18, INK, 650),
+        txt(690, 526, "VLAB-X001", 16, GREEN, 750),
+        txt(835, 526, "quadrant leakage bearing", 18, INK, 650),
+        txt(690, 566, "VLAB-X002", 16, GREEN, 750),
+        txt(835, 566, "passive trim secondary", 18, INK, 650),
+        '<line x1="492" y1="304" x2="642" y2="392" stroke="#3f718c" stroke-width="3" marker-end="url(#arrow-transfer)"/>',
+        '<line x1="492" y1="596" x2="642" y2="508" stroke="#3f718c" stroke-width="3" marker-end="url(#arrow-transfer)"/>',
+        '<line x1="1075" y1="600" x2="1075" y2="714" stroke="#3f718c" stroke-width="3" marker-end="url(#arrow-transfer)"/>',
+        box(650, 730, 850, 92, stroke=GREEN, fill="#091720"),
+        txt(690, 770, "PASSING, PREDECLARED GATE", 16, GREEN, 750),
+        txt(690, 802, "opens a new ADR; it never rewrites the source history", 18, INK, 600),
+        txt(1494, 866, "TRANSFER IS A NEW CLAIM · NOT A COPY", 15, MUTED, 650, "end"),
+        "</svg>",
+    ]
+    return "\n".join(out) + "\n"
+
+
 def main() -> None:
     outputs = {
         ROOT / "figures" / "vault-map.svg": render(),
         ROOT / "figures" / "reopening-ledger.svg": reopening_ledger(),
+        ROOT / "figures" / "transfer-map.svg": transfer_map(),
     }
     for output, body in outputs.items():
         output.parent.mkdir(parents=True, exist_ok=True)
