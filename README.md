@@ -1,5 +1,7 @@
 # VOLLEY-lab
 
+[Current programme review and Gen6 handoff](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/BSX_REVIEW.md). I keep reopening conditions here; active closure decisions belong to the engineering register.
+
 [![Vault gates](https://github.com/aaaaaaaaaaaavm/VOLLEY-lab/actions/workflows/gates.yml/badge.svg)](https://github.com/aaaaaaaaaaaavm/VOLLEY-lab/actions/workflows/gates.yml)
 
 The shared architecture vault for VOLLEY and BOLLEY: ideas that never became a complete thing,

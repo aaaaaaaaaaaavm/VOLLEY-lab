@@ -24,6 +24,8 @@ REQUIRED = (
 )
 NEW_ENTRY_FILES = {
     "VLAB-B001": "VLAB-B001_bolley_unbound.md",
+    "VLAB-B002": "VLAB-B002_active_cooperative_interface.md",
+    "VLAB-B003": "VLAB-B003_distributed_fluxpiston_feed.md",
     "VLAB-X001": "VLAB-X001_quadrant_gas_bearing.md",
     "VLAB-X002": "VLAB-X002_passive_trim_secondary.md",
 }
