@@ -4,7 +4,7 @@
 
 ## Why I opened it
 
-VOLLEY Gen6 may retain a short electromagnetic muzzle section to recover commanded velocity. A
+VOLLEY historical study may retain a short electromagnetic muzzle section to recover commanded velocity. A
 permanent-magnet mover brings magnetic cleanliness, cradle alignment and tube-field interaction
 back into an architecture that deleted the full motor. BOLLEY has already taken a wide passive
 magnetic-matrix/copper-ladder secondary through field, circuit and nominal CAD closure.
@@ -30,7 +30,7 @@ not transfer to a short VOLLEY muzzle.
 
 The first model must:
 
-1. provide VOLLEY's full declared positive and negative trim authority at the current Gen6 exit
+1. provide VOLLEY's full declared positive and negative trim authority at the current historical study exit
    speed;
 2. fit the current bore and tube without using the rejected standard corner rails;
 3. keep the payload mechanically and electrically unmodified;

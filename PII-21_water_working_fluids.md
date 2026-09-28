@@ -45,9 +45,9 @@ Four objections, and the fourth is the one that matters:
 - It re-adds two pressure vessels, for H₂ and O₂ separately. The thing water was meant to delete
   comes back doubled.
 - An igniter is a new manifest-forfeiting shared element in an FMEA that already counts eight
-  ([A47](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/validation/A47_gen6_fmea.md)).
+  ([A47](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/validation/A47_LEGACY_STUDY_fmea.md)).
 - It replaces a cleanly-commanded charge pressure with ignition timing, mixture ratio and
-  flame-front variability. [A44](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/validation/A44_gen6_dispersion.md)
+  flame-front variability. [A44](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/validation/A44_LEGACY_STUDY_dispersion.md)
   measured velocity commanding at 0.499 % per 1 % of charge pressure. This attacks the one
   claim the machine is sold on.
 

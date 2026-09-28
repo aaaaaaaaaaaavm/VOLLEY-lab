@@ -169,9 +169,9 @@ the single string the flagship draws.
   is a non-issue: 40.6x margin at 3.30 m, 17.7x at 5 m.
 - A failure mode that does not exist today. A fixed track cannot fail to deploy.
 
-> Re-examined 2026-08-20. This section transfers to Gen6 with its sign reversed.
+> Re-examined 2026-08-20. This section transfers to historical study with its sign reversed.
 > The argument below rests on a 1 mm airgap in an ironless machine, where gap error costs
-> thrust rather than running away. Gen6's 8.0 m bore has a sliding seal in it, and a seal's job
+> thrust rather than running away. historical study's 8.0 m bore has a sliding seal in it, and a seal's job
 > is to maintain contact, so the tolerance that makes a deployed *track* plausible does not
 > exist for a *bore*. [A59](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/validation/A59_tube_structure.md)
 > already found the tube needs seven supports, and P67, P88 and P89 inherit the

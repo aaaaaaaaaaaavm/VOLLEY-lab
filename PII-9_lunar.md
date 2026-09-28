@@ -93,7 +93,7 @@ deorbiting itself.
 >
 > But its bank objection died anyway. The *"460x the flagship bank, which already fails"* row
 > above was aimed at a capacitor bank that
-> [ADR-032](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/adr/032-gen6-stage-integrated-gas-store.md)
+> [ADR-032](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/adr/032-legacy_study-stage-integrated-gas-store.md)
 > deleted and [A64](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/validation/A64_pulse_store_technology.md)
 > re-priced. Three vault entries were resting on that same objection. It is worth knowing it is
 > gone even where the entry stays shut.
@@ -102,7 +102,7 @@ deorbiting itself.
 >
 > > *"The division of labour is: centrifuge for bulk velocity, linear motor for precision."*
 >
-> [ADR-033](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/adr/033-gen6-trim-stage.md)
+> [ADR-033](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/adr/033-legacy_study-trim-stage.md)
 > adopted that exact principle on 2026-08-16, sixteen days after this file was written, with a
 > different bulk store: *"Gas supplies the energy. The motor supplies the control."*
 >

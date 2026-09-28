@@ -76,8 +76,8 @@ from "electromagnetic launch reaches Mars".
 
 > ## Re-examined 2026-08-20, and two of the three blockers below no longer exist
 >
-> This section was written against a linear motor and a capacitor bank. Gen6 has neither.
-> [ADR-032](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/adr/032-gen6-stage-integrated-gas-store.md)
+> This section was written against a linear motor and a capacitor bank. historical study has neither.
+> [ADR-032](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/adr/032-legacy_study-stage-integrated-gas-store.md)
 > deleted both on 2026-08-14, and the deletion reaches backwards into this file.
 >
 > | Blocker below | Status after ADR-032 |
@@ -122,7 +122,7 @@ from "electromagnetic launch reaches Mars".
 >
 > ### The new gating question, which is not in this file at all
 >
-> If the free-flyer is re-asked under Gen6's architecture, the drive is gas, and a gas gun has a
+> If the free-flyer is re-asked under historical study's architecture, the drive is gas, and a gas gun has a
 > thermodynamic velocity ceiling that a linear motor does not. A motor can be rewound for any
 > speed and pays in current;
 > [`VELOCITY_CEILING.md`](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/VELOCITY_CEILING.md)

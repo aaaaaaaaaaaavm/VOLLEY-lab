@@ -6,7 +6,7 @@
 
 ## The mechanism I am actually testing
 
-I am not wrapping a gas bearing around a CubeSat in VOLLEY. The existing Gen6 pressure piston and
+I am not wrapping a gas bearing around a CubeSat in VOLLEY. The existing historical study pressure piston and
 carriage already depart with the payload, so I put two bearing lands on that piston assembly. Each
 land has four circumferential pockets fed through independent restrictions from the drive gas.
 

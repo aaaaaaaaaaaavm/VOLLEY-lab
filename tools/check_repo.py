@@ -28,6 +28,7 @@ NEW_ENTRY_FILES = {
     "VLAB-B003": "VLAB-B003_distributed_fluxpiston_feed.md",
     "VLAB-X001": "VLAB-X001_quadrant_gas_bearing.md",
     "VLAB-X002": "VLAB-X002_passive_trim_secondary.md",
+    "VLAB-X003": "VLAB-X003_independent_cell_bank.md",
 }
 
 

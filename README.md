@@ -1,6 +1,10 @@
 # VOLLEY-lab
 
-[Current programme review and Gen6 handoff](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/BSX_REVIEW.md). I keep reopening conditions here; active closure decisions belong to the engineering register.
+> **Programme correction, 2026-09-28:** Gen6 is in development with no selected mechanism or validated speed range. The former independent spring-cell bank and gas guide are historical study branches. Entries below describe dated comparisons, not the present VOLLEY architecture.
+
+The withdrawn [independent motor-charged release-cell bank](VLAB-X003_independent_cell_bank.md) is archived here as a study, including its fault-isolation argument, retained empty-cell burden, original source links, and reopening gate.
+
+[Current programme review and historical study handoff](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/BSX_REVIEW.md). I keep reopening conditions here; active closure decisions belong to the engineering register.
 
 [![Vault gates](https://github.com/aaaaaaaaaaaavm/VOLLEY-lab/actions/workflows/gates.yml/badge.svg)](https://github.com/aaaaaaaaaaaavm/VOLLEY-lab/actions/workflows/gates.yml)
 
@@ -50,7 +54,7 @@ passivates and re-enters.
 
 That mission has been constant since 2023. What changed across the generations is how much of
 the deployment machinery VOLLEY builds for itself, a self-contained electromagnetic system in
-Gen5, a stage-integrated one in Gen6.
+Gen5, a stage-integrated one in historical study.
 
 So every entry in this vault is an alternative to one layer of that, and it helps to know
 which:
@@ -80,7 +84,7 @@ and the number is with it.
   <img src="https://raw.githubusercontent.com/aaaaaaaaaaaavm/VOLLEY/main/figures/A02_field_map.png" alt="Halbach airgap field and depth profile" width="49%">
 </p>
 
-<p align="center"><sub><b>The machine several of these entries improve, and the field they act on.</b> <a href="https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/adr/032-gen6-stage-integrated-gas-store.md">ADR-032</a> deleted the mover, the stator, the bank and the brake on 2026-08-14 &mdash; and with them the subsystem <b>nine entries in this vault were optimising</b>.</sub></p>
+<p align="center"><sub><b>The machine several of these entries improve, and the field they act on.</b> <a href="https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/adr/032-legacy_study-stage-integrated-gas-store.md">ADR-032</a> deleted the mover, the stator, the bank and the brake on 2026-08-14 &mdash; and with them the subsystem <b>nine entries in this vault were optimising</b>.</sub></p>
 
 <!-- PROGRAMME-HEADER-START -->
 | Repository | Role | You are here |
@@ -134,7 +138,7 @@ pile, and it is the only rule here.
 
 > ### Nine entries stopped together on 2026-08-14
 >
-> [ADR-032](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/adr/032-gen6-stage-integrated-gas-store.md)
+> [ADR-032](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/adr/032-legacy_study-stage-integrated-gas-store.md)
 > made the payload accelerate directly, by gas, along a rail the spent stage provides, and
 > deleted the subsystem that nine vault entries improve. No mover, so PII-1, PII-2, PII-17 and
 > PII-18 have nothing to act on; no stator, so PII-3 and PII-12; no bank, so PII-7, which was
@@ -161,7 +165,7 @@ and its entry criterion, is kept in the main repository so the numbering cannot 
 | [PII-9, the lunar case](PII-9_lunar.md) | Where this technology has always belonged, and the mass driver it descends from. 1.33 MJ/kg to lunar orbit, so 15 kW launches a tonne a day. Stopped by having no host: it describes a different programme, not this one. The payload is ore, so the g-limit governing the whole design disappears |
 | [PII-11, a deployable track, and the side-rail layout](PII-11_deployable_track.md) | A telescoping track long enough to accelerate *and* regeneratively arrest reaches 48 % electrical-to-payload efficiency, deletes the eddy brake and stows inside the ESPA Grande envelope the main design misses by 44 %. The only option that improves velocity and envelope together. Stopped by type, not by number: a deployable structure is an architecture change however good its numbers are |
 | [PII-14, a cable-driven gondola on a deployed truss](PII-14_cable_driven_gondola.md) | Propulsion off the vehicle onto a cable, energy from a flywheel. Stopped by the assumption inside its own headline: +49.7 % assumed a drivetrain with zero rotating inertia, and a real one gives +15 to +30 %, possibly zero, in exchange for deleting the linear synchronous motor and the 24 validations behind it. Its two dead ends are recorded too, because both will otherwise be re-proposed |
-| [PII-19, the induction-drive Gen6](PII-19_induction_drive_gen6.md) | A linear induction drive on a 0.25 kg passive plate instead of a 9.445 kg magnet sled. It was the main repository's design target for one day. Stopped by attribution, not refutation: A35 measured the mover it optimises at 11 % of dry mass, so the whole synthesis is a careful, banded, correct optimisation of the wrong term. Its nine measured bands stand |
+| [PII-19, the induction-drive historical study](PII-19_induction_drive_legacy_study.md) | A linear induction drive on a 0.25 kg passive plate instead of a 9.445 kg magnet sled. It was the main repository's design target for one day. Stopped by attribution, not refutation: A35 calculated the mover it optimises at 11 % of the modelled dry mass, so the whole synthesis is a careful, banded, correct optimisation of the wrong term. Its nine modelled bands stand |
 | [PII-21, water as the working fluid, in three forms](PII-21_water_working_fluids.md) | Pressurised water, solar steam, and electrolysis to H2/O2, replacing cold nitrogen. Stopped three different ways. Liquid water stores 2.35 J against 2350 needed, wrong physics for a gun. Electrolysis is a 3000 K chamber beside eleven stowed satellites and attacks the commanded-velocity claim. Steam works, the solar heating closes at 57.3 W with no concentrator, the fluid does more work on a third of the mass, and the shot is gentler, but staying dry needs a bore above 473 K, and the steel tube that forces costs 2.154 kg, more than everything water removes. ADR-035 then chose aluminium on mass alone |
 | [VLAB-B001, BOLLEY without inherited interface constraints](VLAB-B001_bolley_unbound.md) | A purpose-built bus whose frame is simultaneously structure, pressure piston, passive electromagnetic secondary, thermal spreader, ground plane and guide. Opened as a question, not promoted as Gen7 |
 | [VLAB-X001, quadrant leakage bearing](VLAB-X001_quadrant_gas_bearing.md) | Meter the gas BOLLEY counts as leakage into four restoring pressure films, then test whether the same mechanism closes VOLLEY's long-bore contact problem without spending the axial shot |
@@ -182,10 +186,10 @@ upstream. Four outcomes:
 
 | | |
 |---|---|
-| Most of the vault is unmoved, and that is not a failure of the check | Nine entries stopped because [ADR-032](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/adr/032-gen6-stage-integrated-gas-store.md) deleted the subsystem they improve. PII-8 and PII-9 describe different vehicles. *No literature resurrects an optimisation of a part that stopped existing, and no source supplies a host* |
-| PII-19 has a live route back | Its stop, the mover is 11 % of dry mass, was about Gen5's whole drive. Gen6 has a 144.01 mm motor at the muzzle with this entry's exact problem: [ADR-033](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/adr/033-gen6-trim-stage.md) brought magnets back to the moving part and paid P34, E35 and a cradle alignment duty for them. A passive secondary pays none of it. And A30's 0.0253 edge factor may kill it, 24 mm pole pitch against a 15.805 mm bore. Unrun |
-| PII-14's flywheel is closed, in the losing direction | It was split out as a candidate against P26. That question is now Gen6's pulse store, and A64 answered it at ~70 g on published capacitor data. *Bearings, containment and 7.15 N·m·s of stored angular momentum do not beat seventy grams* |
-| PII-11 §5 transfers with its sign flipped | Its straightness argument rests on a 1 mm airgap that costs thrust when violated. Gen6's 8.0 m bore has a sliding seal in it, which must maintain contact. The tolerance that made a deployed track plausible is not there, and P67, P88 and P89 inherit it |
+| Most of the vault is unmoved, and that is not a failure of the check | Nine entries stopped because [ADR-032](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/adr/032-legacy_study-stage-integrated-gas-store.md) deleted the subsystem they improve. PII-8 and PII-9 describe different vehicles. *No literature resurrects an optimisation of a part that stopped existing, and no source supplies a host* |
+| PII-19 has a live route back | Its stop, the mover is 11 % of dry mass, was about Gen5's whole drive. historical study has a 144.01 mm motor at the muzzle with this entry's exact problem: [ADR-033](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/adr/033-legacy_study-trim-stage.md) brought magnets back to the moving part and paid P34, E35 and a cradle alignment duty for them. A passive secondary pays none of it. And A30's 0.0253 edge factor may kill it, 24 mm pole pitch against a 15.805 mm bore. Unrun |
+| PII-14's flywheel is closed, in the losing direction | It was split out as a candidate against P26. That question is now historical study's pulse store, and A64 answered it at ~70 g on published capacitor data. *Bearings, containment and 7.15 N·m·s of stored angular momentum do not beat seventy grams* |
+| PII-11 §5 transfers with its sign flipped | Its straightness argument rests on a 1 mm airgap that costs thrust when violated. historical study's 8.0 m bore has a sliding seal in it, which must maintain contact. The tolerance that made a deployed track plausible is not there, and P67, P88 and P89 inherit it |
 
 > The most valuable thing the check produced is not in this repository. Reading PII-19 against
 > ADR-033 meant reading how the present stator reaches its magnets, through the drive tube,
@@ -202,8 +206,8 @@ One can, in a restricted form. The rest cannot, and three are stronger for havin
 
 | | Verdict |
 |---|---|
-| PII-8 | The only live route back. Two of its three stated blockers no longer exist, [ADR-032](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/adr/032-gen6-stage-integrated-gas-store.md) deleted the airgap, and the bank its 294 kJ was measured against. What remains is one standards question it already cites against itself, the CubeSat quasi-static case at about 14 g, where every table in the file is computed at 25, and one number nobody in this programme has computed: the thermodynamic velocity ceiling of a gas expansion. That single figure decides the entry |
-| PII-19 | Its idea has a route back; the entry does not. A passive secondary is aimed at Gen6's trim stage, not its drive. A30's own 0.0253 edge factor may kill it, 24 mm pole pitch against a 15.805 mm bore |
+| PII-8 | The only live route back. Two of its three stated blockers no longer exist, [ADR-032](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/adr/032-legacy_study-stage-integrated-gas-store.md) deleted the airgap, and the bank its 294 kJ was measured against. What remains is one standards question it already cites against itself, the CubeSat quasi-static case at about 14 g, where every table in the file is computed at 25, and one number nobody in this programme has computed: the thermodynamic velocity ceiling of a gas expansion. That single figure decides the entry |
+| PII-19 | Its idea has a route back; the entry does not. A passive secondary is aimed at historical study's trim stage, not its drive. A30's own 0.0253 edge factor may kill it, 24 mm pole pitch against a 15.805 mm bore |
 | PII-21 | Reopens on a catalogue lookup, not a study. A59 left the tube choice on two numbers, density and service temperature. If any alloy class clears T_sat(p₀) at aluminium's density, every steam number here comes back unchanged |
 | PII-11, PII-14, PII-9, and the nine ADR-032 deletions | No. Motor-dependent, cable-dependent, or a different programme. *PII-14's flywheel is now formally closed rather than left ajar, and PII-11's straightness argument transfers with its sign reversed* |
 

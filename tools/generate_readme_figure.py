@@ -49,7 +49,7 @@ def render() -> str:
         txt(104, 424, "ARCHITECTURE MOVED", 15, AMBER, 700),
         txt(104, 470, "Gen5", 21, INK, 700),
         txt(184, 470, "self-contained motor", 18, MUTED),
-        txt(104, 516, "Gen6", 21, INK, 700),
+        txt(104, 516, "LegacyStudy", 21, INK, 700),
         txt(184, 516, "stage-integrated gas", 18, MUTED),
         txt(104, 590, "THE RULE", 15, RED, 700),
         txt(104, 634, "Every entry states why", 23, INK, 650),
@@ -80,7 +80,7 @@ def reopening_ledger() -> str:
         ("PII-8", "LIVE QUESTION", "qualification ceiling + gas velocity ceiling", GREEN),
         ("PII-19", "IDEA ONLY", "passive trim interface; original entry stays shut", AMBER),
         ("PII-21", "CATALOGUE GATE", "reopens only if a light high-temperature alloy exists", AMBER),
-        ("PII-11", "CLOSED", "Gen6 reverses the straightness argument", RED),
+        ("PII-11", "CLOSED", "LegacyStudy reverses the straightness argument", RED),
         ("PII-14", "CLOSED", "inertia and pulse-store comparison settled", RED),
         ("PII-9", "DIFFERENT PROGRAMME", "no host; lunar mass driver is not VOLLEY", VIOLET),
     ]
