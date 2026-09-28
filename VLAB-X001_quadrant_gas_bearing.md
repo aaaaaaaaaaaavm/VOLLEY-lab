@@ -5,7 +5,7 @@
 ## Why I opened it
 
 BOLLEY A11 treats clearance leakage as a gas cost and leaves friction, contact, rarefied flow and
-contamination open in P44. VOLLEY's eight-metre Gen6 bore has the complementary defect: contact-law
+contamination open in P44. VOLLEY's eight-metre historical study bore has the complementary defect: contact-law
 uncertainty dominates the guided-exit result, while tube bow and support placement define the
 centreline.
 

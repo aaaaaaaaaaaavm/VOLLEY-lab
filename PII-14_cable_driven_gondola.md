@@ -91,7 +91,7 @@ construction.
 
 > CLOSED 2026-08-20. This section is settled and the answer is no.
 > The flywheel was split out here as *"a Phase I candidate against P26 in its own right"*. That
-> question is now Gen6's pulse store, and [A64](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/validation/A64_pulse_store_technology.md)
+> question is now historical study's pulse store, and [A64](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/validation/A64_pulse_store_technology.md)
 > answered it at ~70 g on published pulsed-power capacitor data, at 400 kW/kg. *A rotating
 > machine with bearings, containment and the 7.15 N·m·s this section itself computes does not
 > beat seventy grams*, and that momentum is a disturbance in a machine whose shot already dumps

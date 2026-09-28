@@ -20,6 +20,7 @@ duty.
 | `VLAB-B003` | A11 closes first-order leakage use but leaves P48 source dynamics and distributed pressure unresolved | A11 payload cases, clearance/temperature grid and gas-use comparison boundary | Valve coefficients, pressure uniformity, accumulator mass or control bandwidth | BOLLEY only |
 | `VLAB-X001` | BOLLEY P44 leakage/contact and VOLLEY P108 guided contact/tip-off | Four independent force channels and deliberately metered leakage | A seal coefficient, lateral stiffness or tip-off result | Either, through separate target-specific gates |
 | `VLAB-X002` | VOLLEY may bring magnets back for muzzle trim; BOLLEY has a passing wide passive secondary | Fluxrelay material topology and deployer-owned twin-fin symmetry | BOLLEY's 1.2231 m drive result or its spacecraft interface | VOLLEY, if its own short-stage bands pass |
+| `VLAB-X003` | The former independent cell-bank selection missed VOLLEY's shared sequential loading objective | Fault isolation and motor-charged cell hypotheses, with dated failed mission screens | A selected next-generation architecture, full-manifest benefit, validated speed range or payload qualification | VOLLEY only after matched installed-system and hardware evidence |
 | `PII-7` | A shot-time pulse remains a controlling BOLLEY defect | Datasheet-backed ESR/temperature/ageing method | Gen5's obsolete bank size | BOLLEY Gen4 electrical closure |
 | `PII-6` | Both programmes sell programmable release but publish mostly scalar orbital outcomes | Reachable-domain method | A stale operating point | Orbital deployment trade study, then both flagships |
 | `PII-18` | Universal payload compatibility may still require a launcher-owned mover | Wide passive shuttle and twin-fin force symmetry | Gen5's brake, return and old mass ledger | VOLLEY universal mode and BOLLEY control case |
@@ -39,7 +40,7 @@ An entry may leave the lab only when all five statements are true:
 
 - The 0.0253 CDS-rail edge factor is a rejection, not a low-confidence estimate to retry.
 - The 66.7:1 Fluxfoil winding-window failure is not repaired by drawing the same coil more neatly.
-- Gen5 sled optimisations do not return while Gen6 has no sled.
+- Gen5 sled optimisations do not return while historical study has no sled.
 - A provider-dependent stage credit does not become hardware mass saved until a named host accepts
   the shared structure.
 - “No restraints” does not relax conservation, structural load paths, contamination control,

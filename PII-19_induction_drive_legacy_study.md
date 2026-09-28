@@ -1,4 +1,4 @@
-# PII-19: the induction-drive Gen6, and the day it was the target
+# PII-19: the induction-drive historical study, and the day it was the target
 
 Adopted 2026-08-13 by ADR-029. Superseded 2026-08-14 by ADR-032. Nothing in it was refuted.
 
@@ -13,23 +13,24 @@ permanent-magnet sled. No magnets anywhere on the moving part. Arrest of 82 J in
 The satellite untouched.
 
 It was assembled from the vault rather than invented: PII-18's plate-as-shuttle, PII-1's
-momentum-conserving release, and the observation that a light mover makes the 25 g qualification
-headroom affordable. It reached 850 mm of stroke at 16.1 g against Gen5's 1300 mm at 10.1 g.
+momentum-conserving release, and the observation that a light mover can fit under the project's
+chosen 25 g study ceiling. It reached 850 mm of stroke at a calculated 16.1 g against Gen5's
+modelled 1300 mm at 10.1 g. Neither point qualifies a satellite.
 
 ## The evidence it carries, which stands
 
-Nine measured bands, declared before their scripts as always:
+Nine calculated bands, declared before their scripts:
 
 | | |
 |---|---|
-| A30 bands 4-5 | The rail-drive variant, and the measurement that killed it |
+| A30 bands 4-5 | The rail-drive variant, and the calculation that rejected it |
 | A31 bands 1-4 | Normal force on the plate, against the magnetic-pressure ceiling |
 | A32 bands 1-2 | The entry transient, and the segment-crossing ripple |
 
-A30 is the one worth keeping. The rail drive was sized on a transverse edge factor of 0.55
-and measured at 0.0253, a factor of 22. The Russell, Norsworthy factor collapses as
+A30 is the one worth keeping. The rail drive was sized on an assumed transverse edge factor of 0.55
+and calculated at 0.0253, a factor of 22. The Russell, Norsworthy factor collapses as
 (πc/τ)²/3 for a secondary narrower than the pole pitch, and a CubeSat's corner rails are very
-narrow indeed. That is a measurement, not an opinion, and it is why PII-16 is struck through.
+narrow indeed. That is a model result, not a physical measurement, and it is why PII-16 is struck through.
 
 A32 band 4 is the one that was still open. Thrust ripple at a segment boundary is 30.1 %
 peak-to-peak against a 20 % band, and it is not the joint gap, closing the gap to zero leaves

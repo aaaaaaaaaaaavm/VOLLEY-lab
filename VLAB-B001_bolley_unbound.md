@@ -53,7 +53,7 @@ The first executable screen must:
    replaces them;
 5. compute axial velocity, lateral velocity, tip-off and host impulse together;
 6. count every shared element whose failure forfeits the remaining manifest;
-7. compare against current VOLLEY Gen6 and BOLLEY Fluxpiston on identical mission and host
+7. compare against current VOLLEY historical study and BOLLEY Fluxpiston on identical mission and host
    boundaries;
 8. stop if the cooperative bus adds functions but deletes no controlling requirement.
 
