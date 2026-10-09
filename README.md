@@ -16,6 +16,10 @@ The current Gen5 evaluation also found a **failed side-fed packaging fit**: a 20
 
 An [unselected R1 geometry screen](VLAB-X004_feeder_candidate_r1.md) now widens the enclosure to 570 mm and clears twelve scripted 3U transfer routes. It leaves actuation, restraint, tolerances, installed mass and host fit open. A separate finite-stator force screen also challenges Gen5's historical 16.029 m/s model point. The new [segmented-stator hypothesis](VLAB-X005_segmented_stator_hypothesis.md) records why reducing energized copper may matter, along with the physical winding and switch gates needed before promotion.
 
+![Unselected R1 feeder candidate, STEP-derived Blender view with enclosure hidden](figures/r1_candidate_step.jpg)
+
+*Geometry illustration imported from the R1 FreeCAD/STEP study: widened enclosure hidden to expose the cassette and track arrangement. This branch has no lift actuator, retention design, tolerance closure or revised installed mass. The image is not a fabricated article or a promoted Gen5 revision. [Image provenance](figures/r1_candidate_step.provenance.json) · [R1 disposition](VLAB-X004_feeder_candidate_r1.md).*
+
 ## How to read an entry
 
 Each entry has its own assumptions, outcome and reopening condition. Its result belongs to that specific geometry and case. A number from a related study does not validate a VOLLEY payload interface, a Gen6 mechanism, or a flight product. The [transfer ledger](TRANSFER_LEDGER.md) states what may be reused and what must be recalculated at the destination.

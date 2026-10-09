@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 import importlib.util
+import hashlib
+import json
 import re
 from pathlib import Path
 from urllib.parse import unquote
@@ -19,6 +21,8 @@ REQUIRED = (
     "VLAB-X004_feeder_candidate_r1.md",
     "VLAB-X005_segmented_stator_hypothesis.md",
     "figures/gen5_finite_coupled_shot.png",
+    "figures/r1_candidate_step.jpg",
+    "figures/r1_candidate_step.provenance.json",
     "experiments/VLAB-X001/RUN_SHEET.md",
     "experiments/VLAB-X001/parameters.json",
     "figures/vault-map.svg",
@@ -67,6 +71,10 @@ def check_figures() -> None:
     stale = [path for path, body in expected.items() if (ROOT / path).read_text(encoding="utf-8") != body]
     if stale:
         fail("stale generated figures: " + ", ".join(stale))
+    provenance = json.loads((ROOT / "figures/r1_candidate_step.provenance.json").read_text())
+    image = ROOT / provenance["image"]
+    if hashlib.sha256(image.read_bytes()).hexdigest() != provenance["image_sha256"]:
+        fail("R1 STEP illustration differs from its source record")
 
 
 def check_entries() -> None:

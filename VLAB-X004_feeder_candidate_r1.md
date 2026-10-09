@@ -16,7 +16,9 @@ The geometry run uses exact STEP-solid intersections at route poses and conserva
 
 ![R1 parameter-derived feeder section](figures/gen5_feeder_candidate_r1.png)
 
-*Parameter-derived section, not an interactive FreeCAD screenshot or built mechanism.*
+![R1 candidate rendered from STEP solids in Blender, with the enclosure hidden](figures/r1_candidate_step.jpg)
+
+*First image: parameter-derived section. Second image: STEP-derived Blender view from the separate 21-instance FreeCAD candidate; the enclosure is hidden. Neither is an interactive FreeCAD screenshot or built mechanism. The visible image shows an arrangement, not a functioning lift or launch restraint. [Image source hashes](figures/r1_candidate_step.provenance.json).*
 
 ## Reopening gate
 
