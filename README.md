@@ -10,6 +10,8 @@ VOLLEY-lab preserves the alternatives that were tested, screened out or held beh
 
 > **Programme position, October 2026:** VOLLEY **Gen5** is the fixed computational baseline presented in the thesis and paper. The alternative gas guide and independent spring-cell bank are historical, unselected studies. **Gen6** is future scaling research toward a 1 km/s-class goal, with no selected architecture or validated speed envelope. Nothing here has been built, fired, measured, qualified or flown.
 
+[Audited market and spacecraft-fit research](MARKET_AND_CUSTOMER_FIT.md) frames the missions these branches would have to serve. The suggested 5–50 m/s region is a customer-discovery hypothesis; the 1 km/s upper goal is a different research regime.
+
 ## How to read an entry
 
 Each entry has its own assumptions, outcome and reopening condition. Its result belongs to that specific geometry and case. A number from a related study does not validate a VOLLEY payload interface, a Gen6 mechanism, or a flight product. The [transfer ledger](TRANSFER_LEDGER.md) states what may be reused and what must be recalculated at the destination.
