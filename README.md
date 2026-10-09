@@ -12,6 +12,8 @@ VOLLEY-lab preserves the alternatives that were tested, screened out or held beh
 
 [Audited market and spacecraft-fit research](MARKET_AND_CUSTOMER_FIT.md) frames the missions these branches would have to serve. The suggested 5–50 m/s region is a customer-discovery hypothesis; the 1 km/s upper goal is a different research regime.
 
+The current Gen5 evaluation also found a **failed side-fed packaging fit**: a 205 mm track and two 166 mm cassettes require 537 mm inside a 526 mm enclosure. The native FreeCAD review assembly and exact-solid check are in the Gen5 engineering record. A feeder or enclosure change belongs to a new controlled configuration, with the mass and mission analyses rerun; no lab branch is promoted by that finding alone.
+
 ## How to read an entry
 
 Each entry has its own assumptions, outcome and reopening condition. Its result belongs to that specific geometry and case. A number from a related study does not validate a VOLLEY payload interface, a Gen6 mechanism, or a flight product. The [transfer ledger](TRANSFER_LEDGER.md) states what may be reused and what must be recalculated at the destination.
