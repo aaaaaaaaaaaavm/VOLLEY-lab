@@ -1,4 +1,4 @@
-# VLAB-X004 — widened-enclosure feeder route
+# VLAB-X004: Widened-enclosure feeder route
 
 **Disposition: unselected geometry candidate.** This study asks whether a simple side-transfer plus central lift path can remove the evaluated Gen5 cassette/track interference. It does not select a production feeder or change the evaluated Gen5 model.
 

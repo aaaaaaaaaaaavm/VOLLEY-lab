@@ -16,6 +16,7 @@ REQUIRED = (
     "VLAB-B001_bolley_unbound.md",
     "VLAB-X001_quadrant_gas_bearing.md",
     "VLAB-X002_passive_trim_secondary.md",
+    "VLAB-X004_feeder_candidate_r1.md",
     "experiments/VLAB-X001/RUN_SHEET.md",
     "experiments/VLAB-X001/parameters.json",
     "figures/vault-map.svg",
@@ -29,6 +30,7 @@ NEW_ENTRY_FILES = {
     "VLAB-X001": "VLAB-X001_quadrant_gas_bearing.md",
     "VLAB-X002": "VLAB-X002_passive_trim_secondary.md",
     "VLAB-X003": "VLAB-X003_independent_cell_bank.md",
+    "VLAB-X004": "VLAB-X004_feeder_candidate_r1.md",
 }
 
 
