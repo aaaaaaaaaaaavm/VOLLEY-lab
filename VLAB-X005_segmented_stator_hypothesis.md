@@ -2,6 +2,8 @@
 
 **Disposition: unselected electrical architecture hypothesis.** The Gen5 finite-force review changed the motor question. A finite 3-D analytic stator integral gives 1,041.7 J ideal work, while a separate 2-D finite-element field solve gives 1,081.6 J on its finest mesh. Both show the force declining near the end of the drawn stator. The 2-D solve omits magnet-depth end effects; neither result is measured thrust.
 
+A subsequent independent numerical surface-charge integration over the full magnet depth and 162 stator belts reproduces **1,041.7 J ideal work** under the same geometry, remanence and ideal-phase assumptions. Illustrative gap cases give **906.7 J at 14 mm** and **789.9 J at 16 mm**, versus the 12 mm nominal face gap. This exposes a clearance-versus-force trade for any segmented winding. The cases are not measured tolerances; the local architecture question remains a selected coil, switch and installed-mass design with actual clearance control.
+
 The conditional bank/trajectory model retained a 96 V, 6 F, 12 mΩ source, 95% converter, 200 W auxiliary load, ideal phase and a prescribed 126 kA/m sheet current. It compared two *assumed copper lengths*, not two designed winding and switch sets:
 
 | Assumed energized copper | Gross capacitor draw | Copper heat | Computed ideal-phase exit speed |
