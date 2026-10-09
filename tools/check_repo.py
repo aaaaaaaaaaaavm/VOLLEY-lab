@@ -17,6 +17,8 @@ REQUIRED = (
     "VLAB-X001_quadrant_gas_bearing.md",
     "VLAB-X002_passive_trim_secondary.md",
     "VLAB-X004_feeder_candidate_r1.md",
+    "VLAB-X005_segmented_stator_hypothesis.md",
+    "figures/gen5_finite_coupled_shot.png",
     "experiments/VLAB-X001/RUN_SHEET.md",
     "experiments/VLAB-X001/parameters.json",
     "figures/vault-map.svg",
@@ -31,6 +33,7 @@ NEW_ENTRY_FILES = {
     "VLAB-X002": "VLAB-X002_passive_trim_secondary.md",
     "VLAB-X003": "VLAB-X003_independent_cell_bank.md",
     "VLAB-X004": "VLAB-X004_feeder_candidate_r1.md",
+    "VLAB-X005": "VLAB-X005_segmented_stator_hypothesis.md",
 }
 
 

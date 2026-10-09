@@ -14,7 +14,7 @@ VOLLEY-lab preserves the alternatives that were tested, screened out or held beh
 
 The current Gen5 evaluation also found a **failed side-fed packaging fit**: a 205 mm track and two 166 mm cassettes require 537 mm inside a 526 mm enclosure. The native FreeCAD review assembly and exact-solid check are in the Gen5 engineering record. A feeder or enclosure change belongs to a new controlled configuration, with the mass and mission analyses rerun; no lab branch is promoted by that finding alone.
 
-An [unselected R1 geometry screen](VLAB-X004_feeder_candidate_r1.md) now widens the enclosure to 570 mm and clears twelve scripted 3U transfer routes. It leaves actuation, restraint, tolerances, installed mass and host fit open. A separate finite-stator force screen also challenges Gen5's historical 16.029 m/s model point; the result is documented in the engineering and academic records before any architecture promotion.
+An [unselected R1 geometry screen](VLAB-X004_feeder_candidate_r1.md) now widens the enclosure to 570 mm and clears twelve scripted 3U transfer routes. It leaves actuation, restraint, tolerances, installed mass and host fit open. A separate finite-stator force screen also challenges Gen5's historical 16.029 m/s model point. The new [segmented-stator hypothesis](VLAB-X005_segmented_stator_hypothesis.md) records why reducing energized copper may matter, along with the physical winding and switch gates needed before promotion.
 
 ## How to read an entry
 
@@ -29,6 +29,7 @@ Each entry has its own assumptions, outcome and reopening condition. Its result 
 | [PII-21 water fluids](PII-21_water_working_fluids.md) | Could water reduce gas-store mass in the historical pneumatic guide? | Historical fluid trade, with a steel-tube penalty that defeats the evaluated saving. |
 | [VLAB-X003 independent cells](VLAB-X003_independent_cell_bank.md) | Could redundant motor-charged spring cells isolate jams? | Withdrawn from the shared sequential-path objective; twelve-payload mission screens did not close. |
 | [VLAB-X004 feeder candidate R1](VLAB-X004_feeder_candidate_r1.md) | Can a wider enclosure provide a collision-free geometric 3U transfer path? | Twelve envelope routes clear in a scripted static/motion screen; real feeder and changed budgets open. |
+| [VLAB-X005 segmented stator](VLAB-X005_segmented_stator_hypothesis.md) | Would local coil energization reduce copper loss under a finite-force shot? | Conditional model lowers copper heat; physical winding, switching and installed-system checks are open. |
 
 Those are study findings, not proof that no different design could work. The full [branch register](BOLLEY_BRANCH_REGISTER.md) and [notes](notes/README.md) retain further ideas and history.
 
