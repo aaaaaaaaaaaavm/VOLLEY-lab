@@ -8,7 +8,7 @@ VOLLEY-lab preserves the alternatives that were tested, screened out or held beh
 
 *Locally generated disposition map. Colour denotes research disposition, not test maturity. [Generate the map](tools/generate_readme_figure.py) · [Inspect the transfer ledger](TRANSFER_LEDGER.md).*
 
-> **Programme position, October 2026:** VOLLEY **Gen5** is the fixed computational baseline presented in the thesis and paper. The alternative gas guide and independent spring-cell bank are historical, unselected studies. **Gen6** is future scaling research toward a 1 km/s-class goal, with no selected architecture or validated speed envelope. Nothing here has been built, fired, measured, qualified or flown.
+> **Programme position, October 2026:** VOLLEY **Gen5** is the controlled computational evaluation snapshot presented in the thesis and paper. It fails its evaluated 3U mass and reference-layout screens; its final freeze remains open. The alternative gas guide and independent spring-cell bank are historical, unselected studies. **Gen6** is a future architecture trade toward a 1 km/s-class goal, with no selected architecture or validated speed envelope. Nothing here has been built, fired, measured, qualified or flown.
 
 [Audited market and spacecraft-fit research](MARKET_AND_CUSTOMER_FIT.md) frames the missions these branches would have to serve. The suggested 5–50 m/s region is a customer-discovery hypothesis; the 1 km/s upper goal is a different research regime.
 
