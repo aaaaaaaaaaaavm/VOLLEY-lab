@@ -78,3 +78,11 @@ It is here because two things in it outlive it: A30's edge-factor measurement, w
 future proposal to use a CubeSat's own rails as a secondary, and A32 band 4's segment ripple, which
 applies to any segmented long stator with a short secondary and will be rediscovered by anyone
 who proposes one.
+
+## 10 October 2026: a new whole-system bound, not a new launcher
+
+The Gen5 [P123 one-event mass screen](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/validation/P123_gen5_one_event_mass_screen.md) and [necessary bound](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/analysis/results/gen5_architecture_bounds.json) now quantify why polishing the old shuttle is insufficient. The spring reference's device plus resized one-event fuel is **76.659 kg**. Even giving an alternative *zero* host fuel burn and retaining only the common 2 kg reserve, its device must be **at most 74.659 kg** for parity. Gen5's modeled device is 126.562 kg, at least **51.903 kg** above that generous limit. At P118's ideal speed the device parity limit is 73.932 kg.
+
+PII-19 had already made the mover light; the remaining deficit therefore points to the **entire** installed system: containment, feed, primary, source, inverter, thermal control and host mounting. The [H1 reassessment](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/GEN5_H1_INTEGRATED_DEPLOYER_HYPOTHESIS.md) asks whether genuinely shared structure and a selected drive can change that result. It does not erase this entry's historical stop, transfer A30/A31 performance to a new geometry, or remove A32's 30.1% segment-handover ripple failure. If mass credit depends on a host structure, the host reinforcement belongs in the same ledger.
+
+This is a **system-level research question**, not an invention claim for a passive shuttle. No H1 promotion is justified until the mass, geometry, circuit, contact, brake and full mission all close on one controlled revision.

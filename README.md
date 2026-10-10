@@ -16,6 +16,8 @@ The current Gen5 evaluation also found a **failed side-fed packaging fit**: a 20
 
 An [unselected R1 geometry screen](VLAB-X004_feeder_candidate_r1.md) now widens the enclosure to 570 mm and clears twelve scripted 3U transfer routes. It leaves actuation, restraint, tolerances, installed mass and host fit open. A separate finite-stator force screen also challenges Gen5's historical 16.029 m/s model point. The new [segmented-stator hypothesis](VLAB-X005_segmented_stator_hypothesis.md) records why reducing energized copper may matter, along with the physical winding and switch gates needed before promotion.
 
+The [PII-19 passive-shuttle record](PII-19_induction_drive_legacy_study.md) now includes the Gen5 one-event **74.659 kg absolute device parity bound**. A passive plate shuttle was already studied here; its earlier mass and pulse-power objections still stand. The [H1 whole-system reassessment](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/GEN5_H1_INTEGRATED_DEPLOYER_HYPOTHESIS.md) is an unselected question about structure, feed, drive and mission together, not a newly invented launcher or a promoted Gen5 revision.
+
 ![Unselected R1 feeder candidate, STEP-derived Blender view with enclosure hidden](figures/r1_candidate_step.jpg)
 
 *Geometry illustration imported from the R1 FreeCAD/STEP study: widened enclosure hidden to expose the cassette and track arrangement. This branch has no lift actuator, retention design, tolerance closure or revised installed mass. The image is not a fabricated article or a promoted Gen5 revision. [Image provenance](figures/r1_candidate_step.provenance.json) · [R1 disposition](VLAB-X004_feeder_candidate_r1.md).*
