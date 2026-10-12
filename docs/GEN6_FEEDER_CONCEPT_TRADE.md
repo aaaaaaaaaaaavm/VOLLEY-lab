@@ -2,7 +2,7 @@
 
 **12 October 2026 — ideation record.** The service study uses two passive 1U and two passive 3U CubeSats. The existing Gen6 FreeCAD/STEP first article contains only one restrained 3U dummy; it has no feeder. Gen5's original side cassettes overlap its track and are 11 mm too wide for their reference enclosure. The wider Gen5 R1 revision clears scripted paths, but has no actuator, positive launch restraint, tolerance closure, or source-rated system mass. These are separate generations and geometry revisions; neither is a working magazine.
 
-**User-selected packaging focus:** separate, fixed cassettes beside the launch rail. This chooses the first envelope to study, not the transfer actuator or a final G1 architecture. The number of cells per side, cassette orientation and host envelope remain design variables; the Gen5 11 mm clash must not be inherited.
+**Reference packaging focus:** separate, fixed cassettes beside the launch rail. This chooses the first envelope to study, not the transfer actuator or a final G1 architecture. The number of cells per side, cassette orientation and host envelope remain design variables; the Gen5 11 mm clash must not be inherited.
 
 ## Split the task before choosing a mechanism
 
