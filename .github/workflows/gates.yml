@@ -12,6 +12,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - name: Prepublication file gate
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: |
+          if [ -z "$BASE_SHA" ] || [ "$BASE_SHA" = 0000000000000000000000000000000000000000 ]; then
+            python3 tools/prepublish_gate.py --all
+          else
+            git fetch -q origin "$BASE_SHA"
+            python3 tools/prepublish_gate.py --base "$BASE_SHA"
+          fi
       - name: Gen6 mixed-size full-state screen
         run: python3 analysis/gen6_mixed_mission.py --check
       - name: Gen6 matched four-release campaign
