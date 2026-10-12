@@ -4,6 +4,8 @@
 
 VOLLEY-lab preserves the alternatives that were tested, screened out or held behind a new evidence gate. A useful research programme needs to show **what stopped**, **which assumption controlled the answer**, and **what would have to change to reopen it**.
 
+The [Go 3 Gen6 research handoff](docs/GEN6_GO3_RESEARCH_HANDOFF.md) records why both first-article candidates remain live hypotheses and what calculation or measurement would reject them. It includes the matched four-release result, CAD clearance failure and necessary energy bounds locally.
+
 ![Map of VOLLEY-lab branches and stopping reasons](figures/vault-map.svg)
 
 *Locally generated disposition map. Colour denotes research disposition, not test maturity. [Generate the map](tools/generate_readme_figure.py) · [Inspect the transfer ledger](TRANSFER_LEDGER.md).*
