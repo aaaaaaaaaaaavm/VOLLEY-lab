@@ -2,6 +2,9 @@
 
 **Decision record, 10 October 2026.** Gen5 is the evaluated computational baseline, including failed fit, mass and mission screens. Gen6 is the proposed **first instrumented prototype programme**, conditional on a selected mission and architecture. Gen7–Gen9 below are development gates, not completed designs, schedules, speed promises or flight bookings. A product must sell a delivered spacecraft state with an accepted interface and operational risk, not merely an impressive exit velocity.
 
+Go 2 now supplies [two FreeCAD/STEP first-article envelopes and a G1 comparison](GEN6_GO2_ARCHITECTURE_SCREEN.md) plus [P131 necessary mass, load and tolerance bounds](../validation/P131_gen6_go2_article_bounds.md). Neither candidate has a complete drive, source, brake, restraint or installed BOM, so G1 remains **open**.
+
+
 ## The service to prove
 
 For each satellite, specify a target position and velocity (or agreed orbital elements), covariance/tolerance, reference epoch, delivery deadline, allowed pointing and load, collision-avoidance volume, post-release disposal duty, and acceptance authority. The host must specify starting state, thrust/restart/attitude resources, power, mass/volume allocation and provider deployment rules. The buyer, payer and current delivery alternative must be named. A different target epoch or missing installed hardware makes a comparison unfair.
