@@ -4,7 +4,7 @@
 
 VOLLEY-lab preserves the alternatives that were tested, screened out or held behind a new evidence gate. A useful research programme needs to show **what stopped**, **which assumption controlled the answer**, and **what would have to change to reopen it**.
 
-The [Go 3 Gen6 research handoff](docs/GEN6_GO3_RESEARCH_HANDOFF.md) records why both first-article candidates remain live hypotheses and what calculation or measurement would reject them. It includes the matched four-release result, CAD clearance failure and necessary energy bounds locally. The [feeder concept trade](docs/GEN6_FEEDER_CONCEPT_TRADE.md) starts with the user-selected fixed side cassettes and compares simple transfer mechanisms without selecting one for construction.
+The [Go 3 Gen6 research handoff](docs/GEN6_GO3_RESEARCH_HANDOFF.md) records why both first-article candidates remain live hypotheses and what calculation or measurement would reject them. It includes the matched four-release result, CAD clearance failure and necessary energy bounds locally. The [feeder concept trade](docs/GEN6_FEEDER_CONCEPT_TRADE.md) starts with the reference fixed side cassettes and compares simple transfer mechanisms without selecting one for construction.
 
 ![Map of VOLLEY-lab branches and stopping reasons](figures/vault-map.svg)
 
