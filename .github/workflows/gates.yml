@@ -32,5 +32,9 @@ jobs:
         run: python3 analysis/gen6_go2_power_instrument_screen.py --check
       - name: Gen6 G0 surrogate requirements
         run: python3 analysis/gen6_g0_reference.py --check
+      - name: Feeder load sensitivity and regressions
+        run: |
+          python3 analysis/gen6_feeder_load_screen.py --check
+          python3 -m unittest discover -s tests -v
       - name: Verify vault record
         run: python tools/check_repo.py

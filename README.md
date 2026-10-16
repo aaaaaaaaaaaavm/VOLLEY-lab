@@ -6,6 +6,11 @@ VOLLEY-lab preserves the alternatives that were tested, screened out or held beh
 
 The [Go 3 Gen6 research handoff](docs/GEN6_GO3_RESEARCH_HANDOFF.md) records why both first-article candidates remain live hypotheses and what calculation or measurement would reject them. It includes the matched four-release result, CAD clearance failure and necessary energy bounds locally. The [feeder concept trade](docs/GEN6_FEEDER_CONCEPT_TRADE.md) starts with the reference fixed side cassettes and compares simple transfer mechanisms without selecting one for construction.
 
+The [200 mm feeder load screen](docs/GEN6_FEEDER_LOAD_SCREEN.md) compares screw torque,
+spring energy and pantograph force across 27 common scenarios. It exposes the near-flat
+scissor force penalty and separates gentle feed loads from launch retention. It supplies
+requirements for the CAD trade; it does not select a feeder or demonstrate safe holding.
+
 ![Map of VOLLEY-lab branches and stopping reasons](figures/vault-map.svg)
 
 *Locally generated disposition map. Colour denotes research disposition, not test maturity. [Generate the map](tools/generate_readme_figure.py) · [Inspect the transfer ledger](TRANSFER_LEDGER.md).*

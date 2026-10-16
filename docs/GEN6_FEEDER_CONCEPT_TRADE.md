@@ -42,3 +42,11 @@ Hold each satellite in its own launch-rated cell, whether the feed drive is acti
 6. **Failure evidence:** a failure mode/effects table, containment argument and repeatability plan. Bench testing, environmental qualification and provider approval are future work; no current CAD view demonstrates P-POD-class reliability.
 
 The next CAD deliverable should be a **one-cell transfer demonstrator** for a passive 3U dummy with positive restraint, handoff and recovery, before a four-cell mixed-size magazine. It can be designed now with FreeCAD and analyzed computationally. A physical article and measured reliability remain unfunded and unperformed.
+
+## Quantitative load evidence — 16 October 2026
+
+The [common-boundary actuator load screen](GEN6_FEEDER_LOAD_SCREEN.md) adds 27
+analytical scenarios for the lead screw, spring follower and three-stage scissor. Its
+force, torque, energy and static-backdrive results are requirements sensitivities.
+They do not supply installed mass, functional geometry, measured friction or reliability;
+existing ordinal scores remain hypotheses and no architecture is selected.

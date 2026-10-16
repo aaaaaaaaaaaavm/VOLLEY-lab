@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560">
+<rect width="1200" height="560" fill="#07111b"/>
+<g font-family="sans-serif" fill="#e8f0f7">
+<text x="45" y="50" font-size="26">Feeder loads: the actuator and the restraint do different jobs</text>
+<text x="45" y="82" font-size="16" fill="#8fa7ba">200 mm transfer · ideal three-stage scissor · declared sensitivity scenarios</text>
+<text x="60" y="130" font-size="18">Scissor input force / output force</text>
+<text x="60" y="184" font-size="16">5°</text>
+<rect x="115" y="165" width="342.90156908284024" height="30" fill="#38d6e8"/>
+<text x="467.9" y="187" font-size="16">34.29×</text>
+<text x="60" y="264" font-size="16">10°</text>
+<rect x="115" y="245" width="170.1384545885313" height="30" fill="#38d6e8"/>
+<text x="295.1" y="267" font-size="16">17.01×</text>
+<text x="60" y="344" font-size="16">20°</text>
+<rect x="115" y="325" width="82.42432258363868" height="30" fill="#38d6e8"/>
+<text x="207.4" y="347" font-size="16">8.24×</text>
+<text x="650" y="130" font-size="18">4 kg payload restraint force [N]</text>
+<text x="650" y="184" font-size="16">5 g</text>
+<rect x="715" y="165" width="62.76255999999999" height="30" fill="#ffb454"/>
+<text x="787.8" y="187" font-size="16">196.1</text>
+<text x="650" y="264" font-size="16">10 g</text>
+<rect x="715" y="245" width="125.52511999999999" height="30" fill="#ffb454"/>
+<text x="850.5" y="267" font-size="16">392.3</text>
+<text x="650" y="344" font-size="16">25 g</text>
+<rect x="715" y="325" width="313.8128" height="30" fill="#ffb454"/>
+<text x="1038.8" y="347" font-size="16">980.7</text>
+<text x="45" y="445" font-size="18">Near-flat scissor geometry raises drive loads; screw friction does not establish safe holding.</text>
+<text x="45" y="480" font-size="18">Feed force, payload restraint and launch acceleration require separate load paths.</text>
+<text x="45" y="525" font-size="16" fill="#8fa7ba">ANALYTICAL REQUIREMENTS SCREEN · NO CAD CLEARANCE, HARDWARE OR RELIABILITY PASS</text></g></svg>

@@ -1,0 +1,2261 @@
+{
+  "case_count": 27,
+  "cases": [
+    {
+      "acceleration_m_s2": 0.2,
+      "duration_s": 2.0,
+      "opposing_force_N": 2.0,
+      "pantograph": [
+        {
+          "base_actuator_stroke_m": 0.051155132531930686,
+          "final_height_m": 0.22044621059635802,
+          "half_link_length_m": 0.03909899289053135,
+          "initial_base_width_m": 0.07790041883654837,
+          "initial_height_m": 0.020446210596357997,
+          "minimum_angle_deg": 5.0,
+          "peak_force_multiplier": 34.290156908284025,
+          "peak_ideal_input_force_N": 77.70149555417161
+        },
+        {
+          "base_actuator_stroke_m": 0.055939975411818665,
+          "final_height_m": 0.2453363193811355,
+          "half_link_length_m": 0.043513576311075955,
+          "initial_base_width_m": 0.08570501462487191,
+          "initial_height_m": 0.0453363193811355,
+          "minimum_angle_deg": 10.0,
+          "peak_force_multiplier": 17.01384545885313,
+          "peak_ideal_input_force_N": 38.55337380976119
+        },
+        {
+          "base_actuator_stroke_m": 0.06666666666666667,
+          "final_height_m": 0.31445069205095594,
+          "half_link_length_m": 0.055771906170049214,
+          "initial_base_width_m": 0.10481689735031864,
+          "initial_height_m": 0.11445069205095589,
+          "minimum_angle_deg": 20.0,
+          "peak_force_multiplier": 8.242432258363868,
+          "peak_ideal_input_force_N": 18.677351497452523
+        }
+      ],
+      "payload_kg": 1.33,
+      "peak_required_output_force_N": 2.266,
+      "peak_velocity_m_s": 0.2,
+      "positive_mechanical_work_lower_bound_J": 0.42660000000000003,
+      "screw": [
+        {
+          "assumed_efficiency": 0.2,
+          "peak_rpm": 6000.0,
+          "torque_N_m": 0.003606451010462349
+        },
+        {
+          "assumed_efficiency": 0.4,
+          "peak_rpm": 6000.0,
+          "torque_N_m": 0.0018032255052311745
+        },
+        {
+          "assumed_efficiency": 0.7,
+          "peak_rpm": 6000.0,
+          "torque_N_m": 0.001030414574417814
+        }
+      ],
+      "spring": [
+        {
+          "initial_force_N": 4.266,
+          "lossless_undamped_payload_speed_bound_m_s": 0.9910881086451115,
+          "minimum_force_floor_N": 2.266,
+          "released_energy_J": 0.6532000000000001,
+          "stiffness_N_m": 10.0
+        },
+        {
+          "initial_force_N": 12.266,
+          "lossless_undamped_payload_speed_bound_m_s": 1.4782635617151418,
+          "minimum_force_floor_N": 2.266,
+          "released_energy_J": 1.4532000000000003,
+          "stiffness_N_m": 50.0
+        },
+        {
+          "initial_force_N": 22.266,
+          "lossless_undamped_payload_speed_bound_m_s": 1.9206828359703165,
+          "minimum_force_floor_N": 2.266,
+          "released_energy_J": 2.4532000000000007,
+          "stiffness_N_m": 100.0
+        }
+      ]
+    },
+    {
+      "acceleration_m_s2": 0.2,
+      "duration_s": 2.0,
+      "opposing_force_N": 10.0,
+      "pantograph": [
+        {
+          "base_actuator_stroke_m": 0.051155132531930686,
+          "final_height_m": 0.22044621059635802,
+          "half_link_length_m": 0.03909899289053135,
+          "initial_base_width_m": 0.07790041883654837,
+          "initial_height_m": 0.020446210596357997,
+          "minimum_angle_deg": 5.0,
+          "peak_force_multiplier": 34.290156908284025,
+          "peak_ideal_input_force_N": 352.02275082044383
+        },
+        {
+          "base_actuator_stroke_m": 0.055939975411818665,
+          "final_height_m": 0.2453363193811355,
+          "half_link_length_m": 0.043513576311075955,
+          "initial_base_width_m": 0.08570501462487191,
+          "initial_height_m": 0.0453363193811355,
+          "minimum_angle_deg": 10.0,
+          "peak_force_multiplier": 17.01384545885313,
+          "peak_ideal_input_force_N": 174.66413748058622
+        },
+        {
+          "base_actuator_stroke_m": 0.06666666666666667,
+          "final_height_m": 0.31445069205095594,
+          "half_link_length_m": 0.055771906170049214,
+          "initial_base_width_m": 0.10481689735031864,
+          "initial_height_m": 0.11445069205095589,
+          "minimum_angle_deg": 20.0,
+          "peak_force_multiplier": 8.242432258363868,
+          "peak_ideal_input_force_N": 84.61680956436346
+        }
+      ],
+      "payload_kg": 1.33,
+      "peak_required_output_force_N": 10.266,
+      "peak_velocity_m_s": 0.2,
+      "positive_mechanical_work_lower_bound_J": 2.0266,
+      "screw": [
+        {
+          "assumed_efficiency": 0.2,
+          "peak_rpm": 6000.0,
+          "torque_N_m": 0.01633884645781398
+        },
+        {
+          "assumed_efficiency": 0.4,
+          "peak_rpm": 6000.0,
+          "torque_N_m": 0.00816942322890699
+        },
+        {
+          "assumed_efficiency": 0.7,
+          "peak_rpm": 6000.0,
+          "torque_N_m": 0.0046682418450897075
+        }
+      ],
+      "spring": [
+        {
+          "initial_force_N": 12.266,
+          "lossless_undamped_payload_speed_bound_m_s": 1.8407255842986834,
+          "minimum_force_floor_N": 10.266,
+          "released_energy_J": 2.2532,
+          "stiffness_N_m": 10.0
+        },
+        {
+          "initial_force_N": 20.266,
+          "lossless_undamped_payload_speed_bound_m_s": 2.1427268130792414,
+          "minimum_force_floor_N": 10.266,
+          "released_energy_J": 3.0532000000000004,
+          "stiffness_N_m": 50.0
+        },
+        {
+          "initial_force_N": 30.266,
+          "lossless_undamped_payload_speed_bound_m_s": 2.468812992914806,
+          "minimum_force_floor_N": 10.266,
+          "released_energy_J": 4.0532,
+          "stiffness_N_m": 100.0
+        }
+      ]
+    },
+    {
+      "acceleration_m_s2": 0.2,
+      "duration_s": 2.0,
+      "opposing_force_N": 25.0,
+      "pantograph": [
+        {
+          "base_actuator_stroke_m": 0.051155132531930686,
+          "final_height_m": 0.22044621059635802,
+          "half_link_length_m": 0.03909899289053135,
+          "initial_base_width_m": 0.07790041883654837,
+          "initial_height_m": 0.020446210596357997,
+          "minimum_angle_deg": 5.0,
+          "peak_force_multiplier": 34.290156908284025,
+          "peak_ideal_input_force_N": 866.3751044447043
+        },
+        {
+          "base_actuator_stroke_m": 0.055939975411818665,
+          "final_height_m": 0.2453363193811355,
+          "half_link_length_m": 0.043513576311075955,
+          "initial_base_width_m": 0.08570501462487191,
+          "initial_height_m": 0.0453363193811355,
+          "minimum_angle_deg": 10.0,
+          "peak_force_multiplier": 17.01384545885313,
+          "peak_ideal_input_force_N": 429.87181936338317
+        },
+        {
+          "base_actuator_stroke_m": 0.06666666666666667,
+          "final_height_m": 0.31445069205095594,
+          "half_link_length_m": 0.055771906170049214,
+          "initial_base_width_m": 0.10481689735031864,
+          "initial_height_m": 0.11445069205095589,
+          "minimum_angle_deg": 20.0,
+          "peak_force_multiplier": 8.242432258363868,
+          "peak_ideal_input_force_N": 208.25329343982148
+        }
+      ],
+      "payload_kg": 1.33,
+      "peak_required_output_force_N": 25.266,
+      "peak_velocity_m_s": 0.2,
+      "positive_mechanical_work_lower_bound_J": 5.0266,
+      "screw": [
+        {
+          "assumed_efficiency": 0.2,
+          "peak_rpm": 6000.0,
+          "torque_N_m": 0.04021208792159828
+        },
+        {
+          "assumed_efficiency": 0.4,
+          "peak_rpm": 6000.0,
+          "torque_N_m": 0.02010604396079914
+        },
+        {
+          "assumed_efficiency": 0.7,
+          "peak_rpm": 6000.0,
+          "torque_N_m": 0.011489167977599508
+        }
+      ],
+      "spring": [
+        {
+          "initial_force_N": 27.266,
+          "lossless_undamped_payload_speed_bound_m_s": 2.810613611327685,
+          "minimum_force_floor_N": 25.266,
+          "released_energy_J": 5.2532000000000005,
+          "stiffness_N_m": 10.0
+        },
+        {
+          "initial_force_N": 35.266,
+          "lossless_undamped_payload_speed_bound_m_s": 3.0170443137245173,
+          "minimum_force_floor_N": 25.266,
+          "released_energy_J": 6.0532,
+          "stiffness_N_m": 50.0
+        },
+        {
+          "initial_force_N": 45.266,
+          "lossless_undamped_payload_speed_bound_m_s": 3.256733914441535,
+          "minimum_force_floor_N": 25.266,
+          "released_energy_J": 7.0532,
+          "stiffness_N_m": 100.0
+        }
+      ]
+    },
+    {
+      "acceleration_m_s2": 0.032,
+      "duration_s": 5.0,
+      "opposing_force_N": 2.0,
+      "pantograph": [
+        {
+          "base_actuator_stroke_m": 0.051155132531930686,
+          "final_height_m": 0.22044621059635802,
+          "half_link_length_m": 0.03909899289053135,
+          "initial_base_width_m": 0.07790041883654837,
+          "initial_height_m": 0.020446210596357997,
+          "minimum_angle_deg": 5.0,
+          "peak_force_multiplier": 34.290156908284025,
+          "peak_ideal_input_force_N": 70.03970289458462
+        },
+        {
+          "base_actuator_stroke_m": 0.055939975411818665,
+          "final_height_m": 0.2453363193811355,
+          "half_link_length_m": 0.043513576311075955,
+          "initial_base_width_m": 0.08570501462487191,
+          "initial_height_m": 0.0453363193811355,
+          "minimum_angle_deg": 10.0,
+          "peak_force_multiplier": 17.01384545885313,
+          "peak_ideal_input_force_N": 34.75180018043505
+        },
+        {
+          "base_actuator_stroke_m": 0.06666666666666667,
+          "final_height_m": 0.31445069205095594,
+          "half_link_length_m": 0.055771906170049214,
+          "initial_base_width_m": 0.10481689735031864,
+          "initial_height_m": 0.11445069205095589,
+          "minimum_angle_deg": 20.0,
+          "peak_force_multiplier": 8.242432258363868,
+          "peak_ideal_input_force_N": 16.8356624336437
+        }
+      ],
+      "payload_kg": 1.33,
+      "peak_required_output_force_N": 2.04256,
+      "peak_velocity_m_s": 0.08,
+      "positive_mechanical_work_lower_bound_J": 0.404256,
+      "screw": [
+        {
+          "assumed_efficiency": 0.2,
+          "peak_rpm": 2400.0,
+          "torque_N_m": 0.0032508352056178176
+        },
+        {
+          "assumed_efficiency": 0.4,
+          "peak_rpm": 2400.0,
+          "torque_N_m": 0.0016254176028089088
+        },
+        {
+          "assumed_efficiency": 0.7,
+          "peak_rpm": 2400.0,
+          "torque_N_m": 0.0009288100587479479
+        }
+      ],
+      "spring": [
+        {
+          "initial_force_N": 4.04256,
+          "lossless_undamped_payload_speed_bound_m_s": 0.956585406065629,
+          "minimum_force_floor_N": 2.04256,
+          "released_energy_J": 0.608512,
+          "stiffness_N_m": 10.0
+        },
+        {
+          "initial_force_N": 12.04256,
+          "lossless_undamped_payload_speed_bound_m_s": 1.4553567115641228,
+          "minimum_force_floor_N": 2.04256,
+          "released_energy_J": 1.4085120000000002,
+          "stiffness_N_m": 50.0
+        },
+        {
+          "initial_force_N": 22.04256,
+          "lossless_undamped_payload_speed_bound_m_s": 1.9031086559602892,
+          "minimum_force_floor_N": 2.04256,
+          "released_energy_J": 2.4085120000000004,
+          "stiffness_N_m": 100.0
+        }
+      ]
+    },
+    {
+      "acceleration_m_s2": 0.032,
+      "duration_s": 5.0,
+      "opposing_force_N": 10.0,
+      "pantograph": [
+        {
+          "base_actuator_stroke_m": 0.051155132531930686,
+          "final_height_m": 0.22044621059635802,
+          "half_link_length_m": 0.03909899289053135,
+          "initial_base_width_m": 0.07790041883654837,
+          "initial_height_m": 0.020446210596357997,
+          "minimum_angle_deg": 5.0,
+          "peak_force_multiplier": 34.290156908284025,
+          "peak_ideal_input_force_N": 344.36095816085685
+        },
+        {
+          "base_actuator_stroke_m": 0.055939975411818665,
+          "final_height_m": 0.2453363193811355,
+          "half_link_length_m": 0.043513576311075955,
+          "initial_base_width_m": 0.08570501462487191,
+          "initial_height_m": 0.0453363193811355,
+          "minimum_angle_deg": 10.0,
+          "peak_force_multiplier": 17.01384545885313,
+          "peak_ideal_input_force_N": 170.86256385126006
+        },
+        {
+          "base_actuator_stroke_m": 0.06666666666666667,
+          "final_height_m": 0.31445069205095594,
+          "half_link_length_m": 0.055771906170049214,
+          "initial_base_width_m": 0.10481689735031864,
+          "initial_height_m": 0.11445069205095589,
+          "minimum_angle_deg": 20.0,
+          "peak_force_multiplier": 8.242432258363868,
+          "peak_ideal_input_force_N": 82.77512050055464
+        }
+      ],
+      "payload_kg": 1.33,
+      "peak_required_output_force_N": 10.04256,
+      "peak_velocity_m_s": 0.08,
+      "positive_mechanical_work_lower_bound_J": 2.004256,
+      "screw": [
+        {
+          "assumed_efficiency": 0.2,
+          "peak_rpm": 2400.0,
+          "torque_N_m": 0.015983230652969447
+        },
+        {
+          "assumed_efficiency": 0.4,
+          "peak_rpm": 2400.0,
+          "torque_N_m": 0.007991615326484723
+        },
+        {
+          "assumed_efficiency": 0.7,
+          "peak_rpm": 2400.0,
+          "torque_N_m": 0.004566637329419841
+        }
+      ],
+      "spring": [
+        {
+          "initial_force_N": 12.04256,
+          "lossless_undamped_payload_speed_bound_m_s": 1.8223804972320488,
+          "minimum_force_floor_N": 10.04256,
+          "released_energy_J": 2.2085120000000003,
+          "stiffness_N_m": 10.0
+        },
+        {
+          "initial_force_N": 20.04256,
+          "lossless_undamped_payload_speed_bound_m_s": 2.126988057204065,
+          "minimum_force_floor_N": 10.04256,
+          "released_energy_J": 3.0085120000000005,
+          "stiffness_N_m": 50.0
+        },
+        {
+          "initial_force_N": 30.04256,
+          "lossless_undamped_payload_speed_bound_m_s": 2.4551654921786765,
+          "minimum_force_floor_N": 10.04256,
+          "released_energy_J": 4.0085120000000005,
+          "stiffness_N_m": 100.0
+        }
+      ]
+    },
+    {
+      "acceleration_m_s2": 0.032,
+      "duration_s": 5.0,
+      "opposing_force_N": 25.0,
+      "pantograph": [
+        {
+          "base_actuator_stroke_m": 0.051155132531930686,
+          "final_height_m": 0.22044621059635802,
+          "half_link_length_m": 0.03909899289053135,
+          "initial_base_width_m": 0.07790041883654837,
+          "initial_height_m": 0.020446210596357997,
+          "minimum_angle_deg": 5.0,
+          "peak_force_multiplier": 34.290156908284025,
+          "peak_ideal_input_force_N": 858.7133117851173
+        },
+        {
+          "base_actuator_stroke_m": 0.055939975411818665,
+          "final_height_m": 0.2453363193811355,
+          "half_link_length_m": 0.043513576311075955,
+          "initial_base_width_m": 0.08570501462487191,
+          "initial_height_m": 0.0453363193811355,
+          "minimum_angle_deg": 10.0,
+          "peak_force_multiplier": 17.01384545885313,
+          "peak_ideal_input_force_N": 426.070245734057
+        },
+        {
+          "base_actuator_stroke_m": 0.06666666666666667,
+          "final_height_m": 0.31445069205095594,
+          "half_link_length_m": 0.055771906170049214,
+          "initial_base_width_m": 0.10481689735031864,
+          "initial_height_m": 0.11445069205095589,
+          "minimum_angle_deg": 20.0,
+          "peak_force_multiplier": 8.242432258363868,
+          "peak_ideal_input_force_N": 206.41160437601263
+        }
+      ],
+      "payload_kg": 1.33,
+      "peak_required_output_force_N": 25.04256,
+      "peak_velocity_m_s": 0.08,
+      "positive_mechanical_work_lower_bound_J": 5.004256,
+      "screw": [
+        {
+          "assumed_efficiency": 0.2,
+          "peak_rpm": 2400.0,
+          "torque_N_m": 0.03985647211675375
+        },
+        {
+          "assumed_efficiency": 0.4,
+          "peak_rpm": 2400.0,
+          "torque_N_m": 0.019928236058376875
+        },
+        {
+          "assumed_efficiency": 0.7,
+          "peak_rpm": 2400.0,
+          "torque_N_m": 0.011387563461929642
+        }
+      ],
+      "spring": [
+        {
+          "initial_force_N": 27.04256,
+          "lossless_undamped_payload_speed_bound_m_s": 2.7986333936727856,
+          "minimum_force_floor_N": 25.04256,
+          "released_energy_J": 5.208512000000001,
+          "stiffness_N_m": 10.0
+        },
+        {
+          "initial_force_N": 35.04256,
+          "lossless_undamped_payload_speed_bound_m_s": 3.0058869557881653,
+          "minimum_force_floor_N": 25.04256,
+          "released_energy_J": 6.0085120000000005,
+          "stiffness_N_m": 50.0
+        },
+        {
+          "initial_force_N": 45.04256,
+          "lossless_undamped_payload_speed_bound_m_s": 3.246400435786332,
+          "minimum_force_floor_N": 25.04256,
+          "released_energy_J": 7.008512000000001,
+          "stiffness_N_m": 100.0
+        }
+      ]
+    },
+    {
+      "acceleration_m_s2": 0.008,
+      "duration_s": 10.0,
+      "opposing_force_N": 2.0,
+      "pantograph": [
+        {
+          "base_actuator_stroke_m": 0.051155132531930686,
+          "final_height_m": 0.22044621059635802,
+          "half_link_length_m": 0.03909899289053135,
+          "initial_base_width_m": 0.07790041883654837,
+          "initial_height_m": 0.020446210596357997,
+          "minimum_angle_deg": 5.0,
+          "peak_force_multiplier": 34.290156908284025,
+          "peak_ideal_input_force_N": 68.94516108607219
+        },
+        {
+          "base_actuator_stroke_m": 0.055939975411818665,
+          "final_height_m": 0.2453363193811355,
+          "half_link_length_m": 0.043513576311075955,
+          "initial_base_width_m": 0.08570501462487191,
+          "initial_height_m": 0.0453363193811355,
+          "minimum_angle_deg": 10.0,
+          "peak_force_multiplier": 17.01384545885313,
+          "peak_ideal_input_force_N": 34.20871823338845
+        },
+        {
+          "base_actuator_stroke_m": 0.06666666666666667,
+          "final_height_m": 0.31445069205095594,
+          "half_link_length_m": 0.055771906170049214,
+          "initial_base_width_m": 0.10481689735031864,
+          "initial_height_m": 0.11445069205095589,
+          "minimum_angle_deg": 20.0,
+          "peak_force_multiplier": 8.242432258363868,
+          "peak_ideal_input_force_N": 16.572563995956724
+        }
+      ],
+      "payload_kg": 1.33,
+      "peak_required_output_force_N": 2.01064,
+      "peak_velocity_m_s": 0.04,
+      "positive_mechanical_work_lower_bound_J": 0.40106400000000003,
+      "screw": [
+        {
+          "assumed_efficiency": 0.2,
+          "peak_rpm": 1200.0,
+          "torque_N_m": 0.003200032947782885
+        },
+        {
+          "assumed_efficiency": 0.4,
+          "peak_rpm": 1200.0,
+          "torque_N_m": 0.0016000164738914425
+        },
+        {
+          "assumed_efficiency": 0.7,
+          "peak_rpm": 1200.0,
+          "torque_N_m": 0.000914295127937967
+        }
+      ],
+      "spring": [
+        {
+          "initial_force_N": 4.01064,
+          "lossless_undamped_payload_speed_bound_m_s": 0.9515543279801446,
+          "minimum_force_floor_N": 2.01064,
+          "released_energy_J": 0.6021280000000001,
+          "stiffness_N_m": 10.0
+        },
+        {
+          "initial_force_N": 12.01064,
+          "lossless_undamped_payload_speed_bound_m_s": 1.4520548054032731,
+          "minimum_force_floor_N": 2.01064,
+          "released_energy_J": 1.4021280000000003,
+          "stiffness_N_m": 50.0
+        },
+        {
+          "initial_force_N": 22.01064,
+          "lossless_undamped_payload_speed_bound_m_s": 1.9005847932652145,
+          "minimum_force_floor_N": 2.01064,
+          "released_energy_J": 2.4021280000000003,
+          "stiffness_N_m": 100.0
+        }
+      ]
+    },
+    {
+      "acceleration_m_s2": 0.008,
+      "duration_s": 10.0,
+      "opposing_force_N": 10.0,
+      "pantograph": [
+        {
+          "base_actuator_stroke_m": 0.051155132531930686,
+          "final_height_m": 0.22044621059635802,
+          "half_link_length_m": 0.03909899289053135,
+          "initial_base_width_m": 0.07790041883654837,
+          "initial_height_m": 0.020446210596357997,
+          "minimum_angle_deg": 5.0,
+          "peak_force_multiplier": 34.290156908284025,
+          "peak_ideal_input_force_N": 343.26641635234444
+        },
+        {
+          "base_actuator_stroke_m": 0.055939975411818665,
+          "final_height_m": 0.2453363193811355,
+          "half_link_length_m": 0.043513576311075955,
+          "initial_base_width_m": 0.08570501462487191,
+          "initial_height_m": 0.0453363193811355,
+          "minimum_angle_deg": 10.0,
+          "peak_force_multiplier": 17.01384545885313,
+          "peak_ideal_input_force_N": 170.3194819042135
+        },
+        {
+          "base_actuator_stroke_m": 0.06666666666666667,
+          "final_height_m": 0.31445069205095594,
+          "half_link_length_m": 0.055771906170049214,
+          "initial_base_width_m": 0.10481689735031864,
+          "initial_height_m": 0.11445069205095589,
+          "minimum_angle_deg": 20.0,
+          "peak_force_multiplier": 8.242432258363868,
+          "peak_ideal_input_force_N": 82.51202206286766
+        }
+      ],
+      "payload_kg": 1.33,
+      "peak_required_output_force_N": 10.01064,
+      "peak_velocity_m_s": 0.04,
+      "positive_mechanical_work_lower_bound_J": 2.001064,
+      "screw": [
+        {
+          "assumed_efficiency": 0.2,
+          "peak_rpm": 1200.0,
+          "torque_N_m": 0.015932428395134514
+        },
+        {
+          "assumed_efficiency": 0.4,
+          "peak_rpm": 1200.0,
+          "torque_N_m": 0.007966214197567257
+        },
+        {
+          "assumed_efficiency": 0.7,
+          "peak_rpm": 1200.0,
+          "torque_N_m": 0.004552122398609861
+        }
+      ],
+      "spring": [
+        {
+          "initial_force_N": 12.01064,
+          "lossless_undamped_payload_speed_bound_m_s": 1.8197446734890392,
+          "minimum_force_floor_N": 10.01064,
+          "released_energy_J": 2.2021280000000005,
+          "stiffness_N_m": 10.0
+        },
+        {
+          "initial_force_N": 20.010640000000002,
+          "lossless_undamped_payload_speed_bound_m_s": 2.1247301465100743,
+          "minimum_force_floor_N": 10.01064,
+          "released_energy_J": 3.002128000000001,
+          "stiffness_N_m": 50.0
+        },
+        {
+          "initial_force_N": 30.010640000000002,
+          "lossless_undamped_payload_speed_bound_m_s": 2.4532096514535735,
+          "minimum_force_floor_N": 10.01064,
+          "released_energy_J": 4.002128000000001,
+          "stiffness_N_m": 100.0
+        }
+      ]
+    },
+    {
+      "acceleration_m_s2": 0.008,
+      "duration_s": 10.0,
+      "opposing_force_N": 25.0,
+      "pantograph": [
+        {
+          "base_actuator_stroke_m": 0.051155132531930686,
+          "final_height_m": 0.22044621059635802,
+          "half_link_length_m": 0.03909899289053135,
+          "initial_base_width_m": 0.07790041883654837,
+          "initial_height_m": 0.020446210596357997,
+          "minimum_angle_deg": 5.0,
+          "peak_force_multiplier": 34.290156908284025,
+          "peak_ideal_input_force_N": 857.6187699766049
+        },
+        {
+          "base_actuator_stroke_m": 0.055939975411818665,
+          "final_height_m": 0.2453363193811355,
+          "half_link_length_m": 0.043513576311075955,
+          "initial_base_width_m": 0.08570501462487191,
+          "initial_height_m": 0.0453363193811355,
+          "minimum_angle_deg": 10.0,
+          "peak_force_multiplier": 17.01384545885313,
+          "peak_ideal_input_force_N": 425.5271637870104
+        },
+        {
+          "base_actuator_stroke_m": 0.06666666666666667,
+          "final_height_m": 0.31445069205095594,
+          "half_link_length_m": 0.055771906170049214,
+          "initial_base_width_m": 0.10481689735031864,
+          "initial_height_m": 0.11445069205095589,
+          "minimum_angle_deg": 20.0,
+          "peak_force_multiplier": 8.242432258363868,
+          "peak_ideal_input_force_N": 206.14850593832568
+        }
+      ],
+      "payload_kg": 1.33,
+      "peak_required_output_force_N": 25.01064,
+      "peak_velocity_m_s": 0.04,
+      "positive_mechanical_work_lower_bound_J": 5.001064,
+      "screw": [
+        {
+          "assumed_efficiency": 0.2,
+          "peak_rpm": 1200.0,
+          "torque_N_m": 0.03980566985891881
+        },
+        {
+          "assumed_efficiency": 0.4,
+          "peak_rpm": 1200.0,
+          "torque_N_m": 0.019902834929459406
+        },
+        {
+          "assumed_efficiency": 0.7,
+          "peak_rpm": 1200.0,
+          "torque_N_m": 0.01137304853111966
+        }
+      ],
+      "spring": [
+        {
+          "initial_force_N": 27.01064,
+          "lossless_undamped_payload_speed_bound_m_s": 2.796917744979364,
+          "minimum_force_floor_N": 25.01064,
+          "released_energy_J": 5.202128,
+          "stiffness_N_m": 10.0
+        },
+        {
+          "initial_force_N": 35.010639999999995,
+          "lossless_undamped_payload_speed_bound_m_s": 3.0042896649586646,
+          "minimum_force_floor_N": 25.01064,
+          "released_energy_J": 6.002128,
+          "stiffness_N_m": 50.0
+        },
+        {
+          "initial_force_N": 45.010639999999995,
+          "lossless_undamped_payload_speed_bound_m_s": 3.244921538261547,
+          "minimum_force_floor_N": 25.01064,
+          "released_energy_J": 7.002128000000001,
+          "stiffness_N_m": 100.0
+        }
+      ]
+    },
+    {
+      "acceleration_m_s2": 0.2,
+      "duration_s": 2.0,
+      "opposing_force_N": 2.0,
+      "pantograph": [
+        {
+          "base_actuator_stroke_m": 0.051155132531930686,
+          "final_height_m": 0.22044621059635802,
+          "half_link_length_m": 0.03909899289053135,
+          "initial_base_width_m": 0.07790041883654837,
+          "initial_height_m": 0.020446210596357997,
+          "minimum_angle_deg": 5.0,
+          "peak_force_multiplier": 34.290156908284025,
+          "peak_ideal_input_force_N": 96.01243934319527
+        },
+        {
+          "base_actuator_stroke_m": 0.055939975411818665,
+          "final_height_m": 0.2453363193811355,
+          "half_link_length_m": 0.043513576311075955,
+          "initial_base_width_m": 0.08570501462487191,
+          "initial_height_m": 0.0453363193811355,
+          "minimum_angle_deg": 10.0,
+          "peak_force_multiplier": 17.01384545885313,
+          "peak_ideal_input_force_N": 47.63876728478875
+        },
+        {
+          "base_actuator_stroke_m": 0.06666666666666667,
+          "final_height_m": 0.31445069205095594,
+          "half_link_length_m": 0.055771906170049214,
+          "initial_base_width_m": 0.10481689735031864,
+          "initial_height_m": 0.11445069205095589,
+          "minimum_angle_deg": 20.0,
+          "peak_force_multiplier": 8.242432258363868,
+          "peak_ideal_input_force_N": 23.078810323418825
+        }
+      ],
+      "payload_kg": 4.0,
+      "peak_required_output_force_N": 2.8,
+      "peak_velocity_m_s": 0.2,
+      "positive_mechanical_work_lower_bound_J": 0.48000000000000004,
+      "screw": [
+        {
+          "assumed_efficiency": 0.2,
+          "peak_rpm": 6000.0,
+          "torque_N_m": 0.004456338406573069
+        },
+        {
+          "assumed_efficiency": 0.4,
+          "peak_rpm": 6000.0,
+          "torque_N_m": 0.0022281692032865346
+        },
+        {
+          "assumed_efficiency": 0.7,
+          "peak_rpm": 6000.0,
+          "torque_N_m": 0.0012732395447351628
+        }
+      ],
+      "spring": [
+        {
+          "initial_force_N": 4.8,
+          "lossless_undamped_payload_speed_bound_m_s": 0.6164414002968976,
+          "minimum_force_floor_N": 2.8,
+          "released_energy_J": 0.76,
+          "stiffness_N_m": 10.0
+        },
+        {
+          "initial_force_N": 12.8,
+          "lossless_undamped_payload_speed_bound_m_s": 0.8831760866327847,
+          "minimum_force_floor_N": 2.8,
+          "released_energy_J": 1.56,
+          "stiffness_N_m": 50.0
+        },
+        {
+          "initial_force_N": 22.8,
+          "lossless_undamped_payload_speed_bound_m_s": 1.1313708498984762,
+          "minimum_force_floor_N": 2.8,
+          "released_energy_J": 2.5600000000000005,
+          "stiffness_N_m": 100.0
+        }
+      ]
+    },
+    {
+      "acceleration_m_s2": 0.2,
+      "duration_s": 2.0,
+      "opposing_force_N": 10.0,
+      "pantograph": [
+        {
+          "base_actuator_stroke_m": 0.051155132531930686,
+          "final_height_m": 0.22044621059635802,
+          "half_link_length_m": 0.03909899289053135,
+          "initial_base_width_m": 0.07790041883654837,
+          "initial_height_m": 0.020446210596357997,
+          "minimum_angle_deg": 5.0,
+          "peak_force_multiplier": 34.290156908284025,
+          "peak_ideal_input_force_N": 370.33369460946756
+        },
+        {
+          "base_actuator_stroke_m": 0.055939975411818665,
+          "final_height_m": 0.2453363193811355,
+          "half_link_length_m": 0.043513576311075955,
+          "initial_base_width_m": 0.08570501462487191,
+          "initial_height_m": 0.0453363193811355,
+          "minimum_angle_deg": 10.0,
+          "peak_force_multiplier": 17.01384545885313,
+          "peak_ideal_input_force_N": 183.7495309556138
+        },
+        {
+          "base_actuator_stroke_m": 0.06666666666666667,
+          "final_height_m": 0.31445069205095594,
+          "half_link_length_m": 0.055771906170049214,
+          "initial_base_width_m": 0.10481689735031864,
+          "initial_height_m": 0.11445069205095589,
+          "minimum_angle_deg": 20.0,
+          "peak_force_multiplier": 8.242432258363868,
+          "peak_ideal_input_force_N": 89.01826839032978
+        }
+      ],
+      "payload_kg": 4.0,
+      "peak_required_output_force_N": 10.8,
+      "peak_velocity_m_s": 0.2,
+      "positive_mechanical_work_lower_bound_J": 2.08,
+      "screw": [
+        {
+          "assumed_efficiency": 0.2,
+          "peak_rpm": 6000.0,
+          "torque_N_m": 0.0171887338539247
+        },
+        {
+          "assumed_efficiency": 0.4,
+          "peak_rpm": 6000.0,
+          "torque_N_m": 0.00859436692696235
+        },
+        {
+          "assumed_efficiency": 0.7,
+          "peak_rpm": 6000.0,
+          "torque_N_m": 0.0049110668154070565
+        }
+      ],
+      "spring": [
+        {
+          "initial_force_N": 12.8,
+          "lossless_undamped_payload_speed_bound_m_s": 1.0862780491200217,
+          "minimum_force_floor_N": 10.8,
+          "released_energy_J": 2.3600000000000003,
+          "stiffness_N_m": 10.0
+        },
+        {
+          "initial_force_N": 20.8,
+          "lossless_undamped_payload_speed_bound_m_s": 1.2569805089976536,
+          "minimum_force_floor_N": 10.8,
+          "released_energy_J": 3.16,
+          "stiffness_N_m": 50.0
+        },
+        {
+          "initial_force_N": 30.8,
+          "lossless_undamped_payload_speed_bound_m_s": 1.4422205101855958,
+          "minimum_force_floor_N": 10.8,
+          "released_energy_J": 4.16,
+          "stiffness_N_m": 100.0
+        }
+      ]
+    },
+    {
+      "acceleration_m_s2": 0.2,
+      "duration_s": 2.0,
+      "opposing_force_N": 25.0,
+      "pantograph": [
+        {
+          "base_actuator_stroke_m": 0.051155132531930686,
+          "final_height_m": 0.22044621059635802,
+          "half_link_length_m": 0.03909899289053135,
+          "initial_base_width_m": 0.07790041883654837,
+          "initial_height_m": 0.020446210596357997,
+          "minimum_angle_deg": 5.0,
+          "peak_force_multiplier": 34.290156908284025,
+          "peak_ideal_input_force_N": 884.686048233728
+        },
+        {
+          "base_actuator_stroke_m": 0.055939975411818665,
+          "final_height_m": 0.2453363193811355,
+          "half_link_length_m": 0.043513576311075955,
+          "initial_base_width_m": 0.08570501462487191,
+          "initial_height_m": 0.0453363193811355,
+          "minimum_angle_deg": 10.0,
+          "peak_force_multiplier": 17.01384545885313,
+          "peak_ideal_input_force_N": 438.9572128384107
+        },
+        {
+          "base_actuator_stroke_m": 0.06666666666666667,
+          "final_height_m": 0.31445069205095594,
+          "half_link_length_m": 0.055771906170049214,
+          "initial_base_width_m": 0.10481689735031864,
+          "initial_height_m": 0.11445069205095589,
+          "minimum_angle_deg": 20.0,
+          "peak_force_multiplier": 8.242432258363868,
+          "peak_ideal_input_force_N": 212.65475226578778
+        }
+      ],
+      "payload_kg": 4.0,
+      "peak_required_output_force_N": 25.8,
+      "peak_velocity_m_s": 0.2,
+      "positive_mechanical_work_lower_bound_J": 5.08,
+      "screw": [
+        {
+          "assumed_efficiency": 0.2,
+          "peak_rpm": 6000.0,
+          "torque_N_m": 0.041061975317709
+        },
+        {
+          "assumed_efficiency": 0.4,
+          "peak_rpm": 6000.0,
+          "torque_N_m": 0.0205309876588545
+        },
+        {
+          "assumed_efficiency": 0.7,
+          "peak_rpm": 6000.0,
+          "torque_N_m": 0.011731992947916856
+        }
+      ],
+      "spring": [
+        {
+          "initial_force_N": 27.8,
+          "lossless_undamped_payload_speed_bound_m_s": 1.6370705543744901,
+          "minimum_force_floor_N": 25.8,
+          "released_energy_J": 5.36,
+          "stiffness_N_m": 10.0
+        },
+        {
+          "initial_force_N": 35.8,
+          "lossless_undamped_payload_speed_bound_m_s": 1.7549928774784245,
+          "minimum_force_floor_N": 25.8,
+          "released_energy_J": 6.16,
+          "stiffness_N_m": 50.0
+        },
+        {
+          "initial_force_N": 45.8,
+          "lossless_undamped_payload_speed_bound_m_s": 1.8920887928424501,
+          "minimum_force_floor_N": 25.8,
+          "released_energy_J": 7.16,
+          "stiffness_N_m": 100.0
+        }
+      ]
+    },
+    {
+      "acceleration_m_s2": 0.032,
+      "duration_s": 5.0,
+      "opposing_force_N": 2.0,
+      "pantograph": [
+        {
+          "base_actuator_stroke_m": 0.051155132531930686,
+          "final_height_m": 0.22044621059635802,
+          "half_link_length_m": 0.03909899289053135,
+          "initial_base_width_m": 0.07790041883654837,
+          "initial_height_m": 0.020446210596357997,
+          "minimum_angle_deg": 5.0,
+          "peak_force_multiplier": 34.290156908284025,
+          "peak_ideal_input_force_N": 72.96945390082841
+        },
+        {
+          "base_actuator_stroke_m": 0.055939975411818665,
+          "final_height_m": 0.2453363193811355,
+          "half_link_length_m": 0.043513576311075955,
+          "initial_base_width_m": 0.08570501462487191,
+          "initial_height_m": 0.0453363193811355,
+          "minimum_angle_deg": 10.0,
+          "peak_force_multiplier": 17.01384545885313,
+          "peak_ideal_input_force_N": 36.20546313643946
+        },
+        {
+          "base_actuator_stroke_m": 0.06666666666666667,
+          "final_height_m": 0.31445069205095594,
+          "half_link_length_m": 0.055771906170049214,
+          "initial_base_width_m": 0.10481689735031864,
+          "initial_height_m": 0.11445069205095589,
+          "minimum_angle_deg": 20.0,
+          "peak_force_multiplier": 8.242432258363868,
+          "peak_ideal_input_force_N": 17.53989584579831
+        }
+      ],
+      "payload_kg": 4.0,
+      "peak_required_output_force_N": 2.128,
+      "peak_velocity_m_s": 0.08,
+      "positive_mechanical_work_lower_bound_J": 0.4128,
+      "screw": [
+        {
+          "assumed_efficiency": 0.2,
+          "peak_rpm": 2400.0,
+          "torque_N_m": 0.003386817188995533
+        },
+        {
+          "assumed_efficiency": 0.4,
+          "peak_rpm": 2400.0,
+          "torque_N_m": 0.0016934085944977665
+        },
+        {
+          "assumed_efficiency": 0.7,
+          "peak_rpm": 2400.0,
+          "torque_N_m": 0.0009676620539987238
+        }
+      ],
+      "spring": [
+        {
+          "initial_force_N": 4.128,
+          "lossless_undamped_payload_speed_bound_m_s": 0.5592852581643826,
+          "minimum_force_floor_N": 2.128,
+          "released_energy_J": 0.6256,
+          "stiffness_N_m": 10.0
+        },
+        {
+          "initial_force_N": 12.128,
+          "lossless_undamped_payload_speed_bound_m_s": 0.8442748367682174,
+          "minimum_force_floor_N": 2.128,
+          "released_energy_J": 1.4256000000000002,
+          "stiffness_N_m": 50.0
+        },
+        {
+          "initial_force_N": 22.128,
+          "lossless_undamped_payload_speed_bound_m_s": 1.1012719918348965,
+          "minimum_force_floor_N": 2.128,
+          "released_energy_J": 2.4256000000000006,
+          "stiffness_N_m": 100.0
+        }
+      ]
+    },
+    {
+      "acceleration_m_s2": 0.032,
+      "duration_s": 5.0,
+      "opposing_force_N": 10.0,
+      "pantograph": [
+        {
+          "base_actuator_stroke_m": 0.051155132531930686,
+          "final_height_m": 0.22044621059635802,
+          "half_link_length_m": 0.03909899289053135,
+          "initial_base_width_m": 0.07790041883654837,
+          "initial_height_m": 0.020446210596357997,
+          "minimum_angle_deg": 5.0,
+          "peak_force_multiplier": 34.290156908284025,
+          "peak_ideal_input_force_N": 347.29070916710066
+        },
+        {
+          "base_actuator_stroke_m": 0.055939975411818665,
+          "final_height_m": 0.2453363193811355,
+          "half_link_length_m": 0.043513576311075955,
+          "initial_base_width_m": 0.08570501462487191,
+          "initial_height_m": 0.0453363193811355,
+          "minimum_angle_deg": 10.0,
+          "peak_force_multiplier": 17.01384545885313,
+          "peak_ideal_input_force_N": 172.31622680726448
+        },
+        {
+          "base_actuator_stroke_m": 0.06666666666666667,
+          "final_height_m": 0.31445069205095594,
+          "half_link_length_m": 0.055771906170049214,
+          "initial_base_width_m": 0.10481689735031864,
+          "initial_height_m": 0.11445069205095589,
+          "minimum_angle_deg": 20.0,
+          "peak_force_multiplier": 8.242432258363868,
+          "peak_ideal_input_force_N": 83.47935391270924
+        }
+      ],
+      "payload_kg": 4.0,
+      "peak_required_output_force_N": 10.128,
+      "peak_velocity_m_s": 0.08,
+      "positive_mechanical_work_lower_bound_J": 2.0128,
+      "screw": [
+        {
+          "assumed_efficiency": 0.2,
+          "peak_rpm": 2400.0,
+          "torque_N_m": 0.01611921263634716
+        },
+        {
+          "assumed_efficiency": 0.4,
+          "peak_rpm": 2400.0,
+          "torque_N_m": 0.00805960631817358
+        },
+        {
+          "assumed_efficiency": 0.7,
+          "peak_rpm": 2400.0,
+          "torque_N_m": 0.004605489324670617
+        }
+      ],
+      "spring": [
+        {
+          "initial_force_N": 12.128,
+          "lossless_undamped_payload_speed_bound_m_s": 1.0548933595392476,
+          "minimum_force_floor_N": 10.128,
+          "released_energy_J": 2.2256000000000005,
+          "stiffness_N_m": 10.0
+        },
+        {
+          "initial_force_N": 20.128,
+          "lossless_undamped_payload_speed_bound_m_s": 1.229959348921744,
+          "minimum_force_floor_N": 10.128,
+          "released_energy_J": 3.0256000000000007,
+          "stiffness_N_m": 50.0
+        },
+        {
+          "initial_force_N": 30.128,
+          "lossless_undamped_payload_speed_bound_m_s": 1.4187318280774561,
+          "minimum_force_floor_N": 10.128,
+          "released_energy_J": 4.025600000000001,
+          "stiffness_N_m": 100.0
+        }
+      ]
+    },
+    {
+      "acceleration_m_s2": 0.032,
+      "duration_s": 5.0,
+      "opposing_force_N": 25.0,
+      "pantograph": [
+        {
+          "base_actuator_stroke_m": 0.051155132531930686,
+          "final_height_m": 0.22044621059635802,
+          "half_link_length_m": 0.03909899289053135,
+          "initial_base_width_m": 0.07790041883654837,
+          "initial_height_m": 0.020446210596357997,
+          "minimum_angle_deg": 5.0,
+          "peak_force_multiplier": 34.290156908284025,
+          "peak_ideal_input_force_N": 861.6430627913611
+        },
+        {
+          "base_actuator_stroke_m": 0.055939975411818665,
+          "final_height_m": 0.2453363193811355,
+          "half_link_length_m": 0.043513576311075955,
+          "initial_base_width_m": 0.08570501462487191,
+          "initial_height_m": 0.0453363193811355,
+          "minimum_angle_deg": 10.0,
+          "peak_force_multiplier": 17.01384545885313,
+          "peak_ideal_input_force_N": 427.52390869006143
+        },
+        {
+          "base_actuator_stroke_m": 0.06666666666666667,
+          "final_height_m": 0.31445069205095594,
+          "half_link_length_m": 0.055771906170049214,
+          "initial_base_width_m": 0.10481689735031864,
+          "initial_height_m": 0.11445069205095589,
+          "minimum_angle_deg": 20.0,
+          "peak_force_multiplier": 8.242432258363868,
+          "peak_ideal_input_force_N": 207.11583778816725
+        }
+      ],
+      "payload_kg": 4.0,
+      "peak_required_output_force_N": 25.128,
+      "peak_velocity_m_s": 0.08,
+      "positive_mechanical_work_lower_bound_J": 5.0128,
+      "screw": [
+        {
+          "assumed_efficiency": 0.2,
+          "peak_rpm": 2400.0,
+          "torque_N_m": 0.03999245410013146
+        },
+        {
+          "assumed_efficiency": 0.4,
+          "peak_rpm": 2400.0,
+          "torque_N_m": 0.01999622705006573
+        },
+        {
+          "assumed_efficiency": 0.7,
+          "peak_rpm": 2400.0,
+          "torque_N_m": 0.011426415457180417
+        }
+      ],
+      "spring": [
+        {
+          "initial_force_N": 27.128,
+          "lossless_undamped_payload_speed_bound_m_s": 1.6164157880941403,
+          "minimum_force_floor_N": 25.128,
+          "released_energy_J": 5.225600000000001,
+          "stiffness_N_m": 10.0
+        },
+        {
+          "initial_force_N": 35.128,
+          "lossless_undamped_payload_speed_bound_m_s": 1.7357419162997707,
+          "minimum_force_floor_N": 25.128,
+          "released_energy_J": 6.025600000000001,
+          "stiffness_N_m": 50.0
+        },
+        {
+          "initial_force_N": 45.128,
+          "lossless_undamped_payload_speed_bound_m_s": 1.8742465152695365,
+          "minimum_force_floor_N": 25.128,
+          "released_energy_J": 7.025600000000001,
+          "stiffness_N_m": 100.0
+        }
+      ]
+    },
+    {
+      "acceleration_m_s2": 0.008,
+      "duration_s": 10.0,
+      "opposing_force_N": 2.0,
+      "pantograph": [
+        {
+          "base_actuator_stroke_m": 0.051155132531930686,
+          "final_height_m": 0.22044621059635802,
+          "half_link_length_m": 0.03909899289053135,
+          "initial_base_width_m": 0.07790041883654837,
+          "initial_height_m": 0.020446210596357997,
+          "minimum_angle_deg": 5.0,
+          "peak_force_multiplier": 34.290156908284025,
+          "peak_ideal_input_force_N": 69.67759883763314
+        },
+        {
+          "base_actuator_stroke_m": 0.055939975411818665,
+          "final_height_m": 0.2453363193811355,
+          "half_link_length_m": 0.043513576311075955,
+          "initial_base_width_m": 0.08570501462487191,
+          "initial_height_m": 0.0453363193811355,
+          "minimum_angle_deg": 10.0,
+          "peak_force_multiplier": 17.01384545885313,
+          "peak_ideal_input_force_N": 34.57213397238956
+        },
+        {
+          "base_actuator_stroke_m": 0.06666666666666667,
+          "final_height_m": 0.31445069205095594,
+          "half_link_length_m": 0.055771906170049214,
+          "initial_base_width_m": 0.10481689735031864,
+          "initial_height_m": 0.11445069205095589,
+          "minimum_angle_deg": 20.0,
+          "peak_force_multiplier": 8.242432258363868,
+          "peak_ideal_input_force_N": 16.74862234899538
+        }
+      ],
+      "payload_kg": 4.0,
+      "peak_required_output_force_N": 2.032,
+      "peak_velocity_m_s": 0.04,
+      "positive_mechanical_work_lower_bound_J": 0.4032,
+      "screw": [
+        {
+          "assumed_efficiency": 0.2,
+          "peak_rpm": 1200.0,
+          "torque_N_m": 0.003234028443627313
+        },
+        {
+          "assumed_efficiency": 0.4,
+          "peak_rpm": 1200.0,
+          "torque_N_m": 0.0016170142218136566
+        },
+        {
+          "assumed_efficiency": 0.7,
+          "peak_rpm": 1200.0,
+          "torque_N_m": 0.0009240081267506609
+        }
+      ],
+      "spring": [
+        {
+          "initial_force_N": 4.032,
+          "lossless_undamped_payload_speed_bound_m_s": 0.5506359959174482,
+          "minimum_force_floor_N": 2.032,
+          "released_energy_J": 0.6064,
+          "stiffness_N_m": 10.0
+        },
+        {
+          "initial_force_N": 12.032,
+          "lossless_undamped_payload_speed_bound_m_s": 0.8385702117294652,
+          "minimum_force_floor_N": 2.032,
+          "released_energy_J": 1.4064000000000003,
+          "stiffness_N_m": 50.0
+        },
+        {
+          "initial_force_N": 22.032,
+          "lossless_undamped_payload_speed_bound_m_s": 1.0969047360641673,
+          "minimum_force_floor_N": 2.032,
+          "released_energy_J": 2.4064000000000005,
+          "stiffness_N_m": 100.0
+        }
+      ]
+    },
+    {
+      "acceleration_m_s2": 0.008,
+      "duration_s": 10.0,
+      "opposing_force_N": 10.0,
+      "pantograph": [
+        {
+          "base_actuator_stroke_m": 0.051155132531930686,
+          "final_height_m": 0.22044621059635802,
+          "half_link_length_m": 0.03909899289053135,
+          "initial_base_width_m": 0.07790041883654837,
+          "initial_height_m": 0.020446210596357997,
+          "minimum_angle_deg": 5.0,
+          "peak_force_multiplier": 34.290156908284025,
+          "peak_ideal_input_force_N": 343.9988541039054
+        },
+        {
+          "base_actuator_stroke_m": 0.055939975411818665,
+          "final_height_m": 0.2453363193811355,
+          "half_link_length_m": 0.043513576311075955,
+          "initial_base_width_m": 0.08570501462487191,
+          "initial_height_m": 0.0453363193811355,
+          "minimum_angle_deg": 10.0,
+          "peak_force_multiplier": 17.01384545885313,
+          "peak_ideal_input_force_N": 170.68289764321457
+        },
+        {
+          "base_actuator_stroke_m": 0.06666666666666667,
+          "final_height_m": 0.31445069205095594,
+          "half_link_length_m": 0.055771906170049214,
+          "initial_base_width_m": 0.10481689735031864,
+          "initial_height_m": 0.11445069205095589,
+          "minimum_angle_deg": 20.0,
+          "peak_force_multiplier": 8.242432258363868,
+          "peak_ideal_input_force_N": 82.68808041590631
+        }
+      ],
+      "payload_kg": 4.0,
+      "peak_required_output_force_N": 10.032,
+      "peak_velocity_m_s": 0.04,
+      "positive_mechanical_work_lower_bound_J": 2.0032,
+      "screw": [
+        {
+          "assumed_efficiency": 0.2,
+          "peak_rpm": 1200.0,
+          "torque_N_m": 0.015966423890978944
+        },
+        {
+          "assumed_efficiency": 0.4,
+          "peak_rpm": 1200.0,
+          "torque_N_m": 0.007983211945489472
+        },
+        {
+          "assumed_efficiency": 0.7,
+          "peak_rpm": 1200.0,
+          "torque_N_m": 0.004561835397422555
+        }
+      ],
+      "spring": [
+        {
+          "initial_force_N": 12.032,
+          "lossless_undamped_payload_speed_bound_m_s": 1.0503332804400707,
+          "minimum_force_floor_N": 10.032,
+          "released_energy_J": 2.2064000000000004,
+          "stiffness_N_m": 10.0
+        },
+        {
+          "initial_force_N": 20.032,
+          "lossless_undamped_payload_speed_bound_m_s": 1.2260505699195283,
+          "minimum_force_floor_N": 10.032,
+          "released_energy_J": 3.0064,
+          "stiffness_N_m": 50.0
+        },
+        {
+          "initial_force_N": 30.032,
+          "lossless_undamped_payload_speed_bound_m_s": 1.4153444810363307,
+          "minimum_force_floor_N": 10.032,
+          "released_energy_J": 4.006400000000001,
+          "stiffness_N_m": 100.0
+        }
+      ]
+    },
+    {
+      "acceleration_m_s2": 0.008,
+      "duration_s": 10.0,
+      "opposing_force_N": 25.0,
+      "pantograph": [
+        {
+          "base_actuator_stroke_m": 0.051155132531930686,
+          "final_height_m": 0.22044621059635802,
+          "half_link_length_m": 0.03909899289053135,
+          "initial_base_width_m": 0.07790041883654837,
+          "initial_height_m": 0.020446210596357997,
+          "minimum_angle_deg": 5.0,
+          "peak_force_multiplier": 34.290156908284025,
+          "peak_ideal_input_force_N": 858.3512077281658
+        },
+        {
+          "base_actuator_stroke_m": 0.055939975411818665,
+          "final_height_m": 0.2453363193811355,
+          "half_link_length_m": 0.043513576311075955,
+          "initial_base_width_m": 0.08570501462487191,
+          "initial_height_m": 0.0453363193811355,
+          "minimum_angle_deg": 10.0,
+          "peak_force_multiplier": 17.01384545885313,
+          "peak_ideal_input_force_N": 425.89057952601155
+        },
+        {
+          "base_actuator_stroke_m": 0.06666666666666667,
+          "final_height_m": 0.31445069205095594,
+          "half_link_length_m": 0.055771906170049214,
+          "initial_base_width_m": 0.10481689735031864,
+          "initial_height_m": 0.11445069205095589,
+          "minimum_angle_deg": 20.0,
+          "peak_force_multiplier": 8.242432258363868,
+          "peak_ideal_input_force_N": 206.32456429136434
+        }
+      ],
+      "payload_kg": 4.0,
+      "peak_required_output_force_N": 25.032,
+      "peak_velocity_m_s": 0.04,
+      "positive_mechanical_work_lower_bound_J": 5.0032,
+      "screw": [
+        {
+          "assumed_efficiency": 0.2,
+          "peak_rpm": 1200.0,
+          "torque_N_m": 0.03983966535476324
+        },
+        {
+          "assumed_efficiency": 0.4,
+          "peak_rpm": 1200.0,
+          "torque_N_m": 0.01991983267738162
+        },
+        {
+          "assumed_efficiency": 0.7,
+          "peak_rpm": 1200.0,
+          "torque_N_m": 0.011382761529932357
+        }
+      ],
+      "spring": [
+        {
+          "initial_force_N": 27.032,
+          "lossless_undamped_payload_speed_bound_m_s": 1.6134435224078965,
+          "minimum_force_floor_N": 25.032,
+          "released_energy_J": 5.2064,
+          "stiffness_N_m": 10.0
+        },
+        {
+          "initial_force_N": 35.032,
+          "lossless_undamped_payload_speed_bound_m_s": 1.7329743217947575,
+          "minimum_force_floor_N": 25.032,
+          "released_energy_J": 6.0064,
+          "stiffness_N_m": 50.0
+        },
+        {
+          "initial_force_N": 45.032,
+          "lossless_undamped_payload_speed_bound_m_s": 1.8716837339678947,
+          "minimum_force_floor_N": 25.032,
+          "released_energy_J": 7.006400000000001,
+          "stiffness_N_m": 100.0
+        }
+      ]
+    },
+    {
+      "acceleration_m_s2": 0.2,
+      "duration_s": 2.0,
+      "opposing_force_N": 2.0,
+      "pantograph": [
+        {
+          "base_actuator_stroke_m": 0.051155132531930686,
+          "final_height_m": 0.22044621059635802,
+          "half_link_length_m": 0.03909899289053135,
+          "initial_base_width_m": 0.07790041883654837,
+          "initial_height_m": 0.020446210596357997,
+          "minimum_angle_deg": 5.0,
+          "peak_force_multiplier": 34.290156908284025,
+          "peak_ideal_input_force_N": 109.72850210650891
+        },
+        {
+          "base_actuator_stroke_m": 0.055939975411818665,
+          "final_height_m": 0.2453363193811355,
+          "half_link_length_m": 0.043513576311075955,
+          "initial_base_width_m": 0.08570501462487191,
+          "initial_height_m": 0.0453363193811355,
+          "minimum_angle_deg": 10.0,
+          "peak_force_multiplier": 17.01384545885313,
+          "peak_ideal_input_force_N": 54.44430546833002
+        },
+        {
+          "base_actuator_stroke_m": 0.06666666666666667,
+          "final_height_m": 0.31445069205095594,
+          "half_link_length_m": 0.055771906170049214,
+          "initial_base_width_m": 0.10481689735031864,
+          "initial_height_m": 0.11445069205095589,
+          "minimum_angle_deg": 20.0,
+          "peak_force_multiplier": 8.242432258363868,
+          "peak_ideal_input_force_N": 26.37578322676438
+        }
+      ],
+      "payload_kg": 6.0,
+      "peak_required_output_force_N": 3.2,
+      "peak_velocity_m_s": 0.2,
+      "positive_mechanical_work_lower_bound_J": 0.52,
+      "screw": [
+        {
+          "assumed_efficiency": 0.2,
+          "peak_rpm": 6000.0,
+          "torque_N_m": 0.005092958178940651
+        },
+        {
+          "assumed_efficiency": 0.4,
+          "peak_rpm": 6000.0,
+          "torque_N_m": 0.0025464790894703256
+        },
+        {
+          "assumed_efficiency": 0.7,
+          "peak_rpm": 6000.0,
+          "torque_N_m": 0.0014551309082687575
+        }
+      ],
+      "spring": [
+        {
+          "initial_force_N": 5.2,
+          "lossless_undamped_payload_speed_bound_m_s": 0.5291502622129182,
+          "minimum_force_floor_N": 3.2,
+          "released_energy_J": 0.8400000000000002,
+          "stiffness_N_m": 10.0
+        },
+        {
+          "initial_force_N": 13.2,
+          "lossless_undamped_payload_speed_bound_m_s": 0.7393691004272945,
+          "minimum_force_floor_N": 3.2,
+          "released_energy_J": 1.6400000000000003,
+          "stiffness_N_m": 50.0
+        },
+        {
+          "initial_force_N": 23.2,
+          "lossless_undamped_payload_speed_bound_m_s": 0.9380831519646861,
+          "minimum_force_floor_N": 3.2,
+          "released_energy_J": 2.6400000000000006,
+          "stiffness_N_m": 100.0
+        }
+      ]
+    },
+    {
+      "acceleration_m_s2": 0.2,
+      "duration_s": 2.0,
+      "opposing_force_N": 10.0,
+      "pantograph": [
+        {
+          "base_actuator_stroke_m": 0.051155132531930686,
+          "final_height_m": 0.22044621059635802,
+          "half_link_length_m": 0.03909899289053135,
+          "initial_base_width_m": 0.07790041883654837,
+          "initial_height_m": 0.020446210596357997,
+          "minimum_angle_deg": 5.0,
+          "peak_force_multiplier": 34.290156908284025,
+          "peak_ideal_input_force_N": 384.0497573727811
+        },
+        {
+          "base_actuator_stroke_m": 0.055939975411818665,
+          "final_height_m": 0.2453363193811355,
+          "half_link_length_m": 0.043513576311075955,
+          "initial_base_width_m": 0.08570501462487191,
+          "initial_height_m": 0.0453363193811355,
+          "minimum_angle_deg": 10.0,
+          "peak_force_multiplier": 17.01384545885313,
+          "peak_ideal_input_force_N": 190.555069139155
+        },
+        {
+          "base_actuator_stroke_m": 0.06666666666666667,
+          "final_height_m": 0.31445069205095594,
+          "half_link_length_m": 0.055771906170049214,
+          "initial_base_width_m": 0.10481689735031864,
+          "initial_height_m": 0.11445069205095589,
+          "minimum_angle_deg": 20.0,
+          "peak_force_multiplier": 8.242432258363868,
+          "peak_ideal_input_force_N": 92.3152412936753
+        }
+      ],
+      "payload_kg": 6.0,
+      "peak_required_output_force_N": 11.2,
+      "peak_velocity_m_s": 0.2,
+      "positive_mechanical_work_lower_bound_J": 2.12,
+      "screw": [
+        {
+          "assumed_efficiency": 0.2,
+          "peak_rpm": 6000.0,
+          "torque_N_m": 0.017825353626292277
+        },
+        {
+          "assumed_efficiency": 0.4,
+          "peak_rpm": 6000.0,
+          "torque_N_m": 0.008912676813146139
+        },
+        {
+          "assumed_efficiency": 0.7,
+          "peak_rpm": 6000.0,
+          "torque_N_m": 0.005092958178940651
+        }
+      ],
+      "spring": [
+        {
+          "initial_force_N": 13.2,
+          "lossless_undamped_payload_speed_bound_m_s": 0.9018499505645788,
+          "minimum_force_floor_N": 11.2,
+          "released_energy_J": 2.44,
+          "stiffness_N_m": 10.0
+        },
+        {
+          "initial_force_N": 21.2,
+          "lossless_undamped_payload_speed_bound_m_s": 1.0392304845413265,
+          "minimum_force_floor_N": 11.2,
+          "released_energy_J": 3.24,
+          "stiffness_N_m": 50.0
+        },
+        {
+          "initial_force_N": 31.2,
+          "lossless_undamped_payload_speed_bound_m_s": 1.188836966675134,
+          "minimum_force_floor_N": 11.2,
+          "released_energy_J": 4.24,
+          "stiffness_N_m": 100.0
+        }
+      ]
+    },
+    {
+      "acceleration_m_s2": 0.2,
+      "duration_s": 2.0,
+      "opposing_force_N": 25.0,
+      "pantograph": [
+        {
+          "base_actuator_stroke_m": 0.051155132531930686,
+          "final_height_m": 0.22044621059635802,
+          "half_link_length_m": 0.03909899289053135,
+          "initial_base_width_m": 0.07790041883654837,
+          "initial_height_m": 0.020446210596357997,
+          "minimum_angle_deg": 5.0,
+          "peak_force_multiplier": 34.290156908284025,
+          "peak_ideal_input_force_N": 898.4021109970415
+        },
+        {
+          "base_actuator_stroke_m": 0.055939975411818665,
+          "final_height_m": 0.2453363193811355,
+          "half_link_length_m": 0.043513576311075955,
+          "initial_base_width_m": 0.08570501462487191,
+          "initial_height_m": 0.0453363193811355,
+          "minimum_angle_deg": 10.0,
+          "peak_force_multiplier": 17.01384545885313,
+          "peak_ideal_input_force_N": 445.76275102195194
+        },
+        {
+          "base_actuator_stroke_m": 0.06666666666666667,
+          "final_height_m": 0.31445069205095594,
+          "half_link_length_m": 0.055771906170049214,
+          "initial_base_width_m": 0.10481689735031864,
+          "initial_height_m": 0.11445069205095589,
+          "minimum_angle_deg": 20.0,
+          "peak_force_multiplier": 8.242432258363868,
+          "peak_ideal_input_force_N": 215.9517251691333
+        }
+      ],
+      "payload_kg": 6.0,
+      "peak_required_output_force_N": 26.2,
+      "peak_velocity_m_s": 0.2,
+      "positive_mechanical_work_lower_bound_J": 5.12,
+      "screw": [
+        {
+          "assumed_efficiency": 0.2,
+          "peak_rpm": 6000.0,
+          "torque_N_m": 0.04169859509007658
+        },
+        {
+          "assumed_efficiency": 0.4,
+          "peak_rpm": 6000.0,
+          "torque_N_m": 0.02084929754503829
+        },
+        {
+          "assumed_efficiency": 0.7,
+          "peak_rpm": 6000.0,
+          "torque_N_m": 0.011913884311450452
+        }
+      ],
+      "spring": [
+        {
+          "initial_force_N": 28.2,
+          "lossless_undamped_payload_speed_bound_m_s": 1.346600658448277,
+          "minimum_force_floor_N": 26.2,
+          "released_energy_J": 5.44,
+          "stiffness_N_m": 10.0
+        },
+        {
+          "initial_force_N": 36.2,
+          "lossless_undamped_payload_speed_bound_m_s": 1.4422205101855958,
+          "minimum_force_floor_N": 26.2,
+          "released_energy_J": 6.24,
+          "stiffness_N_m": 50.0
+        },
+        {
+          "initial_force_N": 46.2,
+          "lossless_undamped_payload_speed_bound_m_s": 1.553490693030806,
+          "minimum_force_floor_N": 26.2,
+          "released_energy_J": 7.24,
+          "stiffness_N_m": 100.0
+        }
+      ]
+    },
+    {
+      "acceleration_m_s2": 0.032,
+      "duration_s": 5.0,
+      "opposing_force_N": 2.0,
+      "pantograph": [
+        {
+          "base_actuator_stroke_m": 0.051155132531930686,
+          "final_height_m": 0.22044621059635802,
+          "half_link_length_m": 0.03909899289053135,
+          "initial_base_width_m": 0.07790041883654837,
+          "initial_height_m": 0.020446210596357997,
+          "minimum_angle_deg": 5.0,
+          "peak_force_multiplier": 34.290156908284025,
+          "peak_ideal_input_force_N": 75.1640239429586
+        },
+        {
+          "base_actuator_stroke_m": 0.055939975411818665,
+          "final_height_m": 0.2453363193811355,
+          "half_link_length_m": 0.043513576311075955,
+          "initial_base_width_m": 0.08570501462487191,
+          "initial_height_m": 0.0453363193811355,
+          "minimum_angle_deg": 10.0,
+          "peak_force_multiplier": 17.01384545885313,
+          "peak_ideal_input_force_N": 37.29434924580606
+        },
+        {
+          "base_actuator_stroke_m": 0.06666666666666667,
+          "final_height_m": 0.31445069205095594,
+          "half_link_length_m": 0.055771906170049214,
+          "initial_base_width_m": 0.10481689735031864,
+          "initial_height_m": 0.11445069205095589,
+          "minimum_angle_deg": 20.0,
+          "peak_force_multiplier": 8.242432258363868,
+          "peak_ideal_input_force_N": 18.0674115103336
+        }
+      ],
+      "payload_kg": 6.0,
+      "peak_required_output_force_N": 2.192,
+      "peak_velocity_m_s": 0.08,
+      "positive_mechanical_work_lower_bound_J": 0.4192,
+      "screw": [
+        {
+          "assumed_efficiency": 0.2,
+          "peak_rpm": 2400.0,
+          "torque_N_m": 0.0034886763525743465
+        },
+        {
+          "assumed_efficiency": 0.4,
+          "peak_rpm": 2400.0,
+          "torque_N_m": 0.0017443381762871732
+        },
+        {
+          "assumed_efficiency": 0.7,
+          "peak_rpm": 2400.0,
+          "torque_N_m": 0.000996764672164099
+        }
+      ],
+      "spring": [
+        {
+          "initial_force_N": 4.192,
+          "lossless_undamped_payload_speed_bound_m_s": 0.46130250378683185,
+          "minimum_force_floor_N": 2.192,
+          "released_energy_J": 0.6384000000000001,
+          "stiffness_N_m": 10.0
+        },
+        {
+          "initial_force_N": 12.192,
+          "lossless_undamped_payload_speed_bound_m_s": 0.6924353158719353,
+          "minimum_force_floor_N": 2.192,
+          "released_energy_J": 1.4384000000000003,
+          "stiffness_N_m": 50.0
+        },
+        {
+          "initial_force_N": 22.192,
+          "lossless_undamped_payload_speed_bound_m_s": 0.9015542135667717,
+          "minimum_force_floor_N": 2.192,
+          "released_energy_J": 2.4384000000000006,
+          "stiffness_N_m": 100.0
+        }
+      ]
+    },
+    {
+      "acceleration_m_s2": 0.032,
+      "duration_s": 5.0,
+      "opposing_force_N": 10.0,
+      "pantograph": [
+        {
+          "base_actuator_stroke_m": 0.051155132531930686,
+          "final_height_m": 0.22044621059635802,
+          "half_link_length_m": 0.03909899289053135,
+          "initial_base_width_m": 0.07790041883654837,
+          "initial_height_m": 0.020446210596357997,
+          "minimum_angle_deg": 5.0,
+          "peak_force_multiplier": 34.290156908284025,
+          "peak_ideal_input_force_N": 349.48527920923084
+        },
+        {
+          "base_actuator_stroke_m": 0.055939975411818665,
+          "final_height_m": 0.2453363193811355,
+          "half_link_length_m": 0.043513576311075955,
+          "initial_base_width_m": 0.08570501462487191,
+          "initial_height_m": 0.0453363193811355,
+          "minimum_angle_deg": 10.0,
+          "peak_force_multiplier": 17.01384545885313,
+          "peak_ideal_input_force_N": 173.40511291663108
+        },
+        {
+          "base_actuator_stroke_m": 0.06666666666666667,
+          "final_height_m": 0.31445069205095594,
+          "half_link_length_m": 0.055771906170049214,
+          "initial_base_width_m": 0.10481689735031864,
+          "initial_height_m": 0.11445069205095589,
+          "minimum_angle_deg": 20.0,
+          "peak_force_multiplier": 8.242432258363868,
+          "peak_ideal_input_force_N": 84.00686957724454
+        }
+      ],
+      "payload_kg": 6.0,
+      "peak_required_output_force_N": 10.192,
+      "peak_velocity_m_s": 0.08,
+      "positive_mechanical_work_lower_bound_J": 2.0192,
+      "screw": [
+        {
+          "assumed_efficiency": 0.2,
+          "peak_rpm": 2400.0,
+          "torque_N_m": 0.016221071799925973
+        },
+        {
+          "assumed_efficiency": 0.4,
+          "peak_rpm": 2400.0,
+          "torque_N_m": 0.008110535899962986
+        },
+        {
+          "assumed_efficiency": 0.7,
+          "peak_rpm": 2400.0,
+          "torque_N_m": 0.004634591942835992
+        }
+      ],
+      "spring": [
+        {
+          "initial_force_N": 12.192,
+          "lossless_undamped_payload_speed_bound_m_s": 0.8637900979597609,
+          "minimum_force_floor_N": 10.192,
+          "released_energy_J": 2.2384000000000004,
+          "stiffness_N_m": 10.0
+        },
+        {
+          "initial_force_N": 20.192,
+          "lossless_undamped_payload_speed_bound_m_s": 1.00637965003273,
+          "minimum_force_floor_N": 10.192,
+          "released_energy_J": 3.0384,
+          "stiffness_N_m": 50.0
+        },
+        {
+          "initial_force_N": 30.192,
+          "lossless_undamped_payload_speed_bound_m_s": 1.160229862283045,
+          "minimum_force_floor_N": 10.192,
+          "released_energy_J": 4.038400000000001,
+          "stiffness_N_m": 100.0
+        }
+      ]
+    },
+    {
+      "acceleration_m_s2": 0.032,
+      "duration_s": 5.0,
+      "opposing_force_N": 25.0,
+      "pantograph": [
+        {
+          "base_actuator_stroke_m": 0.051155132531930686,
+          "final_height_m": 0.22044621059635802,
+          "half_link_length_m": 0.03909899289053135,
+          "initial_base_width_m": 0.07790041883654837,
+          "initial_height_m": 0.020446210596357997,
+          "minimum_angle_deg": 5.0,
+          "peak_force_multiplier": 34.290156908284025,
+          "peak_ideal_input_force_N": 863.8376328334912
+        },
+        {
+          "base_actuator_stroke_m": 0.055939975411818665,
+          "final_height_m": 0.2453363193811355,
+          "half_link_length_m": 0.043513576311075955,
+          "initial_base_width_m": 0.08570501462487191,
+          "initial_height_m": 0.0453363193811355,
+          "minimum_angle_deg": 10.0,
+          "peak_force_multiplier": 17.01384545885313,
+          "peak_ideal_input_force_N": 428.61279479942795
+        },
+        {
+          "base_actuator_stroke_m": 0.06666666666666667,
+          "final_height_m": 0.31445069205095594,
+          "half_link_length_m": 0.055771906170049214,
+          "initial_base_width_m": 0.10481689735031864,
+          "initial_height_m": 0.11445069205095589,
+          "minimum_angle_deg": 20.0,
+          "peak_force_multiplier": 8.242432258363868,
+          "peak_ideal_input_force_N": 207.6433534527025
+        }
+      ],
+      "payload_kg": 6.0,
+      "peak_required_output_force_N": 25.192,
+      "peak_velocity_m_s": 0.08,
+      "positive_mechanical_work_lower_bound_J": 5.0192,
+      "screw": [
+        {
+          "assumed_efficiency": 0.2,
+          "peak_rpm": 2400.0,
+          "torque_N_m": 0.040094313263710275
+        },
+        {
+          "assumed_efficiency": 0.4,
+          "peak_rpm": 2400.0,
+          "torque_N_m": 0.020047156631855138
+        },
+        {
+          "assumed_efficiency": 0.7,
+          "peak_rpm": 2400.0,
+          "torque_N_m": 0.011455518075345792
+        }
+      ],
+      "spring": [
+        {
+          "initial_force_N": 27.192,
+          "lossless_undamped_payload_speed_bound_m_s": 1.3214133847261171,
+          "minimum_force_floor_N": 25.192,
+          "released_energy_J": 5.2384,
+          "stiffness_N_m": 10.0
+        },
+        {
+          "initial_force_N": 35.192,
+          "lossless_undamped_payload_speed_bound_m_s": 1.418731828077456,
+          "minimum_force_floor_N": 25.192,
+          "released_energy_J": 6.0384,
+          "stiffness_N_m": 50.0
+        },
+        {
+          "initial_force_N": 45.192,
+          "lossless_undamped_payload_speed_bound_m_s": 1.5317092848622855,
+          "minimum_force_floor_N": 25.192,
+          "released_energy_J": 7.038400000000001,
+          "stiffness_N_m": 100.0
+        }
+      ]
+    },
+    {
+      "acceleration_m_s2": 0.008,
+      "duration_s": 10.0,
+      "opposing_force_N": 2.0,
+      "pantograph": [
+        {
+          "base_actuator_stroke_m": 0.051155132531930686,
+          "final_height_m": 0.22044621059635802,
+          "half_link_length_m": 0.03909899289053135,
+          "initial_base_width_m": 0.07790041883654837,
+          "initial_height_m": 0.020446210596357997,
+          "minimum_angle_deg": 5.0,
+          "peak_force_multiplier": 34.290156908284025,
+          "peak_ideal_input_force_N": 70.22624134816569
+        },
+        {
+          "base_actuator_stroke_m": 0.055939975411818665,
+          "final_height_m": 0.2453363193811355,
+          "half_link_length_m": 0.043513576311075955,
+          "initial_base_width_m": 0.08570501462487191,
+          "initial_height_m": 0.0453363193811355,
+          "minimum_angle_deg": 10.0,
+          "peak_force_multiplier": 17.01384545885313,
+          "peak_ideal_input_force_N": 34.84435549973121
+        },
+        {
+          "base_actuator_stroke_m": 0.06666666666666667,
+          "final_height_m": 0.31445069205095594,
+          "half_link_length_m": 0.055771906170049214,
+          "initial_base_width_m": 0.10481689735031864,
+          "initial_height_m": 0.11445069205095589,
+          "minimum_angle_deg": 20.0,
+          "peak_force_multiplier": 8.242432258363868,
+          "peak_ideal_input_force_N": 16.8805012651292
+        }
+      ],
+      "payload_kg": 6.0,
+      "peak_required_output_force_N": 2.048,
+      "peak_velocity_m_s": 0.04,
+      "positive_mechanical_work_lower_bound_J": 0.40480000000000005,
+      "screw": [
+        {
+          "assumed_efficiency": 0.2,
+          "peak_rpm": 1200.0,
+          "torque_N_m": 0.0032594932345220164
+        },
+        {
+          "assumed_efficiency": 0.4,
+          "peak_rpm": 1200.0,
+          "torque_N_m": 0.0016297466172610082
+        },
+        {
+          "assumed_efficiency": 0.7,
+          "peak_rpm": 1200.0,
+          "torque_N_m": 0.0009312837812920047
+        }
+      ],
+      "spring": [
+        {
+          "initial_force_N": 4.048,
+          "lossless_undamped_payload_speed_bound_m_s": 0.45077710678338584,
+          "minimum_force_floor_N": 2.048,
+          "released_energy_J": 0.6096,
+          "stiffness_N_m": 10.0
+        },
+        {
+          "initial_force_N": 12.048,
+          "lossless_undamped_payload_speed_bound_m_s": 0.6854682098147709,
+          "minimum_force_floor_N": 2.048,
+          "released_energy_J": 1.4096000000000002,
+          "stiffness_N_m": 50.0
+        },
+        {
+          "initial_force_N": 22.048000000000002,
+          "lossless_undamped_payload_speed_bound_m_s": 0.8962142600963233,
+          "minimum_force_floor_N": 2.048,
+          "released_energy_J": 2.4096000000000006,
+          "stiffness_N_m": 100.0
+        }
+      ]
+    },
+    {
+      "acceleration_m_s2": 0.008,
+      "duration_s": 10.0,
+      "opposing_force_N": 10.0,
+      "pantograph": [
+        {
+          "base_actuator_stroke_m": 0.051155132531930686,
+          "final_height_m": 0.22044621059635802,
+          "half_link_length_m": 0.03909899289053135,
+          "initial_base_width_m": 0.07790041883654837,
+          "initial_height_m": 0.020446210596357997,
+          "minimum_angle_deg": 5.0,
+          "peak_force_multiplier": 34.290156908284025,
+          "peak_ideal_input_force_N": 344.5474966144379
+        },
+        {
+          "base_actuator_stroke_m": 0.055939975411818665,
+          "final_height_m": 0.2453363193811355,
+          "half_link_length_m": 0.043513576311075955,
+          "initial_base_width_m": 0.08570501462487191,
+          "initial_height_m": 0.0453363193811355,
+          "minimum_angle_deg": 10.0,
+          "peak_force_multiplier": 17.01384545885313,
+          "peak_ideal_input_force_N": 170.95511917055623
+        },
+        {
+          "base_actuator_stroke_m": 0.06666666666666667,
+          "final_height_m": 0.31445069205095594,
+          "half_link_length_m": 0.055771906170049214,
+          "initial_base_width_m": 0.10481689735031864,
+          "initial_height_m": 0.11445069205095589,
+          "minimum_angle_deg": 20.0,
+          "peak_force_multiplier": 8.242432258363868,
+          "peak_ideal_input_force_N": 82.81995933204013
+        }
+      ],
+      "payload_kg": 6.0,
+      "peak_required_output_force_N": 10.048,
+      "peak_velocity_m_s": 0.04,
+      "positive_mechanical_work_lower_bound_J": 2.0048,
+      "screw": [
+        {
+          "assumed_efficiency": 0.2,
+          "peak_rpm": 1200.0,
+          "torque_N_m": 0.015991888681873644
+        },
+        {
+          "assumed_efficiency": 0.4,
+          "peak_rpm": 1200.0,
+          "torque_N_m": 0.007995944340936822
+        },
+        {
+          "assumed_efficiency": 0.7,
+          "peak_rpm": 1200.0,
+          "torque_N_m": 0.004569111051963898
+        }
+      ],
+      "spring": [
+        {
+          "initial_force_N": 12.048,
+          "lossless_undamped_payload_speed_bound_m_s": 0.8582152022268852,
+          "minimum_force_floor_N": 10.048,
+          "released_energy_J": 2.2096000000000005,
+          "stiffness_N_m": 10.0
+        },
+        {
+          "initial_force_N": 20.048000000000002,
+          "lossless_undamped_payload_speed_bound_m_s": 1.0015987220439133,
+          "minimum_force_floor_N": 10.048,
+          "released_energy_J": 3.0096000000000007,
+          "stiffness_N_m": 50.0
+        },
+        {
+          "initial_force_N": 30.048000000000002,
+          "lossless_undamped_payload_speed_bound_m_s": 1.1560853486370863,
+          "minimum_force_floor_N": 10.048,
+          "released_energy_J": 4.009600000000001,
+          "stiffness_N_m": 100.0
+        }
+      ]
+    },
+    {
+      "acceleration_m_s2": 0.008,
+      "duration_s": 10.0,
+      "opposing_force_N": 25.0,
+      "pantograph": [
+        {
+          "base_actuator_stroke_m": 0.051155132531930686,
+          "final_height_m": 0.22044621059635802,
+          "half_link_length_m": 0.03909899289053135,
+          "initial_base_width_m": 0.07790041883654837,
+          "initial_height_m": 0.020446210596357997,
+          "minimum_angle_deg": 5.0,
+          "peak_force_multiplier": 34.290156908284025,
+          "peak_ideal_input_force_N": 858.8998502386983
+        },
+        {
+          "base_actuator_stroke_m": 0.055939975411818665,
+          "final_height_m": 0.2453363193811355,
+          "half_link_length_m": 0.043513576311075955,
+          "initial_base_width_m": 0.08570501462487191,
+          "initial_height_m": 0.0453363193811355,
+          "minimum_angle_deg": 10.0,
+          "peak_force_multiplier": 17.01384545885313,
+          "peak_ideal_input_force_N": 426.1628010533531
+        },
+        {
+          "base_actuator_stroke_m": 0.06666666666666667,
+          "final_height_m": 0.31445069205095594,
+          "half_link_length_m": 0.055771906170049214,
+          "initial_base_width_m": 0.10481689735031864,
+          "initial_height_m": 0.11445069205095589,
+          "minimum_angle_deg": 20.0,
+          "peak_force_multiplier": 8.242432258363868,
+          "peak_ideal_input_force_N": 206.45644320749813
+        }
+      ],
+      "payload_kg": 6.0,
+      "peak_required_output_force_N": 25.048,
+      "peak_velocity_m_s": 0.04,
+      "positive_mechanical_work_lower_bound_J": 5.0048,
+      "screw": [
+        {
+          "assumed_efficiency": 0.2,
+          "peak_rpm": 1200.0,
+          "torque_N_m": 0.03986513014565794
+        },
+        {
+          "assumed_efficiency": 0.4,
+          "peak_rpm": 1200.0,
+          "torque_N_m": 0.01993256507282897
+        },
+        {
+          "assumed_efficiency": 0.7,
+          "peak_rpm": 1200.0,
+          "torque_N_m": 0.011390037184473697
+        }
+      ],
+      "spring": [
+        {
+          "initial_force_N": 27.048,
+          "lossless_undamped_payload_speed_bound_m_s": 1.3177759040646226,
+          "minimum_force_floor_N": 25.048,
+          "released_energy_J": 5.2096,
+          "stiffness_N_m": 10.0
+        },
+        {
+          "initial_force_N": 35.048,
+          "lossless_undamped_payload_speed_bound_m_s": 1.4153444810363307,
+          "minimum_force_floor_N": 25.048,
+          "released_energy_J": 6.0096,
+          "stiffness_N_m": 50.0
+        },
+        {
+          "initial_force_N": 45.048,
+          "lossless_undamped_payload_speed_bound_m_s": 1.5285723186468259,
+          "minimum_force_floor_N": 25.048,
+          "released_energy_J": 7.009600000000001,
+          "stiffness_N_m": 100.0
+        }
+      ]
+    }
+  ],
+  "evidence_class": "ANALYTICAL_REQUIREMENT_SENSITIVITY_NOT_HARDWARE_RATING",
+  "inputs_sha256": "10c049a40563eeb93f68c4b96113e11c56c869913f6c234d18c17bd8f272ff98",
+  "retention_loads": [
+    {
+      "assumed_g": 5.0,
+      "payload_inertia_force_N": 65.21422249999999,
+      "payload_kg": 1.33
+    },
+    {
+      "assumed_g": 10.0,
+      "payload_inertia_force_N": 130.42844499999998,
+      "payload_kg": 1.33
+    },
+    {
+      "assumed_g": 25.0,
+      "payload_inertia_force_N": 326.07111249999997,
+      "payload_kg": 1.33
+    },
+    {
+      "assumed_g": 5.0,
+      "payload_inertia_force_N": 196.13299999999998,
+      "payload_kg": 4.0
+    },
+    {
+      "assumed_g": 10.0,
+      "payload_inertia_force_N": 392.26599999999996,
+      "payload_kg": 4.0
+    },
+    {
+      "assumed_g": 25.0,
+      "payload_inertia_force_N": 980.665,
+      "payload_kg": 4.0
+    },
+    {
+      "assumed_g": 5.0,
+      "payload_inertia_force_N": 294.1995,
+      "payload_kg": 6.0
+    },
+    {
+      "assumed_g": 10.0,
+      "payload_inertia_force_N": 588.399,
+      "payload_kg": 6.0
+    },
+    {
+      "assumed_g": 25.0,
+      "payload_inertia_force_N": 1470.9975,
+      "payload_kg": 6.0
+    }
+  ],
+  "revision": "GEN6-FEED-LOAD-R0",
+  "source_sha256": "a7b9b04cb71c7451f772291baf49dcf2e8588df2fd6ad00180b89560720acf5e",
+  "square_thread_static_backdrive_screen": {
+    "friction_threshold": 0.07957747154594767,
+    "lead_angle_deg": 4.5498653091210866,
+    "scenarios": [
+      {
+        "assumed_friction": 0.03,
+        "ideal_self_locking": false
+      },
+      {
+        "assumed_friction": 0.08,
+        "ideal_self_locking": true
+      },
+      {
+        "assumed_friction": 0.15,
+        "ideal_self_locking": true
+      }
+    ]
+  }
+}

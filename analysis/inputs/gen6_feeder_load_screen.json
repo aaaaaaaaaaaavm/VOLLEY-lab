@@ -1,0 +1,23 @@
+{
+  "revision": "GEN6-FEED-LOAD-R0",
+  "evidence_class": "ANALYTICAL_REQUIREMENT_SENSITIVITY_NOT_HARDWARE_RATING",
+  "transfer_stroke_m": 0.2,
+  "payload_masses_kg": [1.33, 4.0, 6.0],
+  "feed_durations_s": [2.0, 5.0, 10.0],
+  "opposing_force_scenarios_N": [2.0, 10.0, 25.0],
+  "screw_lead_m": 0.002,
+  "screw_mean_diameter_m": 0.008,
+  "screw_efficiency_scenarios": [0.2, 0.4, 0.7],
+  "thread_friction_scenarios": [0.03, 0.08, 0.15],
+  "spring_stiffness_scenarios_N_m": [10.0, 50.0, 100.0],
+  "pantograph_stages": 3,
+  "pantograph_min_angles_deg": [5.0, 10.0, 20.0],
+  "pantograph_max_angle_deg": 70.0,
+  "retention_acceleration_scenarios_g": [5.0, 10.0, 25.0],
+  "provenance": {
+    "stroke": "Existing paired four-cell R0 advances from 0 to 200 mm; this is lateral transfer, not the acceleration stroke.",
+    "cad_source": "https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/abacf94233100e0a69bb7aec4b15745317b38cb8/cad/gen6_four_cell_r0/build.py",
+    "payloads": "1.33 and 4 kg are P129 surrogate masses; 6 kg is an added sensitivity case, not a compatibility rating.",
+    "remaining_inputs": "Declared engineering sensitivity scenarios; no supplier, provider or measured friction data. Duration is active one-way feed time, excluding gate, verification, reset and release."
+  }
+}

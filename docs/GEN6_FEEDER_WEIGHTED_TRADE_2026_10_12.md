@@ -21,3 +21,11 @@ The preliminary weights are fault containment/safety 35%, fit and installed mass
 The [qualitative concept record](GEN6_FEEDER_CONCEPT_TRADE.md) supplies operating principles and failure concerns. A separate two-layout four-cell FreeCAD/STEP screen in the main project now places two 1U and two 3U proxies in paired or staggered fixed cells. Pairing removes the staggered layout's short ideal acceleration path, but it does not select a transfer mechanism. The lead screw is an analysis reference because positive, reversible transfer and accessible stops are plausible. Spring/two-gate remains a runner-up, and the pantograph remains a packaging challenger. No concept passes a power-off restraint, full motion, loaded clearance, mechanism-level four-cell integration or installed-BOM gate. The numerical rank alone cannot determine a baseline.
 
 Selection requires comparable four-cell editable CAD/STEP, swept and tolerance checks, sourceable actuator and lock parts, mass/CG/inertia, contact and load calculations, and a demonstrated safe fault response. Rejected concepts can be dispositioned here only after those checks. Until then they remain available for design exploration.
+
+## Quantitative load evidence — 16 October 2026
+
+The [common-boundary actuator load screen](GEN6_FEEDER_LOAD_SCREEN.md) adds 27
+analytical scenarios for the lead screw, spring follower and three-stage scissor. Its
+force, torque, energy and static-backdrive results are requirements sensitivities.
+They do not supply installed mass, functional geometry, measured friction or reliability;
+existing ordinal scores remain hypotheses and no architecture is selected.
