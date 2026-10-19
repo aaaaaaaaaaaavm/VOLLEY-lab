@@ -36,5 +36,9 @@ jobs:
         run: |
           python3 analysis/gen6_feeder_load_screen.py --check
           python3 -m unittest discover -s tests -v
+      - name: Captured feeder and coupled-campaign evidence
+        run: |
+          python3 experiments/feeder-design-review/check_capture.py
+          python3 experiments/coupled-delivery-review/check_capture.py
       - name: Verify vault record
         run: python tools/check_repo.py

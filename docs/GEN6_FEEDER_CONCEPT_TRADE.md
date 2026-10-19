@@ -1,5 +1,7 @@
 # Gen6 mixed-size feeder: concept trade, not a selected mechanism
 
+Current follow-up: [19 October native CAD/load/fault review](../experiments/feeder-design-review/README.md). This dated earlier record is retained; no feeder is selected.
+
 **12 October 2026 — engineering concept record.** The service study uses two passive 1U and two passive 3U CubeSats. The original Gen6 FreeCAD/STEP first article contains one 3U dummy. Later paired and staggered four-cell FreeCAD/STEP studies place all four payload proxies, but still have no working feeder, launch restraint or verified docking. Gen5's original side cassettes overlap its track and are 11 mm too wide for their reference enclosure. The wider Gen5 R1 revision clears the original cassette/track overlap and scripted payload paths, but an expanded all-leaf assembly audit finds five other intersecting pairs. It also has no actuator, positive launch restraint, tolerance closure, or source-rated system mass. These are separate generations and geometry revisions; neither is a working magazine.
 
 The [provisional weighted screen](GEN6_FEEDER_WEIGHTED_TRADE_2026_10_12.md) leaves all mechanism choices open.

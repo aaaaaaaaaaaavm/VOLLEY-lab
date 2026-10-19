@@ -1,5 +1,7 @@
 # Gen6 feeder alternatives: provisional weighted screen
 
+Current follow-up: [19 October native CAD/load/fault review](../experiments/feeder-design-review/README.md). This dated earlier record is retained; no feeder is selected.
+
 **Status: active research alternatives; no feeder architecture selected or rejected.** This laboratory record preserves seven concepts while same-boundary geometry and fault evidence are collected. It does not release any part for construction.
 
 The reference mission stores two passive 1U and two passive 3U spacecraft in independently retained cells and transfers one payload at a time into a common launch carrier. A cell fault must stay contained. Other cells may proceed only after a verified safe-path check. A power loss during transfer must not leave a free spacecraft.

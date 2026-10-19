@@ -2,11 +2,22 @@
 
 ### The architecture research vault
 
+## Feeder engineering review · 19 October 2026
+
+[Full report and source](experiments/feeder-design-review/README.md) · [PDF](experiments/feeder-design-review/FEEDER_REVIEW.pdf) · [Native CAD/STEP](experiments/feeder-design-review/release) · [Coupled four/twelve-payload campaigns](experiments/coupled-delivery-review/README.md).
+
+Fourteen 1U/3U candidate assemblies, twenty-eight STEP states and 210 nominal inspections are recorded in FDR-08, with actuator/sensor envelopes included. No positive-volume intersection appears in those checks; nonlinear handoff, indexing, loaded contact and power-off restraint remain unverified. Native CalculiX fixture results, genuine FreeCAD/Gmsh views, 108 load cases, 12 tolerance stacks and retained failures make the limits inspectable. The arrest-tooth screen fails adverse mean-load cases. **No feeder is selected for manufacture.**
+
+![Genuine FreeCAD Python-hosted viewport of the unselected lead-screw candidate](experiments/feeder-design-review/release/captures/FreeCAD_lead_screw_3U.png)
+
+*Actual native Part geometry, not a render or measured prototype. [All seven candidate views and source](experiments/feeder-design-review/README.md).*
+
+
 VOLLEY-lab preserves the alternatives that were tested, screened out or held behind a new evidence gate. A useful research programme needs to show **what stopped**, **which assumption controlled the answer**, and **what would have to change to reopen it**.
 
 The [Go 3 Gen6 research handoff](docs/GEN6_GO3_RESEARCH_HANDOFF.md) records why both first-article candidates remain live hypotheses and what calculation or measurement would reject them. It includes the matched four-release result, CAD clearance failure and necessary energy bounds locally. The [feeder concept trade](docs/GEN6_FEEDER_CONCEPT_TRADE.md) starts with the reference fixed side cassettes and compares simple transfer mechanisms without selecting one for construction.
 
-The [200 mm feeder load screen](docs/GEN6_FEEDER_LOAD_SCREEN.md) compares screw torque,
+The earlier 16 October [200 mm feeder load screen](docs/GEN6_FEEDER_LOAD_SCREEN.md) compares screw torque,
 spring energy and pantograph force across 27 common scenarios. It exposes the near-flat
 scissor force penalty and separates gentle feed loads from launch retention. It supplies
 requirements for the CAD trade; it does not select a feeder or demonstrate safe holding.

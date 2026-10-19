@@ -1,0 +1,68 @@
+{
+  "boundary": "Sources formatted after computation; before/after executable AST compared exactly. Original executed-byte hashes remain traceable; only whitespace layout changed, not equations or operations.",
+  "files": [
+    {
+      "path": "fea_floor.py",
+      "original_sha256": "6e6fac78b4ba561bd4e07362e0f27fadebac854d9f33484ae60d188d086d0cf0",
+      "formatted_sha256": "81bc146364e3e41fc9c7a06f860326632b0ab4a323cc3b771e4ebb71e367e34f",
+      "AST_unchanged": true,
+      "normalized_AST_sha256": "863c6299a30b30ff90fc72fae57da43026d4f1d4ed08c250fff1ed72b59dd079"
+    },
+    {
+      "path": "build.py",
+      "original_sha256": "257235c5c51522fdccfe9edb3850ed3d070287973c97f66f6910b6ebd59053c5",
+      "formatted_sha256": "22d8f20fc43c1fe3b576fa3319ef42311060a272c7f0a6847fdcb31fbac444a8",
+      "AST_unchanged": true,
+      "normalized_AST_sha256": "f935a4d4bb86292e8a54b766d4dcd7a0a40ff5e4d7031be31fb447bc7be45236"
+    },
+    {
+      "path": "capture_native.py",
+      "original_sha256": "edc3bacd0da4add77bc42396588547559d126268f60471908bc8ee06fa899322",
+      "formatted_sha256": "8b0087040354a9a33f8ffb499ff975eb8771f96a4d7a09a8a4aa11370b08cee4",
+      "AST_unchanged": true,
+      "normalized_AST_sha256": "d65ad179f028bac3c35e5b73f761270a407a1a61f7e3fc78d7350a1fe1e6335a"
+    },
+    {
+      "path": "plot.py",
+      "original_sha256": "ac9f56bc4894c6255b203ff1c59a2ceed76a18f276c91fa5c9c7a1f9aea3ed72",
+      "formatted_sha256": "c0daed952e6ceaa9aff396b14a98a8bc3606f1f29743e3d56ab2952970abd5a8",
+      "AST_unchanged": true,
+      "normalized_AST_sha256": "12bc4404aec54bc79666c5df1d153f21061f2f3bd700a2b43988dc654f077186"
+    },
+    {
+      "path": "analyze.py",
+      "original_sha256": "4e3130fa4a661693bba26ab4c5500c89941a593aa36cb72277a4af57320ae064",
+      "formatted_sha256": "058a85bc9f08383f08cb58dcc12a85a3762d366c2d0f0eafc478cd835b3ea228",
+      "AST_unchanged": true,
+      "normalized_AST_sha256": "da15446537d798571eede69102ba413a5d5fb8352803c6640450781b8f9c031a"
+    },
+    {
+      "path": "project_step.py",
+      "original_sha256": "d14c809acc2541f934372b3a103be654ddd1c664c792459134f0c514ed4716d4",
+      "formatted_sha256": "0679a00d7a7ba096a099581367d6c17dbc591356aa9506a530192fcdd2c2ee14",
+      "AST_unchanged": true,
+      "normalized_AST_sha256": "fad37043e98d38f460fc494ddaac57edbf5ae395c8bf894e7cea53816abcf471"
+    },
+    {
+      "path": "metrology.py",
+      "original_sha256": "734785789542a148d6fdc3cac6b61cc8091c645bff60b8172e2f6efc94f5fbf8",
+      "formatted_sha256": "238e7aeb527de742f0c3f57a2a5b4a9951b4e99dd962510ceecf6d3fee617c65",
+      "AST_unchanged": true,
+      "normalized_AST_sha256": "5261f09700715391bd033329e7366aabc61f0887ec25aee5710f673cd41fbbc9"
+    },
+    {
+      "path": "view_fea.py",
+      "original_sha256": "0861cb746b951a6f015bfab9c34845942e6ff503578f1bde01a929d334314e48",
+      "formatted_sha256": "df595de20344595822af84f01632e69f590b76d24f8a711a011cf235c338f74a",
+      "AST_unchanged": true,
+      "normalized_AST_sha256": "01ac53bb5cb6e9d83ca833353c925811bba56e48e113b7d8bb252564dd82ace7"
+    },
+    {
+      "path": "arrest_tooth.py",
+      "original_sha256": "23c0c0e3838858f8baae34ee64ea3dcdfbd95fa737da5cd76fb69a32892ed6a8",
+      "formatted_sha256": "66eb7c68fa5bc74eb3af4cdf1a20631f789819f198888b37fbb37550ad8041c9",
+      "AST_unchanged": true,
+      "normalized_AST_sha256": "c27515d1f34bd7ad65544365e9b53ddc67157b25da8b805e7808d962991ef154"
+    }
+  ]
+}
