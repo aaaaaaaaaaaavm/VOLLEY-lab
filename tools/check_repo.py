@@ -150,6 +150,8 @@ def check_evidence_commands() -> None:
         ["-m", "unittest", "discover", "-s", "tests", "-v"],
         ["experiments/feeder-design-review/check_capture.py"],
         ["experiments/coupled-delivery-review/check_capture.py"],
+        ["experiments/captive-transfer-review/check_capture.py"],
+        ["experiments/replenishment-feasibility/check_capture.py"],
     ]
     for arguments in commands:
         subprocess.run([sys.executable, *arguments], cwd=ROOT, check=True)

@@ -2,6 +2,16 @@
 
 ### The architecture research vault
 
+## Captive-transfer and servicing studies · 19 October 2026
+
+[Full-text feeder comparison](docs/FEEDER_FULL_TEXT_REVIEW_2026_10_19.md) distinguishes the closest prototypes from VOLLEY, including payload modifications, gravity-assisted tests, contact loads and shared-path failures.
+
+The separately versioned [CT-01 review](experiments/captive-transfer-review/README.md) adds 22 native/STEP cycle states, continuous prescribed-translation checks, an enlarged isolated tooth fixture and conditional stop dynamics. It corrects nominal gate/fork crossings in this coupon; adverse stop travel, local gap sensitivities and physical custody faults remain. It does not select a feeder or establish a complete launcher.
+
+The [limited replenishment study](experiments/replenishment-feasibility/README.md) defines cooperative cartridge interfaces, operations, capture/fit sensitivities and faults. Its result is **no-go for an operational reload claim on the current baseline**. Ground reload remains the campaign assumption.
+
+![CT-01 continuous prescribed-cycle STEP views; nominal geometry, not hardware qualification](experiments/captive-transfer-review/release/figures/step_sequence.png)
+
 ## Feeder engineering review · 19 October 2026
 
 [Full report and source](experiments/feeder-design-review/README.md) · [PDF](experiments/feeder-design-review/FEEDER_REVIEW.pdf) · [Native CAD/STEP](experiments/feeder-design-review/release) · [Coupled four/twelve-payload campaigns](experiments/coupled-delivery-review/README.md).
