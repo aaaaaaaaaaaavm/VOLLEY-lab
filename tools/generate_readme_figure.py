@@ -7,16 +7,16 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-BG, PANEL, INK, MUTED = "#07111b", "#0c1d2a", "#e8f0f7", "#8fa7ba"
-CYAN, VIOLET, AMBER, RED, GREEN = "#38d6e8", "#9b8cff", "#ffb454", "#ff6b6b", "#61d6a3"
+BG, PANEL, INK, MUTED = "#ffffff", "#ffffff", "#17212b", "#4d5964"
+CYAN, VIOLET, AMBER, RED, GREEN = "#0072b2", "#805ba6", "#a66c00", "#b44235", "#007f60"
 
 
 ENTRIES = [
     ("PII-8", "FREE-FLYER", "route back: standards + gas ceiling", GREEN),
     ("PII-9", "LUNAR MASS DRIVER", "different programme; no host", VIOLET),
     ("PII-11", "DEPLOYABLE TRACK", "architecture change; straightness flips", AMBER),
-    ("PII-14", "CABLE GONDOLA", "inertia erased the headline gain", RED),
-    ("PII-19", "INDUCTION DRIVE", "optimised the 11% term", AMBER),
+    ("PII-14", "CABLE GONDOLA", "inertia offsets the predicted benefit", RED),
+    ("PII-19", "INDUCTION DRIVE", "limited contribution in the stated model", AMBER),
     ("PII-21", "WATER / STEAM", "tube heat costs more than fluid saves", RED),
 ]
 
@@ -24,13 +24,13 @@ ENTRIES = [
 def txt(x: float, y: float, value: str, size: int, colour: str = INK, weight: int = 400,
         anchor: str = "start") -> str:
     return (
-        f'<text x="{x}" y="{y}" fill="{colour}" font-family="Inter,Segoe UI,sans-serif" '
+        f'<text x="{x}" y="{y}" fill="{colour}" font-family="DejaVu Sans,sans-serif" '
         f'font-size="{size}" font-weight="{weight}" text-anchor="{anchor}">{escape(value)}</text>'
     )
 
 
-def box(x: float, y: float, w: float, h: float, stroke: str = "#17384b", fill: str = PANEL,
-        radius: int = 18) -> str:
+def box(x: float, y: float, w: float, h: float, stroke: str = "#c6cbd0", fill: str = PANEL,
+        radius: int = 0) -> str:
     return f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{radius}" fill="{fill}" stroke="{stroke}"/>'
 
 
@@ -39,9 +39,9 @@ def render() -> str:
         '<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">',
         f'<rect width="1600" height="900" fill="{BG}"/>',
         '<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#3f718c"/></marker></defs>',
-        txt(72, 78, "VOLLEY-LAB · THE VAULT", 24, CYAN, 700),
-        txt(72, 124, "Rejected against a stated mission, kept with the number that stopped it.", 34, INK, 600),
-        txt(72, 162, "Nothing here was stopped by a test. Nothing here should be cited.", 19, MUTED),
+        txt(72, 78, "VOLLEY-LAB · ARCHITECTURE STUDIES", 24, CYAN, 700),
+        txt(72, 124, "Architecture alternatives and controlling constraints", 34, INK, 600),
+        txt(72, 162, "Analytical and conceptual records; no physical test evidence. Cite the underlying source and its limits.", 19, MUTED),
         box(72, 220, 420, 520, stroke=CYAN),
         txt(104, 268, "MISSION HELD CONSTANT", 15, CYAN, 700),
         txt(104, 314, "Last-mile orbital delivery", 25, INK, 650),
@@ -67,8 +67,8 @@ def render() -> str:
             txt(x + 26, y + 112, "COMPUTED / ARGUED · NOT TESTED", 12, colour, 650),
         ]
     out += [
-        box(566, 762, 958, 70, stroke="#21465b", fill="#091720"),
-        txt(594, 804, "A stop can be reopened when its constraint moves. It is not scripture either.", 20, INK, 550),
+        box(566, 762, 958, 70, stroke="#c6cbd0", fill="#ffffff"),
+        txt(594, 804, "Reconsider a branch when new evidence changes its controlling constraint.", 20, INK, 550),
         txt(1494, 870, "6 LONG-FORM ENTRIES · 0 PHYSICAL OBSERVATIONS", 15, MUTED, 650, "end"),
         "</svg>",
     ]
@@ -88,7 +88,7 @@ def reopening_ledger() -> str:
         '<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820">',
         f'<rect width="1600" height="820" fill="{BG}"/>',
         txt(72, 78, "REOPENING LEDGER · REVIEWED 2026-08-20", 24, CYAN, 700),
-        txt(72, 124, "A stopped branch changes only when the constraint that stopped it changes.", 32, INK, 600),
+        txt(72, 124, "Reassessment requires evidence that changes a controlling constraint.", 32, INK, 600),
         txt(72, 162, "Verdicts are extracted from the six long-form vault entries and the current README review.", 19, MUTED),
     ]
     for index, (identifier, status, reason, colour) in enumerate(rows):
@@ -101,49 +101,28 @@ def reopening_ledger() -> str:
             txt(x + 28, y + 82, reason, 17, INK, 550),
         ]
     out += [
-        box(72, 708, 1452, 58, fill="#091720", stroke="#21465b", radius=12),
-        txt(100, 744, "A route back is permission to ask the next question. It is not promotion and it is not test evidence.", 18, INK, 600),
+        box(72, 708, 1452, 58, fill="#ffffff", stroke="#c6cbd0", radius=0),
+        txt(100, 744, "Reopening permits further assessment; it does not establish a successful test.", 18, INK, 600),
         "</svg>",
     ]
     return "\n".join(out) + "\n"
 
 
 def transfer_map() -> str:
-    out = [
-        '<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">',
-        f'<rect width="1600" height="900" fill="{BG}"/>',
-        '<defs><marker id="arrow-transfer" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#3f718c"/></marker></defs>',
-        txt(72, 78, "ONE PROGRAMME · THREE EVIDENCE BOUNDARIES", 24, CYAN, 700),
-        txt(72, 124, "A principle may cross. A result stays where I produced it.", 34, INK, 600),
-        txt(72, 162, "Every destination geometry, duty and interface earns its own gate.", 19, MUTED),
-        box(72, 220, 420, 168, stroke=CYAN),
-        txt(104, 260, "VOLLEY", 18, CYAN, 750),
-        txt(104, 306, "Compatibility-first", 25, INK, 650),
-        txt(104, 344, "unmodified spacecraft", 19, MUTED),
-        box(72, 512, 420, 168, stroke=VIOLET),
-        txt(104, 552, "BOLLEY", 18, VIOLET, 750),
-        txt(104, 598, "Integration-first", 25, INK, 650),
-        txt(104, 636, "spacecraft joins the machine", 19, MUTED),
-        box(650, 300, 850, 300, stroke=AMBER),
-        txt(690, 346, "VOLLEY-LAB", 18, AMBER, 750),
-        txt(690, 392, "No inherited evidence", 27, INK, 650),
-        txt(690, 430, "hypothesis · stop condition · revival gate", 19, MUTED),
-        txt(690, 486, "VLAB-B001", 16, VIOLET, 750),
-        txt(835, 486, "BOLLEY unbound", 18, INK, 650),
-        txt(690, 526, "VLAB-X001", 16, GREEN, 750),
-        txt(835, 526, "quadrant leakage bearing", 18, INK, 650),
-        txt(690, 566, "VLAB-X002", 16, GREEN, 750),
-        txt(835, 566, "passive trim secondary", 18, INK, 650),
-        '<line x1="492" y1="304" x2="642" y2="392" stroke="#3f718c" stroke-width="3" marker-end="url(#arrow-transfer)"/>',
-        '<line x1="492" y1="596" x2="642" y2="508" stroke="#3f718c" stroke-width="3" marker-end="url(#arrow-transfer)"/>',
-        '<line x1="1075" y1="600" x2="1075" y2="714" stroke="#3f718c" stroke-width="3" marker-end="url(#arrow-transfer)"/>',
-        box(650, 730, 850, 92, stroke=GREEN, fill="#091720"),
-        txt(690, 770, "PASSING, PREDECLARED GATE", 16, GREEN, 750),
-        txt(690, 802, "opens a new ADR; it never rewrites the source history", 18, INK, 600),
-        txt(1494, 866, "TRANSFER IS A NEW CLAIM · NOT A COPY", 15, MUTED, 650, "end"),
-        "</svg>",
-    ]
-    return "\n".join(out) + "\n"
+    steps = [("Historical concept", "Retain original configuration and findings"),
+             ("Changed constraint", "Identify new source, limit or requirement"),
+             ("Independent assessment", "Recompute geometry, loads, mass and faults"),
+             ("Decision", "Accept, redesign or reject on current evidence")]
+    out = ['<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">',
+           '<rect width="1200" height="600" fill="white"/>',
+           txt(40, 48, "Reassessment of a historical concept", 25, INK, 600)]
+    for i, (title, boundary) in enumerate(steps):
+        y = 105 + i * 110
+        out += [f'<line x1="55" y1="{y+50}" x2="1140" y2="{y+50}" stroke="#d8dcdf"/>',
+                txt(55, y+25, str(i+1), 22, CYAN, 600), txt(105,y+25,title,22,INK,600),
+                txt(505,y+25,boundary,20,MUTED)]
+    out += [txt(40,570,"Conceptual decision process; no transferred hardware validation.",18,MUTED),'</svg>']
+    return "\n".join(out)+"\n"
 
 
 def main() -> None:

@@ -1,0 +1,45 @@
+{
+  "revision": "2026-10-19 scientific presentation edition",
+  "scope": "Selected current figure sets only. Retained historical graphics are not automatically certified compliant.",
+  "figures": [
+    {
+      "evidence_class": "Conceptual workflow diagram",
+      "caption": "reopening ledger",
+      "limitations": "Diagram or analytical screen; no measured hardware, qualified design or inherited side-project evidence.",
+      "sources": {
+        "tools/generate_readme_figure.py": "30cbbca9a07c9552210db99a4924350cfaf37bad45cd077da76166298a12ca1a"
+      },
+      "exports": {
+        "figures/reopening-ledger.svg": "5ab74d1f667889b50b599402e22ffd5668fda77c62eb846e793266befa73a30e",
+        "figures/reopening-ledger.pdf": "6d0f081ba35c25eab096f12e32b1e6d97908040f6cbdaaf03088c538ddd44c99",
+        "figures/reopening-ledger.png": "1e014293a6b9229a16790f27a97f5260d54497a18355d557185a130c9729f39c"
+      }
+    },
+    {
+      "evidence_class": "Conceptual workflow diagram",
+      "caption": "transfer map",
+      "limitations": "Diagram or analytical screen; no measured hardware, qualified design or inherited side-project evidence.",
+      "sources": {
+        "tools/generate_readme_figure.py": "30cbbca9a07c9552210db99a4924350cfaf37bad45cd077da76166298a12ca1a"
+      },
+      "exports": {
+        "figures/transfer-map.svg": "c9ff343493e877bcebf093e4ea332d9e5b558d4f2f6457c7618a669b1acddbe6",
+        "figures/transfer-map.pdf": "96885640e702dcda715a74750dda01787ddf56ff285ea3aa13d7e5d4237bde7e",
+        "figures/transfer-map.png": "5490bc04bdde440a72c5cc5d022fa12d55bfedeb19ac456c57bf3da8bbe6088f"
+      }
+    },
+    {
+      "evidence_class": "Conceptual workflow diagram",
+      "caption": "vault map",
+      "limitations": "Diagram or analytical screen; no measured hardware, qualified design or inherited side-project evidence.",
+      "sources": {
+        "tools/generate_readme_figure.py": "30cbbca9a07c9552210db99a4924350cfaf37bad45cd077da76166298a12ca1a"
+      },
+      "exports": {
+        "figures/vault-map.svg": "90419f89d0084cf2cc8f96707b6429cc46d211fc933843a94866490dd5559e88",
+        "figures/vault-map.pdf": "4f8446684c391322a38374f222136f48e3077bf979e9160ed02bbf8d1cd3be94",
+        "figures/vault-map.png": "2bf4d8c78f9b08f0a8deb0b02daea67a4eab195e66dd84260cd46970afe3019c"
+      }
+    }
+  ]
+}

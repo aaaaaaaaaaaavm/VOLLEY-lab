@@ -58,11 +58,11 @@ Each entry has its own assumptions, outcome and reopening condition. Its result 
 | [VLAB-X004 feeder candidate R1](VLAB-X004_feeder_candidate_r1.md) | Can a wider enclosure provide a collision-free geometric 3U transfer path? | Twelve envelope routes clear in a scripted static/motion screen; real feeder and changed budgets open. |
 | [VLAB-X005 segmented stator](VLAB-X005_segmented_stator_hypothesis.md) | Would local coil energization reduce copper loss under a finite-force shot? | Conditional model lowers copper heat; physical winding, switching and installed-system checks are open. |
 
-Those are study findings, not proof that no different design could work. The full [branch register](BOLLEY_BRANCH_REGISTER.md) and [notes](notes/README.md) retain further ideas and history.
+Those are study findings, not proof that no different design could work. The dated [notes](notes/README.md) retain further ideas and history; historical side-project records are outside the VOLLEY completion path.
 
 ## Three maps of the research
 
-<p align="center"><img src="figures/reopening-ledger.svg" alt="Reopening conditions across lab branches" width="49%"> <img src="figures/transfer-map.svg" alt="Evidence transfer boundaries between VOLLEY and BOLLEY" width="49%"></p>
+<p align="center"><img src="figures/reopening-ledger.svg" alt="Reopening conditions across lab branches" width="49%"> <img src="figures/transfer-map.svg" alt="Requirements and evidence boundary for reopening a historical VOLLEY concept" width="49%"></p>
 
 *A reopening condition earns another study; it does not promote an architecture. A result moving between projects must be recalculated for its new geometry, interface and duty.*
 
@@ -71,8 +71,7 @@ The active cross-programme questions have their own local records:
 | Branch | Current question and status |
 |:--|:--|
 | [VLAB-X001 quadrant leakage bearing](VLAB-X001_quadrant_gas_bearing.md) | Predeclared gas-bearing study; its controlled [run sheet](experiments/VLAB-X001/RUN_SHEET.md) and [inputs](experiments/VLAB-X001/parameters.json) are frozen. Read the entry for execution status and results. |
-| [VLAB-X002 passive trim secondary](VLAB-X002_passive_trim_secondary.md) | Screens a deployer-owned passive secondary; no BOLLEY force or mass result transfers automatically. |
-| [VLAB-B001 unbound interface](VLAB-B001_bolley_unbound.md) | Reopens spacecraft/deployer co-design variables for BOLLEY. |
+| [VLAB-X002 passive trim secondary](VLAB-X002_passive_trim_secondary.md) | Screens a deployer-owned passive secondary; requires its own force, mass and interface evidence. |
 | [VLAB-B002 active cooperation](VLAB-B002_active_cooperative_interface.md) | Asks whether spacecraft participation changes the pulse-power problem. |
 | [VLAB-B003 distributed feed](VLAB-B003_distributed_fluxpiston_feed.md) | Compares feed topologies for a pressure interface; concepts await their stated gates. |
 
@@ -82,4 +81,10 @@ An idea can leave this vault only after it has predeclared acceptance bands, a r
 
 **Inspect locally:** [source files](experiments/) · [generated visualisation script](tools/generate_readme_figure.py) · [repository gate](tools/check_repo.py) · [history](CHANGELOG.md).
 
-**Related independent records:** [VOLLEY Gen5 engineering](https://github.com/aaaaaaaaaaaavm/VOLLEY) · [VOLLEY thesis](https://github.com/aaaaaaaaaaaavm/VOLLEY-thesis) · [VOLLEY paper](https://github.com/aaaaaaaaaaaavm/VOLLEY-paper) · [BOLLEY](https://github.com/aaaaaaaaaaaavm/BOLLEY). Each lab entry states its own basis; these links provide broader context.
+**Related independent records:** [VOLLEY Gen5 engineering](https://github.com/aaaaaaaaaaaavm/VOLLEY) · [VOLLEY thesis](https://github.com/aaaaaaaaaaaavm/VOLLEY-thesis) · [VOLLEY paper](https://github.com/aaaaaaaaaaaavm/VOLLEY-paper). Each lab entry states its own basis; these links provide broader context.
+
+[Scientific figures and documentation conventions](docs/FIGURE_STANDARD.md) · [Released figure sources](docs/SCIENTIFIC_FIGURES.json)
+
+The overview figures are regenerated with `python tools/generate_readme_figure.py`. Quantitative plots retain their committed model inputs; diagrams describe relationships and do not add validation evidence.
+
+[Independent project and evidence boundary](docs/PROJECT_BOUNDARY.md)
