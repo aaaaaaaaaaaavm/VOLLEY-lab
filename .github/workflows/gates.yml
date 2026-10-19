@@ -22,23 +22,5 @@ jobs:
             git fetch -q origin "$BASE_SHA"
             python3 tools/prepublish_gate.py --base "$BASE_SHA"
           fi
-      - name: Gen6 mixed-size full-state screen
-        run: python3 analysis/gen6_mixed_mission.py --check
-      - name: Gen6 matched four-release campaign
-        run: python3 analysis/gen6_matched_campaign.py --check
-      - name: Gen6 first-article bounds and CAD mass ledger
-        run: python3 analysis/gen6_go2_article_bounds.py --check
-      - name: Gen6 source and instrument bounds
-        run: python3 analysis/gen6_go2_power_instrument_screen.py --check
-      - name: Gen6 G0 surrogate requirements
-        run: python3 analysis/gen6_g0_reference.py --check
-      - name: Feeder load sensitivity and regressions
-        run: |
-          python3 analysis/gen6_feeder_load_screen.py --check
-          python3 -m unittest discover -s tests -v
-      - name: Captured feeder and coupled-campaign evidence
-        run: |
-          python3 experiments/feeder-design-review/check_capture.py
-          python3 experiments/coupled-delivery-review/check_capture.py
-      - name: Verify vault record
-        run: python tools/check_repo.py
+      - name: Complete vault evidence entry point
+        run: python3 tools/check_repo.py

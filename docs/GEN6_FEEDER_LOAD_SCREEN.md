@@ -1,7 +1,5 @@
 # Gen6 feeder: comparable load and energy screen
 
-Current follow-up: [19 October native CAD/load/fault review](../experiments/feeder-design-review/README.md). This dated earlier record is retained; no feeder is selected.
-
 **Analytical sensitivity study; no selected mechanism, rated component or verified CAD.**
 
 The reference is a 200 mm lateral one-way feed. The 1.33/4 kg cases match the mixed-size mission surrogates; 6 kg is a sensitivity only. Duration is active transfer time, not total deployment cadence. The three architectures share payload, travel, duration and opposing-force scenarios. None has a measured friction or mass advantage.

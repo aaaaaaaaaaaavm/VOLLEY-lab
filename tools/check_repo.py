@@ -6,6 +6,8 @@ import importlib.util
 import hashlib
 import json
 import re
+import subprocess
+import sys
 from pathlib import Path
 from urllib.parse import unquote
 
@@ -135,12 +137,31 @@ def check_links() -> None:
         fail("broken local links:\n  " + "\n  ".join(failures))
 
 
+
+def check_evidence_commands() -> None:
+    """Run the same numerical/capture checks required by the CI evidence job."""
+    commands = [
+        ["analysis/gen6_mixed_mission.py", "--check"],
+        ["analysis/gen6_matched_campaign.py", "--check"],
+        ["analysis/gen6_go2_article_bounds.py", "--check"],
+        ["analysis/gen6_go2_power_instrument_screen.py", "--check"],
+        ["analysis/gen6_g0_reference.py", "--check"],
+        ["analysis/gen6_feeder_load_screen.py", "--check"],
+        ["-m", "unittest", "discover", "-s", "tests", "-v"],
+        ["experiments/feeder-design-review/check_capture.py"],
+        ["experiments/coupled-delivery-review/check_capture.py"],
+    ]
+    for arguments in commands:
+        subprocess.run([sys.executable, *arguments], cwd=ROOT, check=True)
+
+
 def main() -> None:
     check_required()
     check_figures()
     check_entries()
     check_x001_freeze()
     check_links()
+    check_evidence_commands()
     print("OK: shared vault entries, generated figures, namespaces and local links are current")
 
 
