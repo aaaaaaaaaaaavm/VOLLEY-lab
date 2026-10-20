@@ -3,11 +3,19 @@
 ### The architecture research vault
 
 
+## Finite-duration host manoeuvres
+
+The [FBR-01 finite-force study](experiments/finite-burn-review/README.md) and [seven-page report](experiments/finite-burn-review/FINITE_BURN_CAMPAIGN_REVIEW.pdf) replace the earlier ideal impulses with explicit preparation, thrust windows, mass flow and recovery. Eighteen targeted schedules and 46 native Orekit runs retain numerical refinements, control-error probes and thrust/fuel failures.
+
+At the declared 35%/35% policy, the twelve-release spring input requires 33.83 N peak and 23.12 kg fuel, failing the illustrative 20 N / 20 kg screen. The imposed VOLLEY input requires 18.00 N and 6.12 kg. With a common 30 kg reserve and 100 N limit, **both** cases reach the constructed translational targets. VOLLEY's assumed device-mass penalty still exceeds its propellant saving. A single fixed-thruster interpretation also needs nearly 9°/s mean direction reversals; host attitude/force allocation remains unverified.
+
+![Separately targeted finite-force schedules; surrogate controls and resource limits, no rated host or achieved release](experiments/finite-burn-review/figures/force_fuel_trade.png)
+
 ## Native campaign replay and precision requirements · 19 October 2026
 
 The [CNR-01 local report](experiments/native-campaign-review/README.md) provides 51 native Orekit runs: complete prescribed host-burn/recoil sequences, matched four/twelve-release cases, step comparisons and deterministic control-error probes. Nominal payload endpoint differences from the source implementation are below 8 µm. This is a numerical consistency result, **not delivered flight accuracy**.
 
-A common +0.1% imposed release-speed bias produces approximately 1.53 km terminal position error for the VOLLEY cases. Conditional photogate budgets and a frozen-command thrust-time screen expose the sensor, control and host requirements. Actual motor ratings, closed-loop accuracy, finite-burn targeting and installed integration remain open.
+A common +0.1% imposed release-speed bias produces approximately 1.53 km terminal position error for the VOLLEY cases. Conditional photogate budgets and a frozen-command thrust-time screen expose the sensor, control and host requirements. Actual motor ratings, closed-loop accuracy and installed integration remain open. FBR-01 separately targets finite-duration translational controls; host force allocation and operational compatibility remain unverified.
 
 ![Terminal position sensitivity to stated deterministic command probes; imposed velocities, surrogate host and no feedback](experiments/native-campaign-review/figures/control_sensitivity.png)
 
