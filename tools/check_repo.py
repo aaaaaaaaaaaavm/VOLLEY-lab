@@ -151,6 +151,7 @@ def check_evidence_commands() -> None:
         ["experiments/feeder-design-review/check_capture.py"],
         ["experiments/coupled-delivery-review/check_capture.py"],
         ["experiments/native-campaign-review/check_capture.py"],
+        ["experiments/finite-burn-review/check_capture.py"],
         ["experiments/captive-transfer-review/check_capture.py"],
         ["experiments/replenishment-feasibility/check_capture.py"],
     ]
