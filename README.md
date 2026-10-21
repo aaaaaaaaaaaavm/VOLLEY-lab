@@ -60,3 +60,11 @@ Each edition contains its own evidence and documentation. Historical work remain
 ## Contact-model verification
 
 [FCE12 method, native outputs and calibration](experiments/feeder-contact-verification/README.md) evaluates the FM06 transfer geometry with exact material partitions. Fourteen planar controls and 84 full-solid pose checks establish the stated numerical resolution; final-pose and impulsive-force refinement remain separate acceptance criteria.
+
+## Feeder release and reset geometry
+
+![Exit-open reference geometry rendered from native FreeCAD solids in Blender Workbench](experiments/feeder-release-review/figures/FM07_Technical_exit_open.png)
+
+FM07-R5 adds captive receiver pins, a hinged exit gate and prescribed empty-carrier reset. The nominal checks cover 46 cycle poses, 34 rotary samples and 40 continuous linear sweeps. Twenty assembly STEP files and 74 individual parts pass independent exchange readback. These are geometry results; loaded fits, installed actuation and the seven-concept selection gates remain separate requirements.
+
+[Engineering report](experiments/feeder-release-review/FEEDER_RELEASE_AND_RESET.pdf) · [Native CAD, STEP, source and checks](experiments/feeder-release-review/README.md) · [Selection-gate assessment](experiments/feeder-release-review/comparison_reference/D27_GATE_ASSESSMENT.json)
