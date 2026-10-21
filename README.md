@@ -3,6 +3,16 @@
 ### The architecture research vault
 
 
+## Feeder geometry and native load/contact review · 21 October 2026
+
+[FM06-R1 engineering record](experiments/feeder-integrity-review/README.md) adds thirty native assembly/STEP poses, seventy independently checked individual STEP files and a corrected backstop junction. Fifty-two receiver-fixture analyses (40 historical, 12 on the actual current geometry) and four tine unit-load analyses retain mesh refinement, force/moment balance and explicit support assumptions.
+
+The native contact campaign is a **negative numerical finding**: programmed transfer completion does not establish converged forces or dynamic clearance. Independent B-rep checks detect payload/fork overlap, and adverse tolerance cases remain. Installed actuators, release/reset and multi-cell integration are unfinished. No feeder architecture is selected; the evaluated Gen5 is unchanged.
+
+![FM06-R1 native-CAD transfer state rendered in Blender Workbench; nominal research geometry, not a tested or qualified mechanism](experiments/feeder-integrity-review/figures/FM06_Technical_transfer.png)
+
+[Engineering report](experiments/feeder-integrity-review/FEEDER_INTEGRITY_REVIEW.pdf) · [Native 3U FreeCAD](experiments/feeder-integrity-review/cad/FM06_3U_transfer.FCStd) · [3U STEP](experiments/feeder-integrity-review/cad/FM06_3U_transfer.step) · [70 reference parts](experiments/feeder-integrity-review/parts/INDEX.json) · [Contact assessment](experiments/feeder-integrity-review/CONTACT_REVIEW.md)
+
 ## Finite-duration host manoeuvres
 
 The [FBR-01 finite-force study](experiments/finite-burn-review/README.md) and [seven-page report](experiments/finite-burn-review/FINITE_BURN_CAMPAIGN_REVIEW.pdf) replace the earlier ideal impulses with explicit preparation, thrust windows, mass flow and recovery. Eighteen targeted schedules and 46 native Orekit runs retain numerical refinements, control-error probes and thrust/fuel failures.
