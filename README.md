@@ -1,148 +1,62 @@
-# VOLLEY-lab
+# VOLLEY Labs
 
-### The architecture research vault
+### Mechanism research, alternative architectures and numerical experiments
 
+This repository preserves the alternative mechanisms and exploratory calculations behind VOLLEY. Each study records its configuration, method, findings and conditions for further development. Research candidates enter the engineering baseline only after the applicable design gates are satisfied.
 
-## Feeder geometry and native load/contact review · 21 October 2026
+[Feeder concept comparison](docs/GEN6_FEEDER_CONCEPT_TRADE.md) · [Current native evidence](experiments/feeder-integrity-review/README.md) · [Matched mission study](experiments/finite-burn-review/README.md)
 
-[FM06-R1 engineering record](experiments/feeder-integrity-review/README.md) adds thirty native assembly/STEP poses, seventy independently checked individual STEP files and a corrected backstop junction. Fifty-two receiver-fixture analyses (40 historical, 12 on the actual current geometry) and four tine unit-load analyses retain mesh refinement, force/moment balance and explicit support assumptions.
+## Study configuration
 
-The native contact campaign is a **negative numerical finding**: programmed transfer completion does not establish converged forces or dynamic clearance. Independent B-rep checks detect payload/fork overlap, and adverse tolerance cases remain. Installed actuators, release/reset and multi-cell integration are unfinished. No feeder architecture is selected; the evaluated Gen5 is unchanged.
+**Gen5** is the fixed evaluated configuration: twelve 4 kg 3U payloads, a 1.3 m powered stroke and a reusable carrier. Its technical evidence snapshot is retained with the assessed design criteria. **Gen6** is a separate development study for passive 1U and 3U spacecraft, initially two of each, with a twelve-payload expansion assessed separately.
 
-![FM06-R1 native-CAD transfer state rendered in Blender Workbench; nominal research geometry, not a tested or qualified mechanism](experiments/feeder-integrity-review/figures/FM06_Technical_transfer.png)
+The Gen6 mission reference uses a generic maneuvering OTV in approximately 500 km sun-synchronous orbit. Four releases occur within one orbital period; full position and velocity targets are evaluated at a common epoch 24 hours after the last release. Host maneuvers and their resource costs are included for both deployment policies. These are declared surrogates, not provider-approved interfaces.
 
-[Engineering report](experiments/feeder-integrity-review/FEEDER_INTEGRITY_REVIEW.pdf) · [Native 3U FreeCAD](experiments/feeder-integrity-review/cad/FM06_3U_transfer.FCStd) · [3U STEP](experiments/feeder-integrity-review/cad/FM06_3U_transfer.step) · [70 reference parts](experiments/feeder-integrity-review/parts/INDEX.json) · [Contact assessment](experiments/feeder-integrity-review/CONTACT_REVIEW.md)
+## Engineering evidence
 
-## Finite-duration host manoeuvres
+![FM06-R1 transfer assembly, rendered from native FreeCAD geometry in Blender Workbench](experiments/feeder-integrity-review/figures/FM06_Technical_transfer.png)
 
-The [FBR-01 finite-force study](experiments/finite-burn-review/README.md) and [seven-page report](experiments/finite-burn-review/FINITE_BURN_CAMPAIGN_REVIEW.pdf) replace the earlier ideal impulses with explicit preparation, thrust windows, mass flow and recovery. Eighteen targeted schedules and 46 native Orekit runs retain numerical refinements, control-error probes and thrust/fuel failures.
+*FM06-R1 nominal transfer configuration. Editable geometry, STEP exchanges, calculations and native solver records are included in the [engineering package](experiments/feeder-integrity-review/README.md).*
 
-At the declared 35%/35% policy, the twelve-release spring input requires 33.83 N peak and 23.12 kg fuel, failing the illustrative 20 N / 20 kg screen. The imposed VOLLEY input requires 18.00 N and 6.12 kg. With a common 30 kg reserve and 100 N limit, **both** cases reach the constructed translational targets. VOLLEY's assumed device-mass penalty still exceeds its propellant saving. A single fixed-thruster interpretation also needs nearly 9°/s mean direction reversals; host attitude/force allocation remains unverified.
-
-![Separately targeted finite-force schedules; surrogate controls and resource limits, no rated host or achieved release](experiments/finite-burn-review/figures/force_fuel_trade.png)
-
-## Native campaign replay and precision requirements · 19 October 2026
-
-The [CNR-01 local report](experiments/native-campaign-review/README.md) provides 51 native Orekit runs: complete prescribed host-burn/recoil sequences, matched four/twelve-release cases, step comparisons and deterministic control-error probes. Nominal payload endpoint differences from the source implementation are below 8 µm. This is a numerical consistency result, **not delivered flight accuracy**.
-
-A common +0.1% imposed release-speed bias produces approximately 1.53 km terminal position error for the VOLLEY cases. Conditional photogate budgets and a frozen-command thrust-time screen expose the sensor, control and host requirements. Actual motor ratings, closed-loop accuracy and installed integration remain open. FBR-01 separately targets finite-duration translational controls; host force allocation and operational compatibility remain unverified.
-
-![Terminal position sensitivity to stated deterministic command probes; imposed velocities, surrogate host and no feedback](experiments/native-campaign-review/figures/control_sensitivity.png)
-
-## Feeder mechanism and actuation review · 20 October 2026
-
-[FM-02 / IDR-01 / FSR-01](experiments/feeder-actuation-review/README.md) supplies 28 native FreeCAD/STEP poses, 26 continuous prescribed-motion checks, a 12 mm underfloor receiving latch and source-backed ground-drive, brake, thermal and handling studies. The receiving restraints now belong to an actual modeled sled. All 972 sampled drive decisions agree with polynomial extrema/integrals.
-
-The study retains failed fit, thermal, brake and cycle-time criteria. Pin axial retention and actuation, installed drive/brake integration, loaded contact and four/twelve-cell accommodation remain unverified. **All seven feeder architectures remain unselected.** Gen5's evaluated baseline is unchanged.
-
-![Genuine FreeCAD view of the FM-02 3U captive-transfer geometry; source-sized envelopes and unvalidated interfaces, not a manufacturing release](experiments/feeder-actuation-review/figures/FreeCAD_FM02_transfer.png)
-
-[Nine-page engineering review](experiments/feeder-actuation-review/FEEDER_ACTUATION_REVIEW.pdf) · [Actual 3U STEP](experiments/feeder-actuation-review/cad/FM02_3U_transfer.step) · [Native FreeCAD](experiments/feeder-actuation-review/cad/FM02_3U_transfer.FCStd) · [Prescribed STEP-pose animation](experiments/feeder-actuation-review/figures/prescribed_cycle.gif) · [Recorded engineering findings](experiments/feeder-actuation-review/FINDINGS.json)
-
-## Captive-transfer and servicing studies · 19 October 2026
-
-[Full-text feeder comparison](docs/FEEDER_FULL_TEXT_REVIEW_2026_10_19.md) distinguishes the closest prototypes from VOLLEY, including payload modifications, gravity-assisted tests, contact loads and shared-path failures.
-
-The separately versioned [CT-01 review](experiments/captive-transfer-review/README.md) adds 22 native/STEP cycle states, continuous prescribed-translation checks, an enlarged isolated tooth fixture and conditional stop dynamics. It corrects nominal gate/fork crossings in this coupon; adverse stop travel, local gap sensitivities and physical custody faults remain. It does not select a feeder or establish a complete launcher.
-
-The [limited replenishment study](experiments/replenishment-feasibility/README.md) defines cooperative cartridge interfaces, operations, capture/fit sensitivities and faults. Its result is **no-go for an operational reload claim on the current baseline**. Ground reload remains the campaign assumption.
-
-![CT-01 continuous prescribed-cycle STEP views; nominal geometry, not hardware qualification](experiments/captive-transfer-review/release/figures/step_sequence.png)
-
-## Feeder engineering review · 19 October 2026
-
-[Full report and source](experiments/feeder-design-review/README.md) · [PDF](experiments/feeder-design-review/FEEDER_REVIEW.pdf) · [Native CAD/STEP](experiments/feeder-design-review/release) · [Coupled four/twelve-payload campaigns](experiments/coupled-delivery-review/README.md).
-
-Fourteen 1U/3U candidate assemblies, twenty-eight STEP states and 210 nominal inspections are recorded in FDR-08, with actuator/sensor envelopes included. No positive-volume intersection appears in those checks; nonlinear handoff, indexing, loaded contact and power-off restraint remain unverified. Native CalculiX fixture results, genuine FreeCAD/Gmsh views, 108 load cases, 12 tolerance stacks and retained failures make the limits inspectable. The arrest-tooth screen fails adverse mean-load cases. **No feeder is selected for manufacture.**
-
-![Genuine FreeCAD Python-hosted viewport of the unselected lead-screw candidate](experiments/feeder-design-review/release/captures/FreeCAD_lead_screw_3U.png)
-
-*Actual native Part geometry, not a render or measured prototype. [All seven candidate views and source](experiments/feeder-design-review/README.md).*
-
-
-VOLLEY-lab preserves the alternatives that were tested, screened out or held behind a new evidence gate. A useful research programme needs to show **what stopped**, **which assumption controlled the answer**, and **what would have to change to reopen it**.
-
-The [Go 3 Gen6 research handoff](docs/GEN6_GO3_RESEARCH_HANDOFF.md) records why both first-article candidates remain live hypotheses and what calculation or measurement would reject them. It includes the matched four-release result, CAD clearance failure and necessary energy bounds locally. The [feeder concept trade](docs/GEN6_FEEDER_CONCEPT_TRADE.md) starts with the reference fixed side cassettes and compares simple transfer mechanisms without selecting one for construction.
-
-The earlier 16 October [200 mm feeder load screen](docs/GEN6_FEEDER_LOAD_SCREEN.md) compares screw torque,
-spring energy and pantograph force across 27 common scenarios. It exposes the near-flat
-scissor force penalty and separates gentle feed loads from launch retention. It supplies
-requirements for the CAD trade; it does not select a feeder or demonstrate safe holding.
-
-![Map of VOLLEY-lab branches and stopping reasons](figures/vault-map.svg)
-
-*Locally generated disposition map. Colour denotes research disposition, not test maturity. [Generate the map](tools/generate_readme_figure.py) · [Inspect the transfer ledger](TRANSFER_LEDGER.md).*
-
-> **Initial Gen6 mixed-size policy screen, P129:** The selected service case is two ordinary passive 1U plus two 3U spacecraft from a rideshare/OTV host, released within one orbit from a 500 km sun-synchronous surrogate. Success is a distinct full position/velocity state for each satellite 24 hours after the last release; host maneuvers are allowed and counted on both sides. The [J2 full-state screen](validation/P129_gen6_mixed_mission.md) constructs four transparent trial targets and shows that simple VOLLEY and spring/host policies both accumulate terminal-state error. It is **not** an optimized campaign or evidence that VOLLEY wins. [Requirements revision 1](docs/GEN6_G0_MISSION_AND_ARTICLE_REQUIREMENTS.md) · [source](analysis/gen6_mixed_mission.py) · [result](analysis/results/gen6_mixed_mission.json) · [figure](figures/gen6_mixed_mission.svg). No Gen6 hardware is built or funded.
-
-> **Current Gen6 Go 1 matched campaign, P130:** A public [1U/3U and dispenser reference audit](docs/GEN6_GO1_PUBLIC_REFERENCE_AUDIT.md) distinguishes form-factor precedents from a provider-approved interface. The [matched four-release J2 construction](validation/P130_gen6_matched_campaign.md) lets **both** commanded release and spring-plus-host reach all four target position/velocity states using the same ideal host-burn schedule. At assumed 30 kg versus 16 kg device masses, commanded release saves 3.2823 kg of host fuel but carries a 14 kg device premium; no installed-mass benefit is established. A +0.1 m/s release-speed error shifts the one-day terminal position by roughly 25–27 km. [Source](analysis/gen6_matched_campaign.py) · [result](analysis/results/gen6_matched_campaign.json) · [figure](figures/gen6_matched_campaign.svg). The targets, device masses, host and release range are surrogates; there is no customer tolerance, selected hardware or flight interface.
-
-> **Gen6 Go 2 engineering screen, P131:** Two native [FreeCAD first-article assemblies and STEP exports](cad/gen6_first_article/README.md) compare captured permanent-magnet and conductive-plate carriers for a passive 4 kg 3U dummy. Both clear five nominal travel stations, but their frame, guide and carrier material proxies already total **9.926/9.945 kg**. Only about **9.35 kg** remains under P130's surrogate mass-parity proxy for the unmodeled drive, source, brake, restraint and controls. At 6 m/s the ideal moving-energy floor is about **82 J**. [P131 calculations and tolerance failure](validation/P131_gen6_go2_article_bounds.md) · [G1 decision](docs/GEN6_GO2_ARCHITECTURE_SCREEN.md) · [source](analysis/gen6_go2_article_bounds.py). **Neither candidate is selected or released for construction.** [P132 source and instrument screen](validation/P132_gen6_go2_power_instrument_screen.md) adds a 6 m/s **818 J** bus-energy floor at an assumed 10% efficiency, an ideal 0.406 F 96-to-72 V capacitance floor, and an illustrative two-gate timing budget. No winding, source or sensor is selected.
-
-![STEP-derived Blender review of unselected Gen6 first-article Candidate A](cad/gen6_first_article/release/Gen6_G1_A_STEP_derived.jpg)
-
-*Geometry review from FreeCAD solids; the drive and brake are unrated space envelopes.*
-
-> **Earlier four-identical-3U G0 screen, P128:** The previous requirements screen declares a four-payload 4 kg 3U, 450 km surrogate with 5–20 km immediate semimajor-axis-rise targets. The [P128 reproducible calculation](validation/P128_gen6_g0_reference.md) needs 2.795–11.149 m/s ideal prograde increments; a 3–6 m/s single-payload first article would measure the mechanism, not complete the 20 km no-burn target. The one-event spring/host mass proxy permits roughly 24.08–24.55 kg of total deployer mass at 3–6 m/s for resource parity under its assumptions. **That earlier G0 is partial and not passed:** there is no named buyer, spacecraft, provider interface, full-state campaign or selected Gen6 hardware. [Source](analysis/gen6_g0_reference.py) · [JSON](analysis/results/gen6_g0_reference.json) · [figure](figures/gen6_g0_reference.svg).
-
-> **Programme position, October 2026:** VOLLEY **Gen5** is the controlled computational evaluation snapshot presented in the thesis and paper. It fails its evaluated 3U mass and reference-layout screens; its final freeze remains open. The alternative gas guide and independent spring-cell bank are historical, unselected studies. **Gen6** is the proposed first instrumented prototype programme, with its command range to be chosen from a payload and mission; a 1 km/s-class release is separate long-range research. No Gen6 architecture or speed has been validated. Nothing here has been built, fired, measured, qualified or flown.
-
-[Audited market and spacecraft-fit research](MARKET_AND_CUSTOMER_FIT.md) frames the missions these branches would have to serve. The suggested 5–50 m/s region is a customer-discovery hypothesis; the 1 km/s upper goal is a different research regime.
-
-The new ideal stroke screen makes that separation quantitative: accelerating a 4 kg payload to 1 km/s over Gen5's 1.3 m powered stroke requires at least $v^2/(2L g_0) \approx 39{,}220$ g under constant acceleration and gives $mv^2/2 = 2$ MJ of payload kinetic energy. A 10 g ideal stroke would be about 5.10 km. This is kinematics, not a motor or payload qualification. The [reproducible P124 screen](validation/P124_precision_delivery_design_space.md) and [prototype-to-flight gates](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/GEN6_PROTOTYPE_TO_FLIGHT_ROADMAP.md) specify how a mission-derived first article is to be reviewed. Lab alternatives stay unselected until their own gates close.
-
-The current Gen5 evaluation also found a **failed side-fed packaging fit**: a 205 mm track and two 166 mm cassettes require 537 mm inside a 526 mm enclosure. The native FreeCAD review assembly and exact-solid check are in the Gen5 engineering record. A feeder or enclosure change belongs to a new controlled configuration, with the mass and mission analyses rerun; no lab branch is promoted by that finding alone.
-
-An [unselected R1 geometry screen](VLAB-X004_feeder_candidate_r1.md) now widens the enclosure to 570 mm and clears twelve scripted 3U transfer routes. It leaves actuation, restraint, tolerances, installed mass and host fit open. A separate finite-stator force screen also challenges Gen5's historical 16.029 m/s model point. The new [segmented-stator hypothesis](VLAB-X005_segmented_stator_hypothesis.md) records why reducing energized copper may matter, along with the physical winding and switch gates needed before promotion.
-
-The [PII-19 passive-shuttle record](PII-19_induction_drive_legacy_study.md) now includes the Gen5 one-event **74.659 kg absolute device parity bound**. A passive plate shuttle was already studied here; its earlier mass and pulse-power objections still stand. The [H1 whole-system reassessment](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/GEN5_H1_INTEGRATED_DEPLOYER_HYPOTHESIS.md) is an unselected question about structure, feed, drive and mission together, not a newly invented launcher or a promoted Gen5 revision.
-
-![Unselected R1 feeder candidate, STEP-derived Blender view with enclosure hidden](figures/r1_candidate_step.jpg)
-
-*Geometry illustration imported from the R1 FreeCAD/STEP study: widened enclosure hidden to expose the cassette and track arrangement. This branch has no lift actuator, retention design, tolerance closure or revised installed mass. The image is not a fabricated article or a promoted Gen5 revision. [Image provenance](figures/r1_candidate_step.provenance.json) · [R1 disposition](VLAB-X004_feeder_candidate_r1.md).*
-
-## How to read an entry
-
-Each entry has its own assumptions, outcome and reopening condition. Its result belongs to that specific geometry and case. A number from a related study does not validate a VOLLEY payload interface, a Gen6 mechanism, or a flight product. The [transfer ledger](TRANSFER_LEDGER.md) states what may be reused and what must be recalculated at the destination.
-
-| Study | What it asks | Present disposition |
+| Evidence | Published result | Interpretation |
 |:--|:--|:--|
-| [PII-8 free-flyer](PII-8_free_flyer.md) | Could the launcher become its own spacecraft for higher-energy delivery? | Rejected for the present hosted mission; long-track straightness, energy and payload load remain hard gates. |
-| [PII-11 deployable track](PII-11_deployable_track.md) | Could deployment length improve efficiency and packaging? | Historical calculation; mechanism and deployed geometry unverified. |
-| [PII-14 cable gondola](PII-14_cable_driven_gondola.md) | Could a cable and flywheel replace the electromagnetic drive? | Declined on the entry's calculated margins. |
-| [PII-19 induction drive](PII-19_induction_drive_legacy_study.md) | Could a light passive mover replace the permanent-magnet sled? | Historical study; it optimised a mover representing only 11% of dry mass. |
-| [PII-21 water fluids](PII-21_water_working_fluids.md) | Could water reduce gas-store mass in the historical pneumatic guide? | Historical fluid trade, with a steel-tube penalty that defeats the evaluated saving. |
-| [VLAB-X003 independent cells](VLAB-X003_independent_cell_bank.md) | Could redundant motor-charged spring cells isolate jams? | Withdrawn from the shared sequential-path objective; twelve-payload mission screens did not close. |
-| [VLAB-X004 feeder candidate R1](VLAB-X004_feeder_candidate_r1.md) | Can a wider enclosure provide a collision-free geometric 3U transfer path? | Twelve envelope routes clear in a scripted static/motion screen; real feeder and changed budgets open. |
-| [VLAB-X005 segmented stator](VLAB-X005_segmented_stator_hypothesis.md) | Would local coil energization reduce copper loss under a finite-force shot? | Conditional model lowers copper heat; physical winding, switching and installed-system checks are open. |
+| Native geometry | 30 assembly poses and 70 individual STEP exchanges | Nominal, prescribed-motion geometry checks |
+| Current receiver fixtures | 12 native finite-element analyses | 0.05998 mm mean loaded-face displacement for the 3U one-dog 1000 N ideal fixture |
+| Transfer tine | Four native unit-load meshes | 0.010145 mm/N finest-mesh mean compliance under the stated clamp and material assumptions |
+| Orbital campaign | 18 targeted schedules and 46 native Orekit replays | Matched finite-force host-control and resource comparisons |
 
-Those are study findings, not proof that no different design could work. The dated [notes](notes/README.md) retain further ideas and history; historical side-project records are outside the VOLLEY completion path.
+[Native FreeCAD](experiments/feeder-integrity-review/cad/FM06_3U_transfer.FCStd) · [Assembly STEP](experiments/feeder-integrity-review/cad/FM06_3U_transfer.step) · [Part index](experiments/feeder-integrity-review/parts/INDEX.json) · [Load/contact report](experiments/feeder-integrity-review/FEEDER_INTEGRITY_REVIEW.pdf)
 
-## Three maps of the research
+## Matched orbital delivery
 
-<p align="center"><img src="figures/reopening-ledger.svg" alt="Reopening conditions across lab branches" width="49%"> <img src="figures/transfer-map.svg" alt="Requirements and evidence boundary for reopening a historical VOLLEY concept" width="49%"></p>
+![Finite-force host schedules and propellant comparison](experiments/finite-burn-review/figures/force_fuel_trade.png)
 
-*A reopening condition earns another study; it does not promote an architecture. A result moving between projects must be recalculated for its new geometry, interface and duty.*
+The finite-burn study compares the same constructed terminal states and resource boundary. Under the declared twelve-release 35%/35% policy, the spring input requires 33.83 N peak and 23.12 kg propellant; the imposed VOLLEY release input requires 18.00 N and 6.12 kg. With a common 100 N limit and 30 kg propellant allowance, both policies reach the constructed translational targets. The assumed VOLLEY device-mass premium exceeds its propellant saving in this comparison.
 
-The active cross-programme questions have their own local records:
+[Method, inputs and native outputs](experiments/finite-burn-review/README.md) · [Engineering report](experiments/finite-burn-review/FINITE_BURN_CAMPAIGN_REVIEW.pdf) · [Native replay and command sensitivity](experiments/native-campaign-review/README.md)
 
-| Branch | Current question and status |
-|:--|:--|
-| [VLAB-X001 quadrant leakage bearing](VLAB-X001_quadrant_gas_bearing.md) | Predeclared gas-bearing study; its controlled [run sheet](experiments/VLAB-X001/RUN_SHEET.md) and [inputs](experiments/VLAB-X001/parameters.json) are frozen. Read the entry for execution status and results. |
-| [VLAB-X002 passive trim secondary](VLAB-X002_passive_trim_secondary.md) | Screens a deployer-owned passive secondary; requires its own force, mass and interface evidence. |
-| [VLAB-B002 active cooperation](VLAB-B002_active_cooperative_interface.md) | Asks whether spacecraft participation changes the pulse-power problem. |
-| [VLAB-B003 distributed feed](VLAB-B003_distributed_fluxpiston_feed.md) | Compares feed topologies for a pressure interface; concepts await their stated gates. |
+## Evidence boundaries
 
-## Promotion rule
+This is a computational design study. No physical prototype, measured release performance or flight qualification is claimed. Fixture compliance uses idealized supports and material assumptions. The current [FCE12 contact study](experiments/feeder-contact-verification/README.md) calibrates the numerical representation against analytical controls and full-solid poses. Final-state sensitivity remains an acceptance requirement. Installed actuation, complete release/reset and mixed-size system integration remain development requirements. All seven feeder architectures remain unselected.
 
-An idea can leave this vault only after it has predeclared acceptance bands, a reproducible result, a matched installed-system and mission comparison, explicit failure modes, and a new dated decision in its destination programme. The original failed record remains here. [Full rule and routing](TRANSFER_LEDGER.md).
+## Research and development
 
-**Inspect locally:** [source files](experiments/) · [generated visualisation script](tools/generate_readme_figure.py) · [repository gate](tools/check_repo.py) · [history](CHANGELOG.md).
+The [feeder trade](docs/GEN6_FEEDER_CONCEPT_TRADE.md) compares lead-screw, escapement, rack/pawl, indexed tray/drum, pantograph, telescoping and belt/cable approaches. Safety, retention, integration, mass, motion and fault evidence govern downselection. A 1 km/s-class release is a separate long-range scaling objective.
 
-**Related independent records:** [VOLLEY Gen5 engineering](https://github.com/aaaaaaaaaaaavm/VOLLEY) · [VOLLEY thesis](https://github.com/aaaaaaaaaaaavm/VOLLEY-thesis) · [VOLLEY paper](https://github.com/aaaaaaaaaaaavm/VOLLEY-paper). Each lab entry states its own basis; these links provide broader context.
+The gas-guide and independent-cell branches are preserved as historical alternatives. Their assumptions do not define the current Gen5 study or a selected Gen6 mechanism. The local experiments retain input versions and numerical outcomes for comparison.
 
-[Scientific figures and documentation conventions](docs/FIGURE_STANDARD.md) · [Released figure sources](docs/SCIENTIFIC_FIGURES.json)
+## Reproducibility
 
-The overview figures are regenerated with `python tools/generate_readme_figure.py`. Quantitative plots retain their committed model inputs; diagrams describe relationships and do not add validation evidence.
+Captured studies include source inputs, solver versions, raw outputs, figures and hash manifests. Their local README files specify the required software and replay commands. Native CAD requires FreeCAD; STEP provides the neutral geometry exchange. Blender assets are identified as renders.
 
-[Independent project and evidence boundary](docs/PROJECT_BOUNDARY.md)
+Run `python tools/prepublish_gate.py --all` for publication checks. Reproduce each experiment using its local instructions and recorded toolchain.
+
+## Project editions
+
+[VOLLEY](https://github.com/aaaaaaaaaaaavm/VOLLEY) · [Thesis](https://github.com/aaaaaaaaaaaavm/VOLLEY-thesis) · [Paper](https://github.com/aaaaaaaaaaaavm/VOLLEY-paper) · [Labs](https://github.com/aaaaaaaaaaaavm/VOLLEY-lab)
+
+Each edition contains its own evidence and documentation. Historical work remains traceable through dated studies and Git history.
+
+## Contact-model verification
+
+[FCE12 method, native outputs and calibration](experiments/feeder-contact-verification/README.md) evaluates the FM06 transfer geometry with exact material partitions. Fourteen planar controls and 84 full-solid pose checks establish the stated numerical resolution; final-pose and impulsive-force refinement remain separate acceptance criteria.
