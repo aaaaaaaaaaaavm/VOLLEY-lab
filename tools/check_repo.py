@@ -156,6 +156,10 @@ def check_evidence_commands() -> None:
         ["experiments/feeder-integrity-review/check_capture.py"],
         ["experiments/feeder-contact-verification/check_capture.py"],
         ["experiments/feeder-release-review/check_capture.py"],
+        ["experiments/feeder_rotary_clearance/check_capture.py"],
+        ["experiments/feeder_contact_diagnosis/check_capture.py"],
+        ["experiments/extended_feasibility_bounds/check_capture.py"],
+        ["experiments/feeder_common_boundary/check_capture.py"],
         ["experiments/captive-transfer-review/check_capture.py"],
         ["experiments/replenishment-feasibility/check_capture.py"],
     ]
