@@ -14,3 +14,6 @@ jobs:
           git checkout -q --detach "${{ github.sha }}"
       - name: Released figure identities
         run: python3 tools/check_scientific_assets.py
+
+      - name: Current mechanical and system captures
+        run: python3 tools/check_current_transfer.py

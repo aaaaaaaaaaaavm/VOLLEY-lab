@@ -1,84 +1,55 @@
 # VOLLEY Labs
 
-### Mechanism research, alternative architectures and numerical experiments
+### Alternative mechanisms, design history and numerical experiments
 
-This repository preserves the alternative mechanisms and exploratory calculations behind VOLLEY. Each study records its configuration, method, findings and conditions for further development. Research candidates enter the engineering baseline only after the applicable design gates are satisfied.
+VOLLEY Labs preserves the engineering alternatives behind commanded CubeSat deployment. The current academic feeder architecture is the **FM08-R3 guided lead-screw design**. This repository retains the other six candidates, earlier geometry revisions, their calculations and the reasons for the selection.
 
-[Feeder concept comparison](docs/GEN6_FEEDER_CONCEPT_TRADE.md) · [Current native evidence](experiments/feeder-integrity-review/README.md) · [Matched mission study](experiments/finite-burn-review/README.md)
+[Selected design](experiments/selected_feeder/README.md) · [Seven-concept trade](experiments/selected_feeder/verification/REPORT.md) · [Native CAD history](experiments/feeder_common_boundary/README.md) · [Mission studies](experiments/finite-burn-review/README.md)
 
-## Study configuration
+![FM08-R3 four-cell guided lead-screw feeder rendered from native CAD](experiments/selected_feeder/cad/figures/FM08_assembly.png)
 
-**Gen5** is the fixed evaluated configuration: twelve 4 kg 3U payloads, a 1.3 m powered stroke and a reusable carrier. Its technical evidence snapshot is retained with the assessed design criteria. **Gen6** is a separate development study for passive 1U and 3U spacecraft, initially two of each, with a twelve-payload expansion assessed separately.
+*Blender render of the selected academic geometry. Nominal motion, analytical screens and interlock checks are identified separately in the evidence package.*
 
-The Gen6 mission reference uses a generic maneuvering OTV in approximately 500 km sun-synchronous orbit. Four releases occur within one orbital period; full position and velocity targets are evaluated at a common epoch 24 hours after the last release. Host maneuvers and their resource costs are included for both deployment policies. These are declared surrogates, not provider-approved interfaces.
+## Feeder decision and retained alternatives
 
-## Engineering evidence
+| Rank | Architecture | Weighted judgment / 10 | Disposition |
+|---:|:--|---:|:--|
+| 1 | Guided lead screw | 7.30 | Selected academic mechanical architecture; guided pusher, capped channel and defined receiver stops |
+| 2 | Rack and pawl | 7.10 | Runner-up; useful where tooth/support design and backlash control improve installed packaging |
+| 3 | Spring and two gates | 6.90 | Retained low-active-power alternative; requires adequate end force, governed transfer and reset |
+| 4 | Belt shuttle | 6.70 | Retained packaging alternative; tension, compliance, retention and skipped engagement require evidence |
+| 5 | Indexed drum | 6.40 | Retained common-port architecture; indexing/extraction and shared failure path require development |
+| 6 | Telescopic | 6.05 | Retained compact-stowage concept; stage alignment, overlap and binding require redesign |
+| 7 | Pantograph | 5.50 | Retained collapsible-storage research; linkage connection, near-flat loads and joint play require redesign |
 
-![FM06-R1 transfer assembly, rendered from native FreeCAD geometry in Blender Workbench](experiments/feeder-integrity-review/figures/FM06_Technical_transfer.png)
+Weights: safety 35%, packaging/mass 25%, positioning 20%, cycle/power 10%, manufacture 10%. These are declared engineering judgments. Alternative weighting and score sensitivity can change the ranking; none of the scores is a measured reliability.
 
-*FM06-R1 nominal transfer configuration. Editable geometry, STEP exchanges, calculations and native solver records are included in the [engineering package](experiments/feeder-integrity-review/README.md).*
+[Current top-three comparison and source-based calculations](experiments/selected_feeder/verification/REPORT.md) · [Original seven four-cell CAD/STEP assemblies](experiments/feeder_common_boundary/README.md) · [Original concept rationale](docs/GEN6_FEEDER_CONCEPT_TRADE.md)
 
-| Evidence | Published result | Interpretation |
-|:--|:--|:--|
-| Native geometry | 30 assembly poses and 70 individual STEP exchanges | Nominal, prescribed-motion geometry checks |
-| Current receiver fixtures | 12 native finite-element analyses | 0.05998 mm mean loaded-face displacement for the 3U one-dog 1000 N ideal fixture |
-| Transfer tine | Four native unit-load meshes | 0.010145 mm/N finest-mesh mean compliance under the stated clamp and material assumptions |
-| Orbital campaign | 18 targeted schedules and 46 native Orekit replays | Matched finite-force host-control and resource comparisons |
+## Configuration boundaries
 
-[Native FreeCAD](experiments/feeder-integrity-review/cad/FM06_3U_transfer.FCStd) · [Assembly STEP](experiments/feeder-integrity-review/cad/FM06_3U_transfer.step) · [Part index](experiments/feeder-integrity-review/parts/INDEX.json) · [Load/contact report](experiments/feeder-integrity-review/FEEDER_INTEGRITY_REVIEW.pdf)
+**Gen5** is the fixed evaluated twelve-3U electromagnetic study. **Gen6** contains the selected mixed 1U/3U feeder and separately versioned four/twelve-payload capacity studies. Earlier FM06/FM07 transfer, release, reset and rigid-contact cases retain their original configurations and numerical outcomes. A new selection does not revise those earlier results.
 
-## Matched orbital delivery
+| Study | What is preserved |
+|:--|:--|
+| [FDR09 common-boundary concepts](experiments/feeder_common_boundary/README.md) | Native CAD/STEP, represented material, catalog options and geometry findings for all seven |
+| [FM07 release/reset](experiments/feeder-release-review/README.md) | Earlier receiver-lock, exit-gate and prescribed reset geometry |
+| [RVC01 rotary clearance](experiments/feeder_rotary_clearance/README.md) | Restricted FM07-R6 nominal gate-relief checks |
+| [FCE13 contact diagnosis](experiments/feeder_contact_diagnosis/README.md) | Native solver logs and unresolved timestep/representation sensitivity; no accepted precision/load rating |
+| [Finite-force campaign](experiments/finite-burn-review/README.md) | Matched host-assisted spring and imposed-release comparisons with native Orekit replay |
+| [Current system assessment](experiments/system_feasibility_closure/README.md) | Four/twelve integration, declared resource accounting and feasibility sensitivities |
+| [Lunar and high-speed bounds](experiments/extended_feasibility_bounds/README.md) | Reproducible conservation and incompatibility findings, with assumptions |
 
-![Finite-force host schedules and propellant comparison](experiments/finite-burn-review/figures/force_fuel_trade.png)
+The independent spring-cell bank and long gas guide remain historical research alternatives. They do not define the selected feeder or the evaluated Gen5 configuration.
 
-The finite-burn study compares the same constructed terminal states and resource boundary. Under the declared twelve-release 35%/35% policy, the spring input requires 33.83 N peak and 23.12 kg propellant; the imposed VOLLEY release input requires 18.00 N and 6.12 kg. With a common 100 N limit and 30 kg propellant allowance, both policies reach the constructed translational targets. The assumed VOLLEY device-mass premium exceeds its propellant saving in this comparison.
+## Reproduction
 
-[Method, inputs and native outputs](experiments/finite-burn-review/README.md) · [Engineering report](experiments/finite-burn-review/FINITE_BURN_CAMPAIGN_REVIEW.pdf) · [Native replay and command sensitivity](experiments/native-campaign-review/README.md)
+Each captured package includes source, inputs, tool versions, raw results and a hash manifest. Native geometry uses FreeCAD and neutral STEP exchanges; technical renders are labeled. Run `python tools/prepublish_gate.py --all` for publication consistency and follow each package's own reproduction instructions.
 
-## Evidence boundaries
-
-This is a computational design study. No physical prototype, measured release performance or flight qualification is claimed. Fixture compliance uses idealized supports and material assumptions. The current [FCE12 contact study](experiments/feeder-contact-verification/README.md) calibrates the numerical representation against analytical controls and full-solid poses. Final-state sensitivity remains an acceptance requirement. Installed actuation, complete release/reset and mixed-size system integration remain development requirements. All seven feeder architectures remain unselected.
-
-## Research and development
-
-The [feeder trade](docs/GEN6_FEEDER_CONCEPT_TRADE.md) compares lead-screw, escapement, rack/pawl, indexed tray/drum, pantograph, telescoping and belt/cable approaches. Safety, retention, integration, mass, motion and fault evidence govern downselection. A 1 km/s-class release is a separate long-range scaling objective.
-
-The gas-guide and independent-cell branches are preserved as historical alternatives. Their assumptions do not define the current Gen5 study or a selected Gen6 mechanism. The local experiments retain input versions and numerical outcomes for comparison.
-
-## Reproducibility
-
-Captured studies include source inputs, solver versions, raw outputs, figures and hash manifests. Their local README files specify the required software and replay commands. Native CAD requires FreeCAD; STEP provides the neutral geometry exchange. Blender assets are identified as renders.
-
-Run `python tools/prepublish_gate.py --all` for publication checks. Reproduce each experiment using its local instructions and recorded toolchain.
+No physical prototype, measured release performance, environmental qualification or provider approval is claimed. Catalog references and declared analytical screens support an academic design decision; hardware testing remains a separate development phase.
 
 ## Project editions
 
-[VOLLEY](https://github.com/aaaaaaaaaaaavm/VOLLEY) · [Thesis](https://github.com/aaaaaaaaaaaavm/VOLLEY-thesis) · [Paper](https://github.com/aaaaaaaaaaaavm/VOLLEY-paper) · [Labs](https://github.com/aaaaaaaaaaaavm/VOLLEY-lab)
+[Main engineering study](https://github.com/aaaaaaaaaaaavm/VOLLEY) · [College thesis and presentation](https://github.com/aaaaaaaaaaaavm/VOLLEY-thesis) · [IEEE-formatted manuscript](https://github.com/aaaaaaaaaaaavm/VOLLEY-paper)
 
-Each edition contains its own evidence and documentation. Historical work remains traceable through dated studies and Git history.
-
-## Contact-model verification
-
-[FCE12 method, native outputs and calibration](experiments/feeder-contact-verification/README.md) evaluates the FM06 transfer geometry with exact material partitions. Fourteen planar controls and 84 full-solid pose checks establish the stated numerical resolution; final-pose and impulsive-force refinement remain separate acceptance criteria.
-
-## Feeder release and reset geometry
-
-![Exit-open reference geometry rendered from native FreeCAD solids in Blender Workbench](experiments/feeder-release-review/figures/FM07_Technical_exit_open.png)
-
-FM07-R5 adds captive receiver pins, a hinged exit gate and prescribed empty-carrier reset. The nominal checks cover 46 cycle poses, 34 rotary samples and 40 continuous linear sweeps. Twenty assembly STEP files and 74 individual parts pass independent exchange readback. These are geometry results; loaded fits, installed actuation and the seven-concept selection gates remain separate requirements.
-
-[Engineering report](experiments/feeder-release-review/FEEDER_RELEASE_AND_RESET.pdf) · [Native CAD, STEP, source and checks](experiments/feeder-release-review/README.md) · [Selection-gate assessment](experiments/feeder-release-review/comparison_reference/D27_GATE_ASSESSMENT.json)
-
-## Rotary clearance and contact-model diagnosis
-
-[RVC01: native CAD and STEP](experiments/feeder_rotary_clearance/README.md) supplies the separate FM07-R6 candidate. A 0.25 mm gate relief passes four complete-angle nominal screens; eight assemblies and two gate STEP files have checked exchange records. Loaded fit and actuation remain separate criteria.
-
-[FCE13: source, raw data and reproduction](experiments/feeder_contact_diagnosis/README.md) adds six completed native Chrono runs on FM06-R1. Solver and equivalent-geometry refinements do not meet the retained pose criteria; no correction is qualified. The study does not establish a release-precision or contact-force rating.
-
-[Reproducible lunar and high-speed bounds](experiments/extended_feasibility_bounds/README.md) separate carrier propulsion from payload release. The compact/low-acceleration combination cannot support the 1 km/s investigation point under the declared surrogate assumptions.
-
-## Common-boundary feeder evidence
-
-[FDR09: seven four-cell CAD/STEP concepts](experiments/feeder_common_boundary/README.md) uses two 1U and two 3U payloads with one shared receiver. A separate lead-screw R2 correction clears the checked nominal payload corridor; loaded support, insert custody and full installed-system gates remain open. No feeder is selected.
-
-![Partial mass accounting on the declared four-payload boundary](experiments/feeder_common_boundary/comparison_mass.png)
+Each edition includes its relevant evidence. Historical source and failed cases remain traceable through package manifests and Git history.

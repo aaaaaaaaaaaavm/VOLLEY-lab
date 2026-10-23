@@ -1,12 +1,22 @@
-# Gen6 mixed-size feeder: concept trade, not a selected mechanism
+# Gen6 feeder architecture selection
 
-Current follow-up: [19 October native CAD/load/fault review](../experiments/feeder-design-review/README.md). This dated earlier record is retained; no feeder is selected.
+**23 October 2026 — FDR10 / D27-R2.** The selected academic architecture is the guided lead-screw feeder with independently restrained fixed cells, a fixed 1U spacer and one indexed receiver. The complete seven-concept ranking retains rack-and-pawl as runner-up.
 
-**12 October 2026 — engineering concept record.** The service study uses two passive 1U and two passive 3U CubeSats. The original Gen6 FreeCAD/STEP first article contains one 3U dummy. Later paired and staggered four-cell FreeCAD/STEP studies place all four payload proxies, but still have no working feeder, launch restraint or verified docking. Gen5's original side cassettes overlap its track and are 11 mm too wide for their reference enclosure. The wider Gen5 R1 revision clears the original cassette/track overlap and scripted payload paths, but an expanded all-leaf assembly audit finds five other intersecting pairs. It also has no actuator, positive launch restraint, tolerance closure, or source-rated system mass. These are separate generations and geometry revisions; neither is a working magazine.
+The initial weighted judgment scores are 7.30/10 for lead screw, 7.10 for rack-and-pawl and 6.90 for spring/two-gate. Weights are safety 35%, packaging/mass 25%, positioning 20%, cycle/power 10% and manufacture 10%. Scores describe engineering judgments; the sensitivity study records ranking reversals and does not infer reliability. The top three are compared on the same 200 mm feed, 900 mm receiver travel and assumed 50/100 N resistance cases.
 
-The [provisional weighted screen](GEN6_FEEDER_WEIGHTED_TRADE_2026_10_12.md) leaves all mechanism choices open.
+[Selected mechanism, editable CAD/STEP, calculations and interlocks](../experiments/selected_feeder/README.md). The selection applies to the declared academic design boundary; physical qualification is future work.
 
-**Reference packaging focus:** separate, fixed cassettes beside the launch rail. Paired sides are the stronger nominal geometry reference: their shortest modeled acceleration path is 900 mm rather than the staggered layout's 330 mm. This does not select the transfer actuator or final G1 architecture. The host envelope, cell locks and docking remain unresolved; the Gen5 11 mm clash must not be inherited.
+## Historical concept record — 12 October 2026
+
+The following record preserves the original concepts and their earlier selection status. Its provisional ranking and unresolved-detail statements describe those earlier models. Current acceptance is controlled by FDR10 and the selected FM08-R3 evidence.
+
+# Original seven-concept description
+
+**12 October 2026 — engineering concept record.** The service study uses two passive 1U and two passive 3U CubeSats. The original Gen6 first-article FreeCAD/STEP model contains only one 3U dummy; subsequent [four-cell R0 packaging studies](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/cad/gen6_four_cell_r0/README.md) place the full mixed-size manifest in two nominal layouts. They still have no working feeder, launch restraint or verified docking. Gen5's original side cassettes overlap its track and are 11 mm too wide for their reference enclosure. The wider Gen5 R1 revision clears the original cassette/track overlap and scripted payload paths, but an all-leaf assembly audit retains five other intersecting pairs. It also has no actuator, positive launch restraint, tolerance closure, or source-rated system mass. These are separate generations and geometry revisions; neither is a working magazine.
+
+The [provisional weighted trade](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/cad/gen6_feeder/WEIGHTED_TRADE_SCREEN_2026_10_12.md) ranks study concepts under declared ordinal assumptions; its overlapping sensitivity intervals and failed selection gates prevent a hardware downselect.
+
+**Reference packaging focus:** separate, fixed cassettes beside the launch rail. Paired sides are the stronger current *geometric reference* because their shortest modeled acceleration path is 900 mm instead of the staggered layout's 330 mm. This does not select a transfer actuator or final G1 architecture. Host envelope, locks and docking remain unresolved; the Gen5 11 mm clash must not be inherited.
 
 ## Split the task before choosing a mechanism
 
@@ -43,12 +53,4 @@ Hold each satellite in its own launch-rated cell, whether the feed drive is acti
 5. **Installed-system trade:** actuator, guides, locks, electronics, sensors, harness, fasteners and margins belong in mass/CG/inertia, power and reliability. P131's ~9.93 kg is only frame/guide/carrier material and leaves ~9.35 kg under one *surrogate* device-plus-fuel parity ceiling for every omitted item, including the feeder.
 6. **Failure evidence:** a failure mode/effects table, containment argument and repeatability plan. Bench testing, environmental qualification and provider approval are future work; no current CAD view demonstrates P-POD-class reliability.
 
-The next CAD deliverable should be a **one-cell transfer demonstrator** for a passive 3U dummy with positive restraint, handoff and recovery, before a four-cell mixed-size magazine. It can be designed now with FreeCAD and analyzed computationally. A physical article and measured reliability remain unfunded and unperformed.
-
-## Quantitative load evidence — 16 October 2026
-
-The [common-boundary actuator load screen](GEN6_FEEDER_LOAD_SCREEN.md) adds 27
-analytical scenarios for the lead screw, spring follower and three-stage scissor. Its
-force, torque, energy and static-backdrive results are requirements sensitivities.
-They do not supply installed mass, functional geometry, measured friction or reliability;
-existing ordinal scores remain hypotheses and no architecture is selected.
+The next CAD deliverable is a **complete one-cell transfer demonstrator on the paired four-cell boundary**, with positive restraint, handoff, carrier docking and recovery. It must then be repeated for the 1U cell and compared with the spring/two-gate and pantograph challengers on the same host envelope. The current 26 nominal four-cell states prove only represented static and sampled transfer geometry. A physical article and measured reliability remain unfunded and unperformed.
