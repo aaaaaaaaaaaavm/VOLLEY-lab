@@ -1,8 +1,5 @@
-# Notes
+# Dated research notes
 
-Unstructured. Date-stamp things. Nothing here needs to be finished, correct, or consistent
-with anything else, that is the point of this repository.
+Notes retain their original assumptions and evidence status. An idea or intended experiment is not a completed calculation, selected architecture or validated result. Current configuration identity and the experiment map are recorded in [Current configuration](../docs/CURRENT_CONFIGURATION.md).
 
-If a note turns into a real line of work, give it a file of its own and an entry in the main
-repository's [`docs/VAULT.md`](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/docs/VAULT.md)
-with a criterion. And when it stops, write down what stopped it.
+Promoting a result requires its own declared inputs, reproducible source/output record and acceptance criteria. Retain failed variants with the reason for their disposition.

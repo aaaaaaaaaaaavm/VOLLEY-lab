@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Cite VOLLEY Labs and the exact captured experiment/configuration used."
+title: "VOLLEY Labs: alternative mechanisms and computational design history"
+type: software
+authors:
+  - family-names: Mishra
+    given-names: Adityavardhan
+license: CC-BY-4.0
+repository-code: "https://github.com/aaaaaaaaaaaavm/VOLLEY-lab"
