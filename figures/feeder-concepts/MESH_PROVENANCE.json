@@ -1,0 +1,99 @@
+{
+  "revision": "FDR09-CONCEPT-VISUALS-R1",
+  "path_base": "repository_root",
+  "source_package_manifest": "experiments/feeder_common_boundary/MANIFEST.json",
+  "source_package_manifest_sha256": "e36aaff40ccc2d65cff683cbbe24c11392fe70fb0e6420858cfdddcc83744f2e",
+  "exports": [
+    {
+      "concept": "lead_screw",
+      "native_path": "experiments/feeder_common_boundary/release/lead_screw_four_carrier_stowed_R1.FCStd",
+      "native_sha256": "b27c06c50f3fa20a4c3204dbc16cf23161893964155a6d2b1034ebf2236a0d71",
+      "step_path": "experiments/feeder_common_boundary/release/lead_screw_four_carrier_stowed_R1.step",
+      "step_sha256": "7ad68a4308245fbc5cf8f62b53f1a530fc67f1de544bec0a9f629fb75eda0527",
+      "mesh_path": "figures/feeder-concepts/meshes/lead_screw.json.gz",
+      "mesh_sha256": "2c1eced4edb12f296037c754194d4a8f6c56c6992813c7deab6efb561b034514",
+      "CAD_objects": 141,
+      "triangles": 57916,
+      "all_source_parts_exported": true,
+      "native_source_unchanged": true
+    },
+    {
+      "concept": "rack_pawl",
+      "native_path": "experiments/feeder_common_boundary/release/rack_pawl_four_carrier_stowed_R1.FCStd",
+      "native_sha256": "c6547d17cef8e7c16b3e61a474d3b4c094e98e710804f78682e6474c34bd35d2",
+      "step_path": "experiments/feeder_common_boundary/release/rack_pawl_four_carrier_stowed_R1.step",
+      "step_sha256": "beb3a3d45dd331a2b6305130277831bbb65590f1c2efd75ab634ba77a41bc74c",
+      "mesh_path": "figures/feeder-concepts/meshes/rack_pawl.json.gz",
+      "mesh_sha256": "ae44adbedf8e1f7e84e00680d6f8af967cd948c7a2fdeb02f944c5d15f55e5e1",
+      "CAD_objects": 137,
+      "triangles": 55004,
+      "all_source_parts_exported": true,
+      "native_source_unchanged": true
+    },
+    {
+      "concept": "spring_dual_gate",
+      "native_path": "experiments/feeder_common_boundary/release/spring_dual_gate_four_carrier_stowed_R1.FCStd",
+      "native_sha256": "31b513521c2cccd1609eadcdac3b727de02f49166780e662cf052881b8b6f824",
+      "step_path": "experiments/feeder_common_boundary/release/spring_dual_gate_four_carrier_stowed_R1.step",
+      "step_sha256": "f6c1b62d4535d1a117cbab3b707e9c070dc02444a2aa416a0667a8da1a2f6284",
+      "mesh_path": "figures/feeder-concepts/meshes/spring_dual_gate.json.gz",
+      "mesh_sha256": "a66b0a5009235c8702de726a472f0462e1e7ffe4b3a6a06ba0f3a271412ff5a2",
+      "CAD_objects": 137,
+      "triangles": 1663348,
+      "all_source_parts_exported": true,
+      "native_source_unchanged": true
+    },
+    {
+      "concept": "belt_shuttle",
+      "native_path": "experiments/feeder_common_boundary/release/belt_shuttle_four_carrier_stowed_R1.FCStd",
+      "native_sha256": "b8942cd8bd8c3d38202ff712cd08d24f6b79432a5b45ae636b126b45dd10cd28",
+      "step_path": "experiments/feeder_common_boundary/release/belt_shuttle_four_carrier_stowed_R1.step",
+      "step_sha256": "ee68e1df526701e248782df57b709d73395152a1cbdb5d91e8a255461129221a",
+      "mesh_path": "figures/feeder-concepts/meshes/belt_shuttle.json.gz",
+      "mesh_sha256": "b8c86334470551ec60c5cf43ca62ac469931dd426cdfddfcdc80f91a683bc9b7",
+      "CAD_objects": 153,
+      "triangles": 55340,
+      "all_source_parts_exported": true,
+      "native_source_unchanged": true
+    },
+    {
+      "concept": "indexed_drum",
+      "native_path": "experiments/feeder_common_boundary/release/indexed_drum_four_carrier_stowed_R1.FCStd",
+      "native_sha256": "cf0e44fbd72dd5f709c161d49a9460d89e7f5ddf445184eaef2b0158eab2220f",
+      "step_path": "experiments/feeder_common_boundary/release/indexed_drum_four_carrier_stowed_R1.step",
+      "step_sha256": "bcc6a63bbad9cf04a3c159deccadf7226e8bab7f461687ba72436d194c1792fd",
+      "mesh_path": "figures/feeder-concepts/meshes/indexed_drum.json.gz",
+      "mesh_sha256": "a93fabc258ff5fddae3d5046d86d6ed0432a502da592a2ca4fc48e6fea534bbe",
+      "CAD_objects": 58,
+      "triangles": 18974,
+      "all_source_parts_exported": true,
+      "native_source_unchanged": true
+    },
+    {
+      "concept": "telescopic",
+      "native_path": "experiments/feeder_common_boundary/release/telescopic_four_carrier_stowed_R1.FCStd",
+      "native_sha256": "8116a4971df4933c5f4e9ef8b663fa33c85da0648d439c4966ee921fc4500723",
+      "step_path": "experiments/feeder_common_boundary/release/telescopic_four_carrier_stowed_R1.step",
+      "step_sha256": "1b3ced931118fd0d7b8ef5d91cae2160c26aafa82e566c11915dc20de3b7579d",
+      "mesh_path": "figures/feeder-concepts/meshes/telescopic.json.gz",
+      "mesh_sha256": "714db83d320e6448983044cf968b46f5ac8867d7638796e18ade97124c93d837",
+      "CAD_objects": 137,
+      "triangles": 50156,
+      "all_source_parts_exported": true,
+      "native_source_unchanged": true
+    },
+    {
+      "concept": "pantograph",
+      "native_path": "experiments/feeder_common_boundary/release/pantograph_four_carrier_stowed_R1.FCStd",
+      "native_sha256": "a0bb83f69ee73211b3653fde3a32ce79158efc9a5f6a4885c151fc33562090dc",
+      "step_path": "experiments/feeder_common_boundary/release/pantograph_four_carrier_stowed_R1.step",
+      "step_sha256": "ff6ca2fd52514f69a135d0f3894d6180b131385edf1c3ac69be6dcb32304d307",
+      "mesh_path": "figures/feeder-concepts/meshes/pantograph.json.gz",
+      "mesh_sha256": "1db03224905831f4080cee8ce05cc4fe2a22104d7721e5348c021594131856f5",
+      "CAD_objects": 153,
+      "triangles": 57692,
+      "all_source_parts_exported": true,
+      "native_source_unchanged": true
+    }
+  ]
+}

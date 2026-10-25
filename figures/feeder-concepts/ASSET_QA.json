@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "path_base": "repository_root",
+  "concepts": 7,
+  "full_source_CAD_objects": 916,
+  "displayed_detail_CAD_objects": 114,
+  "complete_view_camera_and_physical_scale": "identical direction and field; individually centered",
+  "detail_views": "original source positions; displayed/omitted sets partition all source objects; explicit scale bars",
+  "source_native_STEP_hashes": "matched captured upstream manifest",
+  "source_and_export_files": 52,
+  "lossless_scene_archive_bytes": 21317224,
+  "scene_decompression_identity": "passed",
+  "publication_file_limit_bytes": 30000000,
+  "source_capture_and_renderer_identity": "passed"
+}

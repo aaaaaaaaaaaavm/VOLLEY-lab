@@ -174,6 +174,7 @@ def main() -> None:
     check_x001_freeze()
     check_links()
     check_evidence_commands()
+    subprocess.run([sys.executable, "figures/feeder-concepts/verify_assets.py"], cwd=ROOT, check=True)
     print("OK: shared vault entries, generated figures, namespaces and local links are current")
 
 

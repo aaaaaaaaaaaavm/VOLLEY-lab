@@ -26,6 +26,12 @@ Weights: safety 35%, packaging/mass 25%, positioning 20%, cycle/power 10%, manuf
 
 [Current top-three comparison and source-based calculations](experiments/selected_feeder/verification/REPORT.md) · [Original seven four-cell CAD/STEP assemblies](experiments/feeder_common_boundary/README.md) · [Original concept rationale](docs/GEN6_FEEDER_CONCEPT_TRADE.md)
 
+[Seven source-derived feeder concept cards](figures/feeder-concepts/README.md) · [Responsive comparison gallery](docs/feeder-concepts.html)
+
+![Seven historical four-payload feeder concepts shown with a common orthographic view and physical scale](figures/feeder-concepts/seven_feeder_concepts.png)
+
+*CAD-derived Blender comparison · preserved FDR09-R1 geometry. Selection and runner-up roles follow the later FDR10-R0 / D27-R2 trade; each card identifies its revision and reasoning.*
+
 ## Mechanism lineage and comparison evidence
 
 <p><a href="experiments/selected_feeder/cad/figures/FM08_assembly.png"><img src="experiments/selected_feeder/cad/figures/FM08_assembly.png" alt="FM08-R3 mixed-size four-cell guided lead-screw feeder subsystem rendered from native CAD" width="600"></a></p>

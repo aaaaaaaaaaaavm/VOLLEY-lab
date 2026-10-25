@@ -1,0 +1,903 @@
+{
+  "status": "passed",
+  "path_base": "repository_root",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "overflow": false,
+      "brokenImages": [],
+      "cards": 7,
+      "detailControls": 7,
+      "altMissing": 0
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "overflow": false,
+      "brokenImages": [],
+      "cards": 7,
+      "detailControls": 7,
+      "altMissing": 0
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "overflow": false,
+      "brokenImages": [],
+      "cards": 7,
+      "detailControls": 7,
+      "altMissing": 0
+    }
+  ],
+  "screenshots": [
+    {
+      "path": "figures/feeder-concepts/qa/gallery-desktop-first-viewport.png",
+      "sha256": "682da3f255758afbf5d5d1ce437dbe0828ffe38eabb2448c8c433bcf2ffb62a9",
+      "evidence_class": "actual Chromium gallery capture"
+    },
+    {
+      "path": "figures/feeder-concepts/qa/gallery-desktop-full.png",
+      "sha256": "9466862b20f83ad1e394a0f69f38f107626914c47c46dcc6ec0eff6c526866c1",
+      "evidence_class": "actual Chromium gallery capture"
+    },
+    {
+      "path": "figures/feeder-concepts/qa/expanded-source-detail.png",
+      "sha256": "a2b9df7f29e8f5e0010be28b5088852e939e7c4d5c1f07da65c4be85ab273262",
+      "evidence_class": "actual Chromium expanded detail capture"
+    },
+    {
+      "path": "figures/feeder-concepts/qa/gallery-tablet-first-viewport.png",
+      "sha256": "dab4cd1e6d7625c2c4dbc0774d2a17b5b7bf7f24661972f8764bdd8843c8925d",
+      "evidence_class": "actual Chromium gallery capture"
+    },
+    {
+      "path": "figures/feeder-concepts/qa/gallery-tablet-full.png",
+      "sha256": "69f36abb7d0587021701d8177f4b3d5d27c4ca76e2b43e11c57f842bcf6e694e",
+      "evidence_class": "actual Chromium gallery capture"
+    },
+    {
+      "path": "figures/feeder-concepts/qa/gallery-mobile-first-viewport.png",
+      "sha256": "34d0b6b195513d4ef66ed1ba0958be66d30c79c8a179ea2070fde845308a786d",
+      "evidence_class": "actual Chromium gallery capture"
+    },
+    {
+      "path": "figures/feeder-concepts/qa/gallery-mobile-full.png",
+      "sha256": "ab7c52541319873e3877aac7cf81dfa0960279b7532cbf0d09d55edbd0f1086c",
+      "evidence_class": "actual Chromium gallery capture"
+    }
+  ],
+  "links": [
+    {
+      "path": "README.md",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/README.md",
+      "exists": true
+    },
+    {
+      "path": "experiments/selected_feeder/verification/REPORT.md",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/MANIFEST.json",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/seven_feeder_concepts.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/seven_feeder_concepts.pdf",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/FDR09_seven_concepts.blend.xz",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/lead_screw.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/lead_screw.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/lead_screw_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/lead_screw_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/RENDER_PROVENANCE.json",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/lead_screw_four_carrier_stowed_R1.FCStd",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/lead_screw_four_carrier_stowed_R1.step",
+      "exists": true
+    },
+    {
+      "path": "experiments/selected_feeder/verification/REPORT.md",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/rack_pawl.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/rack_pawl.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/rack_pawl_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/rack_pawl_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/RENDER_PROVENANCE.json",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/rack_pawl_four_carrier_stowed_R1.FCStd",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/rack_pawl_four_carrier_stowed_R1.step",
+      "exists": true
+    },
+    {
+      "path": "experiments/selected_feeder/verification/REPORT.md",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/spring_dual_gate.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/spring_dual_gate.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/spring_dual_gate_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/spring_dual_gate_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/RENDER_PROVENANCE.json",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/spring_dual_gate_four_carrier_stowed_R1.FCStd",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/spring_dual_gate_four_carrier_stowed_R1.step",
+      "exists": true
+    },
+    {
+      "path": "experiments/selected_feeder/verification/REPORT.md",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/belt_shuttle.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/belt_shuttle.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/belt_shuttle_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/belt_shuttle_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/RENDER_PROVENANCE.json",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/belt_shuttle_four_carrier_stowed_R1.FCStd",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/belt_shuttle_four_carrier_stowed_R1.step",
+      "exists": true
+    },
+    {
+      "path": "experiments/selected_feeder/verification/REPORT.md",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/indexed_drum.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/indexed_drum.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/indexed_drum_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/indexed_drum_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/RENDER_PROVENANCE.json",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/indexed_drum_four_carrier_stowed_R1.FCStd",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/indexed_drum_four_carrier_stowed_R1.step",
+      "exists": true
+    },
+    {
+      "path": "experiments/selected_feeder/verification/REPORT.md",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/telescopic.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/telescopic.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/telescopic_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/telescopic_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/RENDER_PROVENANCE.json",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/telescopic_four_carrier_stowed_R1.FCStd",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/telescopic_four_carrier_stowed_R1.step",
+      "exists": true
+    },
+    {
+      "path": "experiments/selected_feeder/verification/REPORT.md",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/pantograph.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/pantograph.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/pantograph_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/pantograph_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/RENDER_PROVENANCE.json",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/pantograph_four_carrier_stowed_R1.FCStd",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/pantograph_four_carrier_stowed_R1.step",
+      "exists": true
+    },
+    {
+      "path": "experiments/selected_feeder/verification/REPORT.md",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/D27_GATES.json",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/READ_ME.md",
+      "exists": true
+    },
+    {
+      "path": "docs/FIGURE_STANDARD.md",
+      "exists": true
+    },
+    {
+      "path": "LICENSE",
+      "exists": true
+    },
+    {
+      "path": "NOTICE",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/README.md",
+      "exists": true
+    },
+    {
+      "path": "README.md",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/README.md",
+      "exists": true
+    },
+    {
+      "path": "experiments/selected_feeder/verification/REPORT.md",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/MANIFEST.json",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/seven_feeder_concepts.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/seven_feeder_concepts.pdf",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/FDR09_seven_concepts.blend.xz",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/lead_screw.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/lead_screw.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/lead_screw_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/lead_screw_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/RENDER_PROVENANCE.json",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/lead_screw_four_carrier_stowed_R1.FCStd",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/lead_screw_four_carrier_stowed_R1.step",
+      "exists": true
+    },
+    {
+      "path": "experiments/selected_feeder/verification/REPORT.md",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/rack_pawl.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/rack_pawl.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/rack_pawl_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/rack_pawl_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/RENDER_PROVENANCE.json",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/rack_pawl_four_carrier_stowed_R1.FCStd",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/rack_pawl_four_carrier_stowed_R1.step",
+      "exists": true
+    },
+    {
+      "path": "experiments/selected_feeder/verification/REPORT.md",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/spring_dual_gate.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/spring_dual_gate.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/spring_dual_gate_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/spring_dual_gate_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/RENDER_PROVENANCE.json",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/spring_dual_gate_four_carrier_stowed_R1.FCStd",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/spring_dual_gate_four_carrier_stowed_R1.step",
+      "exists": true
+    },
+    {
+      "path": "experiments/selected_feeder/verification/REPORT.md",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/belt_shuttle.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/belt_shuttle.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/belt_shuttle_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/belt_shuttle_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/RENDER_PROVENANCE.json",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/belt_shuttle_four_carrier_stowed_R1.FCStd",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/belt_shuttle_four_carrier_stowed_R1.step",
+      "exists": true
+    },
+    {
+      "path": "experiments/selected_feeder/verification/REPORT.md",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/indexed_drum.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/indexed_drum.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/indexed_drum_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/indexed_drum_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/RENDER_PROVENANCE.json",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/indexed_drum_four_carrier_stowed_R1.FCStd",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/indexed_drum_four_carrier_stowed_R1.step",
+      "exists": true
+    },
+    {
+      "path": "experiments/selected_feeder/verification/REPORT.md",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/telescopic.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/telescopic.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/telescopic_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/telescopic_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/RENDER_PROVENANCE.json",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/telescopic_four_carrier_stowed_R1.FCStd",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/telescopic_four_carrier_stowed_R1.step",
+      "exists": true
+    },
+    {
+      "path": "experiments/selected_feeder/verification/REPORT.md",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/pantograph.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/pantograph.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/pantograph_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/pantograph_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/RENDER_PROVENANCE.json",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/pantograph_four_carrier_stowed_R1.FCStd",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/pantograph_four_carrier_stowed_R1.step",
+      "exists": true
+    },
+    {
+      "path": "experiments/selected_feeder/verification/REPORT.md",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/D27_GATES.json",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/READ_ME.md",
+      "exists": true
+    },
+    {
+      "path": "docs/FIGURE_STANDARD.md",
+      "exists": true
+    },
+    {
+      "path": "LICENSE",
+      "exists": true
+    },
+    {
+      "path": "NOTICE",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/README.md",
+      "exists": true
+    },
+    {
+      "path": "README.md",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/README.md",
+      "exists": true
+    },
+    {
+      "path": "experiments/selected_feeder/verification/REPORT.md",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/MANIFEST.json",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/seven_feeder_concepts.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/seven_feeder_concepts.pdf",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/FDR09_seven_concepts.blend.xz",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/lead_screw.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/lead_screw.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/lead_screw_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/lead_screw_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/RENDER_PROVENANCE.json",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/lead_screw_four_carrier_stowed_R1.FCStd",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/lead_screw_four_carrier_stowed_R1.step",
+      "exists": true
+    },
+    {
+      "path": "experiments/selected_feeder/verification/REPORT.md",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/rack_pawl.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/rack_pawl.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/rack_pawl_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/rack_pawl_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/RENDER_PROVENANCE.json",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/rack_pawl_four_carrier_stowed_R1.FCStd",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/rack_pawl_four_carrier_stowed_R1.step",
+      "exists": true
+    },
+    {
+      "path": "experiments/selected_feeder/verification/REPORT.md",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/spring_dual_gate.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/spring_dual_gate.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/spring_dual_gate_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/spring_dual_gate_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/RENDER_PROVENANCE.json",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/spring_dual_gate_four_carrier_stowed_R1.FCStd",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/spring_dual_gate_four_carrier_stowed_R1.step",
+      "exists": true
+    },
+    {
+      "path": "experiments/selected_feeder/verification/REPORT.md",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/belt_shuttle.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/belt_shuttle.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/belt_shuttle_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/belt_shuttle_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/RENDER_PROVENANCE.json",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/belt_shuttle_four_carrier_stowed_R1.FCStd",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/belt_shuttle_four_carrier_stowed_R1.step",
+      "exists": true
+    },
+    {
+      "path": "experiments/selected_feeder/verification/REPORT.md",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/indexed_drum.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/indexed_drum.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/indexed_drum_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/indexed_drum_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/RENDER_PROVENANCE.json",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/indexed_drum_four_carrier_stowed_R1.FCStd",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/indexed_drum_four_carrier_stowed_R1.step",
+      "exists": true
+    },
+    {
+      "path": "experiments/selected_feeder/verification/REPORT.md",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/telescopic.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/telescopic.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/telescopic_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/telescopic_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/RENDER_PROVENANCE.json",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/telescopic_four_carrier_stowed_R1.FCStd",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/telescopic_four_carrier_stowed_R1.step",
+      "exists": true
+    },
+    {
+      "path": "experiments/selected_feeder/verification/REPORT.md",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/pantograph.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/pantograph.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/pantograph_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/cards/pantograph_detail.png",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/RENDER_PROVENANCE.json",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/pantograph_four_carrier_stowed_R1.FCStd",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/pantograph_four_carrier_stowed_R1.step",
+      "exists": true
+    },
+    {
+      "path": "experiments/selected_feeder/verification/REPORT.md",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/D27_GATES.json",
+      "exists": true
+    },
+    {
+      "path": "experiments/feeder_common_boundary/release/READ_ME.md",
+      "exists": true
+    },
+    {
+      "path": "docs/FIGURE_STANDARD.md",
+      "exists": true
+    },
+    {
+      "path": "LICENSE",
+      "exists": true
+    },
+    {
+      "path": "NOTICE",
+      "exists": true
+    },
+    {
+      "path": "figures/feeder-concepts/README.md",
+      "exists": true
+    }
+  ],
+  "reducedMotion": "static source images; no animation or video",
+  "keyboard": "skip link and native detail controls passed",
+  "external_asset_requests": 0
+}

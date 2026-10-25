@@ -1,0 +1,12 @@
+{
+  "path_base": "repository_root",
+  "archive_path": "figures/feeder-concepts/FDR09_seven_concepts.blend.xz",
+  "archive_sha256": "3ce4ff7396830a3c6d61e7ed1030f565fc01dd342023ddb19913f1c033a0ced3",
+  "archive_bytes": 21317224,
+  "uncompressed_scene_sha256": "0002e48c1f8cb5d51edb2fe54626bdeb35877d811311bbe0f32fb1a36f2310b7",
+  "uncompressed_scene_bytes": 88182984,
+  "saved_scene_sha256": "ed86d75f8953309008c01b0a58006343a0ccef18142a7a08247de5d5b8acc11a",
+  "method": "Lossless decompression of Blender Zstandard save followed by XZ compression; scene bytes are preserved.",
+  "restore": "xz --decompress --keep figures/feeder-concepts/FDR09_seven_concepts.blend.xz",
+  "renderer": "Blender4.3.2 / Workbench"
+}
