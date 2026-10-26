@@ -12,7 +12,7 @@ No lab result inherits the evidence class of its source. Geometry borrowed from 
 field model is still an unrun VOLLEY trim hypothesis when I change its gap, pitch, depth or force
 duty.
 
-## Current routing
+## Historical routing — retained source record
 
 | Entry | Source defect or opportunity | What I retain | What I refuse to inherit | Possible destination |
 |---|---|---|---|---|

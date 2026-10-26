@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import argparse
 import importlib.util
 import hashlib
 import json
@@ -13,25 +14,20 @@ from urllib.parse import unquote
 
 
 ROOT = Path(__file__).resolve().parents[1]
-REQUIRED = (
+CURRENT_REQUIRED = (
     "README.md",
-    "TRANSFER_LEDGER.md",
-    "BOLLEY_BRANCH_REGISTER.md",
-    "VLAB-B001_bolley_unbound.md",
-    "VLAB-X001_quadrant_gas_bearing.md",
-    "VLAB-X002_passive_trim_secondary.md",
+    "docs/CURRENT_CONFIGURATION.md",
+    "docs/PROJECT_BOUNDARY.md",
     "VLAB-X004_feeder_candidate_r1.md",
     "VLAB-X005_segmented_stator_hypothesis.md",
     "figures/gen5_finite_coupled_shot.png",
     "figures/r1_candidate_step.jpg",
     "figures/r1_candidate_step.provenance.json",
-    "experiments/VLAB-X001/RUN_SHEET.md",
-    "experiments/VLAB-X001/parameters.json",
     "figures/vault-map.svg",
     "figures/reopening-ledger.svg",
     "figures/transfer-map.svg",
 )
-NEW_ENTRY_FILES = {
+ARCHIVE_ENTRY_FILES = {
     "VLAB-B001": "VLAB-B001_bolley_unbound.md",
     "VLAB-B002": "VLAB-B002_active_cooperative_interface.md",
     "VLAB-B003": "VLAB-B003_distributed_fluxpiston_feed.md",
@@ -41,6 +37,17 @@ NEW_ENTRY_FILES = {
     "VLAB-X004": "VLAB-X004_feeder_candidate_r1.md",
     "VLAB-X005": "VLAB-X005_segmented_stator_hypothesis.md",
 }
+CURRENT_ENTRY_FILES = {
+    key: value for key, value in ARCHIVE_ENTRY_FILES.items()
+    if key in {"VLAB-X003", "VLAB-X004", "VLAB-X005"}
+}
+ARCHIVE_REQUIRED = (
+    "TRANSFER_LEDGER.md",
+    "BOLLEY_BRANCH_REGISTER.md",
+    *ARCHIVE_ENTRY_FILES.values(),
+    "experiments/VLAB-X001/RUN_SHEET.md",
+    "experiments/VLAB-X001/parameters.json",
+)
 
 
 def fail(message: str) -> None:
@@ -57,8 +64,8 @@ def load_generator():
     return module
 
 
-def check_required() -> None:
-    missing = [path for path in REQUIRED if not (ROOT / path).is_file()]
+def check_required(paths=CURRENT_REQUIRED) -> None:
+    missing = [path for path in paths if not (ROOT / path).is_file()]
     if missing:
         fail("missing required files: " + ", ".join(missing))
 
@@ -79,11 +86,14 @@ def check_figures() -> None:
         fail("R1 STEP illustration differs from its source record")
 
 
-def check_entries() -> None:
+def check_entries(*, historical: bool = False) -> None:
+    required = ARCHIVE_ENTRY_FILES if historical else CURRENT_ENTRY_FILES
     all_text = "\n".join(path.read_text(encoding="utf-8") for path in ROOT.glob("*.md"))
     identifiers = re.findall(r"\bVLAB-[VBX]\d{3}\b", all_text)
-    for identifier, filename in NEW_ENTRY_FILES.items():
+    for identifier, filename in required.items():
         path = ROOT / filename
+        if not path.is_file():
+            fail(f"missing required entry {filename}")
         title_count = len(re.findall(rf"^#\s+{re.escape(identifier)}:", path.read_text(encoding="utf-8"), re.M))
         if title_count != 1:
             fail(f"{identifier} must have exactly one authoritative title")
@@ -98,7 +108,11 @@ def check_entries() -> None:
         if identifier in authoritative:
             fail(f"duplicate authoritative entry {identifier}: {authoritative[identifier]} and {path.name}")
         authoritative[identifier] = path.name
-    if authoritative != NEW_ENTRY_FILES:
+    if any(authoritative.get(key) != value for key, value in required.items()):
+        fail(f"entry routing mismatch: {authoritative!r}")
+    # Present archive pages retain their namespaces; their absence is checked
+    # only by the separately requested archive audit.
+    if any(ARCHIVE_ENTRY_FILES.get(key) != value for key, value in authoritative.items()):
         fail(f"entry routing mismatch: {authoritative!r}")
 
 
@@ -168,14 +182,24 @@ def check_evidence_commands() -> None:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--historical-only", action="store_true",
+                        help="audit retained historical records without making them current VOLLEY dependencies")
+    args = parser.parse_args()
+    if args.historical_only:
+        check_required(ARCHIVE_REQUIRED)
+        check_entries(historical=True)
+        check_x001_freeze()
+        check_links()
+        print("OK: retained historical archive identities, namespaces and local links")
+        return
     check_required()
     check_figures()
     check_entries()
-    check_x001_freeze()
     check_links()
     check_evidence_commands()
     subprocess.run([sys.executable, "figures/feeder-concepts/verify_assets.py"], cwd=ROOT, check=True)
-    print("OK: shared vault entries, generated figures, namespaces and local links are current")
+    print("OK: current VOLLEY evidence, generated figures, namespaces and published local links")
 
 
 if __name__ == "__main__":

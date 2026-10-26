@@ -1,3 +1,5 @@
+> **Historical research archive — 26 October 2026.** This retained record is outside current VOLLEY requirements and acceptance. Its original hypotheses and source attribution are preserved. See [current configuration](docs/CURRENT_CONFIGURATION.md) and [project boundary](docs/PROJECT_BOUNDARY.md).
+
 # BOLLEY branches I quarantine here
 
 These ideas originate in BOLLEY's unknown-unknown search. I keep the authoritative problem and
