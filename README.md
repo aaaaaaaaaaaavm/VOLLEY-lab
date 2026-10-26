@@ -82,3 +82,7 @@ Each edition includes its relevant evidence. Historical source and failed cases 
 [License: CC BY 4.0](LICENSE) · [Attribution](NOTICE) · [Citation](CITATION.cff) · [Scientific figure conventions](docs/FIGURE_STANDARD.md) · [Source and result cutoff](docs/CURRENT_CONFIGURATION.md)
 
 Cite the exact experiment/configuration and its captured source revision when reusing results. A new academic selection does not change the outcome of earlier failed cases.
+
+## Speed and lunar-delivery research
+
+[Published experimental force-current benchmark](experiments/published-force-benchmark/README.md) reconstructs a measured observable with explicit calibration/holdout roles. [Earth-to-lunar-orbit architecture bounds](experiments/lunar-delivery-design-space/README.md) separates departure, host recoil and lunar capture. Both are research supplements; current Gen5 operating claims are unchanged.

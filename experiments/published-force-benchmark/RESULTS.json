@@ -1,0 +1,85 @@
+{
+  "source": {
+    "doi": "10.3390/rs14174205",
+    "url": "https://www.mdpi.com/2072-4292/14/17/4205",
+    "publisher_pdf_sha256": "c996e1768abfcbb85f97155acbe3871a4b69246079dcbb0b9b80abdb39782b9f",
+    "page": 14,
+    "figure": "19a",
+    "observable": "Experimental ejection force versus coil current",
+    "render": "pdftoppm -f14 -l14 -scale-to1600 -singlefile -png",
+    "axes_pixels": {
+      "x0": 218,
+      "xmax": 516,
+      "y0": 578,
+      "ymax": 338
+    },
+    "red_marker_selection": "Median red pixels in local7x19 windows; nominal centres(277,536),(337,495),(397,455),(457,414),(515,375); R>170,G<135,B<150"
+  },
+  "model": "F=k I; zero-intercept empirical Lorentz-form fit, no reconstructed magnetic geometry",
+  "calibrated_k_N_A": 13.76923076923077,
+  "holdout_max_absolute_error_N": 0.4230769230769269,
+  "rows": [
+    {
+      "current_A": 0.5,
+      "pixel_x": 277,
+      "pixel_y": 536,
+      "force_N": 7.0,
+      "force_reading_uncertainty_N": 0.3333333333333333,
+      "current_axis_reading_uncertainty_A": 0.016778523489932886,
+      "role": "calibration",
+      "predicted_force_N": 6.884615384615385,
+      "residual_N": 0.11538461538461497
+    },
+    {
+      "current_A": 1.0,
+      "pixel_x": 337,
+      "pixel_y": 495,
+      "force_N": 13.833333333333334,
+      "force_reading_uncertainty_N": 0.3333333333333333,
+      "current_axis_reading_uncertainty_A": 0.016778523489932886,
+      "role": "holdout",
+      "predicted_force_N": 13.76923076923077,
+      "residual_N": 0.06410256410256387
+    },
+    {
+      "current_A": 1.5,
+      "pixel_x": 397,
+      "pixel_y": 454,
+      "force_N": 20.666666666666668,
+      "force_reading_uncertainty_N": 0.3333333333333333,
+      "current_axis_reading_uncertainty_A": 0.016778523489932886,
+      "role": "calibration",
+      "predicted_force_N": 20.653846153846153,
+      "residual_N": 0.012820512820514551
+    },
+    {
+      "current_A": 2.0,
+      "pixel_x": 457,
+      "pixel_y": 413,
+      "force_N": 27.5,
+      "force_reading_uncertainty_N": 0.3333333333333333,
+      "current_axis_reading_uncertainty_A": 0.016778523489932886,
+      "role": "calibration",
+      "predicted_force_N": 27.53846153846154,
+      "residual_N": -0.0384615384615401
+    },
+    {
+      "current_A": 2.5,
+      "pixel_x": 515,
+      "pixel_y": 374,
+      "force_N": 34.0,
+      "force_reading_uncertainty_N": 0.3333333333333333,
+      "current_axis_reading_uncertainty_A": 0.016778523489932886,
+      "role": "holdout",
+      "predicted_force_N": 34.42307692307693,
+      "residual_N": -0.4230769230769269
+    }
+  ],
+  "limitations": [
+    "Five points digitized from plotted published experiments, not raw author data or VOLLEY measurements.",
+    "Uncertainty is an assumed two-pixel reading allocation; excludes original test uncertainty and systematic axis/rendering error.",
+    "Calibration and held-out currents share one experiment; this is limited out-of-sample checking, not independent apparatus validation.",
+    "No external field/geometry reconstruction or transfer to ACR1 high currents established.",
+    "Published force equation14 alone does not specify the finite Halbach topology or high-speed source/thermal behaviour."
+  ]
+}

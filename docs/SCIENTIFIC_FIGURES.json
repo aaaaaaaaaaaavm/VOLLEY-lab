@@ -969,6 +969,39 @@
         "experiments/higher-speed-envelope/HIGH_VELOCITY_SCREEN.png": "5f641337bd4b3a5156f87bd0e63aa85a3621c6908dcd001e51ca83689d393a87",
         "experiments/higher-speed-envelope/HIGH_VELOCITY_SCREEN.pdf": "b3735f590e4080866a95f436cd27c187228f33bb5864b477d35b64ea4c98ebe7"
       }
+    },
+    {
+      "evidence_class": "Analytical scenario",
+      "caption": "Ideal coplanar departure/capture and powered-travel resource bounds for500kmEarthto100kmMoon reference.",
+      "limitations": "See source README for physics, calibration and applicability boundaries; no VOLLEY physical validation or high-speed rating.",
+      "sources": {
+        "experiments/lunar-delivery-design-space/study.py": "a93560aa05ac0c4fcb2c04b3cbf62fc30516a922dcc318222e3a8c2c8c9f9d65",
+        "experiments/lunar-delivery-design-space/CASES.csv": "3868bea4c919bf491a0f2edd317c060bd4be4f38bab65898d3d648977e801f10",
+        "experiments/lunar-delivery-design-space/check_capture.py": "bd57568af4b6ebfb5fb125c2d1054df12131c3c2b9b50b40edd69b1827929e7b",
+        "experiments/lunar-delivery-design-space/CHECKS.json": "ced7e43d4a08bb74ff1c7cb94c49e250e57639fc0543e82111027bee4ee80aa8",
+        "experiments/lunar-delivery-design-space/RESULTS.json": "2d3fd6d4ecce7c7314b0c367677941657e498e116ed7aa57b4908e355937de39"
+      },
+      "exports": {
+        "experiments/lunar-delivery-design-space/lunar_architecture_bounds.png": "85ce02b0a38eb1a1c8f992a579307e43cea819d65c589fd564f0c7946b364316",
+        "experiments/lunar-delivery-design-space/lunar_architecture_bounds.pdf": "35d03e920c4dcb159b546e62227c349a873e27b319ee707b6abda6276387a3e3",
+        "experiments/lunar-delivery-design-space/lunar_architecture_bounds.svg": "65da974ed0e5df7ac03af4306d9a24a95fcf9609c85597f140db668ce2647142"
+      }
+    },
+    {
+      "evidence_class": "Digitized external experiment with empirical fit",
+      "caption": "Digitized published experimental force-current data, empirical calibration and two held-out current points.",
+      "limitations": "See source README for physics, calibration and applicability boundaries; no VOLLEY physical validation or high-speed rating.",
+      "sources": {
+        "experiments/published-force-benchmark/check_capture.py": "04d394406a140b9860a6f77901d0f619c8c45d1fb1a3d7b8b8487f0b47079b5a",
+        "experiments/published-force-benchmark/analyze.py": "28c67df6bc8dc662e111d9c9abd3f9cdb5ca7fb8fb8853816fc3fe7aa7a9a809",
+        "experiments/published-force-benchmark/RESULTS.json": "9657a7afe465ba8eb974fe13aa2e1f21711bbbf870b780bd060f28ec9d65aa94",
+        "experiments/published-force-benchmark/DIGITIZED_POINTS.csv": "c8437fec3823a5fb316be304683cfe2a95e902b497ab14df1df2c9591cd62511"
+      },
+      "exports": {
+        "experiments/published-force-benchmark/force_current_benchmark.png": "95e14a00a8556801fef0d7219b6342d0f251ed88589814df310e734b58a40643",
+        "experiments/published-force-benchmark/force_current_benchmark.pdf": "d7b677c3fa647e4edb3b6962a9791a47c712ec29df29063e7822c9ffc516a6dd",
+        "experiments/published-force-benchmark/force_current_benchmark.svg": "600ab8fb9fab8613082971d92aa3ecc6fc4bf3f5874ffcaeaca154e0af4441e6"
+      }
     }
   ]
 }

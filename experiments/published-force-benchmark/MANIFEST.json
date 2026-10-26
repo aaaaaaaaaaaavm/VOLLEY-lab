@@ -1,0 +1,36 @@
+{
+  "files": [
+    {
+      "path": "DIGITIZED_POINTS.csv",
+      "sha256": "c8437fec3823a5fb316be304683cfe2a95e902b497ab14df1df2c9591cd62511"
+    },
+    {
+      "path": "README.md",
+      "sha256": "1642aa13c8071df0bbcb59455ae856b456f6ae2dcca64d2388861f25138a3107"
+    },
+    {
+      "path": "RESULTS.json",
+      "sha256": "9657a7afe465ba8eb974fe13aa2e1f21711bbbf870b780bd060f28ec9d65aa94"
+    },
+    {
+      "path": "analyze.py",
+      "sha256": "28c67df6bc8dc662e111d9c9abd3f9cdb5ca7fb8fb8853816fc3fe7aa7a9a809"
+    },
+    {
+      "path": "check_capture.py",
+      "sha256": "04d394406a140b9860a6f77901d0f619c8c45d1fb1a3d7b8b8487f0b47079b5a"
+    },
+    {
+      "path": "force_current_benchmark.pdf",
+      "sha256": "d7b677c3fa647e4edb3b6962a9791a47c712ec29df29063e7822c9ffc516a6dd"
+    },
+    {
+      "path": "force_current_benchmark.png",
+      "sha256": "95e14a00a8556801fef0d7219b6342d0f251ed88589814df310e734b58a40643"
+    },
+    {
+      "path": "force_current_benchmark.svg",
+      "sha256": "600ab8fb9fab8613082971d92aa3ecc6fc4bf3f5874ffcaeaca154e0af4441e6"
+    }
+  ]
+}

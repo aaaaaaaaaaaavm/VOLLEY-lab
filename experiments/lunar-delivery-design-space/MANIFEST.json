@@ -1,0 +1,40 @@
+{
+  "files": [
+    {
+      "path": "CASES.csv",
+      "sha256": "3868bea4c919bf491a0f2edd317c060bd4be4f38bab65898d3d648977e801f10"
+    },
+    {
+      "path": "CHECKS.json",
+      "sha256": "ced7e43d4a08bb74ff1c7cb94c49e250e57639fc0543e82111027bee4ee80aa8"
+    },
+    {
+      "path": "README.md",
+      "sha256": "9d0dd3660c6aa95825ce06bf35032875fba188de1f47fc163423b17e06a420a8"
+    },
+    {
+      "path": "RESULTS.json",
+      "sha256": "2d3fd6d4ecce7c7314b0c367677941657e498e116ed7aa57b4908e355937de39"
+    },
+    {
+      "path": "check_capture.py",
+      "sha256": "bd57568af4b6ebfb5fb125c2d1054df12131c3c2b9b50b40edd69b1827929e7b"
+    },
+    {
+      "path": "lunar_architecture_bounds.pdf",
+      "sha256": "35d03e920c4dcb159b546e62227c349a873e27b319ee707b6abda6276387a3e3"
+    },
+    {
+      "path": "lunar_architecture_bounds.png",
+      "sha256": "85ce02b0a38eb1a1c8f992a579307e43cea819d65c589fd564f0c7946b364316"
+    },
+    {
+      "path": "lunar_architecture_bounds.svg",
+      "sha256": "65da974ed0e5df7ac03af4306d9a24a95fcf9609c85597f140db668ce2647142"
+    },
+    {
+      "path": "study.py",
+      "sha256": "a93560aa05ac0c4fcb2c04b3cbf62fc30516a922dcc318222e3a8c2c8c9f9d65"
+    }
+  ]
+}

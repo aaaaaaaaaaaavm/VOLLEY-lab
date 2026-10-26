@@ -1,0 +1,6 @@
+{
+  "integrator": "SciPy DOP853",
+  "endpoint_radius_error_km": 9.786570444703102e-06,
+  "endpoint_speed_error_m_s": 4.635403172414954e-09,
+  "scope": "Independent numerical check of ideal Earth two-body leg only; not lunar encounter validation"
+}

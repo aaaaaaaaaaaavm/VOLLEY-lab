@@ -1,0 +1,110 @@
+{
+  "model": "Coplanar tangential Earth two-body transfer and lunar patched-conic capture; ideal instantaneous burns",
+  "constants": {
+    "mu_earth_km3_s2": 398600.4418,
+    "mu_moon_km3_s2": 4902.800066,
+    "earth_equatorial_radius_km": 6378.137,
+    "moon_reference_radius_km": 1737.4,
+    "mean_distance_km": 384400.0
+  },
+  "earth_parking_altitude_km": 500,
+  "lunar_circular_altitude_km": 100,
+  "departure_delta_v_m_s": 3058.2014857300787,
+  "lunar_vinf_m_s": 827.3687313017296,
+  "lunar_capture_delta_v_m_s": 820.3113674424168,
+  "transfer_time_days": 4.983685429919678,
+  "payload_only_departure_energy_J": 18705192.654643323,
+  "full_existing_sled_flyaway_relative_speed_required_m_s": 3134.3988640804037,
+  "reference_retained_host_kg": 687.4289139333935,
+  "outbound_mass_kg": 17.127805766999998,
+  "cases": [
+    {
+      "relative_exit_m_s": 1,
+      "payload_delta_v_m_s": 0.9756899547075735,
+      "remaining_departure_burn_m_s": 3057.2257957753714,
+      "lunar_capture_burn_m_s": 820.3113674424168,
+      "ideal_relative_launch_work_J": 8.355714016522171,
+      "ideal_10g_drive_length_m": 0.005098581064889642,
+      "host_recoil_m_s": -0.024310045292426485
+    },
+    {
+      "relative_exit_m_s": 3,
+      "payload_delta_v_m_s": 2.9270698641227204,
+      "remaining_departure_burn_m_s": 3055.274415865956,
+      "lunar_capture_burn_m_s": 820.3113674424168,
+      "ideal_relative_launch_work_J": 75.20142614869954,
+      "ideal_10g_drive_length_m": 0.045887229584006775,
+      "host_recoil_m_s": -0.07293013587727945
+    },
+    {
+      "relative_exit_m_s": 10,
+      "payload_delta_v_m_s": 9.756899547075735,
+      "remaining_departure_burn_m_s": 3048.444586183003,
+      "lunar_capture_burn_m_s": 820.3113674424168,
+      "ideal_relative_launch_work_J": 835.5714016522171,
+      "ideal_10g_drive_length_m": 0.5098581064889641,
+      "host_recoil_m_s": -0.24310045292426485
+    },
+    {
+      "relative_exit_m_s": 15,
+      "payload_delta_v_m_s": 14.635349320613603,
+      "remaining_departure_burn_m_s": 3043.5661364094653,
+      "lunar_capture_burn_m_s": 820.3113674424168,
+      "ideal_relative_launch_work_J": 1880.0356537174885,
+      "ideal_10g_drive_length_m": 1.1471807396001694,
+      "host_recoil_m_s": -0.3646506793863973
+    },
+    {
+      "relative_exit_m_s": 30,
+      "payload_delta_v_m_s": 29.270698641227206,
+      "remaining_departure_burn_m_s": 3028.9307870888515,
+      "lunar_capture_burn_m_s": 820.3113674424168,
+      "ideal_relative_launch_work_J": 7520.142614869954,
+      "ideal_10g_drive_length_m": 4.588722958400678,
+      "host_recoil_m_s": -0.7293013587727946
+    },
+    {
+      "relative_exit_m_s": 50,
+      "payload_delta_v_m_s": 48.78449773537867,
+      "remaining_departure_burn_m_s": 3009.4169879947,
+      "lunar_capture_burn_m_s": 820.3113674424168,
+      "ideal_relative_launch_work_J": 20889.28504130543,
+      "ideal_10g_drive_length_m": 12.746452662224105,
+      "host_recoil_m_s": -1.2155022646213243
+    },
+    {
+      "relative_exit_m_s": 100,
+      "payload_delta_v_m_s": 97.56899547075734,
+      "remaining_departure_burn_m_s": 2960.6324902593215,
+      "lunar_capture_burn_m_s": 820.3113674424168,
+      "ideal_relative_launch_work_J": 83557.14016522172,
+      "ideal_10g_drive_length_m": 50.98581064889642,
+      "host_recoil_m_s": -2.4310045292426485
+    },
+    {
+      "relative_exit_m_s": 1000,
+      "payload_delta_v_m_s": 975.6899547075735,
+      "remaining_departure_burn_m_s": 2082.511531022505,
+      "lunar_capture_burn_m_s": 820.3113674424168,
+      "ideal_relative_launch_work_J": 8355714.016522171,
+      "ideal_10g_drive_length_m": 5098.581064889641,
+      "host_recoil_m_s": -24.310045292426484
+    },
+    {
+      "relative_exit_m_s": 3134.3988640804037,
+      "payload_delta_v_m_s": 3058.2014857300787,
+      "remaining_departure_burn_m_s": 0,
+      "lunar_capture_burn_m_s": 820.3113674424168,
+      "ideal_relative_launch_work_J": 82090346.70216203,
+      "ideal_10g_drive_length_m": 50090.78655375957,
+      "host_recoil_m_s": -76.19737835032474
+    }
+  ],
+  "limitations": [
+    "Not a three-body trajectory, launch window, SSO plane-change solution or low-energy capture optimization.",
+    "No current rail is assumed capable of these requested speeds. Work and length are necessary ideal bounds.",
+    "Lunar capture is required in every row; no propulsion module mass, dry mass, supplier component or delivered capacity selected.",
+    "Full sled flyaway is a different payload interface and inventory, not the reusable Gen5 configuration.",
+    "Classical host propulsion and electromagnetic injection must ultimately be compared at matched installed hardware and delivered states."
+  ]
+}
