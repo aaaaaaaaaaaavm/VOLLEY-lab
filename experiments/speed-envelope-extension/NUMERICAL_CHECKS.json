@@ -1,0 +1,610 @@
+{
+  "passed": true,
+  "mechanical_work": [
+    {
+      "case": "u0.1_nominal_L20uH_dt20us",
+      "independent_motor_work_residual_J": 2.4700241851860483e-12
+    },
+    {
+      "case": "u0.35_nominal_L20uH_dt20us",
+      "independent_motor_work_residual_J": -3.774758283725532e-13
+    },
+    {
+      "case": "u0.6_nominal_L20uH_dt20us",
+      "independent_motor_work_residual_J": -2.0961010704922955e-13
+    },
+    {
+      "case": "u0.85_nominal_L20uH_dt20us",
+      "independent_motor_work_residual_J": 6.767919558114954e-13
+    },
+    {
+      "case": "u1_nominal_L20uH_dt20us",
+      "independent_motor_work_residual_J": 1.3855583347321954e-13
+    },
+    {
+      "case": "u1.1_nominal_L20uH_dt20us",
+      "independent_motor_work_residual_J": -5.790923296444817e-13
+    },
+    {
+      "case": "u1.35_nominal_L20uH_dt20us",
+      "independent_motor_work_residual_J": -3.836930773104541e-13
+    },
+    {
+      "case": "u1.6_nominal_L20uH_dt20us",
+      "independent_motor_work_residual_J": -5.524469770534779e-13
+    },
+    {
+      "case": "u1.85_nominal_L20uH_dt20us",
+      "independent_motor_work_residual_J": -2.3447910280083306e-13
+    },
+    {
+      "case": "u2_nominal_L20uH_dt20us",
+      "independent_motor_work_residual_J": -1.865174681370263e-13
+    },
+    {
+      "case": "u2.1_nominal_L20uH_dt20us",
+      "independent_motor_work_residual_J": -1.0800249583553523e-12
+    },
+    {
+      "case": "u2.35_nominal_L20uH_dt20us",
+      "independent_motor_work_residual_J": -1.907807245515869e-12
+    },
+    {
+      "case": "u2.6_nominal_L20uH_dt20us",
+      "independent_motor_work_residual_J": 4.689582056016661e-13
+    },
+    {
+      "case": "u2.85_nominal_L20uH_dt20us",
+      "independent_motor_work_residual_J": -8.242295734817162e-13
+    },
+    {
+      "case": "u3_nominal_L20uH_dt20us",
+      "independent_motor_work_residual_J": -2.085442929455894e-12
+    },
+    {
+      "case": "u3.1_nominal_L20uH_dt20us",
+      "independent_motor_work_residual_J": -9.947598300641403e-14
+    },
+    {
+      "case": "u3.35_nominal_L20uH_dt20us",
+      "independent_motor_work_residual_J": 4.476419235288631e-13
+    },
+    {
+      "case": "u3.6_nominal_L20uH_dt20us",
+      "independent_motor_work_residual_J": -1.7195134205394424e-12
+    },
+    {
+      "case": "u3.85_nominal_L20uH_dt20us",
+      "independent_motor_work_residual_J": 8.455458555545192e-13
+    },
+    {
+      "case": "u4.1_nominal_L20uH_dt20us",
+      "independent_motor_work_residual_J": 8.881784197001252e-13
+    },
+    {
+      "case": "u4.35_nominal_L20uH_dt20us",
+      "independent_motor_work_residual_J": -1.3500311979441904e-12
+    },
+    {
+      "case": "u4.6_nominal_L20uH_dt20us",
+      "independent_motor_work_residual_J": -2.9842794901924208e-12
+    },
+    {
+      "case": "u4.7_nominal_L20uH_dt20us",
+      "independent_motor_work_residual_J": -1.2079226507921703e-13
+    },
+    {
+      "case": "u0.6_adverse_L20uH_dt20us",
+      "independent_motor_work_residual_J": -3.8902214782865485e-13
+    },
+    {
+      "case": "u0.85_adverse_L20uH_dt20us",
+      "independent_motor_work_residual_J": 2.4868995751603507e-14
+    },
+    {
+      "case": "u1_adverse_L20uH_dt20us",
+      "independent_motor_work_residual_J": 1.1368683772161603e-13
+    },
+    {
+      "case": "u1.1_adverse_L20uH_dt20us",
+      "independent_motor_work_residual_J": 0.0
+    },
+    {
+      "case": "u1.35_adverse_L20uH_dt20us",
+      "independent_motor_work_residual_J": -1.2185807918285718e-12
+    },
+    {
+      "case": "u1.6_adverse_L20uH_dt20us",
+      "independent_motor_work_residual_J": 7.922551503725117e-13
+    },
+    {
+      "case": "u1.85_adverse_L20uH_dt20us",
+      "independent_motor_work_residual_J": -9.272582701669307e-13
+    },
+    {
+      "case": "u2_adverse_L20uH_dt20us",
+      "independent_motor_work_residual_J": 1.1475265182525618e-12
+    },
+    {
+      "case": "u2.1_adverse_L20uH_dt20us",
+      "independent_motor_work_residual_J": 7.460698725481052e-13
+    },
+    {
+      "case": "u2.35_adverse_L20uH_dt20us",
+      "independent_motor_work_residual_J": 1.687538997430238e-12
+    },
+    {
+      "case": "u2.6_adverse_L20uH_dt20us",
+      "independent_motor_work_residual_J": 1.55964130499342e-12
+    },
+    {
+      "case": "u2.85_adverse_L20uH_dt20us",
+      "independent_motor_work_residual_J": -7.567280135845067e-13
+    },
+    {
+      "case": "u3_adverse_L20uH_dt20us",
+      "independent_motor_work_residual_J": 1.1937117960769683e-12
+    },
+    {
+      "case": "u3.1_adverse_L20uH_dt20us",
+      "independent_motor_work_residual_J": 3.069544618483633e-12
+    },
+    {
+      "case": "u3.35_adverse_L20uH_dt20us",
+      "independent_motor_work_residual_J": -5.826450433232822e-13
+    },
+    {
+      "case": "u3.6_adverse_L20uH_dt20us",
+      "independent_motor_work_residual_J": -1.8260948309034575e-12
+    },
+    {
+      "case": "u3.85_adverse_L20uH_dt20us",
+      "independent_motor_work_residual_J": 1.2789769243681803e-12
+    },
+    {
+      "case": "u4.1_adverse_L20uH_dt20us",
+      "independent_motor_work_residual_J": -1.5134560271690134e-12
+    },
+    {
+      "case": "u4.35_adverse_L20uH_dt20us",
+      "independent_motor_work_residual_J": -5.471179065352771e-13
+    },
+    {
+      "case": "u4.6_adverse_L20uH_dt20us",
+      "independent_motor_work_residual_J": 1.4210854715202004e-12
+    },
+    {
+      "case": "u4.7_adverse_L20uH_dt20us",
+      "independent_motor_work_residual_J": -2.9274360713316128e-12
+    },
+    {
+      "case": "u4.65_nominal_L20uH_dt20us",
+      "independent_motor_work_residual_J": -2.7355895326763857e-12
+    },
+    {
+      "case": "u0.65_adverse_L20uH_dt20us",
+      "independent_motor_work_residual_J": -8.526512829121202e-14
+    },
+    {
+      "case": "u0.7_adverse_L20uH_dt20us",
+      "independent_motor_work_residual_J": 1.1368683772161603e-13
+    },
+    {
+      "case": "u0.75_adverse_L20uH_dt20us",
+      "independent_motor_work_residual_J": 5.044853423896711e-13
+    },
+    {
+      "case": "u0.8_adverse_L20uH_dt20us",
+      "independent_motor_work_residual_J": 1.2434497875801753e-14
+    },
+    {
+      "case": "u3.65_adverse_L20uH_dt20us",
+      "independent_motor_work_residual_J": -1.7976731214730535e-12
+    },
+    {
+      "case": "u3.7_adverse_L20uH_dt20us",
+      "independent_motor_work_residual_J": 1.4921397450962104e-13
+    },
+    {
+      "case": "u3.75_adverse_L20uH_dt20us",
+      "independent_motor_work_residual_J": -1.7550405573274475e-12
+    },
+    {
+      "case": "u3.8_adverse_L20uH_dt20us",
+      "independent_motor_work_residual_J": 1.9042545318370685e-12
+    },
+    {
+      "case": "u4.65_nominal_L20uH_dt5us",
+      "independent_motor_work_residual_J": 1.7955414932657732e-11
+    },
+    {
+      "case": "u4.7_nominal_L20uH_dt5us",
+      "independent_motor_work_residual_J": 5.357492227631155e-12
+    },
+    {
+      "case": "u1_nominal_L3uH_dt20us",
+      "independent_motor_work_residual_J": 1.545430450278218e-13
+    },
+    {
+      "case": "u2_nominal_L3uH_dt20us",
+      "independent_motor_work_residual_J": -1.723066134218243e-13
+    },
+    {
+      "case": "u3_nominal_L3uH_dt20us",
+      "independent_motor_work_residual_J": -2.0889956431346945e-12
+    },
+    {
+      "case": "u4.65_nominal_L3uH_dt20us",
+      "independent_motor_work_residual_J": -1.1013412404281553e-12
+    },
+    {
+      "case": "u4.7_nominal_L3uH_dt20us",
+      "independent_motor_work_residual_J": -3.488764832582092e-12
+    },
+    {
+      "case": "u1_nominal_L100uH_dt20us",
+      "independent_motor_work_residual_J": 1.3500311979441904e-13
+    },
+    {
+      "case": "u2_nominal_L100uH_dt20us",
+      "independent_motor_work_residual_J": -1.865174681370263e-13
+    },
+    {
+      "case": "u3_nominal_L100uH_dt20us",
+      "independent_motor_work_residual_J": -7.460698725481052e-13
+    },
+    {
+      "case": "u4.65_nominal_L100uH_dt20us",
+      "independent_motor_work_residual_J": -2.1884716261411086e-12
+    },
+    {
+      "case": "u4.7_nominal_L100uH_dt20us",
+      "independent_motor_work_residual_J": 1.6768808563938364e-12
+    },
+    {
+      "case": "u0.65_adverse_L20uH_dt5us",
+      "independent_motor_work_residual_J": -1.9184653865522705e-12
+    },
+    {
+      "case": "u0.7_adverse_L20uH_dt5us",
+      "independent_motor_work_residual_J": 1.723066134218243e-13
+    },
+    {
+      "case": "u3.75_adverse_L20uH_dt5us",
+      "independent_motor_work_residual_J": 1.1652900866465643e-12
+    },
+    {
+      "case": "u3.8_adverse_L20uH_dt5us",
+      "independent_motor_work_residual_J": -8.44124770082999e-12
+    },
+    {
+      "case": "u1_adverse_L3uH_dt20us",
+      "independent_motor_work_residual_J": 1.5276668818842154e-13
+    },
+    {
+      "case": "u2_adverse_L3uH_dt20us",
+      "independent_motor_work_residual_J": 1.1688428003253648e-12
+    },
+    {
+      "case": "u3_adverse_L3uH_dt20us",
+      "independent_motor_work_residual_J": 1.2008172234345693e-12
+    },
+    {
+      "case": "u3.75_adverse_L3uH_dt20us",
+      "independent_motor_work_residual_J": -8.242295734817162e-13
+    },
+    {
+      "case": "u3.8_adverse_L3uH_dt20us",
+      "independent_motor_work_residual_J": 1.1581846592889633e-12
+    },
+    {
+      "case": "u1_adverse_L100uH_dt20us",
+      "independent_motor_work_residual_J": 1.5631940186722204e-13
+    },
+    {
+      "case": "u2_adverse_L100uH_dt20us",
+      "independent_motor_work_residual_J": 1.2541079286165768e-12
+    },
+    {
+      "case": "u3_adverse_L100uH_dt20us",
+      "independent_motor_work_residual_J": -1.3713474800169934e-12
+    },
+    {
+      "case": "u3.75_adverse_L100uH_dt20us",
+      "independent_motor_work_residual_J": -6.942002528376179e-12
+    },
+    {
+      "case": "u3.8_adverse_L100uH_dt20us",
+      "independent_motor_work_residual_J": 3.595346242946107e-12
+    },
+    {
+      "case": "u4.65_nominal_L3uH_dt5us",
+      "independent_motor_work_residual_J": 2.8066438062523957e-12
+    },
+    {
+      "case": "u4.7_nominal_L3uH_dt5us",
+      "independent_motor_work_residual_J": -7.183587058534613e-12
+    },
+    {
+      "case": "u3.8_nominal_L100uH_dt20us",
+      "independent_motor_work_residual_J": 3.730349362740526e-12
+    },
+    {
+      "case": "u4.2_nominal_L100uH_dt20us",
+      "independent_motor_work_residual_J": 3.666400516522117e-12
+    },
+    {
+      "case": "u4.45_nominal_L100uH_dt20us",
+      "independent_motor_work_residual_J": -2.4087398742267396e-12
+    },
+    {
+      "case": "u4.55_nominal_L100uH_dt20us",
+      "independent_motor_work_residual_J": -9.023892744153272e-13
+    },
+    {
+      "case": "u4.6_nominal_L100uH_dt20us",
+      "independent_motor_work_residual_J": 5.115907697472721e-13
+    },
+    {
+      "case": "u4.6_nominal_L100uH_dt5us",
+      "independent_motor_work_residual_J": 8.952838470577262e-12
+    },
+    {
+      "case": "u4.65_nominal_L100uH_dt5us",
+      "independent_motor_work_residual_J": -2.842170943040401e-14
+    },
+    {
+      "case": "u3.4_adverse_L3uH_dt20us",
+      "independent_motor_work_residual_J": -6.750155989720952e-13
+    },
+    {
+      "case": "u3.6_adverse_L3uH_dt20us",
+      "independent_motor_work_residual_J": 7.815970093361102e-13
+    },
+    {
+      "case": "u3.65_adverse_L3uH_dt20us",
+      "independent_motor_work_residual_J": -1.3287149158713873e-12
+    },
+    {
+      "case": "u3.7_adverse_L3uH_dt20us",
+      "independent_motor_work_residual_J": -1.2647660696529783e-12
+    },
+    {
+      "case": "u3.7_adverse_L3uH_dt5us",
+      "independent_motor_work_residual_J": -5.9898752624576446e-12
+    },
+    {
+      "case": "u3.75_adverse_L3uH_dt5us",
+      "independent_motor_work_residual_J": 4.725109192804666e-12
+    },
+    {
+      "case": "u3.4_adverse_L100uH_dt20us",
+      "independent_motor_work_residual_J": -1.4352963262354024e-12
+    },
+    {
+      "case": "u3.6_adverse_L100uH_dt20us",
+      "independent_motor_work_residual_J": -8.242295734817162e-13
+    },
+    {
+      "case": "u3.65_adverse_L100uH_dt20us",
+      "independent_motor_work_residual_J": 2.1884716261411086e-12
+    },
+    {
+      "case": "u3.7_adverse_L100uH_dt20us",
+      "independent_motor_work_residual_J": -2.3234747459355276e-12
+    },
+    {
+      "case": "u3.7_adverse_L100uH_dt5us",
+      "independent_motor_work_residual_J": -1.0835776720341528e-11
+    },
+    {
+      "case": "u3.75_adverse_L100uH_dt5us",
+      "independent_motor_work_residual_J": 9.43600753089413e-12
+    },
+    {
+      "case": "u4.6_nominal_L3uH_dt20us",
+      "independent_motor_work_residual_J": 3.339550858072471e-12
+    },
+    {
+      "case": "u4.6_nominal_L3uH_dt5us",
+      "independent_motor_work_residual_J": -5.8761884247360285e-12
+    },
+    {
+      "case": "u4.6_nominal_L20uH_dt5us",
+      "independent_motor_work_residual_J": 1.0196288258157438e-11
+    },
+    {
+      "case": "u3.7_adverse_L20uH_dt5us",
+      "independent_motor_work_residual_J": -3.431921413721284e-12
+    }
+  ],
+  "refinements": [
+    {
+      "command_m_s": 4.65,
+      "adverse": false,
+      "L_uH": 20.0,
+      "coarse_gates_pass": true,
+      "fine_gates_pass": true,
+      "same_gate_result": true,
+      "terminal_position_change_mm": -8.135090312499926e-05,
+      "release_speed_change_m_s": -3.73379305038668e-05,
+      "cap_draw_change_J": 0.061301706813310375
+    },
+    {
+      "command_m_s": 4.7,
+      "adverse": false,
+      "L_uH": 20.0,
+      "coarse_gates_pass": false,
+      "fine_gates_pass": false,
+      "same_gate_result": true,
+      "terminal_position_change_mm": -0.0014118687254871531,
+      "release_speed_change_m_s": 1.2483332814561265e-05,
+      "cap_draw_change_J": -3.3408026174072347
+    },
+    {
+      "command_m_s": 0.65,
+      "adverse": true,
+      "L_uH": 20.0,
+      "coarse_gates_pass": false,
+      "fine_gates_pass": false,
+      "same_gate_result": true,
+      "terminal_position_change_mm": 0.0023981872341316546,
+      "release_speed_change_m_s": 7.462252209489151e-07,
+      "cap_draw_change_J": 0.0014493187711650535
+    },
+    {
+      "command_m_s": 0.7,
+      "adverse": true,
+      "L_uH": 20.0,
+      "coarse_gates_pass": true,
+      "fine_gates_pass": true,
+      "same_gate_result": true,
+      "terminal_position_change_mm": -0.0016772122155561675,
+      "release_speed_change_m_s": -3.5526876889235837e-06,
+      "cap_draw_change_J": 0.00025328958594172946
+    },
+    {
+      "command_m_s": 3.75,
+      "adverse": true,
+      "L_uH": 20.0,
+      "coarse_gates_pass": true,
+      "fine_gates_pass": true,
+      "same_gate_result": true,
+      "terminal_position_change_mm": 0.004660505386056002,
+      "release_speed_change_m_s": -5.538239092217623e-06,
+      "cap_draw_change_J": 0.07451376985545721
+    },
+    {
+      "command_m_s": 3.8,
+      "adverse": true,
+      "L_uH": 20.0,
+      "coarse_gates_pass": false,
+      "fine_gates_pass": false,
+      "same_gate_result": true,
+      "terminal_position_change_mm": 0.0025521267188466368,
+      "release_speed_change_m_s": -3.9908509759989386e-05,
+      "cap_draw_change_J": 0.009382156277638387
+    },
+    {
+      "command_m_s": 4.65,
+      "adverse": false,
+      "L_uH": 3.0,
+      "coarse_gates_pass": true,
+      "fine_gates_pass": true,
+      "same_gate_result": true,
+      "terminal_position_change_mm": -9.9141172382744e-05,
+      "release_speed_change_m_s": -3.3046302412742534e-05,
+      "cap_draw_change_J": 0.14234515491853017
+    },
+    {
+      "command_m_s": 4.7,
+      "adverse": false,
+      "L_uH": 3.0,
+      "coarse_gates_pass": false,
+      "fine_gates_pass": false,
+      "same_gate_result": true,
+      "terminal_position_change_mm": -0.0011082536195416992,
+      "release_speed_change_m_s": 1.608637022521009e-05,
+      "cap_draw_change_J": -6.737038532756287
+    },
+    {
+      "command_m_s": 4.6,
+      "adverse": false,
+      "L_uH": 100.0,
+      "coarse_gates_pass": true,
+      "fine_gates_pass": true,
+      "same_gate_result": true,
+      "terminal_position_change_mm": -0.012377978187982919,
+      "release_speed_change_m_s": -4.8481077041806486e-05,
+      "cap_draw_change_J": -0.03252687217525363
+    },
+    {
+      "command_m_s": 4.65,
+      "adverse": false,
+      "L_uH": 100.0,
+      "coarse_gates_pass": false,
+      "fine_gates_pass": false,
+      "same_gate_result": true,
+      "terminal_position_change_mm": -0.0006917210075840785,
+      "release_speed_change_m_s": -3.9453253235066654e-05,
+      "cap_draw_change_J": -0.0982491207679459
+    },
+    {
+      "command_m_s": 3.7,
+      "adverse": true,
+      "L_uH": 3.0,
+      "coarse_gates_pass": true,
+      "fine_gates_pass": true,
+      "same_gate_result": true,
+      "terminal_position_change_mm": 0.0008018465260661856,
+      "release_speed_change_m_s": -5.58548861686603e-05,
+      "cap_draw_change_J": -0.018533869343514198
+    },
+    {
+      "command_m_s": 3.75,
+      "adverse": true,
+      "L_uH": 3.0,
+      "coarse_gates_pass": false,
+      "fine_gates_pass": false,
+      "same_gate_result": true,
+      "terminal_position_change_mm": 0.007476461002964285,
+      "release_speed_change_m_s": 2.3554181054485923e-06,
+      "cap_draw_change_J": 0.11142173668315536
+    },
+    {
+      "command_m_s": 3.7,
+      "adverse": true,
+      "L_uH": 100.0,
+      "coarse_gates_pass": true,
+      "fine_gates_pass": true,
+      "same_gate_result": true,
+      "terminal_position_change_mm": 0.002903707162937863,
+      "release_speed_change_m_s": -6.515988119293326e-05,
+      "cap_draw_change_J": 0.006215521909894051
+    },
+    {
+      "command_m_s": 3.75,
+      "adverse": true,
+      "L_uH": 100.0,
+      "coarse_gates_pass": false,
+      "fine_gates_pass": false,
+      "same_gate_result": true,
+      "terminal_position_change_mm": 0.0035059824901040315,
+      "release_speed_change_m_s": -6.750446037928626e-05,
+      "cap_draw_change_J": 0.004111627511065308
+    },
+    {
+      "command_m_s": 4.6,
+      "adverse": false,
+      "L_uH": 3.0,
+      "coarse_gates_pass": true,
+      "fine_gates_pass": true,
+      "same_gate_result": true,
+      "terminal_position_change_mm": -2.377023067268169e-05,
+      "release_speed_change_m_s": -5.653585329845612e-05,
+      "cap_draw_change_J": 0.012386781847226302
+    },
+    {
+      "command_m_s": 4.6,
+      "adverse": false,
+      "L_uH": 20.0,
+      "coarse_gates_pass": true,
+      "fine_gates_pass": true,
+      "same_gate_result": true,
+      "terminal_position_change_mm": -7.552343017636076e-05,
+      "release_speed_change_m_s": -5.883985286647686e-05,
+      "cap_draw_change_J": -0.05624798787664531
+    },
+    {
+      "command_m_s": 3.7,
+      "adverse": true,
+      "L_uH": 20.0,
+      "coarse_gates_pass": true,
+      "fine_gates_pass": true,
+      "same_gate_result": true,
+      "terminal_position_change_mm": 0.0007509697539376248,
+      "release_speed_change_m_s": -3.603995514644964e-05,
+      "cap_draw_change_J": -0.023725248335722426
+    }
+  ]
+}

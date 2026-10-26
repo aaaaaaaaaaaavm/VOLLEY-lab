@@ -1,0 +1,14 @@
+{
+  "model_relative_path": "../higher-speed-envelope/capture/analysis/coupled_shot.py",
+  "model_sha256": "560088cb2a05e270b621700df4de1598cb209237b726bd5569e639c5a0f38155",
+  "baseline_relative_path": "../higher-speed-envelope/capture/analysis/COUPLED_SHOT.json",
+  "baseline_sha256": "176f0e325089c5b3798407810fc6d147398c1b939bedf74ea4baf9fa6061d2e1",
+  "input_sha256": {
+    "home": "01aac645e7ba951a1d3cc90ccbea9dc310a3ad863bf1dbc4d95bbb48f66b745e",
+    "force": "546cf2f427f356fc043f7d5cfd3f6af9b4ab5d4ab84b582e1e7c30baf8fd89ec",
+    "brake": "d143d2e7efa0583c7c2ddf73b47479e192891aa2ffbb7d5976747189bda1cd1f",
+    "resistance": "208406e54c88d59a1ff2b177bf9a7babe1010aefeaa91abbade592d7023ac7fc"
+  },
+  "source_changed": false,
+  "runner_changes": "Target/inductance/timestep arguments only; no source limits or controller optimization."
+}

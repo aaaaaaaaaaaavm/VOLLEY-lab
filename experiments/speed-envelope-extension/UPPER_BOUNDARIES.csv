@@ -1,0 +1,7 @@
+adverse,L_uH,last_sampled_pass_m_s,next_sampled_fail_m_s,bracket_width_m_s,lower_inductance_boundary_fully_scanned,conditional_scope
+False,3.0,4.65,4.7,0.04999999999999982,False,Sampled source-model launch/arrest gates only;no continuous or operational envelope qualification.
+False,20.0,4.65,4.7,0.04999999999999982,True,Sampled source-model launch/arrest gates only;no continuous or operational envelope qualification.
+False,100.0,4.6,4.65,0.05000000000000071,False,Sampled source-model launch/arrest gates only;no continuous or operational envelope qualification.
+True,3.0,3.7,3.75,0.04999999999999982,False,Sampled source-model launch/arrest gates only;no continuous or operational envelope qualification.
+True,20.0,3.75,3.8,0.04999999999999982,True,Sampled source-model launch/arrest gates only;no continuous or operational envelope qualification.
+True,100.0,3.7,3.75,0.04999999999999982,False,Sampled source-model launch/arrest gates only;no continuous or operational envelope qualification.

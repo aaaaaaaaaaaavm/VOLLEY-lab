@@ -15,5 +15,8 @@ jobs:
       - name: Released figure identities
         run: python3 tools/check_scientific_assets.py
 
+      - name: Install declared numerical dependencies
+        run: python3 -m pip install -r experiments/higher-speed-envelope/requirements-python.txt
+
       - name: Current mechanical and system captures
         run: python3 tools/check_current_transfer.py

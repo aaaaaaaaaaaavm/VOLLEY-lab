@@ -7,3 +7,5 @@ for name in ['selected_feeder','system_feasibility_closure','lunar_native_coast'
 
 for name in ['lunar-delivery-design-space', 'published-force-benchmark']:
  subprocess.run([sys.executable,str(R/'experiments'/name/'check_capture.py')],check=True,cwd=R)
+
+subprocess.run([sys.executable,str(R/'experiments/speed-envelope-extension/check_capture.py')],check=True,cwd=R)

@@ -1,0 +1,34 @@
+{
+  "generator": "analyze.py",
+  "generator_sha256": "41561a0398a93ef57264f0189b78896cc1a5876294f635163fc94a89f1fa382f",
+  "input_sha256": {
+    "CASES.json": "336e9a690a8dbd78d2defb076019e1ee3e05ede5bf1673271f831a054f35bffc",
+    "SCAN_DEFINITION.json": "d157cb00900dcf735d8e6f51f24a79fa69d1793a046ffc1e40c039c9062aed90",
+    "SOURCE_PINS.json": "3530dfec8bcc304d6ec19d12124841a7ec368d326c71e46956cd79be3d16fcd8"
+  },
+  "outputs": {
+    "SAMPLED_ENVELOPE.png": "4482b78321e8e2321f89d8ca56dbab150dec49ac480bcc80149c9593952cab47",
+    "SAMPLED_ENVELOPE.pdf": "e4e5f8fd4f7daa558422b59046f2d68741a419ccb07186c67922216a4fb58ff4",
+    "SAMPLED_ENVELOPE.svg": "37bd7151124dbcc210eae5ae91c1698e4a3a1f5fa1eb97de090d8feba653476d",
+    "GEOMETRY_AND_INVENTORY.png": "db19ab523e71d59ec09bde2a87e072feae9d6c82f422d1144b646210f86e9d53",
+    "GEOMETRY_AND_INVENTORY.pdf": "a9d78a520a3f8d5506b09e339836b452d445a770d244aa68267139de235f06ec",
+    "GEOMETRY_AND_INVENTORY.svg": "ddf4efe32f8f4e5361a366b5b28abd53278f4981b0387f50209cea5edc810883",
+    "ENVELOPE_HERO.png": "018a79e02da4d9d9fecc487930e3b76fe585095c172174f1c75176f07ae62073",
+    "ENVELOPE_HERO.pdf": "32d64ce2ff3d4ed280639098c15daf7ab3a5176f66a35038624b61d0cdf0992d",
+    "ENVELOPE_HERO.svg": "d50db558e96202a550430f79265e66a02e15b64396095cb5c98c7253d6be4b2e"
+  },
+  "svg_text_editable": true,
+  "svg_fonttype": "none",
+  "pdf_fonttype": 42,
+  "captions": {
+    "SAMPLED_ENVELOPE": "Modeled rear-contact release and arrest gates. Triangles belowaxis denote no release event;not zero release speed. Upper brackets refined at0.05m/s and5us. Operational floor and powered reset remain unverified.",
+    "GEOMETRY_AND_INVENTORY": "Relative-motion distance/g and explicit twelve-adapter inventory requirements. No source/force/thermal or new geometry validation is implied.",
+    "ENVELOPE_HERO": "Current-model upper speed brackets:common tested upper pass/next limiting failure for nominal/adverse across3/20/100\u00b5H. No new simulation or operational qualification."
+  },
+  "additional_generators": {
+    "make_hero.py": "690d0f89a734fe3072aefd7c83f58ed121a6ec313fd1c1b61231940ab2e0c840"
+  },
+  "hero_source": "HERO_DATA.json",
+  "hero_source_sha256": "5dbd2126b6c67bdfc05a29aa6eec2d0ac5b2e45467334f1684a82ed0cefba7d7",
+  "hero_result_source_sha256": "f296047c43985b38052c97792ae824c4fce85d2edea1587953904f40a4d9ce32"
+}

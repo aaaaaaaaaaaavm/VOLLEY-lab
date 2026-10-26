@@ -1,0 +1,144 @@
+{
+  "coarse_command_points_m_s": [
+    0.1,
+    0.35,
+    0.6,
+    0.85,
+    1.0,
+    1.1,
+    1.35,
+    1.6,
+    1.85,
+    2.0,
+    2.1,
+    2.35,
+    2.6,
+    2.85,
+    3.0,
+    3.1,
+    3.35,
+    3.6,
+    3.85,
+    4.1,
+    4.35,
+    4.6,
+    4.7
+  ],
+  "coarse_dt_s": 2e-05,
+  "nominal_adverse": true,
+  "coarse_inductance_H": 2e-05,
+  "edge_spacing_m_s": 0.05,
+  "transitions": [
+    {
+      "adverse": false,
+      "left": 4.6,
+      "right": 4.7
+    },
+    {
+      "adverse": true,
+      "left": 0.6,
+      "right": 0.85
+    },
+    {
+      "adverse": true,
+      "left": 3.6,
+      "right": 3.85
+    }
+  ],
+  "decisive_refinements": [
+    {
+      "adverse": false,
+      "target_m_s": 4.65,
+      "fine_case": "u4.65_nominal_L20uH_dt5us"
+    },
+    {
+      "adverse": false,
+      "target_m_s": 4.7,
+      "fine_case": "u4.7_nominal_L20uH_dt5us"
+    },
+    {
+      "adverse": false,
+      "target_m_s": 4.65,
+      "inductance_H": 3e-06,
+      "fine_case": "u4.65_nominal_L3uH_dt5us"
+    },
+    {
+      "adverse": false,
+      "target_m_s": 4.7,
+      "inductance_H": 3e-06,
+      "fine_case": "u4.7_nominal_L3uH_dt5us"
+    },
+    {
+      "adverse": false,
+      "target_m_s": 4.6,
+      "inductance_H": 0.0001,
+      "fine_case": "u4.6_nominal_L100uH_dt5us"
+    },
+    {
+      "adverse": false,
+      "target_m_s": 4.65,
+      "inductance_H": 0.0001,
+      "fine_case": "u4.65_nominal_L100uH_dt5us"
+    },
+    {
+      "adverse": true,
+      "target_m_s": 0.65,
+      "fine_case": "u0.65_adverse_L20uH_dt5us"
+    },
+    {
+      "adverse": true,
+      "target_m_s": 0.7,
+      "fine_case": "u0.7_adverse_L20uH_dt5us"
+    },
+    {
+      "adverse": true,
+      "target_m_s": 3.75,
+      "fine_case": "u3.75_adverse_L20uH_dt5us"
+    },
+    {
+      "adverse": true,
+      "target_m_s": 3.8,
+      "fine_case": "u3.8_adverse_L20uH_dt5us"
+    },
+    {
+      "adverse": true,
+      "target_m_s": 3.7,
+      "inductance_H": 3e-06,
+      "fine_case": "u3.7_adverse_L3uH_dt5us"
+    },
+    {
+      "adverse": true,
+      "target_m_s": 3.75,
+      "inductance_H": 3e-06,
+      "fine_case": "u3.75_adverse_L3uH_dt5us"
+    },
+    {
+      "adverse": true,
+      "target_m_s": 3.7,
+      "inductance_H": 0.0001,
+      "fine_case": "u3.7_adverse_L100uH_dt5us"
+    },
+    {
+      "adverse": true,
+      "target_m_s": 3.75,
+      "inductance_H": 0.0001,
+      "fine_case": "u3.75_adverse_L100uH_dt5us"
+    }
+  ],
+  "source_limits_changed": false,
+  "kinetic_model_only": true,
+  "lower_operational_floor_m_s": null,
+  "common_upper_confirmations": [
+    {
+      "adverse": false,
+      "common_sampled_upper_command_m_s": 4.6,
+      "all3_inductances_pass_at5us": true
+    },
+    {
+      "adverse": true,
+      "common_sampled_upper_command_m_s": 3.7,
+      "all3_inductances_pass_at5us": true
+    }
+  ],
+  "note": "Passing sampled launch/arrest gates is not contact/clearance/interlock or powered return/reset acceptance."
+}

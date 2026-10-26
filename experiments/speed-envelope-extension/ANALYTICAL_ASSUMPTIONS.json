@@ -1,0 +1,12 @@
+{
+  "current_magnet_count": 84,
+  "current_computed_magnet_floor_kg": 3.6287999999999996,
+  "common_mass_boundary": "500kg wet bus + fixed current nonmoving device allocation +48kg payloads + one reusable carrier OR12attached adapters. This explicit inventory does not validate packaging or unchanged nonmoving structure.",
+  "instantaneous_host_boundary": "First-event finite-host reduced masses use the above fully declared mass inventory. No12release mission or actual new host simulation is performed.",
+  "acceleration_caps": "5/10/25g refer to relative rail-frame kinematics,not approved payload acceleration limits.",
+  "current_field_force_map_transferred": false,
+  "force_source_coupled_geometry_validation": false,
+  "low_mass_shoe_constraint": "0.25/0.5/1kg cannot retain the current3.6288kg moving magnet set;those earlier sensitivities need a new topology.",
+  "shoe_retention": "Adapters remain attached to modified payloads;no free adapter debris credited.",
+  "abort_scope": "Removing successful-departure arrest does not remove partial-launch,stuck-payload or ambiguous-release containment requirements."
+}

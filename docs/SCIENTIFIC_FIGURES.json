@@ -1002,6 +1002,57 @@
         "experiments/published-force-benchmark/force_current_benchmark.pdf": "d7b677c3fa647e4edb3b6962a9791a47c712ec29df29063e7822c9ffc516a6dd",
         "experiments/published-force-benchmark/force_current_benchmark.svg": "600ab8fb9fab8613082971d92aa3ecc6fc4bf3f5874ffcaeaca154e0af4441e6"
       }
+    },
+    {
+      "evidence_class": "Computational source-model scan",
+      "caption": "Common sampled upper command brackets across three inductances; model release/arrest gates.",
+      "limitations": "Sampled model gates; no complete exit/reset or operational rating established; changed-geometry force maps are not inherited.",
+      "sources": {
+        "experiments/speed-envelope-extension/RESULTS.json": "f296047c43985b38052c97792ae824c4fce85d2edea1587953904f40a4d9ce32",
+        "experiments/speed-envelope-extension/CASES.json": "336e9a690a8dbd78d2defb076019e1ee3e05ede5bf1673271f831a054f35bffc",
+        "experiments/speed-envelope-extension/SOURCE_PINS.json": "3530dfec8bcc304d6ec19d12124841a7ec368d326c71e46956cd79be3d16fcd8",
+        "experiments/speed-envelope-extension/FIGURE_SOURCE_INVENTORY.json": "0a875ccbd8a465c45cfe31742400158366a82513fedd3557291ce17aeebef4cf",
+        "experiments/speed-envelope-extension/make_hero.py": "690d0f89a734fe3072aefd7c83f58ed121a6ec313fd1c1b61231940ab2e0c840"
+      },
+      "exports": {
+        "experiments/speed-envelope-extension/ENVELOPE_HERO.png": "018a79e02da4d9d9fecc487930e3b76fe585095c172174f1c75176f07ae62073",
+        "experiments/speed-envelope-extension/ENVELOPE_HERO.pdf": "32d64ce2ff3d4ed280639098c15daf7ab3a5176f66a35038624b61d0cdf0992d",
+        "experiments/speed-envelope-extension/ENVELOPE_HERO.svg": "d50db558e96202a550430f79265e66a02e15b64396095cb5c98c7253d6be4b2e"
+      }
+    },
+    {
+      "evidence_class": "Computational source-model scan",
+      "caption": "Detailed sampled release response, arrest positions and upper brackets.",
+      "limitations": "Sampled model gates; no complete exit/reset or operational rating established; changed-geometry force maps are not inherited.",
+      "sources": {
+        "experiments/speed-envelope-extension/RESULTS.json": "f296047c43985b38052c97792ae824c4fce85d2edea1587953904f40a4d9ce32",
+        "experiments/speed-envelope-extension/CASES.json": "336e9a690a8dbd78d2defb076019e1ee3e05ede5bf1673271f831a054f35bffc",
+        "experiments/speed-envelope-extension/SOURCE_PINS.json": "3530dfec8bcc304d6ec19d12124841a7ec368d326c71e46956cd79be3d16fcd8",
+        "experiments/speed-envelope-extension/FIGURE_SOURCE_INVENTORY.json": "0a875ccbd8a465c45cfe31742400158366a82513fedd3557291ce17aeebef4cf",
+        "experiments/speed-envelope-extension/analyze.py": "41561a0398a93ef57264f0189b78896cc1a5876294f635163fc94a89f1fa382f"
+      },
+      "exports": {
+        "experiments/speed-envelope-extension/SAMPLED_ENVELOPE.png": "4482b78321e8e2321f89d8ca56dbab150dec49ac480bcc80149c9593952cab47",
+        "experiments/speed-envelope-extension/SAMPLED_ENVELOPE.pdf": "e4e5f8fd4f7daa558422b59046f2d68741a419ccb07186c67922216a4fb58ff4",
+        "experiments/speed-envelope-extension/SAMPLED_ENVELOPE.svg": "37bd7151124dbcc210eae5ae91c1698e4a3a1f5fa1eb97de090d8feba653476d"
+      }
+    },
+    {
+      "evidence_class": "Analytical requirements and inventory",
+      "caption": "Separate analytical geometry requirements and attached-adapter inventory trade.",
+      "limitations": "Sampled model gates; no complete exit/reset or operational rating established; changed-geometry force maps are not inherited.",
+      "sources": {
+        "experiments/speed-envelope-extension/RESULTS.json": "f296047c43985b38052c97792ae824c4fce85d2edea1587953904f40a4d9ce32",
+        "experiments/speed-envelope-extension/CASES.json": "336e9a690a8dbd78d2defb076019e1ee3e05ede5bf1673271f831a054f35bffc",
+        "experiments/speed-envelope-extension/SOURCE_PINS.json": "3530dfec8bcc304d6ec19d12124841a7ec368d326c71e46956cd79be3d16fcd8",
+        "experiments/speed-envelope-extension/FIGURE_SOURCE_INVENTORY.json": "0a875ccbd8a465c45cfe31742400158366a82513fedd3557291ce17aeebef4cf",
+        "experiments/speed-envelope-extension/analyze.py": "41561a0398a93ef57264f0189b78896cc1a5876294f635163fc94a89f1fa382f"
+      },
+      "exports": {
+        "experiments/speed-envelope-extension/GEOMETRY_AND_INVENTORY.png": "db19ab523e71d59ec09bde2a87e072feae9d6c82f422d1144b646210f86e9d53",
+        "experiments/speed-envelope-extension/GEOMETRY_AND_INVENTORY.pdf": "a9d78a520a3f8d5506b09e339836b452d445a770d244aa68267139de235f06ec",
+        "experiments/speed-envelope-extension/GEOMETRY_AND_INVENTORY.svg": "ddf4efe32f8f4e5361a366b5b28abd53278f4981b0387f50209cea5edc810883"
+      }
     }
   ]
 }

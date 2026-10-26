@@ -1,0 +1,25 @@
+{
+  "results_sha256": "f296047c43985b38052c97792ae824c4fce85d2edea1587953904f40a4d9ce32",
+  "rows": [
+    {
+      "condition": "Nominal",
+      "last_common_sampled_pass_m_s": 4.6,
+      "next_limiting_sampled_fail_m_s": 4.65,
+      "limiting_inductances_uH": [
+        100.0
+      ],
+      "operational_or_reset_qualification": false
+    },
+    {
+      "condition": "Adverse",
+      "last_common_sampled_pass_m_s": 3.7,
+      "next_limiting_sampled_fail_m_s": 3.75,
+      "limiting_inductances_uH": [
+        3.0,
+        100.0
+      ],
+      "operational_or_reset_qualification": false
+    }
+  ],
+  "no_resimulation": true
+}

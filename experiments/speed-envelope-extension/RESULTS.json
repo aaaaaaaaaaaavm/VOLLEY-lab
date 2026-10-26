@@ -1,0 +1,113 @@
+{
+  "study": "ACR1-SAMPLED-LAUNCH-ARREST-ENVELOPE-01",
+  "records": 106,
+  "accepted_reuses": 18,
+  "new_unique_computations": 88,
+  "dt_refinements": 17,
+  "trace_files": [
+    "u4.65_nominal_L20uH_dt5us_trace.csv",
+    "u3.75_adverse_L20uH_dt5us_trace.csv"
+  ],
+  "ranges_20uH": [
+    {
+      "adverse": false,
+      "inductance_uH": 20,
+      "sampled_min_command_gate_pass_m_s": 0.1,
+      "sampled_max_command_gate_pass_m_s": 4.65,
+      "lower_operational_floor_m_s": null,
+      "interpolation_validated": false,
+      "return_reset_or_feeder_safe_claim": false
+    },
+    {
+      "adverse": true,
+      "inductance_uH": 20,
+      "sampled_min_command_gate_pass_m_s": 0.7,
+      "sampled_max_command_gate_pass_m_s": 3.75,
+      "lower_operational_floor_m_s": null,
+      "interpolation_validated": false,
+      "return_reset_or_feeder_safe_claim": false
+    }
+  ],
+  "upper_brackets": [
+    {
+      "adverse": false,
+      "L_uH": 3.0,
+      "last_sampled_pass_m_s": 4.65,
+      "next_sampled_fail_m_s": 4.7,
+      "bracket_width_m_s": 0.04999999999999982,
+      "lower_inductance_boundary_fully_scanned": false,
+      "conditional_scope": "Sampled source-model launch/arrest gates only;no continuous or operational envelope qualification."
+    },
+    {
+      "adverse": false,
+      "L_uH": 20.0,
+      "last_sampled_pass_m_s": 4.65,
+      "next_sampled_fail_m_s": 4.7,
+      "bracket_width_m_s": 0.04999999999999982,
+      "lower_inductance_boundary_fully_scanned": true,
+      "conditional_scope": "Sampled source-model launch/arrest gates only;no continuous or operational envelope qualification."
+    },
+    {
+      "adverse": false,
+      "L_uH": 100.0,
+      "last_sampled_pass_m_s": 4.6,
+      "next_sampled_fail_m_s": 4.65,
+      "bracket_width_m_s": 0.05000000000000071,
+      "lower_inductance_boundary_fully_scanned": false,
+      "conditional_scope": "Sampled source-model launch/arrest gates only;no continuous or operational envelope qualification."
+    },
+    {
+      "adverse": true,
+      "L_uH": 3.0,
+      "last_sampled_pass_m_s": 3.7,
+      "next_sampled_fail_m_s": 3.75,
+      "bracket_width_m_s": 0.04999999999999982,
+      "lower_inductance_boundary_fully_scanned": false,
+      "conditional_scope": "Sampled source-model launch/arrest gates only;no continuous or operational envelope qualification."
+    },
+    {
+      "adverse": true,
+      "L_uH": 20.0,
+      "last_sampled_pass_m_s": 3.75,
+      "next_sampled_fail_m_s": 3.8,
+      "bracket_width_m_s": 0.04999999999999982,
+      "lower_inductance_boundary_fully_scanned": true,
+      "conditional_scope": "Sampled source-model launch/arrest gates only;no continuous or operational envelope qualification."
+    },
+    {
+      "adverse": true,
+      "L_uH": 100.0,
+      "last_sampled_pass_m_s": 3.7,
+      "next_sampled_fail_m_s": 3.75,
+      "bracket_width_m_s": 0.04999999999999982,
+      "lower_inductance_boundary_fully_scanned": false,
+      "conditional_scope": "Sampled source-model launch/arrest gates only;no continuous or operational envelope qualification."
+    }
+  ],
+  "common_upper_confirmations": [
+    {
+      "adverse": false,
+      "common_sampled_upper_command_m_s": 4.6,
+      "all3_inductances_pass_at5us": true
+    },
+    {
+      "adverse": true,
+      "common_sampled_upper_command_m_s": 3.7,
+      "all3_inductances_pass_at5us": true
+    }
+  ],
+  "max_refined_release_speed_change_m_s": 6.750446037928626e-05,
+  "max_refined_terminal_position_change_mm": 0.012377978187982919,
+  "max_independent_motor_work_residual_J": 1.7955414932657732e-11,
+  "source_limits_changed": false,
+  "controller_optimized": false,
+  "operational_lower_floor_m_s": null,
+  "full_clearance_feeder_interlock_or_return_reset_proved": false,
+  "repeated_thermal_or_structural_acceptance_at_new_commands": false,
+  "native_contact_at_new_commands_verified": false,
+  "published_current_points_m_s": [
+    1,
+    2,
+    3
+  ]
+}
