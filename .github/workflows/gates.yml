@@ -22,5 +22,7 @@ jobs:
             git fetch -q origin "$BASE_SHA"
             python3 tools/prepublish_gate.py --base "$BASE_SHA"
           fi
+      - name: Install captured numerical-check dependencies
+        run: python3 -m pip install -r experiments/higher-speed-envelope/requirements-python.txt
       - name: Complete vault evidence entry point
         run: python3 tools/check_repo.py
