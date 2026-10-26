@@ -6,9 +6,12 @@ VOLLEY Labs preserves the engineering alternatives behind commanded CubeSat depl
 
 [Current configuration boundary](docs/CURRENT_CONFIGURATION.md) · [Selected feeder lineage](experiments/selected_feeder/README.md) · [Seven-concept trade](experiments/selected_feeder/verification/REPORT.md) · [Native CAD history](experiments/feeder_common_boundary/README.md) · [Mission studies](experiments/finite-burn-review/README.md)
 
-<p><a href="figures/acr1/01_assembly_isometric.png"><img src="figures/acr1/01_assembly_isometric.jpg" alt="Current ACR1 integrated twelve-3U assembly rendered from native CAD: two six-level banks, indexed lift and reusable carrier track" width="760"></a></p>
+<p><a href="figures/acr1-polish/assembly_hero.png"><img src="figures/acr1-polish/assembly_hero.webp" alt="CAD-derived render of all 387 represented VOLLEY Gen5 ACR1 parts in the home pose; teal marks the selected feed and captive-pallet path." width="760"></a></p>
 
-*CAD-derived Blender render · VOLLEY-G5-ACR1 home state · all 387 native objects present. The captive pallet remains with the carrier through arrest and return. [Local visual provenance](docs/ACR1_VISUALS.json) · [source cameras and CAD/STEP identities](figures/acr1/VIEW_PROVENANCE.json).*
+*CAD-derived Blender render · ACR1 home pose · all 387 represented objects present. Teal identifies the selected feed/pallet path; surface colours are display choices. [View provenance](figures/acr1-polish/POLISH_PROVENANCE.json).*
+
+[Guided-feed close-up](figures/acr1-polish/feeder_detail_annotated.png) · [Four-state custody sequence](figures/acr1-polish/operating_sequence.png) · [Caption and visibility notes](figures/acr1-polish/CAPTIONS.md)
+
 
 ## Feeder decision and retained alternatives
 
