@@ -1,0 +1,41 @@
+{
+  "sources": [
+    {
+      "accepted_repo_path": "validation/acr1/analysis/finite_motor.py",
+      "capture_path": "provenance/finite_motor.py",
+      "sha256": "99f5ed27abef68dfaa7c651de6f10bba3e2a602d12f83caa064bcecadf06aa07",
+      "accepted_commit": "ca67ea95bf5729aa293da3728f79e23d79da9262"
+    },
+    {
+      "accepted_repo_path": "validation/acr1/analysis/coupled_shot.py",
+      "capture_path": "provenance/coupled_shot.py",
+      "sha256": "560088cb2a05e270b621700df4de1598cb209237b726bd5569e639c5a0f38155",
+      "accepted_commit": "ca67ea95bf5729aa293da3728f79e23d79da9262"
+    },
+    {
+      "accepted_repo_path": "validation/acr1/analysis/winding_inductance.py",
+      "capture_path": "provenance/winding_inductance.py",
+      "sha256": "7f8e45ded4f7eb69f2b755410e51ed4a3c0bed44a4fcdb95f5ca74f88d87d844",
+      "accepted_commit": "ca67ea95bf5729aa293da3728f79e23d79da9262"
+    },
+    {
+      "accepted_repo_path": "validation/acr1/cad/PARAMETERS.json",
+      "capture_path": "provenance/PARAMETERS.json",
+      "sha256": "5f285fffa17f8a1ece39f5e8f9ab1ecb14417e75dde51edc104b5f3625eecc0b",
+      "accepted_commit": "ca67ea95bf5729aa293da3728f79e23d79da9262"
+    },
+    {
+      "accepted_repo_path": "validation/acr1/cad/release/VOLLEY_G5_ACR1_home.json",
+      "capture_path": "provenance/VOLLEY_G5_ACR1_home.json",
+      "sha256": "01aac645e7ba951a1d3cc90ccbea9dc310a3ad863bf1dbc4d95bbb48f66b745e",
+      "accepted_commit": "ca67ea95bf5729aa293da3728f79e23d79da9262"
+    },
+    {
+      "accepted_repo_path": "validation/acr1/analysis/POWER_COMPONENT_REFERENCE.json",
+      "capture_path": "provenance/POWER_COMPONENT_REFERENCE.json",
+      "sha256": "187905f64ba50273077b2739aa19f71c425bc7e4a7951e72021af554c318810f",
+      "accepted_commit": "ca67ea95bf5729aa293da3728f79e23d79da9262"
+    }
+  ],
+  "accepted_sources_changed": false
+}

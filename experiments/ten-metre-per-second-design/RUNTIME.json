@@ -1,0 +1,13 @@
+{
+  "python": "3.12.14",
+  "field_runtime": {
+    "numpy": "2.4.6",
+    "magpylib": "5.2.3",
+    "scipy": "1.17.1"
+  },
+  "captured_motion_runtime": {
+    "numpy": "2.3.5"
+  },
+  "reproduction_dependency_pin": "requirements.txt uses existing field runtime NumPy2.4.6/Magpylib5.2.3 for an integrated environment;capture checks do not rerun fields or requireMagpylib.",
+  "no_installations_performed": true
+}

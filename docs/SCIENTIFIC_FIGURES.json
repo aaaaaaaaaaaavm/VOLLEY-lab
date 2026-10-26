@@ -977,7 +977,7 @@
       "sources": {
         "experiments/lunar-delivery-design-space/study.py": "a93560aa05ac0c4fcb2c04b3cbf62fc30516a922dcc318222e3a8c2c8c9f9d65",
         "experiments/lunar-delivery-design-space/CASES.csv": "3868bea4c919bf491a0f2edd317c060bd4be4f38bab65898d3d648977e801f10",
-        "experiments/lunar-delivery-design-space/check_capture.py": "bd57568af4b6ebfb5fb125c2d1054df12131c3c2b9b50b40edd69b1827929e7b",
+        "experiments/lunar-delivery-design-space/check_capture.py": "2416da0a80f3708f178aae4153bf0b589b77afb1892724f5af4dd9154d418883",
         "experiments/lunar-delivery-design-space/CHECKS.json": "ced7e43d4a08bb74ff1c7cb94c49e250e57639fc0543e82111027bee4ee80aa8",
         "experiments/lunar-delivery-design-space/RESULTS.json": "2d3fd6d4ecce7c7314b0c367677941657e498e116ed7aa57b4908e355937de39"
       },
@@ -1052,6 +1052,104 @@
         "experiments/speed-envelope-extension/GEOMETRY_AND_INVENTORY.png": "db19ab523e71d59ec09bde2a87e072feae9d6c82f422d1144b646210f86e9d53",
         "experiments/speed-envelope-extension/GEOMETRY_AND_INVENTORY.pdf": "a9d78a520a3f8d5506b09e339836b452d445a770d244aa68267139de235f06ec",
         "experiments/speed-envelope-extension/GEOMETRY_AND_INVENTORY.svg": "ddf4efe32f8f4e5361a366b5b28abd53278f4981b0387f50209cea5edc810883"
+      }
+    },
+    {
+      "evidence_class": "Ideal restricted-three-body numerical trajectory",
+      "caption": "Coplanar circular-Moon scenario; explicitly applied lunar capture and24-hourpointgravitycoast.",
+      "limitations": "Free lunar phase, no actualSSOplane/date/ephemeris or hardware/long-termlifetimeclaim.",
+      "sources": {
+        "experiments/lunar-delivery-design-space/three_body_transfer.py": "7dfd1c369b8fd98f58ef167152500d26d5028db12a43561a6542f8ab091eb7e9",
+        "experiments/lunar-delivery-design-space/THREE_BODY_RESULTS.json": "e8164dc003deb4b341fb6efa7bbed5d5c652ea60e207a93fe55cdbe897ae3a43",
+        "experiments/lunar-delivery-design-space/LUNAR_CAPTURE_HISTORY.csv": "3ff3205b1e20ecf855841a79e8c4d5b2934e4131588a414104672ded784e1e21"
+      },
+      "exports": {
+        "experiments/lunar-delivery-design-space/three_body_transfer.png": "930f344699a073c3a264759676f6aa986552cac5e46c35b28194a6eca8e6214c",
+        "experiments/lunar-delivery-design-space/three_body_transfer.pdf": "018046ef19bc0fdbc11cf36fc8e901f5a7cb093ff92a2e378748bbecb2f38acc",
+        "experiments/lunar-delivery-design-space/three_body_transfer.svg": "6065a585ba0e718323469dcb6365440b82353dd806b2344bc4ec21fb8e3dcd84"
+      }
+    },
+    {
+      "evidence_class": "Ideal restricted-three-body numerical trajectory",
+      "caption": "Coplanar circular-Moon scenario; explicitly applied lunar capture and24-hourpointgravitycoast.",
+      "limitations": "Free lunar phase, no actualSSOplane/date/ephemeris or hardware/long-termlifetimeclaim.",
+      "sources": {
+        "experiments/lunar-delivery-design-space/three_body_transfer.py": "7dfd1c369b8fd98f58ef167152500d26d5028db12a43561a6542f8ab091eb7e9",
+        "experiments/lunar-delivery-design-space/THREE_BODY_RESULTS.json": "e8164dc003deb4b341fb6efa7bbed5d5c652ea60e207a93fe55cdbe897ae3a43",
+        "experiments/lunar-delivery-design-space/LUNAR_CAPTURE_HISTORY.csv": "3ff3205b1e20ecf855841a79e8c4d5b2934e4131588a414104672ded784e1e21"
+      },
+      "exports": {
+        "experiments/lunar-delivery-design-space/lunar_capture_coast.png": "e1fccc50a0f97655c2c90404eeb314117cae60eb0b54430b55480295e119f0e3",
+        "experiments/lunar-delivery-design-space/lunar_capture_coast.pdf": "6f8a42c11546b2d41eab961b4c0495d9116656a694e28eca98e6a4be5020d610",
+        "experiments/lunar-delivery-design-space/lunar_capture_coast.svg": "0f3086e6fed88ec0af5c6f7358e0ff8f469d5be006be0cce5fdb8a73851952b7"
+      }
+    },
+    {
+      "evidence_class": "New-configuration computed motor/circuit results or parametric section",
+      "caption": "Finite Force; R10/F10researchconfigurations.",
+      "limitations": "Declaredmean-circuit/motiongates; fullmechanical,qualification andmissionacceptance remain separate.",
+      "sources": {
+        "experiments/ten-metre-per-second-design/R10_DESIGN.json": "bcae8e8b49d18804d5b144cb8a445c928ba88617558ab293c8468846931333c6",
+        "experiments/ten-metre-per-second-design/F10_DESIGN.json": "64464d4de5c6112caa40a024b5ec8053fd36510b1a4fbceac8344d0070fb15d7",
+        "experiments/ten-metre-per-second-design/COUPLED_RESULTS.json": "5a74790f728d2ae8b1dcc5c3f32deeb135bea05af91e258c8be466787a40cc39",
+        "experiments/ten-metre-per-second-design/REFINED_COUPLED_RESULTS.json": "61106da11e287fd9016f134b2fd1b6341e44168b63090797a988c72248b4da44",
+        "experiments/ten-metre-per-second-design/finish_report.py": "77ac6bf908861e0c3986997d120c0550aae5bc2cefc5563a0e29193e2c52fa4a"
+      },
+      "exports": {
+        "experiments/ten-metre-per-second-design/FINITE_FORCE.png": "d92fe6b1c92b6546f733a2da12d5075c1b0e6aa9a2f1d0e0091960b7d43c1115",
+        "experiments/ten-metre-per-second-design/FINITE_FORCE.pdf": "efdb420fd4dcada0535f3f67fd221323675d4b647b3cb8f463546934e1a56ff2",
+        "experiments/ten-metre-per-second-design/FINITE_FORCE.svg": "1710b516b561c436263f2f4a4f0e091b4fab516060a120972c0bf9e6dcfbe5d2"
+      }
+    },
+    {
+      "evidence_class": "New-configuration computed motor/circuit results or parametric section",
+      "caption": "R10 Velocity; R10/F10researchconfigurations.",
+      "limitations": "Declaredmean-circuit/motiongates; fullmechanical,qualification andmissionacceptance remain separate.",
+      "sources": {
+        "experiments/ten-metre-per-second-design/R10_DESIGN.json": "bcae8e8b49d18804d5b144cb8a445c928ba88617558ab293c8468846931333c6",
+        "experiments/ten-metre-per-second-design/F10_DESIGN.json": "64464d4de5c6112caa40a024b5ec8053fd36510b1a4fbceac8344d0070fb15d7",
+        "experiments/ten-metre-per-second-design/COUPLED_RESULTS.json": "5a74790f728d2ae8b1dcc5c3f32deeb135bea05af91e258c8be466787a40cc39",
+        "experiments/ten-metre-per-second-design/REFINED_COUPLED_RESULTS.json": "61106da11e287fd9016f134b2fd1b6341e44168b63090797a988c72248b4da44",
+        "experiments/ten-metre-per-second-design/finish_report.py": "77ac6bf908861e0c3986997d120c0550aae5bc2cefc5563a0e29193e2c52fa4a"
+      },
+      "exports": {
+        "experiments/ten-metre-per-second-design/R10_VELOCITY.png": "8014f671b4ff2c3aa4c8d5ac22c50762d6eb62e76be3646c92e7f9be8aa10977",
+        "experiments/ten-metre-per-second-design/R10_VELOCITY.pdf": "044c3aeb47e033de6317f2fc51f4a92411a1fe8ddf4ab66ad5cc64643d641768",
+        "experiments/ten-metre-per-second-design/R10_VELOCITY.svg": "bbdefd0d4b392402fa613184eee4ef0b697f45498fb8e12f2e95085bf09335dc"
+      }
+    },
+    {
+      "evidence_class": "New-configuration computed motor/circuit results or parametric section",
+      "caption": "Shot Energy; R10/F10researchconfigurations.",
+      "limitations": "Declaredmean-circuit/motiongates; fullmechanical,qualification andmissionacceptance remain separate.",
+      "sources": {
+        "experiments/ten-metre-per-second-design/R10_DESIGN.json": "bcae8e8b49d18804d5b144cb8a445c928ba88617558ab293c8468846931333c6",
+        "experiments/ten-metre-per-second-design/F10_DESIGN.json": "64464d4de5c6112caa40a024b5ec8053fd36510b1a4fbceac8344d0070fb15d7",
+        "experiments/ten-metre-per-second-design/COUPLED_RESULTS.json": "5a74790f728d2ae8b1dcc5c3f32deeb135bea05af91e258c8be466787a40cc39",
+        "experiments/ten-metre-per-second-design/REFINED_COUPLED_RESULTS.json": "61106da11e287fd9016f134b2fd1b6341e44168b63090797a988c72248b4da44",
+        "experiments/ten-metre-per-second-design/finish_report.py": "77ac6bf908861e0c3986997d120c0550aae5bc2cefc5563a0e29193e2c52fa4a"
+      },
+      "exports": {
+        "experiments/ten-metre-per-second-design/SHOT_ENERGY.png": "57a011c5bccb1b59fd1d0a8d00ab1d49d741e6573ca98a28473c6b4d47c6190d",
+        "experiments/ten-metre-per-second-design/SHOT_ENERGY.pdf": "fc621378754259298796a983a4fadfea55053b113c4e948b61527444471fa926",
+        "experiments/ten-metre-per-second-design/SHOT_ENERGY.svg": "8958b1e6c9c1d45e46d95cae09e681af1e27a57dd31a683ae58ddc6762aae91f"
+      }
+    },
+    {
+      "evidence_class": "New-configuration computed motor/circuit results or parametric section",
+      "caption": "Magnetic Section; R10/F10researchconfigurations.",
+      "limitations": "Declaredmean-circuit/motiongates; fullmechanical,qualification andmissionacceptance remain separate.",
+      "sources": {
+        "experiments/ten-metre-per-second-design/R10_DESIGN.json": "bcae8e8b49d18804d5b144cb8a445c928ba88617558ab293c8468846931333c6",
+        "experiments/ten-metre-per-second-design/F10_DESIGN.json": "64464d4de5c6112caa40a024b5ec8053fd36510b1a4fbceac8344d0070fb15d7",
+        "experiments/ten-metre-per-second-design/COUPLED_RESULTS.json": "5a74790f728d2ae8b1dcc5c3f32deeb135bea05af91e258c8be466787a40cc39",
+        "experiments/ten-metre-per-second-design/REFINED_COUPLED_RESULTS.json": "61106da11e287fd9016f134b2fd1b6341e44168b63090797a988c72248b4da44",
+        "experiments/ten-metre-per-second-design/finish_report.py": "77ac6bf908861e0c3986997d120c0550aae5bc2cefc5563a0e29193e2c52fa4a"
+      },
+      "exports": {
+        "experiments/ten-metre-per-second-design/MAGNETIC_SECTION.png": "555f2cbfda10593779adae07c123f4288323363c6e091d602f646a78c27cca50",
+        "experiments/ten-metre-per-second-design/MAGNETIC_SECTION.pdf": "763b96501bbc425d039169c89618e5c71c9b7ad0332bac6ee30a79ce81890777",
+        "experiments/ten-metre-per-second-design/MAGNETIC_SECTION.svg": "aa6517a06b60f54685ab51195114b9b3add15186d7bd0b7cee80d274c931b2ea"
       }
     }
   ]

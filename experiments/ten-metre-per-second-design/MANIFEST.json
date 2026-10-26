@@ -1,0 +1,214 @@
+{
+  "study": "TEN-METRE-PER-SECOND-DESIGNS-R1",
+  "files": {
+    ".gitignore": {
+      "bytes": 31,
+      "sha256": "e947e5294148fe6d5d4faf078021496b9837ffbab757cbb9f6a57464d9130659"
+    },
+    "BUILD.log": {
+      "bytes": 3759,
+      "sha256": "60462c9d0ebbc8619a16e1936c4e678b8f4061f98e3bd6a03fa64073b04c8d14"
+    },
+    "COUPLED.log": {
+      "bytes": 3677,
+      "sha256": "0cfc7ef20de5a41604b3ff5936081cdae96dc7d9276b2485db8f8285af001ef4"
+    },
+    "COUPLED_RESULTS.json": {
+      "bytes": 24270,
+      "sha256": "5a74790f728d2ae8b1dcc5c3f32deeb135bea05af91e258c8be466787a40cc39"
+    },
+    "COUPLED_SOURCE_CHANGE.diff": {
+      "bytes": 18124,
+      "sha256": "da6b3e07a8325606c31b8530c2d88b184f4c88f97d4278dd17f9d45cf4e7c0dc"
+    },
+    "DESIGN_INDEX.json": {
+      "bytes": 154,
+      "sha256": "64a135afb4bdf67e56527d6a475d98ef7518bfabbfef310157bb831ac1517053"
+    },
+    "F10_DESIGN.json": {
+      "bytes": 262281,
+      "sha256": "64464d4de5c6112caa40a024b5ec8053fd36510b1a4fbceac8344d0070fb15d7"
+    },
+    "F10_MASS.json": {
+      "bytes": 2373,
+      "sha256": "0d913f98b9e01705d0472020228701efc451171063037b56c89d66611fb2d959"
+    },
+    "F10_REFINED_FIELD.json": {
+      "bytes": 16104,
+      "sha256": "a051d9b37182a8c0aef4f984c8f678154ad473f935254080d05c1224f4be7944"
+    },
+    "F10_adverse_dt5us_history.csv": {
+      "bytes": 55452,
+      "sha256": "45a452558c918d3ad8e33760f3c6122ac66db23e22178301b44d8358bb23b820"
+    },
+    "F10_nominal_dt5us_history.csv": {
+      "bytes": 53691,
+      "sha256": "8a3f4f87eb3dcab9485615084aa927937cce7a7579593b90416a527f40346e62"
+    },
+    "FIGURE_SOURCE_INVENTORY.json": {
+      "bytes": 2346,
+      "sha256": "5e1f306a7955400995287fec5708c2322d30b6be6648cc3b06aca0aa3ba47854"
+    },
+    "FINISH.log": {
+      "bytes": 1767,
+      "sha256": "751e5cc698f71de868d32d6a876268c9597ccbafb9b6b55fedbbf9d24dad1be0"
+    },
+    "FINITE_FORCE.pdf": {
+      "bytes": 14111,
+      "sha256": "efdb420fd4dcada0535f3f67fd221323675d4b647b3cb8f463546934e1a56ff2"
+    },
+    "FINITE_FORCE.png": {
+      "bytes": 68982,
+      "sha256": "d92fe6b1c92b6546f733a2da12d5075c1b0e6aa9a2f1d0e0091960b7d43c1115"
+    },
+    "FINITE_FORCE.svg": {
+      "bytes": 16571,
+      "sha256": "1710b516b561c436263f2f4a4f0e091b4fab516060a120972c0bf9e6dcfbe5d2"
+    },
+    "MAGNETIC_SECTION.pdf": {
+      "bytes": 10998,
+      "sha256": "763b96501bbc425d039169c89618e5c71c9b7ad0332bac6ee30a79ce81890777"
+    },
+    "MAGNETIC_SECTION.png": {
+      "bytes": 42923,
+      "sha256": "555f2cbfda10593779adae07c123f4288323363c6e091d602f646a78c27cca50"
+    },
+    "MAGNETIC_SECTION.svg": {
+      "bytes": 4418,
+      "sha256": "aa6517a06b60f54685ab51195114b9b3add15186d7bd0b7cee80d274c931b2ea"
+    },
+    "NUMERICAL_CHECKS.json": {
+      "bytes": 2877,
+      "sha256": "7c6770067557f56b5492020083086bcaa87be5d9811f83225b9bcaf6a9e39b5c"
+    },
+    "R10_DESIGN.json": {
+      "bytes": 370728,
+      "sha256": "bcae8e8b49d18804d5b144cb8a445c928ba88617558ab293c8468846931333c6"
+    },
+    "R10_MASS.json": {
+      "bytes": 2307,
+      "sha256": "e16152975ce64b005c91959c6527d983164405b917c9b507848544e01235fd27"
+    },
+    "R10_REFINED_FIELD.json": {
+      "bytes": 16313,
+      "sha256": "7f9832d517bddc30037eb99e3dd1f7e7299264a6bc19af35ff8b8e0171ec3273"
+    },
+    "R10_VELOCITY.pdf": {
+      "bytes": 11934,
+      "sha256": "044c3aeb47e033de6317f2fc51f4a92411a1fe8ddf4ab66ad5cc64643d641768"
+    },
+    "R10_VELOCITY.png": {
+      "bytes": 66944,
+      "sha256": "8014f671b4ff2c3aa4c8d5ac22c50762d6eb62e76be3646c92e7f9be8aa10977"
+    },
+    "R10_VELOCITY.svg": {
+      "bytes": 13659,
+      "sha256": "bbdefd0d4b392402fa613184eee4ef0b697f45498fb8e12f2e95085bf09335dc"
+    },
+    "R10_adverse_dt5us_history.csv": {
+      "bytes": 72591,
+      "sha256": "ff7447f727cdf065ce3ad809652759cd529652d6421b61afac48a9576ce6ab42"
+    },
+    "R10_nominal_dt5us_history.csv": {
+      "bytes": 72610,
+      "sha256": "2ee7f79f74c45cad57cf28721ec6cd917998f48eee7ca93e8910e2a6a73a684d"
+    },
+    "README.md": {
+      "bytes": 7401,
+      "sha256": "b9629e5ee8e6e34b6c37ea2252d10292233e0be213bc8e04826462d939ace9b5"
+    },
+    "REFINED_COUPLED_RESULTS.json": {
+      "bytes": 14267,
+      "sha256": "61106da11e287fd9016f134b2fd1b6341e44168b63090797a988c72248b4da44"
+    },
+    "REFINEMENT.log": {
+      "bytes": 2994,
+      "sha256": "4cdd3fd6142593ed4cfb6ba94836a916a1d5af9794e5f691dd450f2e409b2316"
+    },
+    "RESULTS.csv": {
+      "bytes": 2701,
+      "sha256": "1a0dc36423c990346de86b39c2e8ddf7cdd6a7af48e8d5dcfece91a3fb9a4f4b"
+    },
+    "RUNTIME.json": {
+      "bytes": 407,
+      "sha256": "6a7c83de4c4a3494f46528671303543e4b934c1bfc0ca091e19b809ca070fd3c"
+    },
+    "SHOT_ENERGY.pdf": {
+      "bytes": 12531,
+      "sha256": "fc621378754259298796a983a4fadfea55053b113c4e948b61527444471fa926"
+    },
+    "SHOT_ENERGY.png": {
+      "bytes": 54589,
+      "sha256": "57a011c5bccb1b59fd1d0a8d00ab1d49d741e6573ca98a28473c6b4d47c6190d"
+    },
+    "SHOT_ENERGY.svg": {
+      "bytes": 8640,
+      "sha256": "8958b1e6c9c1d45e46d95cae09e681af1e27a57dd31a683ae58ddc6762aae91f"
+    },
+    "SOURCE_PINS.json": {
+      "bytes": 1851,
+      "sha256": "78151d2054a4395e1a99202dcd67cbc242405b70e29de6e16a603c38c1324152"
+    },
+    "build_design.py": {
+      "bytes": 6435,
+      "sha256": "685b8fe8bbbf72bbad76997d0569455c51b161cd5493be22a40c90ca95acbf25"
+    },
+    "check_capture.py": {
+      "bytes": 4431,
+      "sha256": "dad45b91cebedbc5f9d8da777b258d2f90a7805fa32f9eae2b57909d70b9cb6a"
+    },
+    "configure_mass.py": {
+      "bytes": 4580,
+      "sha256": "a2a12ec1aa7141b67a94dc5040bca7dd6b866a18261d05095142920eb314b595"
+    },
+    "coupled_design.py": {
+      "bytes": 8128,
+      "sha256": "c0f71cad2234ebb053b4b5f78dc3792c56ad1f68460073cdf19f083b11ba9f7b"
+    },
+    "finish_report.py": {
+      "bytes": 14715,
+      "sha256": "77ac6bf908861e0c3986997d120c0550aae5bc2cefc5563a0e29193e2c52fa4a"
+    },
+    "provenance/PARAMETERS.json": {
+      "bytes": 8677,
+      "sha256": "5f285fffa17f8a1ece39f5e8f9ab1ecb14417e75dde51edc104b5f3625eecc0b"
+    },
+    "provenance/POWER_COMPONENT_REFERENCE.json": {
+      "bytes": 3648,
+      "sha256": "187905f64ba50273077b2739aa19f71c425bc7e4a7951e72021af554c318810f"
+    },
+    "provenance/VOLLEY_G5_ACR1_home.json": {
+      "bytes": 147539,
+      "sha256": "01aac645e7ba951a1d3cc90ccbea9dc310a3ad863bf1dbc4d95bbb48f66b745e"
+    },
+    "provenance/coupled_design_R1.py": {
+      "bytes": 8128,
+      "sha256": "c0f71cad2234ebb053b4b5f78dc3792c56ad1f68460073cdf19f083b11ba9f7b"
+    },
+    "provenance/coupled_shot.py": {
+      "bytes": 10741,
+      "sha256": "560088cb2a05e270b621700df4de1598cb209237b726bd5569e639c5a0f38155"
+    },
+    "provenance/finite_motor.py": {
+      "bytes": 7216,
+      "sha256": "99f5ed27abef68dfaa7c651de6f10bba3e2a602d12f83caa064bcecadf06aa07"
+    },
+    "provenance/winding_inductance.py": {
+      "bytes": 4598,
+      "sha256": "7f8e45ded4f7eb69f2b755410e51ed4a3c0bed44a4fcdb95f5ca74f88d87d844"
+    },
+    "refine_maps.py": {
+      "bytes": 2476,
+      "sha256": "84aa0164474fc68d0f43a1b8a9fb727e42e3df6aa9620a44266917303f62a3a4"
+    },
+    "requirements.txt": {
+      "bytes": 59,
+      "sha256": "e86a23fdc8fe7f46daf4848c29d12370bf8f2aa3cd08078f38ae9e2cbb7dc3a2"
+    },
+    "run_cases.py": {
+      "bytes": 1359,
+      "sha256": "aca0294d9f455891b136179eaff727937ce1b8a21cb67cbfd88ae362ed74b5c2"
+    }
+  },
+  "all_outputs_computational_not_hardware_qualification": true
+}

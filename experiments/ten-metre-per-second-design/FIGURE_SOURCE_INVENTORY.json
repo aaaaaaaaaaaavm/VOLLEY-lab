@@ -1,0 +1,34 @@
+{
+  "generator": "finish_report.py",
+  "generator_sha256": "77ac6bf908861e0c3986997d120c0550aae5bc2cefc5563a0e29193e2c52fa4a",
+  "source_sha256": {
+    "R10_DESIGN.json": "bcae8e8b49d18804d5b144cb8a445c928ba88617558ab293c8468846931333c6",
+    "F10_DESIGN.json": "64464d4de5c6112caa40a024b5ec8053fd36510b1a4fbceac8344d0070fb15d7",
+    "R10_REFINED_FIELD.json": "7f9832d517bddc30037eb99e3dd1f7e7299264a6bc19af35ff8b8e0171ec3273",
+    "F10_REFINED_FIELD.json": "a051d9b37182a8c0aef4f984c8f678154ad473f935254080d05c1224f4be7944",
+    "COUPLED_RESULTS.json": "5a74790f728d2ae8b1dcc5c3f32deeb135bea05af91e258c8be466787a40cc39",
+    "REFINED_COUPLED_RESULTS.json": "61106da11e287fd9016f134b2fd1b6341e44168b63090797a988c72248b4da44"
+  },
+  "outputs": {
+    "R10_VELOCITY.png": "8014f671b4ff2c3aa4c8d5ac22c50762d6eb62e76be3646c92e7f9be8aa10977",
+    "FINITE_FORCE.svg": "1710b516b561c436263f2f4a4f0e091b4fab516060a120972c0bf9e6dcfbe5d2",
+    "MAGNETIC_SECTION.svg": "aa6517a06b60f54685ab51195114b9b3add15186d7bd0b7cee80d274c931b2ea",
+    "SHOT_ENERGY.pdf": "fc621378754259298796a983a4fadfea55053b113c4e948b61527444471fa926",
+    "MAGNETIC_SECTION.png": "555f2cbfda10593779adae07c123f4288323363c6e091d602f646a78c27cca50",
+    "R10_VELOCITY.svg": "bbdefd0d4b392402fa613184eee4ef0b697f45498fb8e12f2e95085bf09335dc",
+    "SHOT_ENERGY.png": "57a011c5bccb1b59fd1d0a8d00ab1d49d741e6573ca98a28473c6b4d47c6190d",
+    "SHOT_ENERGY.svg": "8958b1e6c9c1d45e46d95cae09e681af1e27a57dd31a683ae58ddc6762aae91f",
+    "FINITE_FORCE.png": "d92fe6b1c92b6546f733a2da12d5075c1b0e6aa9a2f1d0e0091960b7d43c1115",
+    "R10_VELOCITY.pdf": "044c3aeb47e033de6317f2fc51f4a92411a1fe8ddf4ab66ad5cc64643d641768",
+    "MAGNETIC_SECTION.pdf": "763b96501bbc425d039169c89618e5c71c9b7ad0332bac6ee30a79ce81890777",
+    "FINITE_FORCE.pdf": "efdb420fd4dcada0535f3f67fd221323675d4b647b3cb8f463546934e1a56ff2"
+  },
+  "svg_fonttype": "none",
+  "pdf_fonttype": 42,
+  "captions": {
+    "FINITE_FORCE": "Actual new finite winding maps;R10534belts,F10372belts;no borrowed force fit.",
+    "R10_VELOCITY": "Nominal5usR10R1one-shot source result;payloadrelease then first low-speed turnaround.",
+    "SHOT_ENERGY": "ActualR1netbankdraw;F10adverse remains outside speedgate.",
+    "MAGNETIC_SECTION": "Dimensioned schematic of declared field gap/copper/magnets;manufacturing design remains separate."
+  }
+}

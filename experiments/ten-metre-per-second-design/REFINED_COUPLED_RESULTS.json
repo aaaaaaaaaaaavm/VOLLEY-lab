@@ -1,0 +1,378 @@
+{
+  "cases": [
+    {
+      "configuration": "R10-R1",
+      "adverse": false,
+      "dt_s": 5e-06,
+      "field_factor": 1.0,
+      "target_exit_m_s": 10.0,
+      "drive_goal_m_s": 10.0,
+      "L_H": 1.1134809459725508e-05,
+      "R20_ohm": 0.018066952380952385,
+      "status": "STOPPED",
+      "release": {
+        "time_s": 0.5003699999990443,
+        "position_m": 2.5011886196645476,
+        "relative_speed_m_s": 10.000776618618055,
+        "payload_inertial_kick_m_s": 9.76533333577523,
+        "host_recoil_before_arrest_m_s": -0.23544328284282445
+      },
+      "handoff": {
+        "time_s": 0.5002549999990435,
+        "position_m": 2.5000385588134617,
+        "speed_m_s": 9.999952222606604
+      },
+      "final_position_m": 3.7971922414067527,
+      "final_relative_speed_m_s": 0.004999282484141203,
+      "elapsed_s": 0.7755600000008471,
+      "source_draw_J": 2886.096177372619,
+      "final_bank_V": 84.59970296094576,
+      "energy_ledger": {
+        "mechanical_J": 210.76400220265194,
+        "copper_J": 2046.6931406408287,
+        "inverter_J": 489.3706239794649,
+        "bank_J": 100.51125725732771,
+        "auxiliary_J": 38.778000000094146
+      },
+      "magnetic_energy_end_J": 2.4350973470677734e-05,
+      "total_energy_residual_J": -0.020871058721676196,
+      "independent_mechanical_work_J": 210.76400220268636,
+      "independent_mechanical_residual_J": -3.441869012021925e-11,
+      "friction_heat_J": 18.985961207034066,
+      "peak_phase_current_A": 356.24324650602,
+      "peak_hot_device_current_A": 47.50723494968196,
+      "peak_switch_V": 141.86621926630806,
+      "peak_bank_current_A": 73.59461730173858,
+      "peak_source_power_W": 5939.713045211197,
+      "peak_cell_V": 2.71487901989763,
+      "max_modulation": 0.32473853801627006,
+      "peak_payload_axial_normal_N": 78.12028090632067,
+      "thermal": {
+        "winding_initial_C": 50.0,
+        "winding_adiabatic_rise_C": 0.1869803453625438,
+        "winding_end_C": 50.18698034536254,
+        "copper_cp_assumed_J_kgK": 385.0,
+        "bank_ESR_adiabatic_rise_for_cp700to1200_C": [
+          0.021812338814524244,
+          0.0373925808248987
+        ],
+        "bank_cp_is_assumption_not_catalog_property": true,
+        "inverter_loss_J": 489.3706239794649,
+        "inverter_peak_total_loss_W": 892.4080776851215,
+        "inverter_transient_junction_temperature_not_resolved": true,
+        "material_host_sink_and_repeated_duty_acceptance_unverified": true
+      },
+      "checks": {
+        "departure": true,
+        "speed": true,
+        "arrest_or_free_exit": true,
+        "phase_current": true,
+        "hot_device_current": true,
+        "switch_voltage": true,
+        "cell_voltage": true,
+        "modulation": true,
+        "energy_balance": true
+      },
+      "all_model_gates_pass": true,
+      "return_reset_simulated": false,
+      "manufacturing_or_full_feeder_acceptance": false,
+      "id": "R10_nominal_refinedfield_dt5us"
+    },
+    {
+      "configuration": "R10-R1",
+      "adverse": true,
+      "dt_s": 5e-06,
+      "field_factor": 1.0,
+      "target_exit_m_s": 10.0,
+      "drive_goal_m_s": 10.0,
+      "L_H": 2.2269618919451015e-05,
+      "R20_ohm": 0.018066952380952385,
+      "status": "STOPPED",
+      "release": {
+        "time_s": 0.5222249999991875,
+        "position_m": 2.5024093335263626,
+        "relative_speed_m_s": 9.995491551475311,
+        "payload_inertial_kick_m_s": 9.760172692325323,
+        "host_recoil_before_arrest_m_s": -0.23531885914998688
+      },
+      "handoff": {
+        "time_s": 0.5219849999991859,
+        "position_m": 2.5000106855232427,
+        "speed_m_s": 9.99200746920115
+      },
+      "final_position_m": 3.7983925169891997,
+      "final_relative_speed_m_s": 0.004995947274966765,
+      "elapsed_s": 0.7768150000008553,
+      "source_draw_J": 4352.266427921319,
+      "final_bank_V": 82.02480313700312,
+      "energy_ledger": {
+        "mechanical_J": 229.55932345704932,
+        "copper_J": 3021.6282343222906,
+        "inverter_J": 530.1371059575953,
+        "bank_J": 532.1233689879325,
+        "auxiliary_J": 38.840750000094445
+      },
+      "magnetic_energy_end_J": 5.242181131091683e-05,
+      "total_energy_residual_J": -0.022407225455104193,
+      "independent_mechanical_work_J": 229.55932345702897,
+      "independent_mechanical_residual_J": 2.034994395216927e-11,
+      "friction_heat_J": 37.98392516989208,
+      "peak_phase_current_A": 531.0721530408518,
+      "peak_hot_device_current_A": 67.4292837241318,
+      "peak_switch_V": 152.2314831121204,
+      "peak_bank_current_A": 196.8779961779211,
+      "peak_source_power_W": 11906.757143783456,
+      "peak_cell_V": 2.8999989084751627,
+      "max_modulation": 0.6275408328889089,
+      "peak_payload_axial_normal_N": 113.93407561625372,
+      "thermal": {
+        "winding_initial_C": 100.0,
+        "winding_adiabatic_rise_C": 0.27981773461758697,
+        "winding_end_C": 100.27981773461758,
+        "copper_cp_assumed_J_kgK": 385.0,
+        "bank_ESR_adiabatic_rise_for_cp700to1200_C": [
+          0.11547816167272841,
+          0.19796256286753441
+        ],
+        "bank_cp_is_assumption_not_catalog_property": true,
+        "inverter_loss_J": 530.1371059575953,
+        "inverter_peak_total_loss_W": 1341.1919919495015,
+        "inverter_transient_junction_temperature_not_resolved": true,
+        "material_host_sink_and_repeated_duty_acceptance_unverified": true
+      },
+      "checks": {
+        "departure": true,
+        "speed": true,
+        "arrest_or_free_exit": true,
+        "phase_current": true,
+        "hot_device_current": true,
+        "switch_voltage": true,
+        "cell_voltage": true,
+        "modulation": true,
+        "energy_balance": true
+      },
+      "all_model_gates_pass": true,
+      "return_reset_simulated": false,
+      "manufacturing_or_full_feeder_acceptance": false,
+      "id": "R10_adverse_refinedfield_dt5us"
+    },
+    {
+      "configuration": "F10-R1",
+      "adverse": false,
+      "dt_s": 5e-06,
+      "field_factor": 1.0,
+      "target_exit_m_s": 10.0,
+      "drive_goal_m_s": 10.040949321349553,
+      "L_H": 7.871920363453396e-06,
+      "R20_ohm": 0.012733809523809526,
+      "status": "FREE_EXIT",
+      "release": {
+        "time_s": 0.5680449999994877,
+        "position_m": 3.200019001050048,
+        "relative_speed_m_s": 10.00423087693859,
+        "payload_plus_attached_shoe_kg": 8.6288,
+        "outbound_inertial_kick_m_s": 9.889318049590171,
+        "host_recoil_m_s": -0.11491282734842043
+      },
+      "handoff": {
+        "time_s": 0.49821999999905,
+        "position_m": 2.500045642503222,
+        "speed_m_s": 10.040913563786692
+      },
+      "final_position_m": 3.200019001050048,
+      "final_relative_speed_m_s": 10.00423087693859,
+      "elapsed_s": 0.5680449999994877,
+      "source_draw_J": 848.5347058379631,
+      "final_bank_V": 84.81408429106484,
+      "energy_ledger": {
+        "mechanical_J": 442.84534953663695,
+        "copper_J": 204.08358474997434,
+        "inverter_J": 135.41856934077708,
+        "bank_J": 37.7894806072024,
+        "auxiliary_J": 28.402250000044603
+      },
+      "magnetic_energy_end_J": 1.67605489802243e-44,
+      "total_energy_residual_J": -0.004528396672299095,
+      "independent_mechanical_work_J": 442.84534953679145,
+      "independent_mechanical_residual_J": -1.5450041246367618e-10,
+      "friction_heat_J": 16.00009500525075,
+      "peak_phase_current_A": 126.60356097698077,
+      "peak_hot_device_current_A": 20.022356298061162,
+      "peak_switch_V": 108.89305129351357,
+      "peak_bank_current_A": 31.373731889706033,
+      "peak_source_power_W": 2488.236738034079,
+      "peak_cell_V": 2.7,
+      "max_modulation": 0.2509321266016224,
+      "peak_payload_axial_normal_N": 79.73418255237044,
+      "thermal": {
+        "winding_initial_C": 50.0,
+        "winding_adiabatic_rise_C": 0.02566817869505681,
+        "winding_end_C": 50.02566817869506,
+        "copper_cp_assumed_J_kgK": 385.0,
+        "bank_ESR_adiabatic_rise_for_cp700to1200_C": [
+          0.02460252643698073,
+          0.04217575960625268
+        ],
+        "bank_cp_is_assumption_not_catalog_property": true,
+        "inverter_loss_J": 135.41856934077708,
+        "inverter_peak_total_loss_W": 272.2540376149392,
+        "inverter_transient_junction_temperature_not_resolved": true,
+        "material_host_sink_and_repeated_duty_acceptance_unverified": true
+      },
+      "checks": {
+        "departure": true,
+        "speed": true,
+        "arrest_or_free_exit": true,
+        "phase_current": true,
+        "hot_device_current": true,
+        "switch_voltage": true,
+        "cell_voltage": true,
+        "modulation": true,
+        "energy_balance": true
+      },
+      "all_model_gates_pass": true,
+      "return_reset_simulated": false,
+      "manufacturing_or_full_feeder_acceptance": false,
+      "id": "F10_nominal_refinedfield_dt5us"
+    },
+    {
+      "configuration": "F10-R1",
+      "adverse": true,
+      "dt_s": 5e-06,
+      "field_factor": 1.0,
+      "target_exit_m_s": 10.0,
+      "drive_goal_m_s": 10.08173231879423,
+      "L_H": 1.574384072690679e-05,
+      "R20_ohm": 0.012733809523809526,
+      "status": "FREE_EXIT",
+      "release": {
+        "time_s": 0.5881549999996194,
+        "position_m": 3.200035201402511,
+        "relative_speed_m_s": 9.992913465565048,
+        "payload_plus_attached_shoe_kg": 8.6288,
+        "outbound_inertial_kick_m_s": 9.878130634790597,
+        "host_recoil_m_s": -0.11478283077445121
+      },
+      "handoff": {
+        "time_s": 0.5183899999991624,
+        "position_m": 2.500028301079425,
+        "speed_m_s": 10.067529035202487
+      },
+      "final_position_m": 3.200035201402511,
+      "final_relative_speed_m_s": 9.992913465565048,
+      "elapsed_s": 0.5881549999996194,
+      "source_draw_J": 1031.305891972155,
+      "final_bank_V": 83.31339680157879,
+      "energy_ledger": {
+        "mechanical_J": 457.8804047310034,
+        "copper_J": 288.6197545839568,
+        "inverter_J": 133.54106991673567,
+        "bank_J": 121.86159128867197,
+        "auxiliary_J": 29.407750000049404
+      },
+      "magnetic_energy_end_J": 2.037931168333315e-45,
+      "total_energy_residual_J": -0.00467854826229086,
+      "independent_mechanical_work_J": 457.8804047313067,
+      "independent_mechanical_residual_J": -3.0331648304127157e-10,
+      "friction_heat_J": 32.00035201402141,
+      "peak_phase_current_A": 197.61092592002979,
+      "peak_hot_device_current_A": 26.198647203862116,
+      "peak_switch_V": 112.73177761893311,
+      "peak_bank_current_A": 65.48788829560905,
+      "peak_source_power_W": 3952.2145764323564,
+      "peak_cell_V": 2.7,
+      "max_modulation": 0.3673826905019802,
+      "peak_payload_axial_normal_N": 110.69823663848247,
+      "thermal": {
+        "winding_initial_C": 100.0,
+        "winding_adiabatic_rise_C": 0.03698162365859993,
+        "winding_end_C": 100.0369816236586,
+        "copper_cp_assumed_J_kgK": 385.0,
+        "bank_ESR_adiabatic_rise_for_cp700to1200_C": [
+          0.07933697349522915,
+          0.1360062402775357
+        ],
+        "bank_cp_is_assumption_not_catalog_property": true,
+        "inverter_loss_J": 133.54106991673567,
+        "inverter_peak_total_loss_W": 383.87101278331545,
+        "inverter_transient_junction_temperature_not_resolved": true,
+        "material_host_sink_and_repeated_duty_acceptance_unverified": true
+      },
+      "checks": {
+        "departure": true,
+        "speed": false,
+        "arrest_or_free_exit": true,
+        "phase_current": true,
+        "hot_device_current": true,
+        "switch_voltage": true,
+        "cell_voltage": true,
+        "modulation": true,
+        "energy_balance": true
+      },
+      "all_model_gates_pass": false,
+      "return_reset_simulated": false,
+      "manufacturing_or_full_feeder_acceptance": false,
+      "id": "F10_adverse_refinedfield_dt5us"
+    }
+  ],
+  "comparisons": [
+    {
+      "configuration": "R10-R1",
+      "adverse": false,
+      "primary_gates_pass": true,
+      "refined_field_gates_pass": true,
+      "primary_release_m_s": 10.00077699729084,
+      "refined_release_m_s": 10.000776618618055,
+      "release_change_m_s": -3.786727855725758e-07,
+      "final_position_change_mm": 0.0006693643817001771,
+      "source_draw_change_J": 14.147762978552691,
+      "failed_refined_gates": []
+    },
+    {
+      "configuration": "R10-R1",
+      "adverse": true,
+      "primary_gates_pass": true,
+      "refined_field_gates_pass": true,
+      "primary_release_m_s": 9.99564164429127,
+      "refined_release_m_s": 9.995491551475311,
+      "release_change_m_s": -0.00015009281595901314,
+      "final_position_change_mm": 0.03634209919356479,
+      "source_draw_change_J": 23.31674640226811,
+      "failed_refined_gates": []
+    },
+    {
+      "configuration": "F10-R1",
+      "adverse": false,
+      "primary_gates_pass": true,
+      "refined_field_gates_pass": true,
+      "primary_release_m_s": 10.004228060146918,
+      "refined_release_m_s": 10.00423087693859,
+      "release_change_m_s": 2.816791672799468e-06,
+      "final_position_change_mm": -0.00018236106980040745,
+      "source_draw_change_J": 1.5884916243663838,
+      "failed_refined_gates": []
+    },
+    {
+      "configuration": "F10-R1",
+      "adverse": true,
+      "primary_gates_pass": false,
+      "refined_field_gates_pass": false,
+      "primary_release_m_s": 9.99310667408306,
+      "refined_release_m_s": 9.992913465565048,
+      "release_change_m_s": -0.00019320851801296612,
+      "final_position_change_mm": -0.0142394604663032,
+      "source_draw_change_J": 2.538499047582036,
+      "failed_refined_gates": [
+        "speed"
+      ]
+    }
+  ],
+  "refinement": "Actual transverse-return quadrature1\u21923,critical0.05m field stations and5\u00b5s motion;not old-map scaling.",
+  "model_sha256": "c0f71cad2234ebb053b4b5f78dc3792c56ad1f68460073cdf19f083b11ba9f7b",
+  "input_sha256": {
+    "R10_REFINED_FIELD.json": "7f9832d517bddc30037eb99e3dd1f7e7299264a6bc19af35ff8b8e0171ec3273",
+    "F10_REFINED_FIELD.json": "a051d9b37182a8c0aef4f984c8f678154ad473f935254080d05c1224f4be7944",
+    "R10_MASS.json": "e16152975ce64b005c91959c6527d983164405b917c9b507848544e01235fd27",
+    "F10_MASS.json": "0d913f98b9e01705d0472020228701efc451171063037b56c89d66611fb2d959"
+  }
+}

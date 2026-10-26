@@ -1,0 +1,25 @@
+{
+  "model": "Geocentric restricted3body with circular prescribedMoon,indirect term,Earth+Moon pointgravity; noSun,J2,terrain,finiteburns or ephemeris/SSO-plane solution",
+  "parking_altitude_km": 500,
+  "lunar_arrival_altitude_km": 100.00000637787116,
+  "arrival_radial_speed_m_s": 2.8876794164726825e-05,
+  "transfer_days": 5,
+  "initial_moon_phase_rad": 1.9476866639438513,
+  "departure_delta_v_m_s": 3057.4955268218937,
+  "capture_delta_v_m_s": 813.8414443559861,
+  "lunar_relative_arrival_speed_m_s": 2447.34556974369,
+  "post_capture_24h_sampled_altitude_km": [
+    99.97574072305656,
+    100.06396461096983
+  ],
+  "independent_integrator_position_difference_km": 0.0002185300681146835,
+  "optimizer_residual": [
+    6.377871159202186e-09,
+    2.8876794164726827e-08
+  ],
+  "last_12h_minimum_sampled_lunar_altitude_km": 100.00000637787116,
+  "prearrival_radial_velocity_negative": true,
+  "launch_hardware_speed_claim": false,
+  "physical_validation": false,
+  "limitation": "One ideal coplanar trajectory with free lunar phase. No actual date/provider/SSO departure plane or long-term orbital lifetime is demonstrated. Capture impulse requires explicitly carried propulsion or a maneuvering carrier; no passive rail-only lunar capture claimed."
+}

@@ -1,0 +1,88 @@
+{
+  "timestep_comparisons": [
+    {
+      "configuration": "R10-R1",
+      "adverse": false,
+      "same_gate_result": true,
+      "release_change_m_s": -0.00015154065616052037,
+      "terminal_position_change_mm": -0.0001090695329608593
+    },
+    {
+      "configuration": "R10-R1",
+      "adverse": true,
+      "same_gate_result": true,
+      "release_change_m_s": -3.31316587960373e-05,
+      "terminal_position_change_mm": 0.0007248755569122523
+    },
+    {
+      "configuration": "F10-R1",
+      "adverse": false,
+      "same_gate_result": true,
+      "release_change_m_s": 8.137011464626198e-06,
+      "terminal_position_change_mm": -0.025772324406148073
+    },
+    {
+      "configuration": "F10-R1",
+      "adverse": true,
+      "same_gate_result": true,
+      "release_change_m_s": 0.0002920452692833919,
+      "terminal_position_change_mm": -0.10992848929758381
+    }
+  ],
+  "field_comparisons": [
+    {
+      "configuration": "R10-R1",
+      "adverse": false,
+      "primary_gates_pass": true,
+      "refined_field_gates_pass": true,
+      "primary_release_m_s": 10.00077699729084,
+      "refined_release_m_s": 10.000776618618055,
+      "release_change_m_s": -3.786727855725758e-07,
+      "final_position_change_mm": 0.0006693643817001771,
+      "source_draw_change_J": 14.147762978552691,
+      "failed_refined_gates": []
+    },
+    {
+      "configuration": "R10-R1",
+      "adverse": true,
+      "primary_gates_pass": true,
+      "refined_field_gates_pass": true,
+      "primary_release_m_s": 9.99564164429127,
+      "refined_release_m_s": 9.995491551475311,
+      "release_change_m_s": -0.00015009281595901314,
+      "final_position_change_mm": 0.03634209919356479,
+      "source_draw_change_J": 23.31674640226811,
+      "failed_refined_gates": []
+    },
+    {
+      "configuration": "F10-R1",
+      "adverse": false,
+      "primary_gates_pass": true,
+      "refined_field_gates_pass": true,
+      "primary_release_m_s": 10.004228060146918,
+      "refined_release_m_s": 10.00423087693859,
+      "release_change_m_s": 2.816791672799468e-06,
+      "final_position_change_mm": -0.00018236106980040745,
+      "source_draw_change_J": 1.5884916243663838,
+      "failed_refined_gates": []
+    },
+    {
+      "configuration": "F10-R1",
+      "adverse": true,
+      "primary_gates_pass": false,
+      "refined_field_gates_pass": false,
+      "primary_release_m_s": 9.99310667408306,
+      "refined_release_m_s": 9.992913465565048,
+      "release_change_m_s": -0.00019320851801296612,
+      "final_position_change_mm": -0.0142394604663032,
+      "source_draw_change_J": 2.538499047582036,
+      "failed_refined_gates": [
+        "speed"
+      ]
+    }
+  ],
+  "max_independent_mechanical_work_residual_J": 3.0331648304127157e-10,
+  "max_total_energy_residual_J": 0.08961746815656911,
+  "actual_new_geometry_and_source_models": true,
+  "whole_mechanism_qualification": false
+}

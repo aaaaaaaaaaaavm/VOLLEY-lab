@@ -1,0 +1,70 @@
+{
+  "configuration": "R10-R1",
+  "components": [
+    {
+      "item": "Legacy nonmoving nonrail hardware",
+      "kg": 103.07018161332489,
+      "basis": "Sum of retained source CAD BOM;forF10 only a storage/control allowance,no modified-payload fit accepted."
+    },
+    {
+      "item": "New finite copper winding including declared bus paths",
+      "kg": 25.87030656,
+      "basis": "Actual new conductor centreline lengths\u00d7sections\u00d78960kg/m\u00b3"
+    },
+    {
+      "item": "Two38x8mm guide rails",
+      "kg": 7.7976,
+      "basis": "Declared new rectangular aluminum primitives"
+    },
+    {
+      "item": "Two30mm square3mm wall backbones",
+      "kg": 8.310599999999999,
+      "basis": "Declared new hollow aluminum primitives"
+    },
+    {
+      "item": "Four156mm-wide2mm GFRP stator boards",
+      "kg": 10.1297664,
+      "basis": "Declared new plate primitives"
+    },
+    {
+      "item": "Crossmembers",
+      "kg": 1.3608,
+      "basis": "Declared new aluminum primitives"
+    },
+    {
+      "item": "Power/control allocation",
+      "kg": 9.559999999999999,
+      "basis": "Original7kg allocation adjusted for actual selected bare-cell mass;spatial placement/harness not released."
+    },
+    {
+      "item": "Retained carrier",
+      "kg": 13.127805767068676,
+      "basis": "Existing CAD moving assembly"
+    },
+    {
+      "item": "Long hold-cam allocation",
+      "kg": 0.3,
+      "basis": "New scheduling2645\u20132695mm ramp/4000mm hold;not finalcamCAD."
+    }
+  ],
+  "device_initial_dry_kg": 179.52706034039358,
+  "initial_bus_wet_kg": 500,
+  "manifest_payload_kg": 48,
+  "initial_combined_kg": 727.5270603403935,
+  "first_shot_rest_host_kg": 710.3992545733248,
+  "moving_carrier_or_shoe_kg": 13.127805767068676,
+  "source_bank": {
+    "series": 32,
+    "parallel": 6,
+    "cells": 192,
+    "initial_V": 86.4,
+    "nominal_F": 18.75,
+    "nominal_ESR_ohm": 0.058666666666666666,
+    "adverse_F": 11.8125,
+    "adverse_ESR_ohm": 0.11733333333333333,
+    "bare_cell_mass_kg": 3.84
+  },
+  "source_and_inverter_catalog_gates": "ExistingEatonTVcell3V/IRFP4668200V92Ahot/600Ameanphase remain unchanged.",
+  "F10_shoe_support_budget_kg": null,
+  "scope": "Computed and allocated mass only;no CG/inertia,manufactured mass,structural/feeder compatibility or qualification claimed."
+}

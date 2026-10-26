@@ -9,16 +9,24 @@
       "sha256": "ced7e43d4a08bb74ff1c7cb94c49e250e57639fc0543e82111027bee4ee80aa8"
     },
     {
+      "path": "LUNAR_CAPTURE_HISTORY.csv",
+      "sha256": "3ff3205b1e20ecf855841a79e8c4d5b2934e4131588a414104672ded784e1e21"
+    },
+    {
       "path": "README.md",
-      "sha256": "9d0dd3660c6aa95825ce06bf35032875fba188de1f47fc163423b17e06a420a8"
+      "sha256": "bd46e83394e2ba2311dccc4180173100bc0e64a00e047104e8aba1c0e4d5b0ab"
     },
     {
       "path": "RESULTS.json",
       "sha256": "2d3fd6d4ecce7c7314b0c367677941657e498e116ed7aa57b4908e355937de39"
     },
     {
+      "path": "THREE_BODY_RESULTS.json",
+      "sha256": "e8164dc003deb4b341fb6efa7bbed5d5c652ea60e207a93fe55cdbe897ae3a43"
+    },
+    {
       "path": "check_capture.py",
-      "sha256": "bd57568af4b6ebfb5fb125c2d1054df12131c3c2b9b50b40edd69b1827929e7b"
+      "sha256": "2416da0a80f3708f178aae4153bf0b589b77afb1892724f5af4dd9154d418883"
     },
     {
       "path": "lunar_architecture_bounds.pdf",
@@ -33,8 +41,36 @@
       "sha256": "65da974ed0e5df7ac03af4306d9a24a95fcf9609c85597f140db668ce2647142"
     },
     {
+      "path": "lunar_capture_coast.pdf",
+      "sha256": "6f8a42c11546b2d41eab961b4c0495d9116656a694e28eca98e6a4be5020d610"
+    },
+    {
+      "path": "lunar_capture_coast.png",
+      "sha256": "e1fccc50a0f97655c2c90404eeb314117cae60eb0b54430b55480295e119f0e3"
+    },
+    {
+      "path": "lunar_capture_coast.svg",
+      "sha256": "0f3086e6fed88ec0af5c6f7358e0ff8f469d5be006be0cce5fdb8a73851952b7"
+    },
+    {
       "path": "study.py",
       "sha256": "a93560aa05ac0c4fcb2c04b3cbf62fc30516a922dcc318222e3a8c2c8c9f9d65"
+    },
+    {
+      "path": "three_body_transfer.pdf",
+      "sha256": "018046ef19bc0fdbc11cf36fc8e901f5a7cb093ff92a2e378748bbecb2f38acc"
+    },
+    {
+      "path": "three_body_transfer.png",
+      "sha256": "930f344699a073c3a264759676f6aa986552cac5e46c35b28194a6eca8e6214c"
+    },
+    {
+      "path": "three_body_transfer.py",
+      "sha256": "7dfd1c369b8fd98f58ef167152500d26d5028db12a43561a6542f8ab091eb7e9"
+    },
+    {
+      "path": "three_body_transfer.svg",
+      "sha256": "6065a585ba0e718323469dcb6365440b82353dd806b2344bc4ec21fb8e3dcd84"
     }
   ]
 }

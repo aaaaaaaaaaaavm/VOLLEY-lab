@@ -1,0 +1,73 @@
+{
+  "configuration": "F10-R1",
+  "components": [
+    {
+      "item": "Legacy nonmoving nonrail hardware",
+      "kg": 103.07018161332489,
+      "basis": "Sum of retained source CAD BOM;forF10 only a storage/control allowance,no modified-payload fit accepted."
+    },
+    {
+      "item": "New finite copper winding including declared bus paths",
+      "kg": 18.1075776,
+      "basis": "Actual new conductor centreline lengths\u00d7sections\u00d78960kg/m\u00b3"
+    },
+    {
+      "item": "Two38x8mm guide rails",
+      "kg": 5.58144,
+      "basis": "Declared new rectangular aluminum primitives"
+    },
+    {
+      "item": "Two30mm square3mm wall backbones",
+      "kg": 5.948639999999999,
+      "basis": "Declared new hollow aluminum primitives"
+    },
+    {
+      "item": "Four156mm-wide2mm GFRP stator boards",
+      "kg": 7.0566912,
+      "basis": "Declared new plate primitives"
+    },
+    {
+      "item": "Crossmembers",
+      "kg": 0.9072000000000001,
+      "basis": "Declared new aluminum primitives"
+    },
+    {
+      "item": "Power/control allocation",
+      "kg": 7.0,
+      "basis": "Original7kg allocation adjusted for actual selected bare-cell mass;spatial placement/harness not released."
+    },
+    {
+      "item": "Twelve attached shoes",
+      "kg": 55.5456,
+      "basis": "Each84magnets3.6288kg+1kg explicitly allocated support/retention."
+    }
+  ],
+  "device_initial_dry_kg": 203.2173304133249,
+  "initial_bus_wet_kg": 500,
+  "manifest_payload_kg": 48,
+  "initial_combined_kg": 751.2173304133249,
+  "first_shot_rest_host_kg": 742.588530413325,
+  "moving_carrier_or_shoe_kg": 4.6288,
+  "source_bank": {
+    "series": 32,
+    "parallel": 2,
+    "cells": 64,
+    "initial_V": 86.4,
+    "nominal_F": 6.25,
+    "nominal_ESR_ohm": 0.176,
+    "adverse_F": 3.9374999999999996,
+    "adverse_ESR_ohm": 0.352,
+    "bare_cell_mass_kg": 1.28
+  },
+  "source_and_inverter_catalog_gates": "ExistingEatonTVcell3V/IRFP4668200V92Ahot/600Ameanphase remain unchanged.",
+  "F10_shoe_support_budget_kg": {
+    "two430x120x2mm_GFRP_plates": 0.39216,
+    "four400x10x6mm_Al_members": 0.2592,
+    "brackets": 0.027,
+    "fasteners": 0.12,
+    "retention_pins": 0.12,
+    "guide_liners": 0.04,
+    "balance_to1kg": 0.04164000000000001
+  },
+  "scope": "Computed and allocated mass only;no CG/inertia,manufactured mass,structural/feeder compatibility or qualification claimed."
+}

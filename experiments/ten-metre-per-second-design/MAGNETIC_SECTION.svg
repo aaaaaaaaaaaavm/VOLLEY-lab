@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="516.6pt" height="203.592386pt" viewBox="0 0 516.6 203.592386" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-26T23:22:52.479252</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 203.592386
+L 516.6 203.592386
+L 516.6 -0
+L 0 -0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 66.282353 84.135915
+L 332.152941 84.135915
+L 332.152941 60.502974
+L 66.282353 60.502974
+z
+" clip-path="url(#pf34a26644a)" style="fill: #8ca1ad; stroke: #344955; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 66.282353 143.218268
+L 332.152941 143.218268
+L 332.152941 119.585327
+L 66.282353 119.585327
+z
+" clip-path="url(#pf34a26644a)" style="fill: #8ca1ad; stroke: #344955; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 66.282353 110.722974
+L 332.152941 110.722974
+L 332.152941 92.998268
+L 66.282353 92.998268
+z
+" clip-path="url(#pf34a26644a)" style="fill: #bc7439; stroke: #805020; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 66.282353 92.998268
+L 332.152941 92.998268
+L 332.152941 87.090033
+L 66.282353 87.090033
+z
+" clip-path="url(#pf34a26644a)" style="fill: #8a9c70"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 66.282353 116.63121
+L 332.152941 116.63121
+L 332.152941 110.722974
+L 66.282353 110.722974
+z
+" clip-path="url(#pf34a26644a)" style="fill: #8a9c70"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 370.556471 87.257499
+Q 370.556471 101.864164 370.556471 116.47083
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 367.956471 92.457499
+L 370.556471 87.257499
+L 373.156471 92.457499
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 373.156471 111.27083
+L 370.556471 116.47083
+L 367.956471 111.27083
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'" transform="translate(376.464706 98.169231)">12 mm</text>
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'" transform="translate(376.464706 112.726387)">magnet gap</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 329.034874 163.897092
+Q 199.218177 163.897092 69.40148 163.897092
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 323.834874 161.297092
+L 329.034874 163.897092
+L 323.834874 166.497092
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 74.60148 166.497092
+L 69.40148 163.897092
+L 74.60148 161.297092
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="199.217647" y="175.713562" transform="rotate(-0 199.217647 175.713562)">90 mm active depth</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="199.217647" y="42.778268" transform="rotate(-0 199.217647 42.778268)">42 × 8 mm blocks per side = 336 mm moving array</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="199.217647" y="105.447809" transform="rotate(-0 199.217647 105.447809)">6 mm copper</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 15.6px; font-family: 'DejaVu Sans'; text-anchor: middle" x="258.3" y="19.053562" transform="rotate(-0 258.3 19.053562)">Declared magnetic cross-section; schematic dimensions</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pf34a26644a">
+   <rect x="7.2" y="25.053562" width="502.2" height="171.338824"/>
+  </clipPath>
+ </defs>
+</svg>
