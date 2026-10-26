@@ -1,0 +1,63 @@
+{
+  "target_m_s": 50,
+  "adverse": true,
+  "inductance_H": 2e-05,
+  "dt_s": 2e-05,
+  "status": "ARREST_STROKE_EXCEEDED",
+  "moving_sled_kg": 13.127805767068676,
+  "reference_rest_host_kg": 687.4289139333248,
+  "release": {
+    "time_s": 0.3093400000000278,
+    "relative_speed_m_s": 7.616125918087987,
+    "position_m": 1.301616058758723,
+    "payload_inertial_delta_v_m_s": 7.430977552065702,
+    "host_recoil_before_arrest_m_s": -0.18514836602228463
+  },
+  "stop_position_m": 1.5110637004863483,
+  "electrical_brake_command": {
+    "time_s": 0.3091400000000276,
+    "position_m": 1.3000929559601673,
+    "relative_speed_m_s": 7.61422722115836
+  },
+  "peak_payload_normal_reaction_N": 132.9979920498519,
+  "mechanical_friction_dissipation_J": 15.11063700486346,
+  "stop_velocity_m_s": 6.1989865934436965,
+  "time_s": 0.33998000000005846,
+  "cap_draw_J": 1812.6180021934604,
+  "cap_end_V": 80.89663244995434,
+  "field_energy_end_J": 4.783069613239947,
+  "diagnostic_time_limit_s": 1.0604,
+  "energy_ledger": {
+    "mechanical_J": 373.6873810077427,
+    "copper_J": 662.068253485134,
+    "inverter_J": 260.4170062803821,
+    "bank_J": 494.7314049636667,
+    "auxiliary_J": 16.998999999997793
+  },
+  "energy_residual_J": -0.06811315670290874,
+  "peak_phase_current_A": 599.9999999999993,
+  "maximum_cell_terminal_or_internal_V": 2.8999922084832814,
+  "actual_modulation_peak": 1.1168162447148096,
+  "nominal_modulation_command_fraction": 0.95,
+  "integral_phase_peak_current_sq_A2s": 46508.14686597668,
+  "conservative_phase_current_sq_with_ripple_A2s": 48879.00641073755,
+  "peak_device_current_A": 76.46333975398436,
+  "peak_bank_current_A": 67.8413793825264,
+  "allocated_peak_Vds_V": 166.81720220017905,
+  "checks": {
+    "released": true,
+    "stopped_inside_210mm": false,
+    "release_speed": false,
+    "cam_open_before_release": true,
+    "phase_current_limit": true,
+    "hot_device_current_with25pct_imbalance": true,
+    "allocated_switch_voltage": true,
+    "cell_charge_voltage": true,
+    "physical_modulation_limit": false,
+    "energy_balance": true
+  },
+  "all_declared_checks_pass": false,
+  "trace": [],
+  "case_id": "u50_adverse_L20uH_dt20us",
+  "solver_elapsed_s": 0.9416984650015365
+}

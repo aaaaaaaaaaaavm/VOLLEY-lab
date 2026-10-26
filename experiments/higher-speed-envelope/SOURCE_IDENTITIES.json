@@ -1,0 +1,68 @@
+{
+  "study": "HV-ACR1-REJECTION-SCREEN-01",
+  "date_utc": "2026-10-26",
+  "sources": [
+    {
+      "repo_path": "validation/acr1/analysis/coupled_shot.py",
+      "capture_path": "capture/analysis/coupled_shot.py",
+      "sha256": "560088cb2a05e270b621700df4de1598cb209237b726bd5569e639c5a0f38155",
+      "accepted_commit": "ca67ea95bf5729aa293da3728f79e23d79da9262"
+    },
+    {
+      "repo_path": "validation/acr1/analysis/finite_motor.py",
+      "capture_path": "capture/analysis/finite_motor.py",
+      "sha256": "99f5ed27abef68dfaa7c651de6f10bba3e2a602d12f83caa064bcecadf06aa07",
+      "accepted_commit": "ca67ea95bf5729aa293da3728f79e23d79da9262"
+    },
+    {
+      "repo_path": "validation/acr1/analysis/COUPLED_SHOT.json",
+      "capture_path": "capture/analysis/COUPLED_SHOT.json",
+      "sha256": "176f0e325089c5b3798407810fc6d147398c1b939bedf74ea4baf9fa6061d2e1",
+      "accepted_commit": "ca67ea95bf5729aa293da3728f79e23d79da9262"
+    },
+    {
+      "repo_path": "validation/acr1/analysis/FINITE_MOTOR.json",
+      "capture_path": "capture/analysis/FINITE_MOTOR.json",
+      "sha256": "546cf2f427f356fc043f7d5cfd3f6af9b4ab5d4ab84b582e1e7c30baf8fd89ec",
+      "accepted_commit": "ca67ea95bf5729aa293da3728f79e23d79da9262"
+    },
+    {
+      "repo_path": "validation/acr1/analysis/ARREST_FORCE_MAP.json",
+      "capture_path": "capture/analysis/ARREST_FORCE_MAP.json",
+      "sha256": "d143d2e7efa0583c7c2ddf73b47479e192891aa2ffbb7d5976747189bda1cd1f",
+      "accepted_commit": "ca67ea95bf5729aa293da3728f79e23d79da9262"
+    },
+    {
+      "repo_path": "validation/acr1/analysis/conduction/phase_A/h2/RESULT.json",
+      "capture_path": "capture/analysis/conduction/phase_A/h2/RESULT.json",
+      "sha256": "208406e54c88d59a1ff2b177bf9a7babe1010aefeaa91abbade592d7023ac7fc",
+      "accepted_commit": "ca67ea95bf5729aa293da3728f79e23d79da9262"
+    },
+    {
+      "repo_path": "validation/acr1/cad/release/VOLLEY_G5_ACR1_home.json",
+      "capture_path": "capture/cad/release/VOLLEY_G5_ACR1_home.json",
+      "sha256": "01aac645e7ba951a1d3cc90ccbea9dc310a3ad863bf1dbc4d95bbb48f66b745e",
+      "accepted_commit": "ca67ea95bf5729aa293da3728f79e23d79da9262"
+    },
+    {
+      "repo_path": "validation/acr1/analysis/POWER_COMPONENT_REFERENCE.json",
+      "capture_path": "capture/analysis/POWER_COMPONENT_REFERENCE.json",
+      "sha256": "187905f64ba50273077b2739aa19f71c425bc7e4a7951e72021af554c318810f",
+      "accepted_commit": "ca67ea95bf5729aa293da3728f79e23d79da9262"
+    },
+    {
+      "repo_path": "validation/acr1/verification/COUPLED_SHOT_REVIEW.json",
+      "capture_path": "capture/verification/COUPLED_SHOT_REVIEW.json",
+      "sha256": "8beb07acd3b2e82c4d41c5172c8b70820cb08ad362e20bf0dea47972291552d2",
+      "accepted_commit": "ca67ea95bf5729aa293da3728f79e23d79da9262"
+    },
+    {
+      "repo_path": "validation/acr1/cad/PARAMETERS.json",
+      "capture_path": "capture/cad/PARAMETERS.json",
+      "sha256": "5f285fffa17f8a1ece39f5e8f9ab1ecb14417e75dde51edc104b5f3625eecc0b",
+      "accepted_commit": "ca67ea95bf5729aa293da3728f79e23d79da9262"
+    }
+  ],
+  "source_code_changed": false,
+  "runner_only_change": "Call existing simulate with explicit higher target and timestep arguments; no source/geometry/controller/rating changes."
+}

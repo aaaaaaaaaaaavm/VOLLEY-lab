@@ -1,0 +1,29 @@
+{
+  "source_id": "Z22",
+  "doi": "10.3390/rs14174205",
+  "url": "https://www.mdpi.com/2072-4292/14/17/4205",
+  "public_pdf_url": "https://www.mdpi.com/2072-4292/14/17/4205/pdf",
+  "sha256": "c996e1768abfcbb85f97155acbe3871a4b69246079dcbb0b9b80abdb39782b9f",
+  "date_utc": "2026-10-26",
+  "actual_selected_pages_read": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    17,
+    18
+  ],
+  "method": "Existing full publisher PDF read-only;selected text extracted with pdftotext and relevant passages reread. No complete new full-text review claimed.",
+  "license": "CC BY4.0 stated in publisher PDF;PDF not redistributed here.",
+  "source_review": "Existing25October source cards retained separately.",
+  "no_external_contacts": true,
+  "no_paywall_bypass": true
+}

@@ -1,0 +1,21 @@
+{
+  "moving_sled_kg": 13.127805767068676,
+  "payload_kg": 4,
+  "accelerated_mass_kg": 17.127805767068676,
+  "reference_rest_host_kg": 687.4289139333248,
+  "total_initial_kg": 704.5567197003935,
+  "accelerated_reduced_mass_kg": 16.711428033109684,
+  "braking_reduced_mass_kg": 12.88180243941294,
+  "launch_work_coefficient_J_per_A": 1.8183887365692528,
+  "arrest_work_coefficient_J_per_A": 0.23626883024475737,
+  "optimistic_arrest_work_at600A_J": 141.76129814685441,
+  "optimistic_drive_speed_ceiling_at600A_no_losses_m_s": 11.42686792803083,
+  "optimistic_arrest_speed_ceiling_at600A_no_losses_m_s": 4.691433032603579,
+  "nominal_usable_bank_energy_86p4_to60V_J": 12078.000000000004,
+  "adverse_usable_bank_energy_86p4_to60V_J": 7609.140000000002,
+  "nominal_initial_positive_source_power_budget_W": 8482.909090909092,
+  "adverse_initial_positive_source_power_budget_W": 4241.454545454546,
+  "optimistic_initial_q_voltage_ceiling_no_ESR_V": 47.38891009508448,
+  "optimistic_no_load_back_EMF_speed_ceiling_m_s": 50.78994084715496,
+  "caveat": "These are necessary optimistic bounds of current field map, not achievable operating points or new rated speeds."
+}

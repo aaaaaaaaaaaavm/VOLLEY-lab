@@ -1,0 +1,63 @@
+{
+  "target_m_s": 15,
+  "adverse": false,
+  "inductance_H": 3e-06,
+  "dt_s": 2e-05,
+  "status": "ARREST_STROKE_EXCEEDED",
+  "moving_sled_kg": 13.127805767068676,
+  "reference_rest_host_kg": 687.4289139333248,
+  "release": {
+    "time_s": 0.2419199999999716,
+    "relative_speed_m_s": 9.825320695660558,
+    "position_m": 1.3014768160361139,
+    "payload_inertial_delta_v_m_s": 9.586466704535477,
+    "host_recoil_before_arrest_m_s": -0.2388539911250812
+  },
+  "stop_position_m": 1.5110449722158614,
+  "electrical_brake_command": {
+    "time_s": 0.24177999999997166,
+    "position_m": 1.3001013186133024,
+    "relative_speed_m_s": 9.823831457728495
+  },
+  "peak_payload_normal_reaction_N": 194.90022014812152,
+  "mechanical_friction_dissipation_J": 7.5552248610793225,
+  "stop_velocity_m_s": 8.6462291706373,
+  "time_s": 0.26475999999998323,
+  "cap_draw_J": 2591.8422616766775,
+  "cap_end_V": 81.45901101942906,
+  "field_energy_end_J": 0.8099999999999982,
+  "diagnostic_time_limit_s": 1.2013333333333334,
+  "energy_ledger": {
+    "mechanical_J": 673.9096162769398,
+    "copper_J": 857.272536418891,
+    "inverter_J": 352.86799335700783,
+    "bank_J": 693.8501976196301,
+    "auxiliary_J": 13.237999999998102
+  },
+  "energy_residual_J": -0.10608199578933453,
+  "peak_phase_current_A": 599.9999999999993,
+  "maximum_cell_terminal_or_internal_V": 2.7,
+  "actual_modulation_peak": 0.3607871749291777,
+  "nominal_modulation_command_fraction": 0.95,
+  "integral_phase_peak_current_sq_A2s": 67533.00941301268,
+  "conservative_phase_current_sq_with_ripple_A2s": 86231.30906840228,
+  "peak_device_current_A": 86.0134604472266,
+  "peak_bank_current_A": 134.3455712599897,
+  "allocated_peak_Vds_V": 187.85061853314232,
+  "checks": {
+    "released": true,
+    "stopped_inside_210mm": false,
+    "release_speed": false,
+    "cam_open_before_release": true,
+    "phase_current_limit": true,
+    "hot_device_current_with25pct_imbalance": true,
+    "allocated_switch_voltage": true,
+    "cell_charge_voltage": true,
+    "physical_modulation_limit": true,
+    "energy_balance": true
+  },
+  "all_declared_checks_pass": false,
+  "trace": [],
+  "case_id": "u15_nominal_L3uH_dt20us",
+  "solver_elapsed_s": 0.27522677899105474
+}

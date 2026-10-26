@@ -1,0 +1,9 @@
+# Higher-speed design constraints
+
+Current ACR1 computations support command points **1, 2 and 3 m/s**. A separate study kept the same geometry, source, controller and acceptance gates while requesting 10, 15, 30, 50 and 100 m/s. None of its 22 cases completed the required release and arrest conditions; four timestep refinements retained that outcome. [All cases](MODEL_CASES.csv) and [source/results](HIGH_TARGET_RESULTS.json) preserve the actual findings.
+
+The accelerated assembly is 17.127806 kg, including the 13.127806 kg retained sled/pallet and 4 kg payload. The current 210 mm brake map could supply at most 141.76 J even under an ideal instantaneous constant 600 A current. A 10 m/s release would require 644.09 J of relative sled-arrest work before losses. This identifies a new arrest architecture, source/controller capacity and coupled design as prerequisites for a 10–15 m/s development target. It establishes no new operating rating. [Constraint figure](HIGH_VELOCITY_SCREEN.png) · [Detailed bounds](CONSTRAINTS.csv).
+
+Published laboratory magnetic-field, force and low-speed release measurements provide useful benchmarks at their own geometry and conditions. They can support applicable equations after a documented reconstruction; they do not physically validate VOLLEY or its higher-speed scenarios. [Experimental source cards](EXPERIMENTAL_BENCHMARK_CARDS.json).
+
+A separate Gen6 trade considers an adapter that remains attached to the departing payload. It removes successful-departure sled arrest but changes interfaces, recoil and twelve-adapter inventory. The illustrative 0.25/0.5/1 kg shoes cannot retain the current 3.6288 kg magnet set, so their mass-only speed ratios require a redesigned electromagnetic geometry. [Hypothetical shoe bounds](HYPOTHETICAL_FLYAWAY_SHOES.json) · [Full report](REPORT.md).

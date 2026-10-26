@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "repo_path": "validation/acr1/analysis/coupled_shot.py",
+      "accepted_commit_bytes_match": true
+    },
+    {
+      "repo_path": "validation/acr1/analysis/finite_motor.py",
+      "accepted_commit_bytes_match": true
+    },
+    {
+      "repo_path": "validation/acr1/analysis/COUPLED_SHOT.json",
+      "accepted_commit_bytes_match": true
+    },
+    {
+      "repo_path": "validation/acr1/analysis/FINITE_MOTOR.json",
+      "accepted_commit_bytes_match": true
+    },
+    {
+      "repo_path": "validation/acr1/analysis/ARREST_FORCE_MAP.json",
+      "accepted_commit_bytes_match": true
+    },
+    {
+      "repo_path": "validation/acr1/analysis/conduction/phase_A/h2/RESULT.json",
+      "accepted_commit_bytes_match": true
+    },
+    {
+      "repo_path": "validation/acr1/cad/release/VOLLEY_G5_ACR1_home.json",
+      "accepted_commit_bytes_match": true
+    },
+    {
+      "repo_path": "validation/acr1/analysis/POWER_COMPONENT_REFERENCE.json",
+      "accepted_commit_bytes_match": true
+    },
+    {
+      "repo_path": "validation/acr1/verification/COUPLED_SHOT_REVIEW.json",
+      "accepted_commit_bytes_match": true
+    },
+    {
+      "repo_path": "validation/acr1/cad/PARAMETERS.json",
+      "accepted_commit_bytes_match": true
+    }
+  ],
+  "accepted_sources_modified": false
+}

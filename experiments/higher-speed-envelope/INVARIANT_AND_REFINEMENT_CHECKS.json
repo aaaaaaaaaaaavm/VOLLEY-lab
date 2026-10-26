@@ -1,0 +1,202 @@
+{
+  "passed": true,
+  "invariants": [
+    {
+      "case": "u10_nominal_L20uH_dt20us",
+      "independent_mechanical_work_residual_J": -1.9326762412674725e-12,
+      "same_declared_energy_balance": true,
+      "declared_gates_pass": false
+    },
+    {
+      "case": "u10_adverse_L20uH_dt20us",
+      "independent_mechanical_work_residual_J": -2.5579538487363607e-12,
+      "same_declared_energy_balance": true,
+      "declared_gates_pass": false
+    },
+    {
+      "case": "u15_nominal_L20uH_dt20us",
+      "independent_mechanical_work_residual_J": 6.707523425575346e-12,
+      "same_declared_energy_balance": true,
+      "declared_gates_pass": false
+    },
+    {
+      "case": "u15_adverse_L20uH_dt20us",
+      "independent_mechanical_work_residual_J": 3.126388037344441e-12,
+      "same_declared_energy_balance": true,
+      "declared_gates_pass": false
+    },
+    {
+      "case": "u30_nominal_L20uH_dt20us",
+      "independent_mechanical_work_residual_J": 6.707523425575346e-12,
+      "same_declared_energy_balance": true,
+      "declared_gates_pass": false
+    },
+    {
+      "case": "u30_adverse_L20uH_dt20us",
+      "independent_mechanical_work_residual_J": 3.126388037344441e-12,
+      "same_declared_energy_balance": true,
+      "declared_gates_pass": false
+    },
+    {
+      "case": "u50_nominal_L20uH_dt20us",
+      "independent_mechanical_work_residual_J": 6.707523425575346e-12,
+      "same_declared_energy_balance": true,
+      "declared_gates_pass": false
+    },
+    {
+      "case": "u50_adverse_L20uH_dt20us",
+      "independent_mechanical_work_residual_J": 3.126388037344441e-12,
+      "same_declared_energy_balance": true,
+      "declared_gates_pass": false
+    },
+    {
+      "case": "u100_nominal_L20uH_dt20us",
+      "independent_mechanical_work_residual_J": 6.707523425575346e-12,
+      "same_declared_energy_balance": true,
+      "declared_gates_pass": false
+    },
+    {
+      "case": "u100_adverse_L20uH_dt20us",
+      "independent_mechanical_work_residual_J": 3.126388037344441e-12,
+      "same_declared_energy_balance": true,
+      "declared_gates_pass": false
+    },
+    {
+      "case": "u10_nominal_L3uH_dt20us",
+      "independent_mechanical_work_residual_J": -7.617018127348274e-12,
+      "same_declared_energy_balance": true,
+      "declared_gates_pass": false
+    },
+    {
+      "case": "u10_nominal_L100uH_dt20us",
+      "independent_mechanical_work_residual_J": -2.2737367544323206e-13,
+      "same_declared_energy_balance": true,
+      "declared_gates_pass": false
+    },
+    {
+      "case": "u10_adverse_L3uH_dt20us",
+      "independent_mechanical_work_residual_J": -2.8421709430404007e-13,
+      "same_declared_energy_balance": true,
+      "declared_gates_pass": false
+    },
+    {
+      "case": "u10_adverse_L100uH_dt20us",
+      "independent_mechanical_work_residual_J": 9.663381206337363e-13,
+      "same_declared_energy_balance": true,
+      "declared_gates_pass": false
+    },
+    {
+      "case": "u15_nominal_L3uH_dt20us",
+      "independent_mechanical_work_residual_J": 2.5011104298755527e-12,
+      "same_declared_energy_balance": true,
+      "declared_gates_pass": false
+    },
+    {
+      "case": "u15_nominal_L100uH_dt20us",
+      "independent_mechanical_work_residual_J": 2.2737367544323206e-13,
+      "same_declared_energy_balance": true,
+      "declared_gates_pass": false
+    },
+    {
+      "case": "u15_adverse_L3uH_dt20us",
+      "independent_mechanical_work_residual_J": -3.126388037344441e-12,
+      "same_declared_energy_balance": true,
+      "declared_gates_pass": false
+    },
+    {
+      "case": "u15_adverse_L100uH_dt20us",
+      "independent_mechanical_work_residual_J": 1.1368683772161603e-13,
+      "same_declared_energy_balance": true,
+      "declared_gates_pass": false
+    },
+    {
+      "case": "u10_nominal_L20uH_dt5us",
+      "independent_mechanical_work_residual_J": -6.934897101018578e-12,
+      "same_declared_energy_balance": true,
+      "declared_gates_pass": false
+    },
+    {
+      "case": "u10_adverse_L20uH_dt5us",
+      "independent_mechanical_work_residual_J": 5.286437954055145e-12,
+      "same_declared_energy_balance": true,
+      "declared_gates_pass": false
+    },
+    {
+      "case": "u15_nominal_L20uH_dt5us",
+      "independent_mechanical_work_residual_J": 3.637978807091713e-12,
+      "same_declared_energy_balance": true,
+      "declared_gates_pass": false
+    },
+    {
+      "case": "u15_adverse_L20uH_dt5us",
+      "independent_mechanical_work_residual_J": 1.0913936421275139e-11,
+      "same_declared_energy_balance": true,
+      "declared_gates_pass": false
+    }
+  ],
+  "refinements": [
+    {
+      "target_m_s": 10,
+      "adverse": false,
+      "L_uH": 20,
+      "coarse_dt_us": 20,
+      "fine_dt_us": 5,
+      "coarse_status": "ARREST_STROKE_EXCEEDED",
+      "fine_status": "ARREST_STROKE_EXCEEDED",
+      "same_rejection_status": true,
+      "release_speed_change_m_s": -0.0005250218163670439,
+      "boundary_exit_position_change_mm": -0.04981550656824041,
+      "boundary_exit_speed_change_m_s": -0.0009450371637278465,
+      "cap_draw_change_J": -0.1696898895229424,
+      "peak_current_change_A": -2.1600499167107046e-12
+    },
+    {
+      "target_m_s": 10,
+      "adverse": true,
+      "L_uH": 20,
+      "coarse_dt_us": 20,
+      "fine_dt_us": 5,
+      "coarse_status": "ARREST_STROKE_EXCEEDED",
+      "fine_status": "ARREST_STROKE_EXCEEDED",
+      "same_rejection_status": true,
+      "release_speed_change_m_s": -8.501854811893139e-05,
+      "boundary_exit_position_change_mm": -0.00028109531102771257,
+      "boundary_exit_speed_change_m_s": 0.00010561746593573673,
+      "cap_draw_change_J": 0.024295760500535835,
+      "peak_current_change_A": -2.1600499167107046e-12
+    },
+    {
+      "target_m_s": 15,
+      "adverse": false,
+      "L_uH": 20,
+      "coarse_dt_us": 20,
+      "fine_dt_us": 5,
+      "coarse_status": "ARREST_STROKE_EXCEEDED",
+      "fine_status": "ARREST_STROKE_EXCEEDED",
+      "same_rejection_status": true,
+      "release_speed_change_m_s": -0.0002035615662450141,
+      "boundary_exit_position_change_mm": -0.049843046494135734,
+      "boundary_exit_speed_change_m_s": 0.000271591914041025,
+      "cap_draw_change_J": -0.021299810964592325,
+      "peak_current_change_A": -2.0463630789890885e-12
+    },
+    {
+      "target_m_s": 15,
+      "adverse": true,
+      "L_uH": 20,
+      "coarse_dt_us": 20,
+      "fine_dt_us": 5,
+      "coarse_status": "ARREST_STROKE_EXCEEDED",
+      "fine_status": "ARREST_STROKE_EXCEEDED",
+      "same_rejection_status": true,
+      "release_speed_change_m_s": -0.00020020763292016852,
+      "boundary_exit_position_change_mm": -0.05433922818176562,
+      "boundary_exit_speed_change_m_s": -0.00023841694142490155,
+      "cap_draw_change_J": -0.028554994469232042,
+      "peak_current_change_A": -2.1600499167107046e-12
+    }
+  ],
+  "all22_cases_rejected": true,
+  "original_acceptance_gates_unchanged": true,
+  "original_source_unchanged": true
+}

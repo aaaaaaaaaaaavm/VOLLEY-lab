@@ -13,6 +13,10 @@ VOLLEY Labs preserves the engineering alternatives behind commanded CubeSat depl
 [Guided-feed close-up](figures/acr1-polish/feeder_detail_annotated.png) · [Four-state custody sequence](figures/acr1-polish/operating_sequence.png) · [Caption and visibility notes](figures/acr1-polish/CAPTIONS.md)
 
 
+## Higher-speed design space
+
+The [source-linked higher-speed study](experiments/higher-speed-envelope/REPORT.md) evaluates the unchanged ACR1 model at **10, 15, 30, 50 and 100 m/s** and derives launch,source and retained-carrier arrest constraints. It also records a separate Gen6 attached-shoe trade, with explicit hypothetical masses and magnetic-hardware bounds. Current ACR1 command points remain **1, 2 and 3 m/s**.
+
 ## Feeder decision and retained alternatives
 
 | Rank | Architecture | Weighted judgment / 10 | Disposition |

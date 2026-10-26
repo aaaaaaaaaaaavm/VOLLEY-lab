@@ -1,0 +1,70 @@
+{
+  "review_date_utc": "2026-10-26",
+  "primary_Z22_pdf_sha256": "c996e1768abfcbb85f97155acbe3871a4b69246079dcbb0b9b80abdb39782b9f",
+  "actual_this_task_reading": "Reread selected existing public-publisher PDF passages:pp3–8(topology/model),pp9–14(field/force),pp17–18(release).No complete new full-text review claimed.",
+  "cards": [
+    {
+      "id": "Z22_FIELD",
+      "doi": "10.3390/rs14174205",
+      "url": "https://www.mdpi.com/2072-4292/14/17/4205",
+      "location": "§5.1,p12,Fig16",
+      "actual_measurement": "Gauss-meter/XYZ-stage airgap field; reported average ejection-unit gap-center flux about0.424T,conveying drive about0.23T.",
+      "applicable_check": "Reconstruct published double-magnetic-circuit geometry/materials/gap; compare field-vs-position before dynamic calibration.",
+      "mismatch": "Yoked double magnetic circuit is not ACR1 air-core Halbach:six blocks per period,42 per side,12mm modeled magnet-face gap. Published gap/material/coverage dimensions must be recovered;no universal flux correction transfers.",
+      "model_validation_completed_here": false
+    },
+    {
+      "id": "Z22_FORCE",
+      "doi": "10.3390/rs14174205",
+      "location": "§5.2,pp13–14,Fig20",
+      "actual_measurement": "Ejection force/current/coil-position measured on laboratory launcher; theory exceeds measured force at larger current density.",
+      "applicable_check": "Independent force-current-position benchmark at the published geometry,including armature reaction. Digitize traceable curve points/uncertainty before claiming reproduction.",
+      "mismatch": "ACR1 freezes magnet field and imposes mean three-phase current up to600A. Published voice-coil topology,current density,turns,gap and saturation are different; no high-current scaling factor is inferred.",
+      "model_validation_completed_here": false
+    },
+    {
+      "id": "Z22_RELEASE",
+      "doi": "10.3390/rs14174205",
+      "location": "§5.4,pp17–18,Fig27",
+      "actual_measurement": "Fixed-frame counterweighted gravity-compensation release;1kg dummy0.67–1.42m/s;3kg dummy0.40–0.85m/s;currents0.5–2.5A;high-speed camera.",
+      "derived_payload_kinetic_energy_1kg_J": [
+        0.22445000000000004,
+        1.0082
+      ],
+      "derived_payload_kinetic_energy_3kg_J": [
+        0.24000000000000005,
+        1.0837499999999998
+      ],
+      "author_reported_model_difference": "Below11% in their test conditions;collision losses and armature reaction omitted.",
+      "applicable_check": "Work-energy/dynamic benchmark only after reconstructing force,stroke,mass,counterweight/friction and current waveform; distinguishes model discrepancy from shot dispersion.",
+      "mismatch": "1/3kg low-speed fixed-frame tests do not contain13.1278kg retained sled,finite host,captive arrest,ACR1 source/PWM or10–100m/s operation. The11% figure is not ACR1 uncertainty.",
+      "model_validation_completed_here": false
+    },
+    {
+      "id": "Z25_TRANSPORT",
+      "doi": "10.3390/aerospace12060466",
+      "location": "Existing full-text review §5;not newly reread in this task",
+      "actual_measurement": "Gravity-assisted aligned/offset transport tests reported about0.20/0.246s.",
+      "applicable_check": "Separate custody/contact/transfer benchmark;not an ejection-speed or high-speed current-source validation.",
+      "mismatch": "Grooves/iron patches and gravity assistance differ from ACR1 passive generic payload interface.",
+      "model_validation_completed_here": false
+    }
+  ],
+  "excluded_as_experimental_validation": [
+    {
+      "doi": "10.1155/ijae/3000765",
+      "reason": "Feng2025 higher-speed induction-launch results are simulation,not measured hardware."
+    },
+    {
+      "doi": "10.1541/ieejias.143.570",
+      "reason": "Yamaguchi2023 finite-end-effect theory is2D;hardware demonstration future work."
+    },
+    {
+      "doi": "10.1109/TIE.2021.3134060",
+      "reason": "Existing primary metadata/abstract only;closed full text;no quantitative benchmark imported."
+    }
+  ],
+  "external_experiments_physically_validate_VOLLEY": false,
+  "no_external_contacts": true,
+  "no_paywall_bypass": true
+}

@@ -954,6 +954,21 @@
         "figures/acr1-polish/operating_sequence.png": "6f4cebbede545ff8b505345c01f6912cb56195f03cf4ee57fcec5b904de9ea58",
         "figures/acr1-polish/operating_sequence.webp": "035784105f3107ca2356a998c4c7adcc2330d30718b047411757c5aa99d5b132"
       }
+    },
+    {
+      "evidence_class": "Computed unchanged-configuration boundary screen",
+      "caption": "Higher-speed requests,refined model outcomes and launch/arrest work constraints for the unchanged ACR1 configuration.",
+      "limitations": "Requested speeds are not supported ratings; unchanged-model cases retain original failed gates; constant-current bounds are necessary ideal limits.",
+      "sources": {
+        "experiments/higher-speed-envelope/HIGH_TARGET_RESULTS.json": "ae632b451cd7ef09b1682cf00900b0b5dd350426e134a3d4d2678971e8d163ae",
+        "experiments/higher-speed-envelope/BUDGET_BOUNDS.json": "ccdbfe41a2c93c86fb9c299c134ba19ab504102288a580c847f2e0facdbdac8f",
+        "experiments/higher-speed-envelope/INVARIANT_AND_REFINEMENT_CHECKS.json": "b5448e782246bc12b4a213df90c8b0885c3da3afada1067a3411f395b8076afc",
+        "experiments/higher-speed-envelope/analyze_screen.py": "b421222ae5998286f00eface1975a188085044070a92824f3a868f157570f596"
+      },
+      "exports": {
+        "experiments/higher-speed-envelope/HIGH_VELOCITY_SCREEN.png": "5f641337bd4b3a5156f87bd0e63aa85a3621c6908dcd001e51ca83689d393a87",
+        "experiments/higher-speed-envelope/HIGH_VELOCITY_SCREEN.pdf": "b3735f590e4080866a95f436cd27c187228f33bb5864b477d35b64ea4c98ebe7"
+      }
     }
   ]
 }

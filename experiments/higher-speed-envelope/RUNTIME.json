@@ -1,0 +1,7 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "matplotlib": "3.10.8",
+  "execution": "single process;OPENBLAS_NUM_THREADS=1;OMP_NUM_THREADS=1;nice15",
+  "native_solver_or_existing_field_map_reruns": false
+}
