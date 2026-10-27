@@ -12,6 +12,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - name: PDF audience inspection dependency
+        run: |
+          if ! command -v pdftotext >/dev/null; then
+            sudo apt-get update -qq
+            sudo apt-get install -y poppler-utils
+          fi
       - name: Prepublication file gate
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
