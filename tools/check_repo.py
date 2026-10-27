@@ -18,8 +18,8 @@ CURRENT_REQUIRED = (
     "README.md",
     "docs/CURRENT_CONFIGURATION.md",
     "docs/PROJECT_BOUNDARY.md",
-    "VLAB-X004_feeder_candidate_r1.md",
-    "VLAB-X005_segmented_stator_hypothesis.md",
+    "archive/concepts/VLAB-X004_feeder_candidate_r1.md",
+    "archive/concepts/VLAB-X005_segmented_stator_hypothesis.md",
     "figures/gen5_finite_coupled_shot.png",
     "figures/r1_candidate_step.jpg",
     "figures/r1_candidate_step.provenance.json",
@@ -28,22 +28,22 @@ CURRENT_REQUIRED = (
     "figures/transfer-map.svg",
 )
 ARCHIVE_ENTRY_FILES = {
-    "VLAB-B001": "VLAB-B001_bolley_unbound.md",
-    "VLAB-B002": "VLAB-B002_active_cooperative_interface.md",
-    "VLAB-B003": "VLAB-B003_distributed_fluxpiston_feed.md",
-    "VLAB-X001": "VLAB-X001_quadrant_gas_bearing.md",
-    "VLAB-X002": "VLAB-X002_passive_trim_secondary.md",
-    "VLAB-X003": "VLAB-X003_independent_cell_bank.md",
-    "VLAB-X004": "VLAB-X004_feeder_candidate_r1.md",
-    "VLAB-X005": "VLAB-X005_segmented_stator_hypothesis.md",
+    "VLAB-B001": "archive/concepts/VLAB-B001_bolley_unbound.md",
+    "VLAB-B002": "archive/concepts/VLAB-B002_active_cooperative_interface.md",
+    "VLAB-B003": "archive/concepts/VLAB-B003_distributed_fluxpiston_feed.md",
+    "VLAB-X001": "archive/concepts/VLAB-X001_quadrant_gas_bearing.md",
+    "VLAB-X002": "archive/concepts/VLAB-X002_passive_trim_secondary.md",
+    "VLAB-X003": "archive/concepts/VLAB-X003_independent_cell_bank.md",
+    "VLAB-X004": "archive/concepts/VLAB-X004_feeder_candidate_r1.md",
+    "VLAB-X005": "archive/concepts/VLAB-X005_segmented_stator_hypothesis.md",
 }
 CURRENT_ENTRY_FILES = {
     key: value for key, value in ARCHIVE_ENTRY_FILES.items()
     if key in {"VLAB-X003", "VLAB-X004", "VLAB-X005"}
 }
 ARCHIVE_REQUIRED = (
-    "TRANSFER_LEDGER.md",
-    "BOLLEY_BRANCH_REGISTER.md",
+    "archive/concepts/TRANSFER_LEDGER.md",
+    "archive/concepts/BOLLEY_BRANCH_REGISTER.md",
     *ARCHIVE_ENTRY_FILES.values(),
     "experiments/VLAB-X001/RUN_SHEET.md",
     "experiments/VLAB-X001/parameters.json",
@@ -88,7 +88,7 @@ def check_figures() -> None:
 
 def check_entries(*, historical: bool = False) -> None:
     required = ARCHIVE_ENTRY_FILES if historical else CURRENT_ENTRY_FILES
-    all_text = "\n".join(path.read_text(encoding="utf-8") for path in ROOT.glob("*.md"))
+    all_text = "\n".join(path.read_text(encoding="utf-8") for path in [*ROOT.glob("*.md"), *(ROOT / "archive/concepts").glob("*.md")])
     identifiers = re.findall(r"\bVLAB-[VBX]\d{3}\b", all_text)
     for identifier, filename in required.items():
         path = ROOT / filename
@@ -100,14 +100,14 @@ def check_entries(*, historical: bool = False) -> None:
         if identifier not in identifiers:
             fail(f"{identifier} is absent from the vault record")
     authoritative = {}
-    for path in ROOT.glob("VLAB-*.md"):
+    for path in [*ROOT.glob("VLAB-*.md"), *(ROOT / "archive/concepts").glob("VLAB-*.md")]:
         match = re.search(r"^#\s+(VLAB-[VBX]\d{3}):", path.read_text(encoding="utf-8"), re.M)
         if not match:
             fail(f"{path.name} has no namespaced title")
         identifier = match.group(1)
         if identifier in authoritative:
             fail(f"duplicate authoritative entry {identifier}: {authoritative[identifier]} and {path.name}")
-        authoritative[identifier] = path.name
+        authoritative[identifier] = path.relative_to(ROOT).as_posix()
     if any(authoritative.get(key) != value for key, value in required.items()):
         fail(f"entry routing mismatch: {authoritative!r}")
     # Present archive pages retain their namespaces; their absence is checked

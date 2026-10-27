@@ -1,4 +1,4 @@
-> **Historical routing record.** The current VOLLEY scope excludes separate side-project work. Entries below preserve earlier research provenance; they do not authorize new imports, requirements or claims for the selected VOLLEY design. Current feeder selection and evidence are in [FM08-R3/FDR10](experiments/selected_feeder/README.md).
+> **Historical routing record.** The current VOLLEY scope excludes separate side-project work. Entries below preserve earlier research provenance; they do not authorize new imports, requirements or claims for the selected VOLLEY design. Current feeder selection and evidence are in [FM08-R3/FDR10](../../experiments/selected_feeder/README.md).
 
 # My programme transfer ledger
 

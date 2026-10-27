@@ -20,6 +20,7 @@ class RepositoryBoundary(unittest.TestCase):
         self.addCleanup(setattr, gate, "ROOT", self.old_root)
         gate.ROOT = self.root
         for filename in gate.CURRENT_ENTRY_FILES.values():
+            (self.root / filename).parent.mkdir(parents=True, exist_ok=True)
             shutil.copyfile(SOURCE / filename, self.root / filename)
 
     def test_current_entries_work_without_side_project_archive(self):

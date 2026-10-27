@@ -13,7 +13,7 @@ The conditional bank/trajectory model retained a 96 V, 6 F, 12 mΩ source, 95% c
 
 The apparent 704 J gross saving is a **conditional model difference**. Both branches impose the same force rather than solving voltage-limited current rise and commutation. The short-copper case has no selected coil segmentation, bus, gate driver, switch, thermal path or mass ledger. It is therefore a reason to study segmented energization, not an electrical efficiency claim for a product. The earlier 16.029 m/s periodic shot and 2.782 kJ gross draw remain historical model outputs.
 
-![Conditional finite-force bank histories imported from the Gen5 study](figures/gen5_finite_coupled_shot.png)
+![Conditional finite-force bank histories imported from the Gen5 study](../../figures/gen5_finite_coupled_shot.png)
 
 *Software-generated model history; no hardware test. The source run and its assumptions are recorded in the [Gen5 P120 validation sheet](https://github.com/aaaaaaaaaaaavm/VOLLEY/blob/main/validation/P120_gen5_finite_coupled_shot.md). The numbers and their limits are stated here so this hypothesis can be reviewed on its own.*
 

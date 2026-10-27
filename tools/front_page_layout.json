@@ -1,0 +1,30 @@
+{
+  "role": "Complete research catalogue: current experiments, rejected mechanisms, historical concepts and transferred records.",
+  "headings": [
+    "# VOLLEY Labs",
+    "## Higher-speed launcher research",
+    "## Feeder architectures",
+    "## Complete research catalogue",
+    "## Inspect and reproduce"
+  ],
+  "catalogue": true,
+  "folders": {
+    ".github": "Continuous integration and repository settings",
+    ".githooks": "Local publication hooks",
+    "analysis": "Analytical models, controlled inputs and numerical results",
+    "cad": "Native CAD, STEP exchange, drawings and geometry-derived views",
+    "docs": "Project documentation, website, scientific figure guidance and navigation",
+    "validation": "Captured engineering studies, solver sources, logs, results and manifests",
+    "tools": "Build, reproduction, publication and navigation checks",
+    "tests": "Software and numerical regression tests",
+    "wiki": "Project wiki navigation source",
+    "archive": "Superseded concepts, earlier document issues and retained design history",
+    "experiments": "Versioned laboratory studies, inputs, CAD, solvers and captured outcomes",
+    "figures": "Published scientific figures, CAD views and provenance",
+    "notes": "Dated research notes with their original evidence status",
+    "current": "Self-contained captured scientific core and original academic source",
+    "editions": "Separately identified report, presentation and source editions",
+    "legacy": "Retained earlier implementation and source lineage",
+    "reports": "Engineering study reports and captured interpretation"
+  }
+}

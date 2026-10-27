@@ -14,11 +14,11 @@
 
 The geometry run uses exact STEP-solid intersections at route poses and conservative axis-aligned swept boxes for each side transfer and vertical lift. It exports a 21-instance native FreeCAD review document, STEP parts and two assembly STEP versions in the Gen5 engineering repository. The 0.99 kg simple aluminium-skin increment is a material-volume proxy only; no revised installed mass exists.
 
-![R1 parameter-derived feeder section](figures/gen5_feeder_candidate_r1.png)
+![R1 parameter-derived feeder section](../../figures/gen5_feeder_candidate_r1.png)
 
-![R1 candidate rendered from STEP solids in Blender, with the enclosure hidden](figures/r1_candidate_step.jpg)
+![R1 candidate rendered from STEP solids in Blender, with the enclosure hidden](../../figures/r1_candidate_step.jpg)
 
-*First image: parameter-derived section. Second image: STEP-derived Blender view from the separate 21-instance FreeCAD candidate; the enclosure is hidden. Neither is an interactive FreeCAD screenshot or built mechanism. The visible image shows an arrangement, not a functioning lift or launch restraint. [Image source hashes](figures/r1_candidate_step.provenance.json).*
+*First image: parameter-derived section. Second image: STEP-derived Blender view from the separate 21-instance FreeCAD candidate; the enclosure is hidden. Neither is an interactive FreeCAD screenshot or built mechanism. The visible image shows an arrangement, not a functioning lift or launch restraint. [Image source hashes](../../figures/r1_candidate_step.provenance.json).*
 
 ## Reopening gate
 

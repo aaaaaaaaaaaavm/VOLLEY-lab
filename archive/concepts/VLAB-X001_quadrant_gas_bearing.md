@@ -1,4 +1,4 @@
-> **Historical research archive — 26 October 2026.** This retained record is outside current VOLLEY requirements and acceptance. Its original hypotheses and source attribution are preserved. See [current configuration](docs/CURRENT_CONFIGURATION.md) and [project boundary](docs/PROJECT_BOUNDARY.md).
+> **Historical research archive — 26 October 2026.** This retained record is outside current VOLLEY requirements and acceptance. Its original hypotheses and source attribution are preserved. See [current configuration](../../docs/CURRENT_CONFIGURATION.md) and [project boundary](../../docs/PROJECT_BOUNDARY.md).
 
 # VLAB-X001: quadrant leakage bearing
 
@@ -18,8 +18,8 @@ field. The leak becomes an aerostatic bearing and a control input rather than on
 The two geometries are intentionally not made identical. VOLLEY gets two four-quadrant lands on
 its departing 15.805 mm piston/carriage. BOLLEY gets two four-face collars around its 100 mm
 spacecraft body. My exact pre-run geometry, source values, equations, solver tolerances and fault
-definitions are frozen in [`experiments/VLAB-X001/RUN_SHEET.md`](experiments/VLAB-X001/RUN_SHEET.md)
-and [`experiments/VLAB-X001/parameters.json`](experiments/VLAB-X001/parameters.json). No executable
+definitions are frozen in [`experiments/VLAB-X001/RUN_SHEET.md`](../../experiments/VLAB-X001/RUN_SHEET.md)
+and [`experiments/VLAB-X001/parameters.json`](../../experiments/VLAB-X001/parameters.json). No executable
 model or result existed when I froze those files.
 
 > **Pre-execution correction, 2026-08-30:** the first controlled file gave BOLLEY's axial-force
