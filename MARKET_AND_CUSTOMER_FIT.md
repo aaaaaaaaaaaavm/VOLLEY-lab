@@ -4,7 +4,7 @@ This is a decision aid for the **fixed Gen5 academic study** and a requirements 
 
 ## What the evidence actually supports
 
-The [combined market report](https://docs.google.com/document/d/1gGDzdnV6cEMih5l_c0wRZkgwX8g_uw7JsgEblFZJjDs/edit) develops a hypothesis: standardized spacecraft fleets, replenished in batches, may value a shared host that provides common orbital movement and individualized final release states. The [independent business-case review](https://drive.google.com/file/d/1ijp-R79e9zXbYW-z7d5nlBQN_wiSUwf1/view) correctly separates supporting industry evidence from unmeasured demand. Relevant [payload-class calculations](https://drive.google.com/file/d/1dwnwmfMdkDE62zz2RIhFt6pSR2xxiPuN/view) and [mission-fit boundaries](https://drive.google.com/file/d/16V9v-P90CDWzz6VEb11Yfqu7blKnJa7z/view) were checked against the current Gen5 baseline before use here.
+The combined market report (internal background study) develops a hypothesis: standardized spacecraft fleets, replenished in batches, may value a shared host that provides common orbital movement and individualized final release states. The independent business-case review (internal background study) correctly separates supporting industry evidence from unmeasured demand. Relevant payload-class calculations (internal background study) and mission-fit boundaries (internal background study) were checked against the current Gen5 baseline before use here.
 
 | Proposition | What was checked | Decision for this project |
 |:--|:--|:--|
@@ -29,7 +29,7 @@ The likely **economic buyer** is the party that commits to delivered orbital sta
 | **1U, ThinSat, 6U/12U or magnetic-sensitive payloads** | Some may value orbital state control | **No current product claim.** The designed 1U cell case still misses the 2 kg/customer screen; ThinSat and 12U fail the studied cell cross-section; larger classes require new geometry; modeled magnetic fields challenge payload compatibility. |
 | **Single spacecraft already near its required orbit; university safe-separation mission** | Usually needs safe release, not extra orbit shaping | **Poor fit.** A qualified conventional dispenser is the control case and should win unless a specific paid state requirement says otherwise. |
 
-These are **mission classes**, not named sales prospects. The cited Planet and Spire platforms show repeat production; they are not claimed as Gen5 payloads, customers or partners. The [ANYA-class host study](https://drive.google.com/file/d/1cNc7fc26bCYYdZr_wGMC4o9pjV989rGZ/view) was reviewed as a historical public-data *Gen6 reference*, with assumed thrust, mass, minimum burn and restart limits. It is not a Gen5 provider interface or evidence of Thrustworks compatibility, so its numerical outcomes are excluded from this market fit.
+These are **mission classes**, not named sales prospects. The cited Planet and Spire platforms show repeat production; they are not claimed as Gen5 payloads, customers or partners. The ANYA-class host study (internal background study) was reviewed as a historical public-data *Gen6 reference*, with assumed thrust, mass, minimum burn and restart limits. It is not a Gen5 provider interface or evidence of Thrustworks compatibility, so its numerical outcomes are excluded from this market fit.
 
 ## Corrected mission and economic test
 

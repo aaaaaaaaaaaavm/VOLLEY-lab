@@ -18,3 +18,7 @@ This rule applies to every public push, release, website, wiki, issue/comment, r
 Install the local pre-push hook with `git config core.hooksPath .githooks`. The same automatic script runs in CI to detect bypasses. GitHub rules should require the checks before merge or deployment; with the current one-branch workflow and unavailable repository-settings access, direct GitHub web edits and `git push --no-verify` remain possible bypasses. The owner must enable suitable rules or a protected staging workflow for a technical guarantee. Manual posts and settings changes require the same prepublication review and a recorded decision.
 
 The gate is intentionally incremental for routine pushes because older historical links and releases have known defects. A final release uses `--all` and the full eight-step review. It does not label unresolved engineering or external decisions complete.
+
+## Public audience boundary
+
+Public pages contain engineering explanations, methods, results, references, reproducibility instructions and identified release history. Personal schedules, submission correspondence, rehearsal logistics, grading forecasts, private storage links and conversation excerpts belong in private project records. They must not enter README files, generated pages, metadata, issues, release text, document archives or packaged sources. Release dates identify completed artifacts; personal deadlines do not describe a technical result.
